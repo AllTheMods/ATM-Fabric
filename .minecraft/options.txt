@@ -1,4 +1,4 @@
-version:2225
+version:2227
 autoJump:false
 autoSuggestions:true
 chatColors:true
@@ -21,8 +21,8 @@ toggleSprint:false
 mouseSensitivity:0.5
 fov:0.0
 gamma:1.0
-renderDistance:32
-guiScale:4
+renderDistance:17
+guiScale:2
 particles:0
 maxFps:260
 difficulty:2
@@ -187,6 +187,20 @@ amecs$key_modifier$key.spatialcrafting.open_recipe_creator:0
 key_key.spatialcrafting.open_recipe_creator:key.keyboard.grave.accent
 amecs$key_modifier$key.spatialcrafting.minimize_holograms:0
 key_key.spatialcrafting.minimize_holograms:key.keyboard.y
+amecs$key_modifier$key.minimap.voxelmapmenu:0
+key_key.minimap.voxelmapmenu:key.keyboard.m
+amecs$key_modifier$key.minimap.waypointmenu:0
+key_key.minimap.waypointmenu:key.keyboard.unknown
+amecs$key_modifier$key.minimap.zoom:0
+key_key.minimap.zoom:key.keyboard.z
+amecs$key_modifier$key.minimap.togglefullscreen:0
+key_key.minimap.togglefullscreen:key.keyboard.x
+amecs$key_modifier$key.minimap.waypointhotkey:0
+key_key.minimap.waypointhotkey:key.keyboard.n
+amecs$key_modifier$key.minimap.togglemobs:0
+key_key.minimap.togglemobs:key.keyboard.unknown
+amecs$key_modifier$key.minimap.toggleingamewaypoints:0
+key_key.minimap.toggleingamewaypoints:key.keyboard.unknown
 soundCategory_master:0.0
 soundCategory_music:1.0
 soundCategory_record:1.0
