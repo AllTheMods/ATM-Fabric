@@ -1,0 +1,13 @@
+{
+	"doScaleMarkers": false,
+	// Default zoom level. The number corresponds to the size of a block on the map relative to the size of a GUI pixel. Preferrably a power of 2.
+	"defaultScale": 0.5,
+	// Minimum zoom level. The number corresponds to the size of a block on the map relative to the size of a GUI pixel. Preferrably a power of 2. Smaller values may decrease performance!
+	"minScale": 0.03125,
+	// Maximum zoom level. The number corresponds to the size of a block on the map relative to the size of a GUI pixel. Preferrably a power of 2.
+	"maxScale": 4.0,
+	/* If false (by default), then mousewheel up is zoom in, mousewheel down is zoom out.
+	   If true, then the direction is reversed.
+	*/
+	"doReverseWheelZoom": false
+}

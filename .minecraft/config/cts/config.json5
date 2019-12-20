@@ -1,0 +1,12 @@
+{
+	"customEditionEnabled": true,
+	"customEdition": "ATM for Fabric - version 0.1",
+	"customSplashEnabled": true,
+	"removeSplash": true,
+	"customSplash": [
+		"Custom Splash 1",
+		"Custom Splash 2",
+		"Custom Splash 3"
+	],
+	"removeMinecraftLogo": true
+}

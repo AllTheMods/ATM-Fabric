@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "data": {
+    "antiqueatlas:end_island": -26,
+    "antiqueatlas:end_island_plants": -27,
+    "antiqueatlas:end_void": -28,
+    "antiqueatlas:lava": -13,
+    "antiqueatlas:lava_shore": -14,
+    "antiqueatlas:nether_bridge": -15,
+    "antiqueatlas:nether_bridge_end_x": -18,
+    "antiqueatlas:nether_bridge_end_z": -19,
+    "antiqueatlas:nether_bridge_gate": -20,
+    "antiqueatlas:nether_bridge_x": -16,
+    "antiqueatlas:nether_bridge_z": -17,
+    "antiqueatlas:nether_fort_stairs": -24,
+    "antiqueatlas:nether_hall": -23,
+    "antiqueatlas:nether_throne": -25,
+    "antiqueatlas:nether_tower": -21,
+    "antiqueatlas:nether_wall": -22,
+    "antiqueatlas:npc_village_butchers_shop": -11,
+    "antiqueatlas:npc_village_church": -12,
+    "antiqueatlas:npc_village_farmland_large": -5,
+    "antiqueatlas:npc_village_farmland_small": -6,
+    "antiqueatlas:npc_village_hut": -9,
+    "antiqueatlas:npc_village_l_house": -4,
+    "antiqueatlas:npc_village_library": -2,
+    "antiqueatlas:npc_village_small_house": -10,
+    "antiqueatlas:npc_village_smithy": -3,
+    "antiqueatlas:npc_village_torch": -8,
+    "antiqueatlas:npc_village_well": -7,
+    "antiqueatlas:ravine": -29
+  }
+}

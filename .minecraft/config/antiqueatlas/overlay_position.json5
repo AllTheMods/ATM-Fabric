@@ -1,0 +1,26 @@
+{
+	/* If true, the map position's x axis will align 0 to the right
+	   of the screen, increasing towards the left.
+	*/
+	"alignRight": false,
+	/* If true, the map position's y axis will align 0 to the bottom
+	   of the screen, increasing towards the top.
+	*/
+	"alignBottom": false,
+	/* Map's minimum position along the x axis in GUI pixels.
+	   Note that this will change with Minecraft's GUI scale configuration.
+	*/
+	"xPosition": 2,
+	/* Map's minimum position along the y axis in GUI pixels.
+	   Note that this will change with Minecraft's GUI scale configuration.
+	*/
+	"yPosition": 2,
+	/* Map's width in GUI pixels.
+	   Note that this will change with Minecraft's GUI scale configuration.
+	*/
+	"width": 155,
+	/* Map's height in GUI pixels.
+	   Note that this will change with Minecraft's GUI scale configuration.
+	*/
+	"height": 109
+}

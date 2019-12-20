@@ -1,0 +1,14 @@
+{
+	/* Whether to remember last open browsing position and zoom level for each dimension in every atlas.
+	   If disabled, all dimensions and all atlases will be "synchronized" at the same coordinates and zoom level, and map will "follow" player by default.
+	*/
+	"doSaveBrowsingPos": true,
+	// Whether to add local marker for the spot where the player died.
+	"autoDeathMarker": true,
+	// Whether to add global markers for NPC villages.
+	"autoVillageMarkers": true,
+	// Whether to add global markers for Nether Portals.
+	"autoNetherPortalMarkers": true,
+	// Player will need to craft atlas item to use atlas.
+	"itemNeeded": true
+}
