@@ -3,10 +3,10 @@
   "EnableEnderProtection": true,
   "EnablePotionRetention": true,
   "EnableTamedProtection": true,
-  "EnableTreeFeller": false,
-  "EnableVeinMiner": false,
+  "EnableTreeFeller": true,
+  "EnableVeinMiner": true,
   "EnableSoulBound": true,
-  "UseStandardSoulboundMechanics": true,
+  "UseStandardSoulboundMechanics": false,
   "VeinMinerMaxBreakByLvl": [
     7,
     14,

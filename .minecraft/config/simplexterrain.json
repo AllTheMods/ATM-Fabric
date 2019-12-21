@@ -9,7 +9,9 @@
   "noiseGenerator": "WORLEY",
   "postProcessors": [
     "RIVERS",
-    "SIMPLEX_CAVES"
+    "SIMPLEX_CAVES",
+    "EROSION",
+    "STRATA"
   ],
   "baseHeight": 40,
   "baseOctaveAmount": 10,
