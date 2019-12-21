@@ -113,7 +113,7 @@
 			"height": 20,
 			"text": "Make a server",
 			"type": "url",
-			"parameter": "https://akliz.net",
+			"parameter": "https://www.akliz.net/allthemods",
 			// Not currently implemented
 			"textureName": ""
 		},
