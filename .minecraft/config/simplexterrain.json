@@ -27,7 +27,7 @@
   "detailFrequency": 20.0,
   "scaleAmplitudeHigh": 0.2,
   "scaleAmplitudeLow": 0.09,
-  "scaleFrequencyExponent": 10.0,
+  "scaleFrequencyExponent": 20.0,
   "peaksFrequency": 750.0,
   "peaksSampleOffset": -0.33,
   "peaksAmplitude": 280.0,
