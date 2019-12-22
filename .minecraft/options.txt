@@ -22,7 +22,7 @@ mouseSensitivity:0.5
 fov:0.0
 gamma:1.0
 renderDistance:32
-guiScale:4
+guiScale:3
 particles:0
 maxFps:260
 difficulty:2
@@ -123,6 +123,8 @@ amecs$key_modifier$key.hotbar.8:0
 key_key.hotbar.8:key.keyboard.8
 amecs$key_modifier$key.hotbar.9:0
 key_key.hotbar.9:key.keyboard.9
+amecs$key_modifier$key.minecraft.autoswitch:0
+key_key.minecraft.autoswitch:key.keyboard.r
 amecs$key_modifier$key.waila.config:0
 key_key.waila.config:key.keyboard.keypad.0
 amecs$key_modifier$key.waila.show_overlay:0

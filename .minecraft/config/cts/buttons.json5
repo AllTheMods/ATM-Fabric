@@ -22,7 +22,7 @@
 			"height": 20,
 			"text": "Github",
 			"type": "url",
-			"parameter": "https://github.com/allthemods/atm4fabric",
+			"parameter": "https://github.com/allthemods/atm-fabric",
 			// Not currently implemented
 			"textureName": ""
 		},

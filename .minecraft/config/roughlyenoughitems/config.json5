@@ -3,7 +3,7 @@
 		"favorites": [ 
 ],
 		// Declares whether cheating mode is on.
-		"cheating": true,
+		"cheating": false,
 		// Declares whether REI is visible.
 		"overlayVisible": true,
 		"favoritesEnabled": true,
@@ -60,10 +60,12 @@
 		"giveCommand": "/give {player_name} {item_identifier}{nbt} {count}",
 		// Declares the command used to change weather.
 		"weatherCommand": "/weather {weather}",
-		"registerRecipesInAnotherThread": true
+		"registerRecipesInAnotherThread": true,
+		"debugRenderTimeRequired": false
 	},
 	"performance": { 
 		// Whether REI should render entry's enchantment glint
-		"renderEntryEnchantmentGlint": true
+		"renderEntryEnchantmentGlint": true,
+		"fastEntryRendering": false
 	}
 }
