@@ -40,5 +40,6 @@
   "biomeScaleAmount": 10,
   "temperatureOffset": 0.1,
   "humidityOffset": 0.05,
-  "seaLevel": 63
+  "seaLevel": 63,
+  "noiseGenerationThreads": 2
 }

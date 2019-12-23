@@ -5,7 +5,7 @@
     "allowBossSpawns": false,
     "countCageBornForShard": false,
     "requireOwnerOnline": false,
-    "requireRedstoneSignal": false,
+    "requireRedstoneSignal": true,
     "allowShardCombination": true,
     "spawnCap": 32
   },

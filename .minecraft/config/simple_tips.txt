@@ -1,0 +1,16 @@
+If you are undead, you can become human again the same way zombie villagers do.
+Soul shards require glowstone, quartz, obsidian and a diamond.
+If conveyors are too slow, try pipes or even linked chests, which transport items instantly across dimensions.
+Out of bees? Make some bee bricks, which spawn bees if there are none around.
+Small creepers won't hurt you, but make sure not to let them grow.
+You can hold grave (`) to mine large areas at once, though this is not needed for trees.
+You can hold Z to zoom in on stuff.
+Right click a text field to instantly clear it.
+Shulker Charms give flight, but require you to be in range of a beacon to charge.
+You can hold sneak to avoid getting damaged by berry bushes.
+Make sure to bring torches to new dimensions, unlike the overworld, it's dark permanently.
+You can waterlog many blocks, but did you know it's not limited to water? Try Lava, Honey, or even blood.
+You can store your elytra in a custom slot next to your chestplate if you hover over it.
+Trees will fall down automatically if they don't have anything supporting them.
+If you ever need more space to build, try a Void Portal.
+You can jump over fences and walls.
