@@ -10,5 +10,11 @@
 		"suncower": 10,
 		"bambmoo": 60,
 		"cluckshroom": 10
+	},
+	"auto_block_spawning": {
+		// If mooblooms can spawn flowers automatically
+		"mooblooms": true,
+		// If cluckshrooms can spawn mushrooms automatically
+		"cluckshroom": true
 	}
 }

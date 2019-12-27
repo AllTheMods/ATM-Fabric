@@ -3,7 +3,7 @@
 		"favorites": [ 
 ],
 		// Declares whether cheating mode is on.
-		"cheating": false,
+		"cheating": true,
 		// Declares whether REI is visible.
 		"overlayVisible": true,
 		"favoritesEnabled": true,
@@ -32,11 +32,13 @@
 		"appendModNames": true,
 		// Declares how the scrollbar in villager screen should act.
 		"villagerScreenPermanentScrollBar": false,
-		// Declares whether if entry list widget is scrolled.
+		// Declares whether entry list widget is scrolled.
 		"scrollingEntryListWidget": false,
 		"snapToRows": false,
 		"displayFavoritesOnTheLeft": true,
-		"displayFavoritesTooltip": true
+		"displayFavoritesTooltip": true,
+		// Declares whether favorites will be searched.
+		"searchFavorites": true
 	},
 	"modules": { 
 		// Declares whether the craftable filter button is enabled.
