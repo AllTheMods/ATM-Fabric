@@ -8,19 +8,17 @@
   "noiseGenerator": "WORLEY",
   "postProcessors": [
     "SIMPLEX_CAVES",
-    "EROSION",
     "STRATA"
   ],
   "noiseModifiers": [
-    "PEAKS",
-    "MESA"
+    "FJORDS"
   ],
   "baseHeight": 8,
   "baseOctaveAmount": 10,
   "detailOctaveAmount": 2,
   "scaleOctaveAmount": 2,
   "peaksOctaveAmount": 2,
-  "baseNoiseFrequencyCoefficient": 0.55,
+  "baseNoiseFrequencyCoefficient": 1.35,
   "baseNoiseSamplingFrequency": 2.0,
   "detailAmplitudeHigh": 2.0,
   "detailAmplitudeLow": 4.0,
@@ -41,5 +39,11 @@
   "temperatureOffset": 0.1,
   "humidityOffset": 0.05,
   "seaLevel": 63,
-  "noiseGenerationThreads": 2
+  "noiseGenerationThreads": 2,
+  "temperatureOctaveAmount": 1,
+  "humidityOctaveAmount": 2,
+  "temperatureFrequency": 15.0,
+  "humidityFrequency": 11.0,
+  "temperatureAmplitude": 1.8,
+  "humidityAmplitude": 1.8
 }

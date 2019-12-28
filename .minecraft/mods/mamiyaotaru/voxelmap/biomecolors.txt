@@ -63,6 +63,7 @@ Lush Swamp=0x57ae34
 Mangrove=0x6ea559
 Maple Woods=0x6aa369
 Marsh=0x66a06e
+Meadow=0x63b26d
 Meadow Forest=0x54965b
 Mini Jungle=0x41d923
 Moor=0x619365

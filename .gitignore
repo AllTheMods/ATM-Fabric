@@ -1,4 +1,17 @@
 .minecraft/mamiyaotaru/
 .minecraft/options.txt
+.minecraft/.fabric/
+.minecraft/.mixin.out/
+.minecraft/coremods/
+.minecraft/*.log
+.minecraft/logs/
+.minecraft/crash-reports/
+.minecraft/not-enough-crashes/
+.minecraft/resourcepacks/
+.minecraft/texturepacks/
+.minecraft/server-resource-packs/
+.minecraft/saves/
+.minecraft/*.json
+*.txt
 *.disabled
 *.png

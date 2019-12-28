@@ -8,9 +8,13 @@ You can hold Z to zoom in on stuff.
 Right click a text field to instantly clear it.
 Shulker Charms give flight, but require you to be in range of a beacon to charge.
 You can hold sneak to avoid getting damaged by berry bushes.
-Make sure to bring torches to new dimensions, unlike the overworld, it's dark permanently.
 You can waterlog many blocks, but did you know it's not limited to water? Try Lava, Honey, or even blood.
 You can store your elytra in a custom slot next to your chestplate if you hover over it.
 Trees will fall down automatically if they don't have anything supporting them.
 If you ever need more space to build, try a Void Portal.
 You can jump over fences and walls.
+You can use the Modulus mod for customizable tools
+While flying with an Elytra or Shulker Charm, you don't mine any slower than if you were standing.
+In multiplayer, only one person needs to sleep to pass the night.
+Trouble getting Phantoms to spawn? Bats also drop membranes, but are more difficult to hit.
+To stop a mob from making sound, take a name tag and name it "silence me", then right click it on the mob.
