@@ -1,0 +1,47 @@
+{
+  "shearLootTables": [
+    "blocks/cobweb",
+    "blocks/dead_bush",
+    "blocks/fern",
+    "blocks/large_fern",
+    "blocks/grass",
+    "blocks/tall_grass",
+    "blocks/vines",
+    "blocks/seagrass",
+    "blocks/tall_seagrass",
+    "blocks/oak_leaves",
+    "blocks/birch_leaves",
+    "blocks/spruce_leaves",
+    "blocks/jungle_leaves",
+    "blocks/dark_oak_leaves",
+    "blocks/acacia_leaves"
+  ],
+  "recipes": {
+    "craftWithSticks": true,
+    "removeVanillaTools": false,
+    "addSteelRecipe": true
+  },
+  "effects": {
+    "poisonTime": 200,
+    "bouncy": {
+      "damageArmor": false,
+      "speedMultiplier": 1.2,
+      "sneakingSpeedMult": 0.5,
+      "limitHeight": true,
+      "speedLimit": 4.5
+    },
+    "flamingTime": 5,
+    "flammableTimeMult": 1.4,
+    "holy": {
+      "damage": 2.0,
+      "luckLevel": 1,
+      "luckTime": 600
+    },
+    "lightFallDamageMult": 0.85,
+    "extraXp": 4,
+    "magneticRange": 2.3,
+    "durableMultiplier": 1.25
+  },
+  "ignoreMissingCottonResources": false,
+  "addNetherCobaltTable": true
+}

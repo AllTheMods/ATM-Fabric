@@ -40,6 +40,24 @@
 		"extra-pressure-plates:glass_pressure_plate",
 		"fabriblocks:glass_door",
 		"thehallow:tainted_glass",
-		"thehallow:soul_glass"
+		"thehallow:soul_glass",
+		"extradoors:glass_door",
+		"extradoors:glass_trapdoor",
+		"extradoors:iron_glass_door",
+		"extradoors:oak_glass_door",
+		"extradoors:spruce_glass_door",
+		"extradoors:birch_glass_door",
+		"extradoors:jungle_glass_door",
+		"extradoors:acacia_glass_door",
+		"extradoors:dark_oak_glass_door",
+		"extradoors:gold_glass_door",
+		"extradoors:oak_glass_trapdoor",
+		"extradoors:spruce_glass_trapdoor",
+		"extradoors:birch_glass_trapdoor",
+		"extradoors:jungle_glass_trapdoor",
+		"extradoors:acacia_glass_trapdoor",
+		"extradoors:dark_oak_glass_trapdoor",
+		"extradoors:iron_glass_trapdoor",
+		"extradoors:gold_glass_trapdoor"
 	]
 }

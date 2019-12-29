@@ -1,9 +1,0 @@
-{
-  "version": "0.5.0",
-  "octaves": 4,
-  "frequency": 128.0,
-  "amplitudeHigh": 6.0,
-  "amplitudeLow": 8.0,
-  "baseNoise": 0.1,
-  "threshold": 0.0
-}
