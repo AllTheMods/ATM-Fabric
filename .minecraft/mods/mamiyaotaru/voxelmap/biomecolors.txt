@@ -213,7 +213,3 @@ minecraft:warm_ocean=0x0000ac
 minecraft:wooded_badlands_plateau=0xb09765
 minecraft:wooded_hills=0x22551c
 minecraft:wooded_mountains=0x507050
-terrestria:sakura_forest=0xc43c2f
-thehallow:haunted_moor=0xf2182b
-traverse:meadow=0x63b26d
-traverse:plains_plateau=0x9c7db5

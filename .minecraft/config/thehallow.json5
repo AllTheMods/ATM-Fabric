@@ -1,4 +1,8 @@
 {
+	"dimension": {
+		// Changed whether or not water vaporizes in The Hallow
+		"water_vaporizes": true
+	},
 	"weather": {
 		// Amount the thunder time is divided by. Set to 1 to disable
 		"thunder_modifier": 80,
@@ -34,9 +38,5 @@
 	"tweaks": {
 		// If true, allows placing pumpkin pie blocks using the vanilla pumpkin pie item
 		"pumpkin_pie_block": true
-	},
-	"dimension": {
-		// Changed whether or not water vaporizes in The Hallow
-		"water_vaporizes": true
 	}
 }

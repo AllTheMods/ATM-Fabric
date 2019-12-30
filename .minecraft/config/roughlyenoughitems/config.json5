@@ -15,7 +15,7 @@
 		// Declares the appearance of REI windows.
 		"darkTheme": false,
 		// The ordering of the items on the item panel.
-		"recipeScreenType": "VILLAGER",
+		"recipeScreenType": "UNSET",
 		// Declares the position of the search field.
 		"searchFieldLocation": "CENTER",
 		// Declares the position of the item list panel.

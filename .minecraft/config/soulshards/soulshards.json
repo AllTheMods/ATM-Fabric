@@ -5,7 +5,7 @@
     "allowBossSpawns": false,
     "countCageBornForShard": false,
     "requireOwnerOnline": false,
-    "requireRedstoneSignal": true,
+    "requireRedstoneSignal": false,
     "allowShardCombination": true,
     "spawnCap": 32
   },
@@ -35,6 +35,7 @@
       "minecraft:husk": true,
       "minecraft:turtle": true,
       "minecraft:sheep": true,
+      "mooblooms:cluckshroom": true,
       "minecraft:ender_dragon": false,
       "minecraft:cave_spider": true,
       "minecraft:enderman": true,

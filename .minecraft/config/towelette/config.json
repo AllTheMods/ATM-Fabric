@@ -1,5 +1,5 @@
 {
-	"replaceableFluids": true,
+	"replaceableFluids": false,
 	"unpushableFluids": true,
 	"flowingFluidlogging": false,
 	"accurateFlowBlocking": true,

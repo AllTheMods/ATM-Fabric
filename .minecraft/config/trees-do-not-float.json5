@@ -4,11 +4,11 @@
 	// Log blocks move to the ground instead of dropping as items. Can be laggy.
 	"keepLogsIntact": false,
 	// Render falling logs? (Affects client side only.) Can be laggy.
-	"renderFallingLogs": true,
+	"renderFallingLogs": false,
 	// Falling logs break leaves and other plants on the way down.
 	"fallingLogsBreakPlants": true,
 	// Falling logs break glass and other fragile blocks.
-	"fallingLogsBreakFragile": true,
+	"fallingLogsBreakFragile": false,
 	// Protect logs placed by players.
 	"protectPlayerLogs": true,
 	// Place dropped items directly into player inventory. (Good for skyblock)
