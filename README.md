@@ -18,5 +18,11 @@ You can also find us on Discord for help or just to chat as well as Reddit:
 |<a href="https://www.reddit.com/r/allthemods"><img src="https://www.redditstatic.com/about/assets/reddit-logo.png" alt="/r/AllTheMods on Reddit"  width="200" height="67"></a>|
 <br>
 
+Workspace Setup
+======
 
+### For Contributors, Testers and Server Admins
+Follow these steps to setup your workspace/server:
 
+1) Fork and clone the repository to the Instances folder of the Twitch App, the default path is `C:\Users\<user>\Twitch\Minecraft\Instances`
+2) Double click the script `pullmods.bat` to setup InstanceSync.
