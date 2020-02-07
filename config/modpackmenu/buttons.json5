@@ -1,0 +1,160 @@
+{
+	"buttons": {
+		"modmenu.modlist": {
+			// X offset from center
+			"x": 104,
+			// Y offset from top
+			"y": 232,
+			"width": 100,
+			"height": 20,
+			"text": "<default>",
+			"type": "modify",
+			"parameter": "",
+			// Not currently implemented
+			"textureName": ""
+		},
+		"atm.github": {
+			// X offset from center
+			"x": 104,
+			// Y offset from top
+			"y": 208,
+			"width": 100,
+			"height": 20,
+			"text": "Github",
+			"type": "url",
+			"parameter": "https://github.com/allthemods/atm-fabric",
+			// Not currently implemented
+			"textureName": ""
+		},
+		"minecraft.realms": {
+			// X offset from center
+			"x": 0,
+			// Y offset from top
+			"y": 210,
+			"width": 0,
+			"height": 0,
+			"text": "",
+			"type": "modify",
+			"parameter": "",
+			// Not currently implemented
+			"textureName": ""
+		},
+		"minecraft.language": {
+			// X offset from center
+			"x": 0,
+			// Y offset from top
+			"y": 256,
+			"width": 100,
+			"height": 20,
+			"text": "Languages",
+			"type": "modifyTextured",
+			"parameter": "",
+			// Not currently implemented
+			"textureName": ""
+		},
+		"minecraft.singleplayer": {
+			// X offset from center
+			"x": 0,
+			// Y offset from top
+			"y": 160,
+			"width": 100,
+			"height": 20,
+			"text": "<default>",
+			"type": "modify",
+			"parameter": "",
+			// Not currently implemented
+			"textureName": ""
+		},
+		"minecraft.multiplayer": {
+			// X offset from center
+			"x": 104,
+			// Y offset from top
+			"y": 160,
+			"width": 100,
+			"height": 20,
+			"text": "<default>",
+			"type": "modify",
+			"parameter": "",
+			// Not currently implemented
+			"textureName": ""
+		},
+		"atm.reddit": {
+			// X offset from center
+			"x": 0,
+			// Y offset from top
+			"y": 232,
+			"width": 100,
+			"height": 20,
+			"text": "Reddit",
+			"type": "url",
+			"parameter": "https://reddit.com/r/allthemods",
+			// Not currently implemented
+			"textureName": ""
+		},
+		"minecraft.quit": {
+			// X offset from center
+			"x": 104,
+			// Y offset from top
+			"y": 256,
+			"width": 100,
+			"height": 20,
+			"text": "<default>",
+			"type": "modify",
+			"parameter": "",
+			// Not currently implemented
+			"textureName": ""
+		},
+		"atm.akliz": {
+			// X offset from center
+			"x": 0,
+			// Y offset from top
+			"y": 184,
+			"width": 100,
+			"height": 20,
+			"text": "Make a server",
+			"type": "url",
+			"parameter": "https://akliz.net/allthemods",
+			// Not currently implemented
+			"textureName": ""
+		},
+		"minecraft.options": {
+			// X offset from center
+			"x": 0,
+			// Y offset from top
+			"y": 208,
+			"width": 100,
+			"height": 20,
+			"text": "<default>",
+			"type": "modify",
+			"parameter": "",
+			// Not currently implemented
+			"textureName": ""
+		},
+		"minecraft.accessibility": {
+			// X offset from center
+			"x": 0,
+			// Y offset from top
+			"y": -20,
+			"width": 0,
+			"height": 0,
+			"text": "",
+			"type": "modify",
+			"parameter": "",
+			// Not currently implemented
+			"textureName": ""
+		},
+		"atm.discord": {
+			// X offset from center
+			"x": 104,
+			// Y offset from top
+			"y": 184,
+			"width": 100,
+			"height": 20,
+			"text": "Discord",
+			"type": "url",
+			"parameter": "https://discord.gg/K5FBPYa",
+			// Not currently implemented
+			"textureName": ""
+		}
+	}
+}
