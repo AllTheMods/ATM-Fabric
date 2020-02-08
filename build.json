@@ -1,7 +1,0 @@
-{
-    "packAuthor": "ATMTeam",
-    "minecraftVersion": "1.15.2",
-    "modLoader": "forge",
-    "modLoaderVersion": "31.0.19",
-    "includes": ["config", "data", "datapacks", "resources"]
-}
