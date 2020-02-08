@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:polished_granite"
+		},
+		"title": "Bits of Atlantis",
+		"description": "Find some oceanic ruins"
+	},
+	"parent": "custom:ocean/root",
+	"criteria": {
+		"ocean_ruin": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"feature": "ocean_ruin"
+			}
+		}
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:lava_bucket"
+		},
+		"title": "The Floor Is Lava",
+		"description": "Go so deep that lava seeps into open spaces"
+	},
+	"parent": "custom:caving/reach_diamond_level",
+	"criteria": {
+		"10": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"position": {
+					"y": {
+						"max": 10
+					}
+				}
+			}
+		}
+	}
+}
+				

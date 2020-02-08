@@ -1,0 +1,1 @@
+execute as @a[advancements={custom:village/bell=false}] if score @s bellRungP matches 1.. run advancement grant @s only custom:village/bell

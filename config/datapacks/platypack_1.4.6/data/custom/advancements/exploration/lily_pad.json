@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:lily_pad"
+		},
+		"title": "Swampy Path",
+		"description": "Replant a lily pad"
+	},
+	"parent": "custom:exploration/enter_swamp_biome",
+	"criteria": {
+		"lily_pad": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item": "minecraft:lily_pad"
+				}
+			}
+		}
+	}
+}

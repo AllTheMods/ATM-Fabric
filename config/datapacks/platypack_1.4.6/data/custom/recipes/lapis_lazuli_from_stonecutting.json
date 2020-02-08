@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": {
+		"item": "minecraft:lapis_ore"
+	},
+	"result": "minecraft:lapis_lazuli",
+	"count": 1
+}

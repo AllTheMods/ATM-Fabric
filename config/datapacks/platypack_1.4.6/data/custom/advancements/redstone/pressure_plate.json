@@ -1,0 +1,15 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:stone_pressure_plate"
+		},
+		"title": "Under Pressure",
+		"description": "Activate a pressure plate"
+	},
+	"parent": "custom:redstone/button",
+	"criteria": {
+		"activate": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

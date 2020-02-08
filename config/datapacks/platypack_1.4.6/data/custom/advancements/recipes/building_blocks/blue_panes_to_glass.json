@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"custom:blue_panes_to_glass"
+		]
+	},
+	"criteria": {
+		"has_blue_glass_pane": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:blue_stained_glass_pane"
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "custom:blue_panes_to_glass"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_blue_glass_pane",
+			"has_recipe"
+		]
+	]
+}

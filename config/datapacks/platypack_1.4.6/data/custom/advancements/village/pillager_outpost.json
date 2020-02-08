@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:dark_oak_log"
+		},
+		"title": "Outcast Outpost",
+		"description": "Enter a pillager outpost"
+	},
+	"parent": "custom:village/root",
+	"criteria": {
+		"pillager_outpost": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"feature": "pillager_outpost"
+			}
+		}
+	}
+}

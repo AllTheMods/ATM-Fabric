@@ -1,0 +1,16 @@
+{
+	"type": "crafting_shaped",
+	"group": "clay",
+	"pattern": [
+		"##",
+		"##"
+	],
+	"key": {
+		"#": {
+			"item": "minecraft:clay_ball"
+		}
+	},
+	"result": {
+		"item": "minecraft:clay"
+	}
+}

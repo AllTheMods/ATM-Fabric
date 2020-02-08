@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:suspicious_stew"
+		},
+		"title": "Thi Stew Is Suspicious",
+		"description": "Drink a mysterious meal"
+	},
+	"parent": "custom:caving/mushrooms",
+	"criteria": {
+		"suspicious_stew": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:suspicious_stew"
+				}
+			}
+		}
+	}
+}

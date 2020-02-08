@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:crossbow"
+		},
+		"title": "Pillaged",
+		"description": "Be killed by a patrolling pillager"
+	},
+	"parent": "custom:village/shoot_pillager",
+	"criteria": {
+		"pillaged": {
+			"trigger": "minecraft:entity_killed_player",
+			"conditions": {
+				"entity": {
+					"type": "#custom:illagers",
+					"nbt": "{Patrolling:true}"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:golden_apple"
+		},
+		"title": {
+			"translate": "advancements.story.cure_zombie_villager.title"
+		},
+		"description": "Weaken and then cure a zombie villager",
+		"frame": "goal"
+	},
+	"parent": "custom:village/root",
+	"criteria": {
+		"cured_zombie": {
+			"trigger": "minecraft:cured_zombie_villager"
+		}
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"replace": "false",
+	"values": [
+		"under_over:load",
+		"p_rand:load",
+		"quatro:load",
+		"quartus:load"
+	]
+}

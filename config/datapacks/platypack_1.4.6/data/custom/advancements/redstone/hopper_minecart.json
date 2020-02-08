@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:hopper_minecart"
+		},
+		"title": "Moving Moving Storage",
+		"description": "Put a hopper in a minecart"
+	},
+	"parent": "custom:redstone/hopper_placed",
+	"criteria": {
+		"hopper_minecart": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:hopper_minecart"
+				}]
+			}
+		}
+	}
+}

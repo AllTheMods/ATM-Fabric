@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:brown_carpet"
+		},
+		"title": "Caravanable",
+		"description": "Tame a llama"
+	},
+	"parent": "custom:exploration/mountains",
+	"criteria": {
+		"tame_llama": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "#custom:llamas"
+				}
+			}
+		}
+	}
+}

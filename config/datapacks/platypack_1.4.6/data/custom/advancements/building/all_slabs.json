@@ -1,0 +1,296 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:smooth_stone_slab"
+		},
+		"title": "Moar Slabs",
+		"description": "Craft every type of slab",
+		"frame": "challenge"
+	},
+	"parent": "custom:building/all_stairs",
+	"rewards": {
+		"experience": 100
+	},
+	"criteria": {
+		"oak_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:oak_slab"
+				}]
+			}
+		},
+		"spruce_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:spruce_slab"
+				}]
+			}
+		},
+		"birch_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:birch_slab"
+				}]
+			}
+		},
+		"jungle_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:jungle_slab"
+				}]
+			}
+		},
+		"acacia_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:acacia_slab"
+				}]
+			}
+		},
+		"dark_oak_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:dark_oak_slab"
+				}]
+			}
+		},
+		"stone_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:stone_slab"
+				}]
+			}
+		},
+		"smooth_stone_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:smooth_stone_slab"
+				}]
+			}
+		},
+		"sandstone_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:sandstone_slab"
+				}]
+			}
+		},
+		"cut_sandstone_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:cut_sandstone_slab"
+				}]
+			}
+		},
+		"petrified_oak_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:petrified_oak_slab"
+				}]
+			}
+		},
+		"cobblestone_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:cobblestone_slab"
+				}]
+			}
+		},
+		"brick_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:brick_slab"
+				}]
+			}
+		},
+		"stone_brick_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:stone_brick_slab"
+				}]
+			}
+		},
+		"nether_brick_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:nether_brick_slab"
+				}]
+			}
+		},
+		"quartz_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:quartz_slab"
+				}]
+			}
+		},
+		"red_sandstone_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:red_sandstone_slab"
+				}]
+			}
+		},
+		"cut_red_sandstone_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:cut_red_sandstone_slab"
+				}]
+			}
+		},
+		"purpur_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:purpur_slab"
+				}]
+			}
+		},
+		"prismarine_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:prismarine_slab"
+				}]
+			}
+		},
+		"prismarine_bricks_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:prismarine_brick_slab"
+				}]
+			}
+		},
+		"dark_prismarine_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:dark_prismarine_slab"
+				}]
+			}
+		},
+		"polished_granite_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:polished_granite_slab"
+				}]
+			}
+		},
+		"smooth_red_sandstone_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:smooth_red_sandstone_slab"
+				}]
+			}
+		},
+		"mossy_stone_brick_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:mossy_stone_brick_slab"
+				}]
+			}
+		},
+		"polished_diorite_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:polished_diorite_slab"
+				}]
+			}
+		},
+		"mossy_cobblestone_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:mossy_cobblestone_slab"
+				}]
+			}
+		},
+		"end_stone_brick_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:end_stone_brick_slab"
+				}]
+			}
+		},
+		"smooth_sandstone_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:smooth_sandstone_slab"
+				}]
+			}
+		},
+		"smooth_quartz_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:smooth_quartz_slab"
+				}]
+			}
+		},
+		"granite_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:granite_slab"
+				}]
+			}
+		},
+		"andesite_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:andesite_slab"
+				}]
+			}
+		},
+		"red_nether_brick_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:red_nether_brick_slab"
+				}]
+			}
+		},
+		"polished_andesite_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:polished_andesite_slab"
+				}]
+			}
+		},
+		"diorite_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:diorite_slab"
+				}]
+			}
+		}
+	}
+}

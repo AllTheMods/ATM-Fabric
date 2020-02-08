@@ -1,0 +1,15 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:bell"
+		},
+		"title": "You Rang?",
+		"description": "Sound a bell to alert a village of danger"
+	},
+	"parent": "custom:village/have_bad_omen_effect",
+	"criteria": {
+		"armor_stand": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"type": "crafting_shaped",
+	"group": "polished_diorite",
+	"pattern": [
+		"#",
+		"#"
+	],
+	"key": {
+		"#": {
+			"item": "minecraft:polished_diorite_slab"
+		}
+	},
+	"result": {
+		"item": "minecraft:polished_diorite"
+	}
+}

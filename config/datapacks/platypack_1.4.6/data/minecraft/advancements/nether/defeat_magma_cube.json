@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:magma_cream"
+		},
+		"title": "Heated Core",
+		"description": "Kill a magma cube"
+	},
+	"parent": "minecraft:nether/find_fortress",
+	"criteria": {
+		"magma_cube": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:magma_cube"
+				}
+			}
+		}
+	}
+}

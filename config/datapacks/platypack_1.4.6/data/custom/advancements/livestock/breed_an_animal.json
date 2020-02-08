@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:wheat"
+		},
+		"title": {
+			"translate": "advancements.husbandry.breed_an_animal.title"
+		},
+		"description": {
+			"translate": "advancements.husbandry.breed_an_animal.description"
+		}
+	},
+	"parent": "custom:livestock/root",
+	"criteria": {
+		"breed_animals": {
+			"trigger": "minecraft:bred_animals",
+			"conditions": {}
+		}
+	}
+}

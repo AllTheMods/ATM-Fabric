@@ -1,0 +1,11 @@
+{
+	"replace": false,
+	"values":[
+		"minecraft:netherrack",
+		"minecraft:nether_quartz_ore",
+		"minecraft:soul_sand",
+		"minecraft:lava",
+		"minecraft:glowstone",
+		"minecraft:magma_block"
+	]
+}

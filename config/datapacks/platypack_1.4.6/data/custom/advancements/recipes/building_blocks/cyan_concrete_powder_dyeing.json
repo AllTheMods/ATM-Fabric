@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"custom:cyan_concrete_powder_dyeing"
+		]
+	},
+	"criteria": {
+		"has_cyan_dye": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:cyan_dye"
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "custom:cyan_concrete_powder_dyeing"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_cyan_dye",
+			"has_recipe"
+		]
+	]
+}

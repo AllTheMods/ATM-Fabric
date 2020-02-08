@@ -1,0 +1,1 @@
+execute as @a[advancements={custom:building/item_frame=false}] if score @s placedItemFrameP matches 1.. run advancement grant @s only custom:building/item_frame

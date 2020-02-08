@@ -1,0 +1,45 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:blaze_powder"
+		},
+		"title": "Playing God",
+		"description": "Strike all mobs that transform when struck by lightning",
+		"frame": "goal"
+	},
+	"parent": "custom:ocean/very_very_frightening",
+	"criteria": {
+		"villager": {
+			"trigger": "minecraft:channeled_lightning",
+			"conditions": {
+				"victims": [{
+					"type": "minecraft:villager"
+				}]
+			}
+		},
+		"pig": {
+			"trigger": "minecraft:channeled_lightning",
+			"conditions": {
+				"victims": [{
+					"type": "minecraft:pig"
+				}]
+			}
+		},
+		"creeper": {
+			"trigger": "minecraft:channeled_lightning",
+			"conditions": {
+				"victims": [{
+					"type": "minecraft:creeper"
+				}]
+			}
+		},
+		"mooshroom": {
+			"trigger": "minecraft:channeled_lightning",
+			"conditions": {
+				"victims": [{
+					"type": "minecraft:mooshroom"
+				}]
+			}
+		}
+	}
+}

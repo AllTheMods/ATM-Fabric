@@ -1,0 +1,17 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:emerald"
+		},
+		"title": {
+			"translate": "advancements.adventure.trade.title"
+		},
+		"description": "Successfully trade with a villager"
+	},
+	"parent": "custom:village/root",
+	"criteria": {
+		"trade": {
+			"trigger": "minecraft:villager_trade"
+		}
+	}
+}

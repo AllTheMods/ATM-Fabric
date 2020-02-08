@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:hopper"
+		},
+		"title": "Moving Storage",
+		"description": "Move your items with a hopper"
+	},
+	"parent": "custom:redstone/root",
+	"criteria": {
+		"hopper": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"block": "minecraft:hopper"
+			}
+		}
+	}
+}

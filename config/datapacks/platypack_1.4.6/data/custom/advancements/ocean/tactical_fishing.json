@@ -1,0 +1,24 @@
+{
+	"parent": "custom:ocean/fishy_business",
+	"display": {
+		"icon": {
+			"item": "minecraft:cod_bucket"
+		},
+		"title": {
+			"translate": "advancements.husbandry.tactical_fishing.title"
+		},
+		"description": {
+			"translate": "advancements.husbandry.tactical_fishing.description"
+		}
+	},
+	"criteria": {
+		"fish_bucket": {
+			"trigger": "minecraft:filled_bucket",
+			"conditions": {
+				"item": {
+					"tag": "custom:fish_buckets"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"custom:saddle"
+		]
+	},
+	"criteria": {
+		"tame_horse": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "#custom:horses"
+				}
+			}
+		},
+		"has_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "custom:saddle"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"tame_horse",
+			"has_recipe"
+		]
+	]
+}

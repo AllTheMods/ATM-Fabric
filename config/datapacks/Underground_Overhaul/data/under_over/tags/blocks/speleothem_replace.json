@@ -1,0 +1,7 @@
+{
+	"replace": false,
+	"values":[
+		"minecraft:cave_air",
+		"#under_over:plants"
+	]
+}

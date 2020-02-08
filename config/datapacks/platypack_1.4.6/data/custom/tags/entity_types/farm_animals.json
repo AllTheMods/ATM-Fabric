@@ -1,0 +1,14 @@
+{
+	"values": [
+		"#custom:horses",
+		"#custom:llamas",
+		"minecraft:cat",
+		"minecraft:chicken",
+		"minecraft:cow",
+		"minecraft:mooshroom",
+		"minecraft:pig",
+		"minecraft:rabbit",
+		"minecraft:sheep",
+		"minecraft:wolf"
+	]
+}

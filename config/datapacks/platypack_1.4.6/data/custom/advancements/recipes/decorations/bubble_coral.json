@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"custom:bubble_coral"
+		]
+	},
+	"criteria": {
+		"has_coral_fan": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:bubble_coral_fan"
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "custom:bubble_coral"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_coral_fan",
+			"has_recipe"
+		]
+	]
+}

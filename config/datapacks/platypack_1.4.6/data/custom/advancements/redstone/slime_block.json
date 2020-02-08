@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:slime_block"
+		},
+		"title": "...And Stick!",
+		"description": "Craft and place a slime block"
+	},
+	"parent": "custom:redstone/sticky_piston",
+	"criteria": {
+		"slime_block": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"block": "minecraft:slime_block"
+			}
+		}
+	}
+}

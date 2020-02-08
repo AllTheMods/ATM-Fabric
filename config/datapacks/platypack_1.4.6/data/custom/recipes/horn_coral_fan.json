@@ -1,0 +1,18 @@
+{
+	"type": "crafting_shaped",
+	"group": "coral_fan",
+	"pattern": [
+		"#",
+		"#",
+		"#"
+	],
+	"key": {
+		"#": {
+			"item": "minecraft:horn_coral"
+		}
+	},
+	"result": {
+		"item": "minecraft:horn_coral_fan",
+		"count": 3
+	}
+}

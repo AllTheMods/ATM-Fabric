@@ -1,0 +1,21 @@
+{
+	"type": "crafting_shaped",
+	"group": "dark_prismarine",
+	"pattern": [
+		"###",
+		"#X#",
+		"###"
+	],
+	"key": {
+		"#": {
+			"item": "minecraft:prismarine"
+		},
+		"X": {
+			"item": "ink_sac"
+		}
+	},
+	"result": {
+		"item": "minecraft:dark_prismarine",
+		"count": 8
+	}
+}

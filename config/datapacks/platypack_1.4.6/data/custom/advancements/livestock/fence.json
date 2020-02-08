@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:oak_fence"
+		},
+		"title": "Oaken Corral",
+		"description": "Craft some fences to contain your livestock"
+	},
+	"parent": "custom:livestock/find_lead",
+	"criteria": {
+		"fence": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"tag": "minecraft:fences"
+					}
+				]
+			}
+		}
+	}
+}

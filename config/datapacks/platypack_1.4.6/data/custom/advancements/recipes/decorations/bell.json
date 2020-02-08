@@ -1,0 +1,37 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"custom:bell"
+		]
+	},
+	"criteria": {
+		"in_village": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"feature": "village"
+			}
+		},
+		"has_bell": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:bell"
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "custom:bell"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"in_village",
+			"has_bell",
+			"has_recipe"
+		]
+	]
+}

@@ -1,0 +1,79 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:sand"
+		},
+		"title": "Bone Dry",
+		"description": "Enter a desert biome"
+	},
+	"parent": "custom:exploration/root",
+	"criteria": {
+		"desert": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome": "minecraft:desert"
+			}
+		},
+		"desert_hills": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome": "minecraft:desert_hills"
+			}
+		},
+		"badlands": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome": "minecraft:badlands"
+			}
+		},
+		"wooded_badlands_plateau": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome": "minecraft:wooded_badlands_plateau"
+			}
+		},
+		"badlands_plateau": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome": "minecraft:badlands_plateau"
+			}
+		},
+		"desert_lakes": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome": "minecraft:desert_lakes"
+			}
+		},
+		"eroded_badlands": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome": "minecraft:eroded_badlands"
+			}
+		},
+		"modified_wooded_badlands_plateau": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome": "minecraft:modified_wooded_badlands_plateau"
+			}
+		},
+		"modified_badlands_plateau": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome": "minecraft:modified_badlands_plateau"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"desert",
+			"desert_hills",
+			"badlands",
+			"wooded_badlands_plateau",
+			"badlands_plateau",
+			"desert_lakes",
+			"eroded_badlands",
+			"modified_wooded_badlands_plateau",
+			"modified_badlands_plateau"
+		]
+	]
+}

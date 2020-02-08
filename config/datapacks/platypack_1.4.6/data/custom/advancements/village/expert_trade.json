@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:diamond"
+		},
+		"title": "Artisan",
+		"description": "Trade with an expert level villager",
+		"frame": "goal"
+	},
+	"parent": "custom:village/complete_trade",
+	"criteria": {
+		"jungle": {
+			"trigger": "minecraft:villager_trade",
+			"conditions": {
+				"villager": {
+					"nbt": "{VillagerData:{level:5}}"
+				}
+			}
+		}
+	}
+}

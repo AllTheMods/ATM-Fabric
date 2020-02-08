@@ -1,0 +1,36 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:phantom_membrane"
+		},
+		"title": "Phantom Pains",
+		"description": "Hurt or be hurt by a phantom"
+	},
+	"parent": "custom:combat/root",
+	"criteria": {
+		"phantom_hurts": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "phantom"
+					}
+				}
+			}
+		},
+		"hurt_phantom": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"type": "phantom"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"phantom_hurts",
+			"hurt_phantom"
+		]
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"custom:orange_concrete_powder_dyeing"
+		]
+	},
+	"criteria": {
+		"has_orange_dye": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:orange_dye"
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "custom:orange_concrete_powder_dyeing"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_orange_dye",
+			"has_recipe"
+		]
+	]
+}

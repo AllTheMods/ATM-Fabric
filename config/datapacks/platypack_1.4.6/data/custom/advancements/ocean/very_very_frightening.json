@@ -1,0 +1,23 @@
+{
+	"parent": "custom:ocean/throw_trident",
+	"display": {
+		"icon": {
+			"item": "minecraft:emerald"
+		},
+		"title": {
+			"translate": "advancements.adventure.very_very_frightening.title"
+		},
+		"description": "Strike a villager with lightning",
+		"frame": "goal"
+	},
+	"criteria": {
+		"villager": {
+			"trigger": "minecraft:channeled_lightning",
+			"conditions": {
+				"victims": [{
+					"type": "minecraft:villager"
+				}]
+			}
+		}
+	}
+}

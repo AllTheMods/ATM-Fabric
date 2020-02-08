@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:stone_button"
+		},
+		"title": "Timed Trigger",
+		"description": "Craft and place a button"
+	},
+	"parent": "custom:redstone/flip_lever",
+	"criteria": {
+		"button": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"tag": "minecraft:buttons"
+				}
+			}
+		}
+	}
+}

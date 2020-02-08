@@ -1,0 +1,1 @@
+execute as @a[advancements={custom:caving/break_spawner=false}] if score @s minedSpawnerP matches 1.. run advancement grant @s only custom:caving/break_spawner

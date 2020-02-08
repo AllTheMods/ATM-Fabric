@@ -1,0 +1,121 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:cobweb"
+		},
+		"title": "Here Before Us",
+		"description": "Who built this?"
+	},
+	"parent": "custom:exploration/root",
+	"criteria": {
+		"buried_treasure": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"feature": "buried_treasure"
+			}
+		},
+		"desert_pyramid": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"feature": "desert_pyramid"
+			}
+		},
+		"endcity": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"feature": "endcity"
+			}
+		},
+		"fortress": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"feature": "fortress"
+			}
+		},
+		"igloo": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"feature": "igloo"
+			}
+		},
+		"jungle_pyramid": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"feature": "jungle_pyramid"
+			}
+		},
+		"mansion": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"feature": "mansion"
+			}
+		},
+		"mineshaft": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"feature": "mineshaft"
+			}
+		},
+		"monument": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"feature": "monument"
+			}
+		},
+		"ocean_ruin": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"feature": "ocean_ruin"
+			}
+		},
+		"pillager_outpost": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"feature": "pillager_outpost"
+			}
+		},
+		"shipwreck": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"feature": "shipwreck"
+			}
+		},
+		"stronghold": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"feature": "stronghold"
+			}
+		},	
+		"swamp_hut": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"feature": "swamp_hut"
+			}
+		},
+		"village": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"feature": "village"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"buried_treasure",
+			"desert_pyramid",
+			"endcity",
+			"fortress",
+			"igloo",
+			"jungle_pyramid",
+			"mansion",
+			"mineshaft",
+			"monument",
+			"ocean_ruin",
+			"pillager_outpost",
+			"shipwreck",
+			"stronghold",
+			"swamp_hut",
+			"village"
+		]
+	]
+}

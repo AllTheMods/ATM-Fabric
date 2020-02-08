@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:blue_ice"
+		},
+		"title": "Deep Freeze",
+		"description": "Collect some blue ice"
+	},
+	"parent": "custom:exploration/packed_ice",
+	"criteria": {
+		"blue_ice": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:blue_ice"
+					}
+				]
+			}
+		}
+	}
+}

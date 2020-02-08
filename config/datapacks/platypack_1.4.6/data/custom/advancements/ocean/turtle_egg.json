@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:turtle_egg"
+		},
+		"title": "Beach Baby",
+		"description": "Pick up a turtle egg"
+	},
+	"parent": "custom:ocean/breed_turtle",
+	"criteria": {
+		"turtle_egg": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:turtle_egg"
+					}
+				]
+			}
+		}
+	}
+}

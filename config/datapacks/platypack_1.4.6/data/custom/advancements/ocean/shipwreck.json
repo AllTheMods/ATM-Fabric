@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:spruce_boat"
+		},
+		"title": "Going Down",
+		"description": "Enter a shipwreck"
+	},
+	"parent": "custom:ocean/root",
+	"criteria": {
+		"shipwreck": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"feature": "shipwreck"
+			}
+		}
+	}
+}

@@ -1,0 +1,1 @@
+execute as @a[advancements={custom:combat/shield=false}] if entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:shield"}]}] run advancement grant @s only custom:combat/shield

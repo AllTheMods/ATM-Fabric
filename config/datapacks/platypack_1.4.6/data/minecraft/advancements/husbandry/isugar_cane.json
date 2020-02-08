@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:sugar_cane"
+		},
+		"title": "Water Dependent",
+		"description": "Harvest sugar cane"
+	},
+	"parent": "minecraft:husbandry/root",
+	"criteria": {
+		"sugar_cane": {	
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:sugar_cane"
+					}
+				]
+			}
+		}
+	}
+}

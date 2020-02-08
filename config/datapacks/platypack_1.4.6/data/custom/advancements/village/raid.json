@@ -1,0 +1,15 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:crossbow"
+		},
+		"title": "Unleash the Beast",
+		"description": "Start a raid"
+	},
+	"parent": "custom:village/have_bad_omen_effect",
+	"criteria": {
+		"start_raid": {
+			"trigger": "minecraft:voluntary_exile"
+		}
+	}
+}

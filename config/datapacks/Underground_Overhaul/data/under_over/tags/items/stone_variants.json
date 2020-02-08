@@ -1,0 +1,13 @@
+{
+	"replace": false,
+	"values":[
+		"minecraft:stone",
+		"minecraft:diorite",
+		"minecraft:granite",
+		"minecraft:andesite",
+		"minecraft:smooth_sandstone",
+		"minecraft:smooth_red_sandstone",
+		"minecraft:prismarine_bricks",
+		"minecraft:packed_ice"
+	]
+}

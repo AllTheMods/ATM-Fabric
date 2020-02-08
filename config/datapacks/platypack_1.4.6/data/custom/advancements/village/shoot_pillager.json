@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:arrow"
+		},
+		"title": {
+			"translate": "advancements.adventure.whos_the_pillager_now.title"
+		},
+		"description": "Give a pillager a taste of their own medicine"
+	},
+	"parent": "custom:village/pillager_outpost",
+	"criteria": {
+		"kill_pillager": {
+			"trigger": "minecraft:killed_by_crossbow",
+			"conditions": {
+				"victims": [{
+					"type": "minecraft:pillager"
+				}]
+			}
+		}
+	}
+}

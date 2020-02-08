@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:diamond_horse_armor"
+		},
+		"title": "Ready for Battle",
+		"description": "Find some armor for your trusty steed"
+	},
+	"parent": "custom:livestock/tame_horse",
+	"criteria": {
+		"horse_armor": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"tag": "custom:horse_armors"
+					}
+				]
+			}
+		}
+	}
+}

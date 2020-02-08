@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:comparator"
+		},
+		"title": "(Don't) Compare Yourself",
+		"description": "Compare a signal"
+	},
+	"parent": "custom:redstone/repeater",
+	"criteria": {
+		"comparator": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"block": "minecraft:comparator"
+			}
+		}
+	}
+}

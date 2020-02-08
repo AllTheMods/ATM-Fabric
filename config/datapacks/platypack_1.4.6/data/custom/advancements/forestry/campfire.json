@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:campfire"
+		},
+		"title": "Crackling Cook",
+		"description": "Create a campfire"
+	},
+	"parent": "custom:forestry/stick",
+	"criteria": {
+		"campfire": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item": "minecraft:campfire"
+				}
+			}
+		}
+	}
+}

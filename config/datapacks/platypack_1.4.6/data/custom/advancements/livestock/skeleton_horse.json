@@ -1,0 +1,15 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:bone"
+		},
+		"title": "Stalhorse",
+		"description": "Command a skeletal steed"
+	},
+	"parent": "custom:livestock/ready_for_battle",
+	"criteria": {
+		"skeleton_horse": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"type": "crafting_shaped",
+	"group": "glass",
+	"pattern": [
+		"###",
+		"# #",
+		"###"
+	],
+	"key": {
+		"#": {
+			"item": "minecraft:glass_pane"
+		}
+	},
+	"result": {
+		"item": "minecraft:glass",
+		"count": 3
+	}
+}

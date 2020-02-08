@@ -1,0 +1,1 @@
+execute as @a[advancements={custom:ocean/boat=false}] if score @s boatRiddenP matches 1.. run advancement grant @s only custom:ocean/boat

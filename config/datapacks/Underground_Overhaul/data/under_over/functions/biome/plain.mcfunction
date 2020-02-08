@@ -1,0 +1,1 @@
+execute if predicate under_over:speleothem run fill ~ 60 ~ ~ 1 ~ minecraft:cobblestone_wall replace #under_over:speleothem_replace

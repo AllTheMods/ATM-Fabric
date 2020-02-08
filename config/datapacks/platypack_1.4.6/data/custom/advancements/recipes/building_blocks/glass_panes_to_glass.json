@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"custom:glass_panes_to_glass"
+		]
+	},
+	"criteria": {
+		"has_glass_pane": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:glass_pane"
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "custom:glass_panes_to_glass"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_glass_pane",
+			"has_recipe"
+		]
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:bedrock"
+		},
+		"title": "Unbreakable",
+		"description": "Reach rock bottom"
+	},
+	"parent": "custom:caving/lava_level",
+	"criteria": {
+		"5": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"position": {
+					"y": {
+						"max": 5
+					}
+				}
+			}
+		}
+	}
+}
+				

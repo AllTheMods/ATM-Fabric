@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:packed_ice"
+		},
+		"title": "When Hell Freezes Over",
+		"description": "Place ice in the Nether"
+	},
+	"parent": "minecraft:nether/root",
+	"criteria": {
+		"ice": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"tag": "custom:ices"
+				},
+				"location": {
+					"dimension": "the_nether"
+				}
+			}
+		}
+	}
+}

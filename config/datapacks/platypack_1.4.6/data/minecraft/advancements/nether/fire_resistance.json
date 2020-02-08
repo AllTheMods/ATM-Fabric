@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:potion",
+			"nbt": "{Potion:'minecraft:fire_resistance'}"
+		},
+		"title": "Stayin' Frosty",
+		"description": "Drink a potion of Fire Resistance"
+	},
+	"parent": "minecraft:nether/brew_potion",
+	"criteria": {
+		"fire_resistance": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"minecraft:fire_resistance": {}
+				}
+			}
+		}
+	}
+}

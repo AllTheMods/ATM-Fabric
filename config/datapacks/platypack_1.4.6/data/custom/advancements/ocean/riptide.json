@@ -1,0 +1,31 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:trident"
+		},
+		"title": "Pulled out to Sea",
+		"description": "Get caught in a riptide"
+	},
+	"parent": "custom:ocean/frost_walker",
+	"criteria": {
+		"riptide": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:trident",
+						"enchantments": [
+							{
+								"enchantment": "minecraft:riptide",
+								"levels": {
+									"max": 3,
+									"min": 1
+								}
+							}
+						]
+					}
+				]
+			}
+		}
+	}
+}

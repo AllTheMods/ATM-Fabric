@@ -1,0 +1,133 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:iron_axe"
+		},
+		"title": "MOAR Tools",
+		"description": "Get one of every tool and weapon",
+		"frame": "goal"
+	},
+	"parent": "minecraft:story/smelt_iron",
+	"criteria": {
+		"shovel": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"tag": "custom:shovels"
+					}
+				]
+			}
+		},
+		"pickaxe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"tag": "custom:pickaxes"
+					}
+				]
+			}
+		},
+		"axe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"tag": "custom:axes"
+					}
+				]
+			}
+		},
+		"hoe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"tag": "custom:hoes"
+					}
+				]
+			}
+		},
+		"sword": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"tag": "custom:swords"
+					}
+				]
+			}
+		},
+		"flint_and_steel": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:flint_and_steel"
+					}
+				]
+			}
+		},
+		"fishing_rod": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:fishing_rod"
+					}
+				]
+			}
+		},
+		"shears": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:shears"
+					}
+				]
+			}
+		},
+		"bow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:bow"
+					}
+				]
+			}
+		},
+		"shield": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:shield"
+					}
+				]
+			}
+		},
+		"trident": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:trident"
+					}
+				]
+			}
+		},
+		"crossbow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:crossbow"
+					}
+				]
+			}
+		}
+	}
+}

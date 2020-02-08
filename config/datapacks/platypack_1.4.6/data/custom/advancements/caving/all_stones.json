@@ -1,0 +1,52 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:andesite"
+		},
+		"title": "Stoned",
+		"description": "Gather all five types of stone"
+	},
+	"parent": "custom:caving/reach_diamond_level",
+	"criteria": {
+		"stone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:stone"
+				}]
+			}
+		},
+		"granite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:granite"
+				}]
+			}
+		},
+		"diorite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:diorite"
+				}]
+			}
+		},
+		"andesite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:andesite"
+				}]
+			}
+		},
+		"cobblestone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:cobblestone"
+				}]
+			}
+		}
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		"under_over:modify_chunk",
+		"under_over:fossil_chance",
+		"under_over:rich_ore_chance",
+		"under_over:dungeon_chance"
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"parent": "minecraft:story/mine_diamond",
+	"display": {
+		"icon": {
+			"item": "minecraft:enchanting_table"
+		},
+		"title": {
+			"translate": "advancements.story.enchant_item.title"
+		},
+		"description": "Enchant an item at an enchanting table"
+	},
+	"criteria": {
+		"enchant_item": {
+			"trigger": "minecraft:enchanted_item",
+			"conditions": {}
+		}
+	}
+}

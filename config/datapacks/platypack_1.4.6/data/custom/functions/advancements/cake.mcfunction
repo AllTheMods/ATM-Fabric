@@ -1,0 +1,1 @@
+execute as @a[advancements={custom:husbandry/eat_cake=false}] if score @s eatCakeP matches 1.. run advancement grant @s only minecraft:husbandry/eat_cake

@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:dead_bubble_coral_block"
+		},
+		"title": "Sun-Dried",
+		"description": "Kill coral"
+	},
+	"parent": "custom:ocean/coral_block",
+	"criteria": {
+		"dead_coral": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"tag": "custom:dead_corals"
+					}
+				]
+			}
+		}
+	}
+}

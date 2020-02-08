@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:flower_pot"
+		},
+		"title": "Pot Planter",
+		"description": "Craft and place a flower pot"
+	},
+	"parent": "custom:building/brick",
+	"criteria": {
+		"flower_pot": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"block": "minecraft:flower_pot"
+			}
+		}
+	}
+}

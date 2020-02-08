@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:writable_book"
+		},
+		"title": "Captain's Log",
+		"description": "Create a book and quill to document your adventures"
+	},
+	"parent": "custom:exploration/map",
+	"criteria": {
+		"book_and_quill": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:writable_book"
+					}
+				]
+			}
+		}
+	}
+}

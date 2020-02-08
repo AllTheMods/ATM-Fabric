@@ -1,0 +1,15 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:item_frame"
+		},
+		"title": "I Was Framed!",
+		"description": "Place an item frame to display your items"
+	},
+	"parent": "custom:building/sign",
+	"criteria": {
+		"item_frame": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

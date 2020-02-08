@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:shulker_shell"
+		},
+		"title": "Great View from up Here",
+		"description": "Levitate up 50 blocks from the attacks of a shulker",
+		"frame": "challenge"
+	},
+	"rewards": {
+		"experience": 50
+	},
+	"parent": "minecraft:end/shniper",
+	"criteria": {
+		"levitated": {
+			"trigger": "minecraft:levitation",
+			"conditions": {
+				"distance": {
+					"y": {
+						"min": 50.0
+					}
+				}
+			}
+		}
+	}
+}

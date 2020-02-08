@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:terracotta"
+		},
+		"title": "Mercurial Moniker",
+		"description": "Obtain terracotta"
+	},
+	"parent": "custom:building/clay_ball",
+	"criteria": {
+		"terracotta": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"tag": "custom:terracottas"
+					}
+				]
+			}
+		}
+	}
+}

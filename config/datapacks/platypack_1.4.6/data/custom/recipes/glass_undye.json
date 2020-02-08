@@ -1,0 +1,21 @@
+{
+	"type": "crafting_shaped",
+	"group": "glass",
+	"pattern": [
+		"###",
+		"#X#",
+		"###"
+	],
+	"key": {
+		"#": {
+			"tag": "custom:glasses"
+		},
+		"X": {
+			"item": "minecraft:ice"
+		}
+	},
+	"result": {
+		"item": "minecraft:glass",
+		"count": 8
+	}
+}

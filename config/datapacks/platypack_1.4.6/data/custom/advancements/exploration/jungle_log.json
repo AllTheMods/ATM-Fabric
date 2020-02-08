@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:jungle_log"
+		},
+		"title": "Disappearing Rainforests",
+		"description": "Chop down a jungle tree, you inconsiderate monster"
+	},
+	"parent": "custom:exploration/jungle",
+	"criteria": {
+		"jungle_log": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:jungle_log"
+					}
+				]
+			}
+		}
+	}
+}

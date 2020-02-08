@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:brewing_stand"
+		},
+		"title": "Brewing Machine",
+		"description": "Place a brewing stand to create powerful concoctions"
+	},
+	"parent": "minecraft:nether/get_blaze_rod",
+	"criteria": {
+		"brewing_stand": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item": "minecraft:brewing_stand"
+				}
+			}
+		}
+		}
+	}
+}

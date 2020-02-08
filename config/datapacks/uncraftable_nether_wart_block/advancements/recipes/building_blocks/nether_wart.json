@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "uncraftable_nether_wart_block:nether_wart"
+    ]
+  },
+  "criteria": {
+    "has_nether_wart_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:nether_wart_block"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "uncraftable_nether_wart_block:nether_wart"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_nether_wart_block",
+      "has_the_recipe"
+    ]
+  ]
+}

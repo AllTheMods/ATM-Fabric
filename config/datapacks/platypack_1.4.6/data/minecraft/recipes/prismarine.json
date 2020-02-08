@@ -1,0 +1,16 @@
+{
+	"type": "crafting_shaped",
+	"group": "prismarine",
+	"pattern": [
+		"SS",
+		"SS"
+	],
+	"key": {
+		"S": {
+			"item": "minecraft:prismarine_shard"
+		}
+	},
+	"result": {
+		"item": "minecraft:prismarine"
+	}
+}

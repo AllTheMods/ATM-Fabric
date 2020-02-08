@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:spruce_planks"
+		},
+		"title": "Toil and Trouble",
+		"description": "Enter a witch's hut"
+	},
+	"parent": "custom:exploration/kill_slime",
+	"criteria": {
+		"witch_hut": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"feature": "swamp_hut"
+			}
+		}
+	}
+}

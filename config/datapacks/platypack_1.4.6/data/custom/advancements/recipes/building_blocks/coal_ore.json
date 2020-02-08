@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"custom:coal_ore"
+		]
+	},
+	"criteria": {
+		"has_coal": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:coal"
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "custom:coal_ore"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_coal",
+			"has_recipe"
+		]
+	]
+}

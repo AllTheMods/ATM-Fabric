@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:diamond_helmet"
+		},
+		"title": "Combat",
+		"description": "Death begins",
+		"background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"kill_something": {
+			"trigger": "minecraft:player_killed_entity"
+		},
+		"killed_by_something": {
+			"trigger": "minecraft:entity_killed_player"
+		}
+	},
+	"requirements": [
+		[
+			"kill_something", 
+			"killed_by_something"
+		]
+	]
+}

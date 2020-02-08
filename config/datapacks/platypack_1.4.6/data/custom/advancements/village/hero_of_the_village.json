@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:firework_rocket"
+		},
+		"title": "Village Glory",
+		"description": {
+			"translate": "advancements.adventure.hero_of_the_village.description"
+		},
+		"frame": "challenge"
+	},
+	"rewards": {
+		"experience": 100
+	},
+	"parent": "custom:village/ravager",
+	"criteria": {
+		"hero_of_the_village": {
+			"trigger": "minecraft:hero_of_the_village"
+		}
+	}
+}

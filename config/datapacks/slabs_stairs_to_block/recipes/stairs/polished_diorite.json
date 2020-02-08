@@ -1,0 +1,22 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:polished_diorite_stairs"
+        },
+        {
+            "item": "minecraft:polished_diorite_stairs"
+        },
+        {
+            "item": "minecraft:polished_diorite_stairs"
+        },
+        {
+            "item": "minecraft:polished_diorite_stairs"
+        }
+    ],
+    "result": {
+        "item": "minecraft:polished_diorite",
+        "count": 3
+    },
+    "group": "stairs_to_block"
+}

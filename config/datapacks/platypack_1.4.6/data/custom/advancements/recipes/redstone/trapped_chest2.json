@@ -1,0 +1,35 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"custom:trapped_chest_easy2"
+		]
+	},
+	"criteria": {
+		"has_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "minecraft:trapped_chest"
+			}
+		},
+		"has_recipe_1": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "custom:trapped_chest_easy"
+			}
+		},
+		"has_recipe_2": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "custom:trapped_chest_easy2"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_recipe",
+			"has_recipe_1",
+			"has_recipe_2"
+		]
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"custom:green_concrete_powder_dyeing"
+		]
+	},
+	"criteria": {
+		"has_green_dye": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:green_dye"
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "custom:green_concrete_powder_dyeing"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_green_dye",
+			"has_recipe"
+		]
+	]
+}

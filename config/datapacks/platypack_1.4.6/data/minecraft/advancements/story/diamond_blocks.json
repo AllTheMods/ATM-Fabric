@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:diamond_block"
+		},
+		"title": "I'm Rich!",
+		"description": "Obtain one stack of diamond blocks",
+		"frame": "challenge",
+		"hidden": true
+	},
+	"parent": "minecraft:story/mine_diamond",
+	"rewards": {
+		"experience": 500
+	},
+	"criteria": {
+		"diamond_blocks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:diamond_block",
+					"count": 64
+				}]
+			}
+		}
+	}
+}

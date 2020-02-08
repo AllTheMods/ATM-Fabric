@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_shovel",
+            "nbt": "{Damage:31}"
+        },
+        "title": "Tool durability low!",
+        "description": "",
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+    "parent": "dp:root",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

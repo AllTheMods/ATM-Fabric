@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"custom:purple_panes_to_glass"
+		]
+	},
+	"criteria": {
+		"has_purple_glass_pane": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:purple_stained_glass_pane"
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "custom:purple_panes_to_glass"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_purple_glass_pane",
+			"has_recipe"
+		]
+	]
+}

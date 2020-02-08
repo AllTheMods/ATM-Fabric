@@ -1,0 +1,1 @@
+execute as @a[advancements={custom:ocean/turtle_shell=false}] if entity @s[nbt={Inventory:[{Slot:103b,id:"minecraft:turtle_helmet"}]}] run advancement grant @s only custom:ocean/turtle_shell

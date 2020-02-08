@@ -1,0 +1,47 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:wheat_seeds"
+		},
+		"title": {
+			"translate": "advancements.husbandry.plant_seed.title"
+		},
+		"description": {
+			"translate": "advancements.husbandry.plant_seed.description"
+		}
+	},
+	"parent": "minecraft:husbandry/time_to_farm",
+	"criteria": {
+		"seeds": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"tag": "custom:seeds"
+				}
+			}
+		},
+		"potato": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item": "minecraft:potato"
+				}
+			}
+		},
+		"carrot": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item": "minecraft:carrot"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"seeds",
+			"potato",
+			"carrot"
+		]
+	]
+}

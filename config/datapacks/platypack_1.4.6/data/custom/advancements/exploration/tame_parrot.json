@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:wheat_seeds"
+		},
+		"title": "A Pirate's Best Friend",
+		"description": "Befriend a parrot"
+	},
+	"parent": "custom:exploration/jungle_log",
+	"criteria": {
+		"parrot": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:parrot"
+				}
+			}
+		}
+	}
+}

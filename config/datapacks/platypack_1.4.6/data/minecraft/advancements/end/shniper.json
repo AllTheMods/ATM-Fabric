@@ -1,0 +1,31 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:arrow"
+		},
+		"title": "Shniper",
+		"description": "Be hurt by a shulker bullet from a shulker at least 100 meters away",
+		"frame": "goal"
+	},
+	"parent": "minecraft:end/find_end_city",
+	"criteria": {
+		"shulker_bullet": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:shulker",
+						"distance": {
+							"horizontal": {
+								"min": 50.0
+							}
+						}
+					},
+					"direct_entity": {
+						"type": "minecraft:shulker_bullet"
+					}
+				}
+			}
+		}
+	}
+}

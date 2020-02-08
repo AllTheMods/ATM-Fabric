@@ -1,0 +1,1 @@
+scoreboard objectives add placedPaintingP minecraft.used:minecraft.painting

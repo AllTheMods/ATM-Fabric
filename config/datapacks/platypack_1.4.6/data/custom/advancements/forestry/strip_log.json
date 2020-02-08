@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:stripped_birch_log"
+		},
+		"title": "Stripped Down",
+		"description": "Strip a log of its bark"
+	},
+	"parent": "custom:forestry/log",
+	"criteria": {
+		"stripped_log": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "custom:stripped_logs"
+				}]
+			}
+		}
+	}
+}

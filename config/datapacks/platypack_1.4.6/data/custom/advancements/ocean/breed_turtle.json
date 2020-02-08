@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:seagrass"
+		},
+		"title": "Protective Parents",
+		"description": "Breed some turtles"
+	},
+	"parent": "custom:ocean/green_in_the_blue",
+	"criteria": {
+		"breed_turtle": {
+			"trigger": "minecraft:bred_animals",
+			"conditions": {
+				"parent": {
+					"type": "minecraft:turtle"
+				}
+			}
+		}
+	}
+}

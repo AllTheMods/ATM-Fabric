@@ -1,0 +1,1 @@
+execute as @a[advancements={custom:livestock/skeleton_horse=false}] if data entity @s {RootVehicle:{Entity:{id:"minecraft:skeleton_horse"}}} run advancement grant @s only custom:livestock/skeleton_horse

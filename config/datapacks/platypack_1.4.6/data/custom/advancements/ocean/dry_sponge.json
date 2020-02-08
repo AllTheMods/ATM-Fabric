@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:sponge"
+		},
+		"title": "Out to Dry",
+		"description": "Dry a wet sponge"
+	},
+	"parent": "custom:ocean/elder_guardian",
+	"criteria": {
+		"sponge": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:sponge"
+					}
+				]
+			}
+		}
+	}
+}

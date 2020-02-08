@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:chest"
+		},
+		"title": "Normal Storage",
+		"description": "Craft a chest to store your items"
+	},
+	"parent": "custom:forestry/planks",
+	"criteria": {
+		"chest": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:chest"
+				}]
+			}
+		}
+	}
+}

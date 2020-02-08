@@ -1,0 +1,122 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:experience_bottle",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 4,
+								"max": 12
+							}
+						}
+					],
+					"weight": 20
+				},
+				{
+					"type": "item",
+					"name": "minecraft:book",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "enchant_randomly"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:orange_shulker_box",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:music_disc_blocks",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potion",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "set_name",
+							"name": {"text": "Flipper in a Bottle", "italic": false}
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{CustomPotionEffects:[{Id:13,Duration:2400},{Id:30,Duration:2400}],CustomPotionColor:8831445}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 2,
+				"max": 4
+			},
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:bread",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					],
+					"weight": 15
+				},
+				{
+					"type": "item",
+					"name": "minecraft:cobblestone",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 2,
+								"max": 4
+							}
+						}
+					],
+					"weight": 10
+				},
+				{
+					"type": "item",
+					"name": "minecraft:honeycomb",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 2,
+								"max": 4
+							}
+						}
+					],
+					"weight": 10
+				},
+				{
+					"type": "item",
+					"name": "minecraft:rotten_flesh",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 2,
+								"max": 4
+							}
+						}
+					],
+					"weight": 10
+				}
+			]
+		}
+	]
+}

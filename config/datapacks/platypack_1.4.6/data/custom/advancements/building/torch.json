@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:torch"
+		},
+		"title": "Light It Up, Up, Up!",
+		"description": "Light up the area with some torches"
+	},
+	"parent": "custom:building/root",
+	"criteria": {
+		"torch": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item": "minecraft:torch"
+				}
+			}
+		}
+	}
+}

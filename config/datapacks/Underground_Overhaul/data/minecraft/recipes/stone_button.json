@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "under_over:stone_variants"
+    }
+  ],
+  "result": {
+    "item": "minecraft:stone_button"
+  }
+}

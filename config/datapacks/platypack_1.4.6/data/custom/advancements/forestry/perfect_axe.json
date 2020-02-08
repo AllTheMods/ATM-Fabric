@@ -1,0 +1,81 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:diamond_axe",
+			"nbt": "{Enchantments:[{id:'minecraft:unbreaking',lvl:1}]}"
+		},
+		"title": "Master Lumberjack",
+		"description": "Create a perfect axe",
+		"frame": "challenge"
+	},
+	"parent": "custom:forestry/root",
+	"rewards": {
+		"experience": 100
+	},
+	"criteria": {
+		"perfect_axe_fortune": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:diamond_axe",
+					"enchantments": [{
+							"enchantment": "minecraft:efficiency",
+							"levels": 5
+						},
+						{
+							"enchantment": "minecraft:fortune",
+							"levels": 3
+						},
+						{
+							"enchantment": "minecraft:sharpness",
+							"levels": 5
+						},
+						{
+							"enchantment": "minecraft:unbreaking",
+							"levels": 3
+						},
+						{
+							"enchantment": "minecraft:mending",
+							"levels": 1
+						}
+					]
+				}]
+			}
+		},
+		"perfect_axe_silk_touch": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:diamond_axe",
+					"enchantments": [{
+							"enchantment": "minecraft:efficiency",
+							"levels": 5
+						},
+						{
+							"enchantment": "minecraft:silk_touch",
+							"levels": 1
+						},
+						{
+							"enchantment": "minecraft:sharpness",
+							"levels": 5
+						},
+						{
+							"enchantment": "minecraft:unbreaking",
+							"levels": 3
+						},
+						{
+							"enchantment": "minecraft:mending",
+							"levels": 1
+						}
+					]
+				}]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"perfect_axe_fortune",
+			"perfect_axe_silk_touch"
+		]
+	]
+}

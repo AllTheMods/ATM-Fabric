@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:birch_door"
+		},
+		"title": "Knock on Wood",
+		"description": "Craft a door"
+	},
+	"parent": "custom:forestry/planks",
+	"criteria": {
+		"door": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "minecraft:wooden_doors"
+				}]
+			}
+		}
+	}
+}

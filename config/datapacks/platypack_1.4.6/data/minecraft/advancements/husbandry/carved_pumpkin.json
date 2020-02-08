@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:carved_pumpkin"
+		},
+		"title": "Pumpkin Carving",
+		"description": "Carve a face into a pumpkin"
+	},
+	"parent": "minecraft:husbandry/pumpkin",
+	"criteria": {
+		"carved_pumpkin": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:carved_pumpkin"
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:cod"
+		},
+		"title": "Swimming with the Dolphins",
+		"description": "Speed through the water with dolphins"
+	},
+	"parent": "custom:ocean/bubble_column",
+	"criteria": {
+		"dolphins_grace": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"minecraft:dolphins_grace": {}
+				}
+			}
+		}
+	}
+}

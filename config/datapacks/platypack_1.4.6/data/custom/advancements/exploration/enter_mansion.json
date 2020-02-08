@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:dark_oak_planks"
+		},
+		"title": "Pariahs",
+		"description": "Enter a woodland mansion"
+	},
+	"parent": "custom:exploration/dark_forest",
+	"criteria": {
+		"mansion": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"feature": "mansion"
+			}
+		}
+	}
+}

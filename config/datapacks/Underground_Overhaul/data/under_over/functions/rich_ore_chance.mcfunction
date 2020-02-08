@@ -1,0 +1,1 @@
+execute if predicate quartus:1_of_64 run function under_over:rich_ore_location_start

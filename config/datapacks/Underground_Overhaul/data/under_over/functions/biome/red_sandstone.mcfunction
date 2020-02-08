@@ -1,0 +1,1 @@
+fill ~ 60 ~ ~ 1 ~ minecraft:smooth_red_sandstone replace minecraft:stone

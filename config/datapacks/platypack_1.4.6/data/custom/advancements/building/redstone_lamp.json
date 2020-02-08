@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:redstone_lamp"
+		},
+		"title": "Lightbulb",
+		"description": "Light up the area with redstone lamps"
+	},
+	"parent": "custom:building/glowstone",
+	"criteria": {
+		"redstone_lamp": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"block": "minecraft:redstone_lamp"
+			}
+		}
+	}
+}

@@ -1,0 +1,115 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:bubble_coral"
+		},
+		"title": "Acorable",
+		"description": "Collect all 10 coral types"
+	},
+	"parent": "custom:collection/coral_block",
+	"rewards": {
+		"experience": 40
+	},
+	"criteria": {
+		"tube": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:tube_coral"
+					}
+				]
+			}
+		},
+		"brain": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:brain_coral"
+					}
+				]
+			}
+		},
+		"bubble": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:bubble_coral"
+					}
+				]
+			}
+		},
+		"fire": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:fire_coral"
+					}
+				]
+			}
+		},
+		"horn": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:horn_coral"
+					}
+				]
+			}
+		},
+		"dead_tube": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:dead_tube_coral"
+					}
+				]
+			}
+		},
+		"dead_brain": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:dead_brain_coral"
+					}
+				]
+			}
+		},
+		"dead_bubble": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:dead_bubble_coral"
+					}
+				]
+			}
+		},
+		"dead_fire": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:dead_fire_coral"
+					}
+				]
+			}
+		},
+		"dead_horn": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:dead_horn_coral"
+					}
+				]
+			}
+		}
+	}
+}

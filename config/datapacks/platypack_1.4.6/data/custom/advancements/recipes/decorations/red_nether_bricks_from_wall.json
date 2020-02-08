@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"custom:red_nether_bricks_from_wall"
+		]
+	},
+	"criteria": {
+		"has_red_nether_brick_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:red_nether_brick_wall"
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "custom:red_nether_bricks_from_wall"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_red_nether_brick_wall",
+			"has_recipe"
+		]
+	]
+}

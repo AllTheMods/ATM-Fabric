@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:stripped_spruce_wood"
+		},
+		"title": "Lost Its Bark",
+		"description": "Strip a wood block of its bark"
+	},
+	"parent": "custom:forestry/wood",
+	"criteria": {
+		"stripped_wood": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "custom:stripped_woods"
+				}]
+			}
+		}
+	}
+}

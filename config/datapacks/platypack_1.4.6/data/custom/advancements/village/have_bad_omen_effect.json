@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:black_dye"
+		},
+		"title": "The Grim",
+		"description": "Become a bad omen"
+	},
+	"parent": "custom:village/shoot_pillager",
+	"criteria": {
+		"bad_omen": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"minecraft:bad_omen": {}
+				}
+			}
+		}
+	}
+}

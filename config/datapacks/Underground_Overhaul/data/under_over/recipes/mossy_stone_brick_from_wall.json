@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XX",
+    "XX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:mossy_stone_brick_wall"
+    }
+  },
+  "result": {
+    "item": "minecraft:mossy_stone_bricks",
+		"count": 4
+  }
+}

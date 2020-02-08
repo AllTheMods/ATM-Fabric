@@ -1,0 +1,45 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:fishing_rod",
+			"nbt": "{Enchantments:[{id:'minecraft:unbreaking',lvl:1}]}"
+		},
+		"title": "Master Fisher",
+		"description": "Create a perfect fishing rod",
+		"frame": "challenge"
+	},
+	"parent": "custom:ocean/fishy_business",
+	"rewards": {
+		"experience": 100
+	},
+	"criteria": {
+		"fishing_rod": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:fishing_rod",
+						"enchantments": [
+							{
+								"enchantment": "minecraft:luck_of_the_sea",
+								"levels": 3
+							},
+							{
+								"enchantment": "minecraft:lure",
+								"levels": 3
+							},
+							{
+								"enchantment": "minecraft:unbreaking",
+								"levels": 3
+							},	
+							{
+								"enchantment": "minecraft:mending",
+								"levels": 1
+							}
+						]
+					}
+				]
+			}
+		}
+	}
+}

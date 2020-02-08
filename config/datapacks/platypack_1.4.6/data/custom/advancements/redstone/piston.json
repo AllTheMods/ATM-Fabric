@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:piston"
+		},
+		"title": "Push...",
+		"description": "Craft and place a piston"
+	},
+	"parent": "custom:redstone/root",
+	"criteria": {
+		"piston": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"block": "minecraft:piston"
+			}
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:oak_sapling"
+		},
+		"title": "Arborist",
+		"description": "Collect a sapling"
+	},
+	"parent": "custom:forestry/log",
+	"criteria": {
+		"sapling": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "minecraft:saplings"
+				}]
+			}
+		}
+	}
+}
