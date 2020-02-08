@@ -1,22 +1,35 @@
-# ATM-Fabric
+# ATM-Fabric [![Discord][discordImg]][discordLink] [![Curseforge][curseImg]][curseLink] [![Reddit][redditImg]][redditLink]
 
-All The Mods Fabric Edition
-======
+## All The Mods Fabric Edition
+
 This is the official repository and issue-tracker for All The Mods Fabric
   
 Does "All The Mods" *really* contain ALL THE MODS? No, of course not.
    
-Need Help?
-======
+## Need Help?
 When reporting an issue put the version number before the issue title! Such as [FULL][1.37] My game is broken! Also include any added mods you may have put in, into the description of the issue. 
  
-You can also find us on Discord for help or just to chat as well as Reddit:   
-  
-|              |
-|:------------:|
-|<a href="https://discordapp.com/invite/rbSZNDQ"><img src="https://discordapp.com/assets/fc0b01fe10a0b8c602fb0106d8189d9b.png" alt="Join us on Discord!"  width="200" height="68"></a>|
-|<a href="https://www.reddit.com/r/allthemods"><img src="https://www.redditstatic.com/about/assets/reddit-logo.png" alt="/r/AllTheMods on Reddit"  width="200" height="67"></a>|
-<br>
+You can also find us on Discord for help or just to chat as well as Reddit:  
 
+## Setup 
+#### For Contributors, Testers and Developers
+Follow these steps to setup your workspace:
 
+#### Windows
+1) Download the [Twitch App](https://www.twitch.tv/downloads) if you haven't already.
+2) Fork and clone the ATM-Fabric repository to the Instances folder of the Twitch App, the default path is `C:\Users\<user>\Twitch\Minecraft\Instances`
+3) Double click the script `pullmods.bat` to setup InstanceSync.
+4) Run a Git Pull.
+5) Open the Twitch App, go to Mods > Minecraft, and you should see Enigmatica 4. If you already had Twitch App open, restart it.
 
+[discordImg]: https://img.shields.io/discord/254530689225981953.svg?logo=discord&logoWidth=18&colorB=7289DA&style=for-the-badge
+
+[discordLink]: https://discord.gg/FdFDVWb
+
+[curseImg]: http://cf.way2muchnoise.eu/361635.svg?badge_style=for_the_badge
+
+[curseLink]: https://www.curseforge.com/minecraft/modpacks/all-the-mods-fabric
+
+[redditImg]: https://img.shields.io/reddit/subreddit-subscribers/allthemods?style=for-the-badge
+
+[redditLink]: https://www.reddit.com/r/allthemods/

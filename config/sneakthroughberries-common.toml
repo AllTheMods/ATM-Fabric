@@ -1,0 +1,18 @@
+
+#Damage Requirement Settings
+[damage_requirement]
+	#Require Entity To Be A PlayerEntity To Avoid Damage By Sweet Berry Bushes
+	isPlayer = false
+	#Require Player Wearing Boots To Avoid Damage By Sweet Berry Bushes
+	wearingBoots = true
+	#Require Player Wearing All Armor Slots To Avoid Damage By Sweet Berry Bushes
+	wearingAllArmor = false
+	#Require Entity To Not Be A PlayerEntity To Avoid Damage By Sweet Berry Bushes
+	isNotPlayer = false
+	#Require Entity To Sneak To Avoid Damage By Sweet Berry Bushes
+	sneaking = true
+	#If True, Armor Is Not Required... But Any Armor That Would Of Been Required Now Is Required To Walk Through Sweet Berry Bushes Without Taking Damage
+	wearingArmorAllowsWalking = true
+	#Require Player Wearing Leggings To Avoid Damage By Sweet Berry Bushes
+	wearingLeggings = true
+
