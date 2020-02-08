@@ -1,0 +1,8 @@
+# All The Mods Fabric
+
+# Modpack Crap
+/*.jar
+!autojson-1.2.0.jar
+!i-blame-x-1.0.1+1.14.4.jar
+!NonCorrelatedExtras-0.0.3.jar
+!jumploader-1.0.0.jar
