@@ -60,7 +60,7 @@
 		// Declares the appearance of recipe's border.
 		"lightGrayRecipeBorder": false,
 		// Declares whether REI should append mod names to item stacks.
-		"appendModNames": true,
+		"appendModNames": false,
 		// Declares how the scrollbar in villager screen should act.
 		"villagerScreenPermanentScrollBar": false,
 		// Declares whether entry list widget is scrolled.
