@@ -20,7 +20,7 @@ Follow these steps to setup your workspace:
 2) Fork and clone the ATM-Fabric repository to the Instances folder of the Twitch App, the default path is `C:\Users\<user>\Twitch\Minecraft\Instances`
 3) Double click the script `pullmods.bat` to setup InstanceSync.
 4) Run a Git Pull.
-5) Open the Twitch App, go to Mods > Minecraft, and you should see Enigmatica 4. If you already had Twitch App open, restart it.
+5) Open the Twitch App, go to Mods > Minecraft, and you should see All the Mods Fabric. If you already had Twitch App open, restart it.
 
 [discordImg]: https://img.shields.io/discord/254530689225981953.svg?logo=discord&logoWidth=18&colorB=7289DA&style=for-the-badge
 
