@@ -106,5 +106,9 @@
 		// Whether REI should render entry's enchantment glint
 		"renderEntryEnchantmentGlint": true,
 		"newFastEntryRendering": true
+	},
+	"filtering": { 
+		"filteredStacks": [ 
+]
 	}
 }

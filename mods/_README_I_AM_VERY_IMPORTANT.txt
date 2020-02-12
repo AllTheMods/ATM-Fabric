@@ -1,0 +1,1 @@
+Do not directly edit the files in this folder, if you want to delete a file or add one, use GDLauncher.  DO NOT RENAME ANYTHING
