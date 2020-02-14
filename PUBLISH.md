@@ -16,8 +16,6 @@ Read `DEV.md` if you have not.
 
 #### MultiMC
 1) Open MultiMC
-2) Right Click the Modpack -> Edit Instance -> Loader Mods
-3) Click on the Selection labeled `customloadingscreen` and then click remove.
 8) Return to the Main Window and Right Click the Modpack -> Export Profile and. In the List select these 4 folders inside of `.minecraft` ( `config`, `data`, `datapacks`, and `mods` (and click on the files That aren't in `.minecraft`
 4) Name the ZIP `MMC-ATMFabric-vesrion.zip` (replace version with the actual version)
 5) Upload this ZIP to Additional Files on the equilvant Curse Version.
