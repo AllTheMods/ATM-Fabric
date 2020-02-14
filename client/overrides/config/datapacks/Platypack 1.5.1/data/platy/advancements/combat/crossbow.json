@@ -1,0 +1,50 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:crossbow"
+		},
+		"title": {
+			"translate": "advancements.adventure.ol_betsy.title"
+		},
+		"description": {
+			"translate": "advancements.adventure.ol_betsy.description"
+		}
+	},
+	"parent": "platy:combat/shoot_bow",
+	"criteria": {
+		"arrow": {
+			"trigger": "minecraft:shot_crossbow",
+			"conditions": {
+				"item": {
+					"item": "minecraft:crossbow",
+					"nbt": "{ChargedProjectiles: [{id:'minecraft:arrow'}]}"
+				}
+			}
+		},
+		"tipped_arrow": {
+			"trigger": "minecraft:shot_crossbow",
+			"conditions": {
+				"item": {
+					"item": "minecraft:crossbow",
+					"nbt": "{ChargedProjectiles: [{id:'minecraft:tipped_arrow'}]}"
+				}
+			}
+		},
+		"spectral_arrow": {
+			"trigger": "minecraft:shot_crossbow",
+			"conditions": {
+				"item": {
+					"item": "minecraft:crossbow",
+					"nbt": "{ChargedProjectiles: [{id:'minecraft:spectral_arrow'}]}"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"arrow",
+			"tipped_arrow",
+			"spectral_arrow"
+		]
+	]
+}

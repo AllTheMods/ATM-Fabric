@@ -1,0 +1,17 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:spruce_boat"
+		},
+		"title": "Exploration",
+		"description": "The world is vast and uncharted",
+		"background": "minecraft:textures/block/spruce_log.png",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"criteria": {
+	"sleep": {
+			"trigger": "minecraft:slept_in_bed"
+		}
+	}
+}

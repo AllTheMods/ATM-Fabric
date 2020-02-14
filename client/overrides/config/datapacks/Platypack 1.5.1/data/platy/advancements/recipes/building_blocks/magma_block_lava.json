@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:magma_block_lava"
+		]
+	},
+	"criteria": {
+		"has_lava_bucket": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:lava_bucket"
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:magma_block_lava"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_lava_bucket",
+			"has_recipe"
+		]
+	]
+}

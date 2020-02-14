@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:dark_prismarine_stair_to_block"
+		]
+	},
+	"criteria": {
+		"has_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:dark_prismarine_stairs"
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:dark_prismarine_stair_to_block"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_stairs",
+			"has_recipe"
+		]
+	]
+}

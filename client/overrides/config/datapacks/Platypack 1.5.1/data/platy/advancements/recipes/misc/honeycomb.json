@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:honeycomb"
+		]
+	},
+	"criteria": {
+		"has_honeycomb_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:honeycomb_block"
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:honeycomb"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_honeycomb_block",
+			"has_recipe"
+		]
+	]
+}

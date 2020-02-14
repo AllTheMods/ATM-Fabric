@@ -1,0 +1,51 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:stone"
+		},
+		"title": "Mountain Climber",
+		"description": "Enter a mountain biome"
+	},
+	"parent": "platy:exploration/root",
+	"criteria": {
+		"mountains": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome": "minecraft:mountains"
+			}
+		},
+		"stone_shore": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome": "minecraft:stone_shore"
+			}
+		},
+		"wooded_mountains": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome": "minecraft:wooded_mountains"
+			}
+		},
+		"gravelly_mountains": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome": "minecraft:gravelly_mountains"
+			}
+		},
+		"modified_gravelly_mountains": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome": "minecraft:modified_gravelly_mountains"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"mountains",
+			"stone_shore",
+			"wooded_mountains",
+			"gravelly_mountains",
+			"modified_gravelly_mountains"
+		]
+	]
+}

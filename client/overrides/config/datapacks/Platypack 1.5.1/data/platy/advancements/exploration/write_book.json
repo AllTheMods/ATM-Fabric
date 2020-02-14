@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:written_book"
+		},
+		"title": "Novelist",
+		"description": "Write a book"
+	},
+	"parent": "platy:exploration/book_and_quill",
+	"criteria": {
+		"written_book": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:written_book"
+					}
+				]
+			}
+		}
+	}
+}

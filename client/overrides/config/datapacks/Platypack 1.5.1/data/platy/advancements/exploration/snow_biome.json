@@ -1,0 +1,79 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:snow_block"
+		},
+		"title": "Winter Wonderland",
+		"description": "Enter a snowy biome"
+	},
+	"parent": "platy:exploration/root",
+	"criteria": {
+		"frozen_ocean": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome": "minecraft:frozen_ocean"
+			}
+		},
+		"frozen_river": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome": "minecraft:frozen_river"
+			}
+		},
+		"snowy_tundra": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome": "minecraft:snowy_tundra"
+			}
+		},
+		"snowy_mountains": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome": "minecraft:snowy_mountains"
+			}
+		},
+		"snowy_beach": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome": "minecraft:snowy_beach"
+			}
+		},
+		"snowy_taiga": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome": "minecraft:snowy_taiga"
+			}
+		},
+		"snowy_taiga_hills": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome": "minecraft:snowy_taiga_hills"
+			}
+		},
+		"ice_spikes": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome": "minecraft:ice_spikes"
+			}
+		},
+		"snowy_taiga_mountains": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome": "minecraft:snowy_taiga_mountains"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"frozen_ocean",
+			"frozen_river",
+			"snowy_tundra",
+			"snowy_mountains",
+			"snowy_beach",
+			"snowy_taiga",
+			"snowy_taiga_hills",
+			"ice_spikes",
+			"snowy_taiga_mountains"
+		]
+	]
+}

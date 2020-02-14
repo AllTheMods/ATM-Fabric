@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:music_disc_cat"
+		},
+		"title": "Music to My Ears",
+		"description": "Obtain a music disc",
+		"frame": "goal"
+	},
+	"parent": "platy:combat/deflect_arrow",
+	"criteria": {
+		"music_disc": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "minecraft:music_discs"
+				}]
+			}
+		}
+	}
+}

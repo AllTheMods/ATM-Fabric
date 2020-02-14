@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:red_dye"
+		},
+		"title": "The Rainbow",
+		"description": "World of Color",
+		"background": "minecraft:textures/block/white_concrete.png",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"dye": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"tag": "platy:dyes"
+					}
+				]
+			}
+		}
+	}
+}

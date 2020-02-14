@@ -1,0 +1,24 @@
+{
+	"parent": "platy:ocean/root",
+	"display": {
+		"icon": {
+			"item": "minecraft:fishing_rod"
+		},
+		"title": {
+			"translate": "advancements.husbandry.fishy_business.title"
+		},
+		"description": {
+			"translate": "advancements.husbandry.fishy_business.description"
+		}
+	},
+	"criteria": {
+		"fish": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"tag": "minecraft:fishes"
+				}
+			}
+		}
+	}
+}

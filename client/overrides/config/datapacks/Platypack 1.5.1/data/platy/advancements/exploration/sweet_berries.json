@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:sweet_berries"
+		},
+		"title": "Sweets",
+		"description": "Eat some sweet berries"
+	},
+	"parent": "platy:exploration/taiga",
+	"criteria": {
+		"sweet_berries": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:sweet_berries"
+				}
+			}
+		}
+	}
+}

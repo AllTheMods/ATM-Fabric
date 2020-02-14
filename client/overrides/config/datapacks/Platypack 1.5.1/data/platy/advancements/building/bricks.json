@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:bricks"
+		},
+		"title": "Blocked Up",
+		"description": "Use bricks to build"
+	},
+	"parent": "platy:building/brick",
+	"criteria": {
+		"bricks": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"block": "minecraft:bricks"
+			}
+		}
+	}
+}

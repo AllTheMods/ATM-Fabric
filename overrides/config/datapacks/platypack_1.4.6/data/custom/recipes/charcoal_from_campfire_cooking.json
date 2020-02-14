@@ -1,9 +1,0 @@
-{
-	"type": "campfire_cooking",
-	"ingredient": {
-		"tag": "minecraft:logs"
-	},
-	"result": "minecraft:charcoal",
-	"experience": 0.15,
-	"cookingtime": 600
-}

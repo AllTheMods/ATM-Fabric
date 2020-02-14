@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:oak_planks"
+		},
+		"title": "Stale Air",
+		"description": "Enter an abandoned mineshaft"
+	},
+	"parent": "platy:caving/bat_beaten",
+	"criteria": {
+		"mineshaft": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"feature": "mineshaft"
+			}
+		}
+	}
+}

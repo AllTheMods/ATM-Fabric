@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:sandstone_from_chiseled"
+		]
+	},
+	"criteria": {
+		"has_chiseled_sandstone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:chiseled_sandstone"
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:sandstone_from_chiseled"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_chiseled_sandstone",
+			"has_recipe"
+		]
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:brown_concrete_powder_dyeing"
+		]
+	},
+	"criteria": {
+		"has_brown_dye": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:brown_dye"
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:brown_concrete_powder_dyeing"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_brown_dye",
+			"has_recipe"
+		]
+	]
+}

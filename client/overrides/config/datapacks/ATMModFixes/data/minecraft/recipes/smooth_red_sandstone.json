@@ -1,0 +1,19 @@
+{
+    "type": "crafting_shapeless",
+    "result": {
+        "item": "minecraft:smooth_red_sandstone",
+        "count": 2
+    },
+    "ingredients": [
+        {
+            "item": "minecraft:smooth_sandstone"
+        },
+		{
+            "item": "minecraft:smooth_sandstone"
+        },
+		{
+            "item": "minecraft:red_dye"
+        }
+    ],
+	"group": "sandstone_dyeing"
+}

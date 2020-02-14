@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:golden_apple"
+		},
+		"title": "Underground Medicine",
+		"description": "Use your resources to cure the zombie villager in an igloo",
+		"frame": "goal"
+	},
+	"parent": "platy:exploration/igloo",
+	"criteria": {
+		"cured_zombie": {
+			"trigger": "minecraft:cured_zombie_villager",
+			"conditions": {
+				"zombie": {
+					"location": {
+						"feature": "igloo"
+					},
+					"nbt": "{PersistenceRequired:1b}"
+				}
+			}
+		}
+	}
+}

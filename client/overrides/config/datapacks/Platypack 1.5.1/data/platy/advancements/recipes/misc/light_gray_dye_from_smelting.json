@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:light_gray_dye_from_smelting"
+		]
+	},
+	"criteria": {
+		"has_phantom_membrane": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:phantom_membrane"
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:light_gray_dye_from_smelting"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_phantom_membrane",
+			"has_recipe"
+		]
+	]
+}

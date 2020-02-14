@@ -1,0 +1,15 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:painting"
+		},
+		"title": "A Masterpiece!",
+		"description": "Paint a painting"
+	},
+	"parent": "platy:building/sign",
+	"criteria": {
+		"painting": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

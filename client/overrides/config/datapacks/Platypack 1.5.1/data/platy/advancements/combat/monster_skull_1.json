@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:creeper_head"
+		},
+		"title": "Thick Skull",
+		"description": "Decapitate a mob",
+		"frame": "goal"
+	},
+	"parent": "platy:combat/root",
+	"criteria": {
+		"head": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "platy:heads"
+				}]
+			}
+		}
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:cactus"
+		},
+		"title": "Water Independent",
+		"description": "Harvest a cactus"
+	},
+	"parent": "minecraft:husbandry/hold_reeds",
+	"criteria": {
+		"cactus": {	
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:cactus"
+					}
+				]
+			}
+		}
+	}
+}

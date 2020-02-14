@@ -1,1 +1,0 @@
-scoreboard objectives add placeArmorStandP minecraft.used:minecraft.armor_stand

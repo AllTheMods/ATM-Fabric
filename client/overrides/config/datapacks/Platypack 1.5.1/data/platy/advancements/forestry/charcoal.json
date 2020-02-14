@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:charcoal"
+		},
+		"title": "Renewable Energy",
+		"description": "Cook a log to get charcoal"
+	},
+	"parent": "platy:forestry/log",
+	"criteria": {
+		"charcoal": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:charcoal"
+				}]
+			}
+		}
+	}
+}

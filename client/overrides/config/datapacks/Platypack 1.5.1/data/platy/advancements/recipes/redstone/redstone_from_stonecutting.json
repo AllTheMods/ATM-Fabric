@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:redstone_from_stonecutting"
+		]
+	},
+	"criteria": {
+		"has_redstone_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:redstone_ore"
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:redstone_from_stonecutting"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_redstone_ore",
+			"has_recipe"
+		]
+	]
+}

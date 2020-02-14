@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:iron_bars_to_ingots"
+		]
+	},
+	"criteria": {
+		"has_bars": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:iron_bars"
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:iron_bars_to_ingots"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_bars",
+			"has_recipe"
+		]
+	]
+}

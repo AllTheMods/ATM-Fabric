@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:brown_panes_to_glass"
+		]
+	},
+	"criteria": {
+		"has_brown_glass_pane": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:brown_stained_glass_pane"
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:brown_panes_to_glass"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_brown_glass_pane",
+			"has_recipe"
+		]
+	]
+}

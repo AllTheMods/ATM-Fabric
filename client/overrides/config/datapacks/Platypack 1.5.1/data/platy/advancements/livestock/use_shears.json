@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:shears"
+		},
+		"title": "Shear Audacity",
+		"description": "Use a pair of shears"
+	},
+	"parent": "platy:livestock/root",
+	"criteria": {
+		"shears": {
+			"trigger": "minecraft:item_durability_changed",
+			"conditions": {
+				"delta": -1,
+				"item": {
+					"item": "minecraft:shears"
+				}
+			}
+		}
+	}
+}

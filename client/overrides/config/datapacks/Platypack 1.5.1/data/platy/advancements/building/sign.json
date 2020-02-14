@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:oak_sign"
+		},
+		"title": "It's a Sign!",
+		"description": "Craft and place a sign"
+	},
+	"parent": "platy:building/root",
+	"criteria": {
+		"sign": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"tag": "minecraft:signs"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:red_bed"
+		},
+		"title": "Sleep Is for the Week",
+		"description": "Don't sleep or die for an in-game week",
+		"frame": "goal"
+	},
+	"parent": "platy:combat/phantom_pain",
+	"criteria": {
+		"awake": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

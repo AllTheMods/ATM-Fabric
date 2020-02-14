@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:quartz_ore"
+		]
+	},
+	"criteria": {
+		"has_quartz": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:quartz"
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:quartz_ore"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_quartz",
+			"has_recipe"
+		]
+	]
+}

@@ -1,0 +1,175 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:cyan_concrete_powder"
+		},
+		"title": "Powder Power",
+		"description": "Collect all 16 concrete powder colors"
+	},
+	"parent": "platy:collection/all_dye",
+	"rewards": {
+		"experience": 75
+	},
+	"criteria": {
+		"white": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:white_concrete_powder"
+					}
+				]
+			}
+		},
+		"orange": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:orange_concrete_powder"
+					}
+				]
+			}
+		},
+		"magenta": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:magenta_concrete_powder"
+					}
+				]
+			}
+		},
+		"light_blue": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:light_blue_concrete_powder"
+					}
+				]
+			}
+		},
+		"yellow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:yellow_concrete_powder"
+					}
+				]
+			}
+		},
+		"lime": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:lime_concrete_powder"
+					}
+				]
+			}
+		},
+		"pink": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:pink_concrete_powder"
+					}
+				]
+			}
+		},
+		"gray": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:gray_concrete_powder"
+					}
+				]
+			}
+		},
+		"light_gray": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:light_gray_concrete_powder"
+					}
+				]
+			}
+		},
+		"cyan": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:cyan_concrete_powder"
+					}
+				]
+			}
+		},
+		"purple": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:purple_concrete_powder"
+					}
+				]
+			}
+		},
+		"blue": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:blue_concrete_powder"
+					}
+				]
+			}
+		},
+		"brown": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:brown_concrete_powder"
+					}
+				]
+			}
+		},
+		"green": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:green_concrete_powder"
+					}
+				]
+			}
+		},
+		"red": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:red_concrete_powder"
+					}
+				]
+			}
+		},
+		"black": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:black_concrete_powder"
+					}
+				]
+			}
+		}
+	}
+}

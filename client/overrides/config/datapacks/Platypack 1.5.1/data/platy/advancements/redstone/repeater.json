@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:repeater"
+		},
+		"title": "Repeat Yourself",
+		"description": "Extend a signal"
+	},
+	"parent": "platy:redstone/redstone_torch",
+	"criteria": {
+		"repeater": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"block": "minecraft:repeater"
+			}
+		}
+	}
+}

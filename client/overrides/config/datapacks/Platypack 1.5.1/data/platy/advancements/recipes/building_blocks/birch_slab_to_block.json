@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:birch_slab_to_block"
+		]
+	},
+	"criteria": {
+		"has_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:birch_slab"
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:birch_slab_to_block"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_slab",
+			"has_recipe"
+		]
+	]
+}

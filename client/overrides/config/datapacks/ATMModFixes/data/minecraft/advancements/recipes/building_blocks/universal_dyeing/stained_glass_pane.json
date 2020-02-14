@@ -1,0 +1,53 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_block": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "universal_dyeing:stained_glass_pane"
+                    }
+                ]
+            }
+        },
+        "has_dye": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "universal_dyeing:dyes"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_block"
+        ],
+        [
+            "has_dye"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "universal_dyeing:white_stained_glass_pane",
+            "universal_dyeing:orange_stained_glass_pane",
+            "universal_dyeing:magenta_stained_glass_pane",
+            "universal_dyeing:light_blue_stained_glass_pane",
+            "universal_dyeing:yellow_stained_glass_pane",
+            "universal_dyeing:lime_stained_glass_pane",
+            "universal_dyeing:pink_stained_glass_pane",
+            "universal_dyeing:gray_stained_glass_pane",
+            "universal_dyeing:light_gray_stained_glass_pane",
+            "universal_dyeing:cyan_stained_glass_pane",
+            "universal_dyeing:purple_stained_glass_pane",
+            "universal_dyeing:blue_stained_glass_pane",
+            "universal_dyeing:brown_stained_glass_pane",
+            "universal_dyeing:green_stained_glass_pane",
+            "universal_dyeing:red_stained_glass_pane",
+            "universal_dyeing:black_stained_glass_pane"
+        ]
+    }
+}

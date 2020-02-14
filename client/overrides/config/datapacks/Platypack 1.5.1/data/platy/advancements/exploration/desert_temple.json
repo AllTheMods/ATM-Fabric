@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:chiseled_sandstone"
+		},
+		"title": "Grave Robber",
+		"description": "Enter a desert temple"
+	},
+	"parent": "platy:exploration/husk",
+	"criteria": {
+		"desert_pyramid": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"feature": "desert_pyramid"
+			}
+		}
+	}
+}

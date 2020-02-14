@@ -1,0 +1,81 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:bow",
+			"nbt": "{Enchantments:[{id:'minecraft:lure'}]}"
+		},
+		"title": "Master Sniper",
+		"description": "Create a perfect bow",
+		"frame": "challenge"
+	},
+	"parent": "minecraft:story/mending",
+	"rewards": {
+		"experience": 100
+	},
+	"criteria": {
+		"perfect_bow_infinity": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:bow",
+					"enchantments": [{
+							"enchantment": "minecraft:power",
+							"levels": 5
+						},
+						{
+							"enchantment": "minecraft:punch",
+							"levels": 2
+						},
+						{
+							"enchantment": "minecraft:flame",
+							"levels": 1
+						},
+						{
+							"enchantment": "minecraft:infinity",
+							"levels": 1
+						},
+						{
+							"enchantment": "minecraft:unbreaking",
+							"levels": 3
+						}
+					]
+				}]
+			}
+		},
+		"perfect_bow_mending": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:bow",
+					"enchantments": [{
+							"enchantment": "minecraft:power",
+							"levels": 5
+						},
+						{
+							"enchantment": "minecraft:punch",
+							"levels": 2
+						},
+						{
+							"enchantment": "minecraft:flame",
+							"levels": 1
+						},
+						{
+							"enchantment": "minecraft:mending",
+							"levels": 1
+						},
+						{
+							"enchantment": "minecraft:unbreaking",
+							"levels": 3
+						}
+					]
+				}]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"perfect_bow_infinity",
+			"perfect_bow_mending"
+		]
+	]
+}

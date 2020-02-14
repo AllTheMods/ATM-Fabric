@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:quartz_from_stonecutting"
+		]
+	},
+	"criteria": {
+		"has_nether_quartz_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:nether_quartz_ore"
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:quartz_from_stonecutting"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_nether_quartz_ore",
+			"has_recipe"
+		]
+	]
+}

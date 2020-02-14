@@ -1,0 +1,28 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:flint_and_steel"
+		},
+		"title": "Newton's Flaming Laser Sword",
+		"description": "Have a diamond sword with Fire Aspect II"
+	},
+	"parent": "minecraft:story/enchant_item",
+	"criteria": {
+		"fire_aspect": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:diamond_sword",
+						"enchantments": [
+							{
+								"enchantment": "minecraft:fire_aspect",
+								"levels": 2
+							}
+						]
+					}
+				]
+			}
+		}
+	}
+}

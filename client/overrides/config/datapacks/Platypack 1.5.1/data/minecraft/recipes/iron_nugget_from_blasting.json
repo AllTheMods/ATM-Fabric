@@ -1,0 +1,11 @@
+{
+	"type": "blasting",
+	"ingredient": [
+		{
+			"tag": "platy:iron_nugget_sources"
+		}
+	],
+	"result": "minecraft:iron_nugget",
+	"experience": 0.1,
+	"cookingtime": 100
+}

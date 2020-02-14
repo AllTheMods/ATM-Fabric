@@ -1,0 +1,15 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:armor_stand"
+		},
+		"title": "Castle Guards",
+		"description": "Place an armor stand to display your armor"
+	},
+	"parent": "platy:building/item_frame",
+	"criteria": {
+		"armor_stand": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

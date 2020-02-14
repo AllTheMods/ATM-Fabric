@@ -1,0 +1,185 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:green_stained_glass_pane"
+		},
+		"title": "A World of Pane",
+		"description": "Collect all 17 glass pane types"
+	},
+	"parent": "platy:collection/glass",
+	"rewards": {
+		"experience": 75
+	},
+	"criteria": {
+		"white": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:white_stained_glass_pane"
+					}
+				]
+			}
+		},
+		"orange": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:orange_stained_glass_pane"
+					}
+				]
+			}
+		},
+		"magenta": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:magenta_stained_glass_pane"
+					}
+				]
+			}
+		},
+		"light_blue": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:light_blue_stained_glass_pane"
+					}
+				]
+			}
+		},
+		"yellow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:yellow_stained_glass_pane"
+					}
+				]
+			}
+		},
+		"lime": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:lime_stained_glass_pane"
+					}
+				]
+			}
+		},
+		"pink": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:pink_stained_glass_pane"
+					}
+				]
+			}
+		},
+		"gray": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:gray_stained_glass_pane"
+					}
+				]
+			}
+		},
+		"light_gray": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:light_gray_stained_glass_pane"
+					}
+				]
+			}
+		},
+		"cyan": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:cyan_stained_glass_pane"
+					}
+				]
+			}
+		},
+		"purple": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:purple_stained_glass_pane"
+					}
+				]
+			}
+		},
+		"blue": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:blue_stained_glass_pane"
+					}
+				]
+			}
+		},
+		"brown": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:brown_stained_glass_pane"
+					}
+				]
+			}
+		},
+		"green": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:green_stained_glass_pane"
+					}
+				]
+			}
+		},
+		"red": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:red_stained_glass_pane"
+					}
+				]
+			}
+		},
+		"black": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:black_stained_glass_pane"
+					}
+				]
+			}
+		},
+		"glass": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:glass_pane"
+					}
+				]
+			}
+		}
+	}
+}

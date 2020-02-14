@@ -1,0 +1,36 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_block": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:gold_block"
+                    }
+                ]
+            }
+        },
+        "has_apple": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:apple"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_block",
+			"has_apple"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "craftable_notch_apples:notch_apple"
+        ]
+    }
+}

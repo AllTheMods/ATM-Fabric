@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:blue_concrete_powder_dyeing"
+		]
+	},
+	"criteria": {
+		"has_blue_dye": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:blue_dye"
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:blue_concrete_powder_dyeing"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_blue_dye",
+			"has_recipe"
+		]
+	]
+}

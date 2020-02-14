@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:furnace_minecart_easy"
+		]
+	},
+	"criteria": {
+		"has_minecart": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:minecart"
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:furnace_minecart_easy"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_minecart",
+			"has_recipe"
+		]
+	]
+}

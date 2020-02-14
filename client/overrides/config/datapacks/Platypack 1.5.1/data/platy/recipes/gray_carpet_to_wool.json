@@ -1,0 +1,18 @@
+{
+	"type": "crafting_shaped",
+	"group": "carpet_to_wool",
+	"pattern": [
+		"#",
+		"#",
+		"#"
+	],
+	"key": {
+		"#": {
+			"item": "minecraft:gray_carpet"
+		}
+	},
+	"result": {
+		"item": "minecraft:gray_wool",
+		"count": 2
+	}
+}

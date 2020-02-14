@@ -1,0 +1,16 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:iron_block"
+		},
+		"title": "The Iron Giant",
+		"description": "Be killed by an iron golem defending its village",
+		"frame": "goal"
+	},
+	"parent": "platy:village/build_iron_golem",
+	"criteria": {
+		"a": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

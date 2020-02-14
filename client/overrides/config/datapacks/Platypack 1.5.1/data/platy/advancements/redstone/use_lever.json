@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:lever"
+		},
+		"title": "Flip the Switch!",
+		"description": "Craft and place a lever"
+	},
+	"parent": "platy:redstone/root",
+	"criteria": {
+		"lever": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item": "minecraft:lever"
+				}
+			}
+		}
+	}
+}

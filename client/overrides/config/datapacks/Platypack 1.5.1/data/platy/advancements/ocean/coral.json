@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:fire_coral"
+		},
+		"title": "Cooorrraallll",
+		"description": "Collect some coral"
+	},
+	"parent": "platy:ocean/green_in_the_blue",
+	"criteria": {
+		"coral": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"tag": "platy:corals"
+					}
+				]
+			}
+		}
+	}
+}

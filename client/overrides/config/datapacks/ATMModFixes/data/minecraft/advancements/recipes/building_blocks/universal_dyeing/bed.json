@@ -1,0 +1,53 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_block": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "universal_dyeing:bed"
+                    }
+                ]
+            }
+        },
+        "has_dye": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "universal_dyeing:dyes"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_block"
+        ],
+        [
+            "has_dye"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "universal_dyeing:white_bed",
+            "universal_dyeing:orange_bed",
+            "universal_dyeing:magenta_bed",
+            "universal_dyeing:light_blue_bed",
+            "universal_dyeing:yellow_bed",
+            "universal_dyeing:lime_bed",
+            "universal_dyeing:pink_bed",
+            "universal_dyeing:gray_bed",
+            "universal_dyeing:light_gray_bed",
+            "universal_dyeing:cyan_bed",
+            "universal_dyeing:purple_bed",
+            "universal_dyeing:blue_bed",
+            "universal_dyeing:brown_bed",
+            "universal_dyeing:green_bed",
+            "universal_dyeing:red_bed",
+            "universal_dyeing:black_bed"
+        ]
+    }
+}

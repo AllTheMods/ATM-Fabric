@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:oak_sapling"
+		]
+	},
+	"criteria": {
+		"has_leaves": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:oak_leaves"
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:oak_sapling"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_leaves",
+			"has_recipe"
+		]
+	]
+}

@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:lectern"
+		},
+		"title": "Published Author",
+		"description": "Place a lectern to display books"
+	},
+	"parent": "platy:exploration/write_book",
+	"criteria": {
+		"lectern": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item": "minecraft:lectern"
+				}
+			}
+		}
+	}
+}

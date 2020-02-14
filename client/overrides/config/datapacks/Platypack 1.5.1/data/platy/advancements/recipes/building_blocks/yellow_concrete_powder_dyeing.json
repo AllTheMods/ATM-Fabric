@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:yellow_concrete_powder_dyeing"
+		]
+	},
+	"criteria": {
+		"has_yellow_dye": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:yellow_dye"
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:yellow_concrete_powder_dyeing"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_yellow_dye",
+			"has_recipe"
+		]
+	]
+}

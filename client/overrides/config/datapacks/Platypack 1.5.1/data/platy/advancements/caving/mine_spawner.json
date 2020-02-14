@@ -1,0 +1,15 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:spawner"
+		},
+		"title": "Unthinkable",
+		"description": "Break a spawner"
+	},
+	"parent": "platy:caving/mineshaft",
+	"criteria": {
+		"mine_spawner": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

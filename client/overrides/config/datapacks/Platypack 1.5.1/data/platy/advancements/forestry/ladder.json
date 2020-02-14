@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:ladder"
+		},
+		"title": "Climbing the Ranks",
+		"description": "Climb up a ladder"
+	},
+	"parent": "platy:forestry/poke_poke",
+	"criteria": {
+		"scaffolding": {
+			"trigger": "minecraft:enter_block",
+			"conditions": {
+				"block": "minecraft:ladder"
+			}
+		}
+	}
+}

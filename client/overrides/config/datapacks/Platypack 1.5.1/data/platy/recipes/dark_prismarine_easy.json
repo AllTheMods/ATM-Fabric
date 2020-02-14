@@ -1,0 +1,21 @@
+{
+	"type": "crafting_shaped",
+	"group": "dark_prismarine",
+	"pattern": [
+		"#",
+		"X",
+		"#"
+	],
+	"key": {
+		"#": {
+			"item": "minecraft:prismarine"
+		},
+		"X": {
+			"tag": "platy:black_dyes"
+		}
+	},
+	"result": {
+		"item": "minecraft:dark_prismarine",
+		"count": 1
+	}
+}

@@ -1,0 +1,65 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:jungle_leaves"
+		},
+		"title": "Welcome to the Jungle",
+		"description": "Enter a jungle biome"
+	},
+	"parent": "platy:exploration/root",
+	"criteria": {
+		"jungle": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome": "minecraft:jungle"
+			}
+		},
+		"jungle_hills": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome": "minecraft:jungle_hills"
+			}
+		},
+		"jungle_edge": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome": "minecraft:jungle_edge"
+			}
+		},
+		"modified_jungle": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome": "minecraft:modified_jungle"
+			}
+		},
+		"modified_jungle_edge": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome": "minecraft:modified_jungle_edge"
+			}
+		},
+		"bamboo_jungle": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome": "minecraft:bamboo_jungle"
+			}
+		},
+		"bamboo_jungle_hills": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome": "minecraft:bamboo_jungle_hills"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"jungle",
+			"jungle_hills",
+			"jungle_edge",
+			"modified_jungle",
+			"modified_jungle_edge",
+			"bamboo_jungle",
+			"bamboo_jungle_hills"
+		]
+	]
+}

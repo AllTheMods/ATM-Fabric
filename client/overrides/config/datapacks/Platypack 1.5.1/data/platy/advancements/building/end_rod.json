@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:end_rod"
+		},
+		"title": "Pillar of Light",
+		"description": "Light up the area with end rods"
+	},
+	"parent": "platy:building/sea_lantern",
+	"criteria": {
+		"end_rod": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"block": "minecraft:end_rod"
+			}
+		}
+	}
+}

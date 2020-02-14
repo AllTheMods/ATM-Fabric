@@ -1,1 +1,0 @@
-scoreboard objectives add boatRiddenP minecraft.custom:minecraft.boat_one_cm

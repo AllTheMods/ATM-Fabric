@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:bamboo"
+		},
+		"title": "Bamboo Baby",
+		"description": "Breed some pandas",
+		"frame": "goal"
+	},
+	"parent": "platy:exploration/jungle_tree",
+	"criteria": {
+		"breed_panda": {
+			"trigger": "minecraft:bred_animals",
+			"conditions": {
+				"parent": {
+					"type": "minecraft:panda"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,79 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:crossbow",
+			"nbt": "{Enchantments:[{id:'minecraft:lure'}]}"
+		},
+		"title": "Sharpshooter",
+		"description": "Create a perfect crossbow",
+		"frame": "challenge"
+	},
+	"parent": "platy:combat/crossbow",
+	"rewards": {
+		"experience": 100
+	},
+	"criteria": {
+		"piercing_crossbow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:crossbow",
+						"enchantments": [
+							{
+								"enchantment": "minecraft:quick_charge",
+								"levels": 3
+							},
+							{
+								"enchantment": "minecraft:piercing",
+								"levels": 4
+							},
+							{
+								"enchantment": "minecraft:unbreaking",
+								"levels": 3
+							},	
+							{
+								"enchantment": "minecraft:mending",
+								"levels": 1
+							}
+						]
+					}
+				]
+			}
+		},
+		"multishot_crossbow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:crossbow",
+						"enchantments": [
+							{
+								"enchantment": "minecraft:quick_charge",
+								"levels": 3
+							},
+							{
+								"enchantment": "minecraft:multishot",
+								"levels": 1
+							},
+							{
+								"enchantment": "minecraft:unbreaking",
+								"levels": 3
+							},	
+							{
+								"enchantment": "minecraft:mending",
+								"levels": 1
+							}
+						]
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"piercing_crossbow",
+			"multishot_crossbow"
+		]
+	]
+}

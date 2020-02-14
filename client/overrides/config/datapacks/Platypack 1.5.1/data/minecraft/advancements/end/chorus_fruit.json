@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:chorus_fruit"
+		},
+		"title": "Choir Class",
+		"description": "Eat chorus fruit then reorient yourself"
+	},
+	"parent": "minecraft:end/enter_end_gateway",
+	"criteria": {
+		"chorus_fruit": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:chorus_fruit"
+				}
+			}
+		}
+	}
+}

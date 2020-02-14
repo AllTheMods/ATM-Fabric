@@ -1,0 +1,15 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:note_block"
+		},
+		"title": "Musician",
+		"description": "Tune a note block"
+	},
+	"parent": "platy:redstone/root",
+	"criteria": {
+		"tune": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

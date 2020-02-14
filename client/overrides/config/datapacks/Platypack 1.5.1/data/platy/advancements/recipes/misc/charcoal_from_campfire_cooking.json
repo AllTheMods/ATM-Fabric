@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"minecraft:charcoal_from_campfire_cooking"
+		]
+	},
+	"criteria": {
+		"has_log": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "minecraft:logs"
+				}]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "minecraft:charcoal_from_campfire_cooking"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_log",
+			"has_the_recipe"
+		]
+	]
+}

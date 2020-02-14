@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:cobblestone_from_wall"
+		]
+	},
+	"criteria": {
+		"has_cobblestone_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:cobblestone_wall"
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:cobblestone_from_wall"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_cobblestone_wall",
+			"has_recipe"
+		]
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:clay_ball"
+		]
+	},
+	"criteria": {
+		"has_clay": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:clay"
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:clay_ball"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_clay",
+			"has_recipe"
+		]
+	]
+}

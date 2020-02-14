@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:mossy_cobblestone"
+		},
+		"title": "Ancient Power",
+		"description": "Enter a jungle temple"
+	},
+	"parent": "platy:exploration/jungle_biome",
+	"criteria": {
+		"jungle_pyramid": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"feature": "jungle_pyramid"
+			}
+		}
+	}
+}

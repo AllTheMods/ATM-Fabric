@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:oak_log"
+		},
+		"title": "Log Off",
+		"description": "Collect a log from a tree"
+	},
+	"parent": "platy:forestry/root",
+	"criteria": {
+		"log": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "platy:normal_logs"
+				}]
+			}
+		}
+	}
+}

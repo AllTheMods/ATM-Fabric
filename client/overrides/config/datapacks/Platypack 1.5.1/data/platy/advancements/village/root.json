@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:oak_door"
+		},
+		"title": "Villages",
+		"description": "Hrrmm",
+		"background": "minecraft:textures/block/oak_planks.png",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"village": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"feature": "village"
+			}
+		}
+	}
+}

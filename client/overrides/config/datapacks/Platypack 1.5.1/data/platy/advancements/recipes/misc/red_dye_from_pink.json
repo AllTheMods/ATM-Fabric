@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:red_dye_from_pink"
+		]
+	},
+	"criteria": {
+		"has_pink": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:pink_dye"
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:red_dye_from_pink"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_pink",
+			"has_recipe"
+		]
+	]
+}

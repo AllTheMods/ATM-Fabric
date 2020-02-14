@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:horn_coral_fan"
+		]
+	},
+	"criteria": {
+		"has_coral": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:horn_coral"
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:horn_coral_fan"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_coral",
+			"has_recipe"
+		]
+	]
+}

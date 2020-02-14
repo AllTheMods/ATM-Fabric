@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:brain_coral_block"
+		]
+	},
+	"criteria": {
+		"has_coral": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:brain_coral"
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:brain_coral_block"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_coral",
+			"has_recipe"
+		]
+	]
+}

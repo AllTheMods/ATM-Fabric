@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:cocoa_beans"
+		},
+		"title": "Coocoo for Cocoa Beans",
+		"description": "Plant some cocoa beans"
+	},
+	"parent": "platy:exploration/tame_parrot",
+	"criteria": {
+		"cocoa_beans": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item": "minecraft:cocoa_beans"
+				}
+			}
+		}
+	}
+}

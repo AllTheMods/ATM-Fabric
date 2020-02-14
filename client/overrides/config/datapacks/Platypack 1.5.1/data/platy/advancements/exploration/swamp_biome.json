@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:vine"
+		},
+		"title": "Swampy Marsh",
+		"description": "Enter a swamp biome"
+	},
+	"parent": "platy:exploration/root",
+	"criteria": {
+		"swamp": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome": "minecraft:swamp"
+			}
+		},
+		"swamp_hills": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome": "minecraft:swamp_hills"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"swamp",
+			"swamp_hills"
+		]
+	]
+}

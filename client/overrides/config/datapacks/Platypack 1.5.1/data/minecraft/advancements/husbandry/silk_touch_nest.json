@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:beehive"
+		},
+		"title": "Apiarist",
+		"description": "Safely transport a hive with three bees"
+	},
+	"parent": "minecraft:husbandry/breed_bees",
+	"criteria": {
+		"silk_nest": {
+			"trigger": "minecraft:bee_nest_destroyed",
+			"conditions": {
+				"tag": "minecraft:beehives",
+				"item": {
+					"enchantments": [{
+						"enchantment": "minecraft:silk_touch",
+						"levels": {
+							"min": 1
+						}
+					}]
+				},
+				"num_bees_inside": 3
+			}
+		}
+	}
+}

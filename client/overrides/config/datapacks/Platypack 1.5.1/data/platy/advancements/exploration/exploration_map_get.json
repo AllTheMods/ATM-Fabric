@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:filled_map",
+			"nbt": "{display:{MapColor:3830373}}"
+		},
+		"title": "Now, How Do We Get There?",
+		"description": "Buy an explorer map from a cartographer"
+	},
+	"parent": "platy:exploration/root",
+	"criteria": {
+		"trade": {
+			"trigger": "minecraft:villager_trade",
+			"conditions": {
+				"item": {
+					"item": "minecraft:filled_map",
+					"nbt": "{Decorations:[{id:'+'}]}"
+				}
+			}
+		}
+	}
+}

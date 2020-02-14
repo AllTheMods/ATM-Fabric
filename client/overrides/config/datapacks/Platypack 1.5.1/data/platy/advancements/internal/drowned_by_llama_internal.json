@@ -1,0 +1,43 @@
+{
+	"rewards": {
+		"function": "platy:advancements/llama"
+	},
+	"criteria": {
+		"killed_by": {
+			"trigger": "entity_killed_player",
+			"conditions": {
+				"entity": {
+					"type": "#platy:llamas"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"type": "minecraft:llama_spit"
+					}
+				}
+			}
+		},
+		"hurt_by": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "#platy:llamas"
+					}
+				}
+			}
+		},
+		"used_totem": {
+			"trigger": "minecraft:used_totem"
+		}
+	},
+	"requirements": [
+		[
+			"killed_by",
+			"used_totem"
+		],
+		[
+			"killed_by",
+			"hurt_by"
+		]
+	]
+}

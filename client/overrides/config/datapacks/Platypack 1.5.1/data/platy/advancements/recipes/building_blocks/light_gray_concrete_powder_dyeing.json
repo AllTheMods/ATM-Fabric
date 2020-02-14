@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:light_gray_concrete_powder_dyeing"
+		]
+	},
+	"criteria": {
+		"has_light_gray_dye": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:light_gray_dye"
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:light_gray_concrete_powder_dyeing"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_light_gray_dye",
+			"has_recipe"
+		]
+	]
+}

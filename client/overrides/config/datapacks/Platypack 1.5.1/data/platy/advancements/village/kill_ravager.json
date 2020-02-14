@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:saddle"
+		},
+		"title": "Mighty Foe",
+		"description": "Slay a ravager",
+		"frame": "goal"
+	},
+	"parent": "platy:village/start_raid",
+	"criteria": {
+		"kill_ravager": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:ravager"
+				}
+			}
+		}
+	}
+}

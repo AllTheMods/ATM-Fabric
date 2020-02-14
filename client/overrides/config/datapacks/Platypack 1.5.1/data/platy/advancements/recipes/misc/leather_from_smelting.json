@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:leather_from_smelting"
+		]
+	},
+	"criteria": {
+		"has_rotten_flesh": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:rotten_flesh"
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:leather_from_smelting"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_rotten_flesh",
+			"has_recipe"
+		]
+	]
+}

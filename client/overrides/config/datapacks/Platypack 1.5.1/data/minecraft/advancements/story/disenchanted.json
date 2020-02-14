@@ -1,0 +1,15 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:grindstone"
+		},
+		"title": "Disenchanted",
+		"description": "Use a grindstone"
+	},
+	"parent": "minecraft:story/enchant_item",
+	"criteria": {
+		"a": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

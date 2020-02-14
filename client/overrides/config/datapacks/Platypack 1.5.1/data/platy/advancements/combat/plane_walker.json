@@ -1,0 +1,46 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:ender_pearl"
+		},
+		"title": "Plane Walker",
+		"description": "Kill an enderman in all three dimensions",
+		"frame": "goal"
+	},
+	"parent": "platy:combat/kill_monster",
+	"criteria": {
+		"overworld": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:enderman",
+					"location": {
+						"dimension": "overworld"
+					}
+				}
+			}
+		},
+		"nether": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:enderman",
+					"location": {
+						"dimension": "the_nether"
+					}
+				}
+			}
+		},
+		"end": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:enderman",
+					"location": {
+						"dimension": "the_end"
+					}
+				}
+			}
+		}
+	}
+}

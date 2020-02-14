@@ -1,0 +1,18 @@
+{
+	"type": "crafting_shaped",
+	"group": "glass_panes_to_glass",
+	"pattern": [
+		"###",
+		"# #",
+		"###"
+	],
+	"key": {
+		"#": {
+			"item": "minecraft:black_stained_glass_pane"
+		}
+	},
+	"result": {
+		"item": "minecraft:black_stained_glass",
+		"count": 3
+	}
+}

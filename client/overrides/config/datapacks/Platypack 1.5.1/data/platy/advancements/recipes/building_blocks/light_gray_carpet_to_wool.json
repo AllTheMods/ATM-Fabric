@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:light_gray_carpet_to_wool"
+		]
+	},
+	"criteria": {
+		"has_light_gray_carpet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:light_gray_carpet"
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:light_gray_carpet_to_wool"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_light_gray_carpet",
+			"has_recipe"
+		]
+	]
+}

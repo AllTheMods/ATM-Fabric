@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:dark_prismarine_easy"
+		]
+	},
+	"criteria": {
+		"has_prismarine": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:prismarine"
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:dark_prismarine_easy"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_prismarine",
+			"has_recipe"
+		]
+	]
+}

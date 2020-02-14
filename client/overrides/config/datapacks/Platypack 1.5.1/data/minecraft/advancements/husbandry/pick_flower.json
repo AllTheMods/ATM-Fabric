@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:poppy"
+		},
+		"title": "Flower Power",
+		"description": "Pick a flower"
+	},
+	"parent": "minecraft:husbandry/root",
+	"criteria": {
+		"flower": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"tag": "minecraft:flowers"
+					}
+				]
+			}
+		}
+	}
+}

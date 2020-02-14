@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:pink_concrete_powder_dyeing"
+		]
+	},
+	"criteria": {
+		"has_pink_dye": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:pink_dye"
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:pink_concrete_powder_dyeing"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_pink_dye",
+			"has_recipe"
+		]
+	]
+}

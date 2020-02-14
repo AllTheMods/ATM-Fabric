@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:quartz_block_from_pillar"
+		]
+	},
+	"criteria": {
+		"has_quartz_pillar": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:quartz_pillar"
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:quartz_block_from_pillar"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_quartz_pillar",
+			"has_recipe"
+		]
+	]
+}

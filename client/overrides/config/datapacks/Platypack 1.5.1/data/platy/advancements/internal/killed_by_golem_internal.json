@@ -1,0 +1,38 @@
+{
+	"rewards": {
+		"function": "platy:advancements/iron_golem"
+	},
+	"criteria": {
+		"killed_by": {
+			"trigger": "entity_killed_player",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:iron_golem"
+				}
+			}
+		},
+		"hurt_by": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:iron_golem"
+					}
+				}
+			}
+		},
+		"used_totem": {
+			"trigger": "minecraft:used_totem"
+		}
+	},
+	"requirements": [
+		[
+			"killed_by",
+			"used_totem"
+		],
+		[
+			"killed_by",
+			"hurt_by"
+		]
+	]
+}

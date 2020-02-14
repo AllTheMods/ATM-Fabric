@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:chicken"
+		},
+		"title": "Belyaevian",
+		"description": "Breed foxes with sweet berries"
+	},
+	"parent": "platy:exploration/sweet_berries",
+	"criteria": {
+		"breed_fox": {
+			"trigger": "minecraft:bred_animals",
+			"conditions": {
+				"parent": {
+					"type": "minecraft:fox"
+				}
+			}
+		}
+	}
+}

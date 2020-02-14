@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:brain_coral_fan"
+		},
+		"title": "Cooler Coral",
+		"description": "Collect some coral fans"
+	},
+	"parent": "platy:ocean/coral",
+	"criteria": {
+		"coral_fan": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"tag": "platy:coral_fans"
+					}
+				]
+			}
+		}
+	}
+}

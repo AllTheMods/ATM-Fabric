@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:saddle"
+		},
+		"title": "Saddle Up",
+		"description": "Tame a horse"
+	},
+	"parent": "platy:livestock/best_friends_forever",
+	"criteria": {
+		"horse": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "#platy:horses"
+				}
+			}
+		}
+	}
+}

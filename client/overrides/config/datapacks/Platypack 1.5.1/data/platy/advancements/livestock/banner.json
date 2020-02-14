@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:white_banner"
+		},
+		"title": "Banner Hammer",
+		"description": "Craft a banner"
+	},
+	"parent": "platy:livestock/use_shears",
+	"criteria": {
+		"banner": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"tag": "minecraft:banners"
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,1 +1,0 @@
-execute as @a[advancements={custom:building/armor_stand=false}] if score @s placeArmorStandP matches 1.. run advancement grant @s only custom:building/armor_stand

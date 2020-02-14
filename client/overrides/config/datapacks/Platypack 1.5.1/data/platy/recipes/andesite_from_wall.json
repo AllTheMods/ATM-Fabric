@@ -1,0 +1,17 @@
+{
+	"type": "crafting_shaped",
+	"group": "andesite",
+	"pattern": [
+		"#",
+		"#"
+	],
+	"key": {
+		"#": {
+			"item": "minecraft:andesite_wall"
+		}
+	},
+	"result": {
+		"item": "minecraft:andesite",
+		"count": 2
+	}
+}

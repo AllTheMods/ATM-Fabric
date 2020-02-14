@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": {
+		"item": "minecraft:coal_ore"
+	},
+	"result": "minecraft:coal",
+	"count": 1
+}

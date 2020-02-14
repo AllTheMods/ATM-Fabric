@@ -1,6 +1,4 @@
-# ATM-Fabric [![Discord][discordImg]][discordLink] [![Curseforge][curseImg]][curseLink] [![Reddit][redditImg]][redditLink]
-
-## All The Mods Fabric Edition
+# All The Mods Fabric Edition [![Discord][discordImg]][discordLink] [![Curseforge][curseImg]][curseLink] [![Reddit][redditImg]][redditLink]
 
 This is the official repository and issue-tracker for All The Mods Fabric
   

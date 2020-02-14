@@ -1,1 +1,0 @@
-scoreboard objectives add noteblockTunedP minecraft.custom:minecraft.tune_noteblock

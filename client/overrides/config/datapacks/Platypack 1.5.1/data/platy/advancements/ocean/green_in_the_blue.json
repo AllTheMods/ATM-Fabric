@@ -1,0 +1,46 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:seagrass"
+		},
+		"title": "Green in the Blue",
+		"description": "Swim in sea grass and kelp"
+	},
+	"parent": "platy:ocean/root",
+	"criteria": {
+		"seagrass": {
+			"trigger": "minecraft:enter_block",
+			"conditions": {
+				"block": "minecraft:seagrass"
+			}
+		},
+		"tall_seagrass": {
+			"trigger": "minecraft:enter_block",
+			"conditions": {
+				"block": "minecraft:tall_seagrass"
+			}
+		},
+		"kelp": {
+			"trigger": "minecraft:enter_block",
+			"conditions": {
+				"block": "minecraft:kelp"
+			}
+		},
+		"kelp_plant": {
+			"trigger": "minecraft:enter_block",
+			"conditions": {
+				"block": "minecraft:kelp_plant"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"seagrass",
+			"tall_seagrass"
+		],
+		[
+			"kelp",
+			"kelp_plant"
+		]
+	]
+}

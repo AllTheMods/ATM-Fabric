@@ -1,1 +1,0 @@
-execute if predicate quartus:1_of_32 run function under_over:dungeon_location_start

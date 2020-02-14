@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:green_dye_from_lime"
+		]
+	},
+	"criteria": {
+		"has_lime": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:lime_dye"
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:green_dye_from_lime"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_lime",
+			"has_recipe"
+		]
+	]
+}

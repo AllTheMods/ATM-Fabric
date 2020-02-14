@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:acacia_planks"
+		},
+		"title": "Planking",
+		"description": "Craft wooden planks"
+	},
+	"parent": "platy:forestry/log",
+	"criteria": {
+		"planks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "minecraft:planks"
+				}]
+			}
+		}
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:obsidian"
+		},
+		"title": {
+			"translate": "advancements.story.form_obsidian.title"
+		},
+		"description": "Form and mine a block of obsidian"
+	},
+	"parent": "minecraft:story/lava_bucket",
+	"criteria": {
+		"obsidian": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:obsidian"
+					}
+				]
+			}
+		}
+	}
+}

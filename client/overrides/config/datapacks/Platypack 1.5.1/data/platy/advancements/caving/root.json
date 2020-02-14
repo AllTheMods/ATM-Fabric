@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:stone"
+		},
+		"title": "Caving",
+		"description": "In the depths of Minecraft",
+		"background": "minecraft:textures/block/stone.png",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"cave_air": {
+			"trigger": "minecraft:enter_block",
+			"conditions": {
+				"block": "minecraft:cave_air"
+			}
+		}
+	}
+}

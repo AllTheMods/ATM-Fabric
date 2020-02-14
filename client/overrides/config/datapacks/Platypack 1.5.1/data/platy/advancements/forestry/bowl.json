@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:bowl"
+		},
+		"title": "Bowling",
+		"description": "Craft a bowl"
+	},
+	"parent": "platy:forestry/planks",
+	"criteria": {
+		"bowl": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:bowl"
+				}]
+			}
+		}
+	}
+}

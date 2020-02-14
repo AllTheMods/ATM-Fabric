@@ -1,9 +1,0 @@
-{
-	"type": "smelting",
-	"ingredient": {
-		"item": "minecraft:phantom_membrane"
-	},
-	"result": "minecraft:light_gray_dye",
-	"experience": 1.0,
-	"cookingtime": 200
-}

@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:conduit"
+		},
+		"title": "Open Your Eyes",
+		"description": "Discover the power of the conduit",
+		"frame": "goal"
+	},
+	"parent": "platy:ocean/heart_and_soul",
+	"criteria": {
+		"conduit_power": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"minecraft:conduit_power": {}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,53 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:pufferfish_bucket"
+		},
+		"title": "Live Catch",
+		"description": "Pick up all four types of fish",
+		"frame": "goal"
+	},
+	"parent": "platy:ocean/fish_bucket",
+	"criteria": {
+		"cod": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:cod_bucket"
+					}
+				]
+			}
+		},
+		"salmon": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:salmon_bucket"
+					}
+				]
+			}
+		},
+		"pufferfish": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:pufferfish_bucket"
+					}
+				]
+			}
+		},
+		"tropical_fish": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:tropical_fish_bucket"
+					}
+				]
+			}
+		}
+	}
+}

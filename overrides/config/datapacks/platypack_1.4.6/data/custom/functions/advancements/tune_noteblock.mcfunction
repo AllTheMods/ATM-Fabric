@@ -1,1 +1,0 @@
-execute as @a[advancements={custom:redstone/tune_note_block=false}] if score @s noteblockTunedP matches 1.. run advancement grant @s only custom:redstone/tune_note_block

@@ -1,1 +1,0 @@
-scoreboard objectives add bellRungP minecraft.custom:minecraft.bell_ring

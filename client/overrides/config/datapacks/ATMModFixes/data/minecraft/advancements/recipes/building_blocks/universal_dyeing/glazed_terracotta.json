@@ -1,0 +1,53 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_block": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "universal_dyeing:glazed_terracotta"
+                    }
+                ]
+            }
+        },
+        "has_dye": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "universal_dyeing:dyes"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_block"
+        ],
+        [
+            "has_dye"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "universal_dyeing:white_glazed_terracotta",
+            "universal_dyeing:orange_glazed_terracotta",
+            "universal_dyeing:magenta_glazed_terracotta",
+            "universal_dyeing:light_blue_glazed_terracotta",
+            "universal_dyeing:yellow_glazed_terracotta",
+            "universal_dyeing:lime_glazed_terracotta",
+            "universal_dyeing:pink_glazed_terracotta",
+            "universal_dyeing:gray_glazed_terracotta",
+            "universal_dyeing:light_gray_glazed_terracotta",
+            "universal_dyeing:cyan_glazed_terracotta",
+            "universal_dyeing:purple_glazed_terracotta",
+            "universal_dyeing:blue_glazed_terracotta",
+            "universal_dyeing:brown_glazed_terracotta",
+            "universal_dyeing:green_glazed_terracotta",
+            "universal_dyeing:red_glazed_terracotta",
+            "universal_dyeing:black_glazed_terracotta"
+        ]
+    }
+}

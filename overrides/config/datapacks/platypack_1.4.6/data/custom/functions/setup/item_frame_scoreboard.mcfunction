@@ -1,1 +1,0 @@
-scoreboard objectives add placedItemFrameP minecraft.used:minecraft.item_frame

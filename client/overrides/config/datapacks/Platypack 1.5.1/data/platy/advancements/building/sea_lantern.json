@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:sea_lantern"
+		},
+		"title": "Radiant",
+		"description": "Light up the area with sea lanterns"
+	},
+	"parent": "platy:building/glowstone",
+	"criteria": {
+		"sea_lantern": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"block": "minecraft:sea_lantern"
+			}
+		}
+	}
+}

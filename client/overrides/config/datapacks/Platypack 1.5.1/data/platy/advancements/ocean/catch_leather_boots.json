@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:leather_boots"
+		},
+		"title": "A Bit Cliche",
+		"description": "Reel in leather boots"
+	},
+	"parent": "platy:ocean/fishy_business",
+	"criteria": {
+		"leather_boots": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"item": "minecraft:leather_boots"
+				}
+			}
+		}
+	}
+}

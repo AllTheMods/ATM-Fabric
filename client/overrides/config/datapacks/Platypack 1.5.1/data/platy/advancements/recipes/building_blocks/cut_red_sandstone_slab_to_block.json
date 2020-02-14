@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:cut_red_sandstone_slab_to_block"
+		]
+	},
+	"criteria": {
+		"has_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:cut_red_sandstone_slab"
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:cut_red_sandstone_slab_to_blockc"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_slab",
+			"has_recipe"
+		]
+	]
+}

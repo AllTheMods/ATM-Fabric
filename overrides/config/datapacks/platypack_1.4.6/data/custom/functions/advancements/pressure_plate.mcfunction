@@ -1,1 +1,0 @@
-execute as @a[advancements={custom:redstone/pressure_plate=false}] at @s if block ~ ~ ~ #custom:pressure_plates run advancement grant @s only custom:redstone/pressure_plate

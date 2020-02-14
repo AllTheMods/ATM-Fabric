@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:wither_rose"
+		},
+		"title": "Morbid Bloom",
+		"description": "Collect a wither rose"
+	},
+	"parent": "minecraft:nether/summon_wither",
+	"criteria": {
+		"wither_rose": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:wither_rose"
+				}]
+			}
+		}
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "clock"
+		},
+		"title": "What Time Is It?",
+		"description": "Time for you to get a watch!"
+	},
+	"parent": "minecraft:story/iron_tools",
+	"criteria": {
+		"clock": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:clock"
+					}
+				]
+			}
+		}
+	}
+}

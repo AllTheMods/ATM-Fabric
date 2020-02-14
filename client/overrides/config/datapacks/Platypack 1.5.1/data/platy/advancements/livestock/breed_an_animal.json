@@ -1,0 +1,17 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:wheat"
+		},
+		"title": "The Parrots and the Bees",
+		"description": {
+			"translate": "advancements.husbandry.breed_an_animal.description"
+		}
+	},
+	"parent": "platy:livestock/root",
+	"criteria": {
+		"breed_animals": {
+			"trigger": "minecraft:bred_animals"
+		}
+	}
+}

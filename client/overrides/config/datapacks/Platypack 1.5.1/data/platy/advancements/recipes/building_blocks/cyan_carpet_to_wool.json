@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:cyan_carpet_to_wool"
+		]
+	},
+	"criteria": {
+		"has_cyan_carpet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:cyan_carpet"
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:cyan_carpet_to_wool"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_cyan_carpet",
+			"has_recipe"
+		]
+	]
+}

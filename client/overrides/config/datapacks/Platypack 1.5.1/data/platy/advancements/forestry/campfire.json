@@ -1,0 +1,15 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:campfire"
+		},
+		"title": "Crackling Cook",
+		"description": "Create a campfire"
+	},
+	"parent": "platy:forestry/poke_poke",
+	"criteria": {
+		"cook": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

@@ -1,0 +1,14 @@
+{
+	// Should the screen appear on the next Start?
+	"enable": false,
+	// The header of the message
+	"header": "Put the header here",
+	// The body of the message
+	"body": "Put the body here",
+	// The text on the button
+	"buttonText": "Put button text here",
+	// Optional: Adds a second button with a link that can be opened. Leave blank to disable the button
+	"linkAddress": "",
+	// Text on the link button
+	"linkText": "Put link text here"
+}

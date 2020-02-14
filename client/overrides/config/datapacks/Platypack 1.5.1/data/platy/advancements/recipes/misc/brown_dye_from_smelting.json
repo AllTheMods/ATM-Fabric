@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:brown_dye_from_smelting"
+		]
+	},
+	"criteria": {
+		"has_brown_mushroom": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:brown_mushroom"
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:brown_dye_from_smelting"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_brown_mushroom",
+			"has_recipe"
+		]
+	]
+}

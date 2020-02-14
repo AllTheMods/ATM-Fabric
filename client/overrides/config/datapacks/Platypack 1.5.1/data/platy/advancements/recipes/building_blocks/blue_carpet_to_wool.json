@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:blue_carpet_to_wool"
+		]
+	},
+	"criteria": {
+		"has_blue_carpet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:blue_carpet"
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:blue_carpet_to_wool"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_blue_carpet",
+			"has_recipe"
+		]
+	]
+}

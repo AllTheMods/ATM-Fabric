@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"platy:iron_ore"
+		]
+	},
+	"criteria": {
+		"has_iron": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:iron_ingot"
+				}]
+			}
+		},
+		"has_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "platy:iron_ore"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_iron",
+			"has_recipe"
+		]
+	]
+}

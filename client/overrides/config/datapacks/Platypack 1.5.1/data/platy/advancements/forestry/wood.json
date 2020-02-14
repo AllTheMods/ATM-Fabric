@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:dark_oak_wood"
+		},
+		"title": "Woof",
+		"description": "Create a block of bark"
+	},
+	"parent": "platy:forestry/log",
+	"criteria": {
+		"wood": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "platy:woods"
+				}]
+			}
+		}
+	}
+}

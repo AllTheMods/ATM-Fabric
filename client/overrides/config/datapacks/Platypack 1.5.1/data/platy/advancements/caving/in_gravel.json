@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:gravel"
+		},
+		"title": "Attack from Above",
+		"description": "Suffocate in gravel"
+	},
+	"parent": "platy:caving/root",
+	"criteria": {
+		"gravel": {
+			"trigger": "minecraft:enter_block",
+			"conditions": {
+				"block": "minecraft:gravel"
+			}
+		}
+	}
+}

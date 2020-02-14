@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:stonecutter"
+		},
+		"title": "Back from the Dead",
+		"description": "Create a block to cut stone with"
+	},
+	"parent": "platy:building/root",
+	"criteria": {
+		"stonecutter": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item": "minecraft:stonecutter"
+				}
+			}
+		}
+	}
+}

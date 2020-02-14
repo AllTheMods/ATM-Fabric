@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:zombie_head"
+		},
+		"title": "A True Robespierre",
+		"description": "Have a stack of any one skull type in your inventory",
+		"frame": "challenge",
+		"hidden": true
+	},
+	"parent": "platy:combat/monster_skull_1",
+	"rewards": {
+		"experience": 750
+	},
+	"criteria": {
+		"heads": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "platy:heads",
+					"count": 64
+				}]
+			}
+		}
+	}
+}
