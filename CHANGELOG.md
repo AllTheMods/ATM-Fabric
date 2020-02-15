@@ -1,6 +1,12 @@
-# ATMF 1.4.0
-*Is it a new pack? Why is it on Twitch?*    
+# ATMF 2.0.2
+Removed
+- Custom Title Screen
+- Fencw Jumper
 
+# ATMF 2.0.1
+Hotfix for Server Files
+
+# ATMF 2.0.0
 Initial Modpack Re Release
 
 # Older
