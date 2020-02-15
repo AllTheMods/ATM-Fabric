@@ -1,7 +1,7 @@
 # ATMF 2.0.2
 Removed
 - Custom Title Screen
-- Fencw Jumper
+- Fence Jumper
 
 # ATMF 2.0.1
 Hotfix for Server Files
