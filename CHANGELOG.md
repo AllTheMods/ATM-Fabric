@@ -10,5 +10,4 @@ Hotfix for Server Files
 Initial Modpack Re Release
 
 # Older
-*Why weren't these documented? Why did Martmists do this?*"    
 No Changelogs were documented between the Modpack's Release till its Re Release. Try sifting through GitHub Commits however.
