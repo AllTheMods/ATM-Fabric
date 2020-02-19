@@ -8,7 +8,7 @@ This is a guide to help release updates for All The Mods Fabric
 Follow these steps to publish your versions:
 Read `DEV.md` if you have not.
 
-#### Twitch App
+#### Curse VIA Twitch App
 1) Open the Twitch App, go to Mods > Minecraft
 2) Right Click the All The Mods Fabric Instance and click Export Profile
 3) Name the Version the next version of the pack and in the list below select the folders `config`, `data`, and `datapacks`.
@@ -22,5 +22,7 @@ Read `DEV.md` if you have not.
 9) Launch The Instance
 
 #### Server Files
-1) Fork and clone the ATM-Fabric repository to your desktop.
-2) Open the Cloned folder followed by the `server` folder
+1) Open The location of the stored Server Files.
+2) Verify `Missing Bits` is not inside the `mods` folder and if it is delete the JAR.
+3) Select `config`, `datapacks`, `data`, `mods`, `Start.bat`, `server.jar`, `fabric-server-launch.jar` and `eula.txt` and select Sent to ZIP file 
+4) Upload this ZIP to Additional Files on the equilvant Curse Version with the Server Files Flag

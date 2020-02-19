@@ -34,14 +34,13 @@ Follow these steps to setup your workspace:
 7) Click on the Section labeled Minecraft Forge and Click Remove.
 8) Click on the Button Install Fabric and install 0.7.8+build.184
 9) Return to the Main Window and Right Click the Modpack -> Edit Instance -> Loader Mods
-10) Click on the Selection labeled `customloadingscreen` and then click remove.
-11) Launch The Instance
+10) Launch The Instance
 
 #### Server Files
 1) Fork and clone the ATM-Fabric repository to your desktop.
 2) Open the Cloned folder and Copy the `server` folder to your clipboard
 3) Paste it somewhere and rename it to the Folder you want to be your server
 4) From a Twitch install copy the `config`, `data`, `datapacks`, and `mods` folder.
-5) Go inside the mods folder and remove the `customloadingscreen` jar and the `Missing Bits` jar,
+5) Go inside the mods folder and remove the `Missing Bits` jar,
 6) Run the Server
 
