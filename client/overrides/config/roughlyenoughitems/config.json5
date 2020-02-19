@@ -3,7 +3,7 @@
 		"favorites": [ 
 ],
 		// Declares whether cheating mode is on.
-		"cheating": true,
+		"cheating": false,
 		// Declares whether REI is visible.
 		"overlayVisible": true,
 		"favoritesEnabled": true,
@@ -100,12 +100,18 @@
 		// Declares the command used to change weather.
 		"weatherCommand": "/weather {weather}",
 		"registerRecipesInAnotherThread": true,
-		"debugRenderTimeRequired": false
+		"debugRenderTimeRequired": false,
+		// Experimental: Declares whether search time should be debugged.
+		"debugSearchTimeRequired": false
 	},
 	"performance": { 
 		// Whether REI should render entry's enchantment glint
 		"renderEntryEnchantmentGlint": true,
-		"newFastEntryRendering": true
+		"newFastEntryRendering": true,
+		// Experimental: Declares whether REI should search async.
+		"asyncSearch": true,
+		// Experimental: Declares how many entries should be grouped one async search.
+		"numberAsyncSearch": 50
 	},
 	"filtering": { 
 		"filteredStacks": [ 

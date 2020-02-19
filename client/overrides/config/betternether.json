@@ -245,7 +245,19 @@
     "taburet_cincinnasite[def: true]": true,
     "stalagnate_ladder[def: true]": true,
     "willow_ladder[def: true]": true,
-    "wart_ladder[def: true]": true
+    "wart_ladder[def: true]": true,
+    "stalagnate_log[def: true]": true,
+    "chair_reeds[def: true]": true,
+    "chair_stalagnate[def: true]": true,
+    "chair_willow[def: true]": true,
+    "chair_wart[def: true]": true,
+    "chair_cincinnasite[def: true]": true,
+    "striped_log_stalagnate[def: true]": true,
+    "striped_log_willow[def: true]": true,
+    "striped_log_wart[def: true]": true,
+    "striped_bark_stalagnate[def: true]": true,
+    "striped_bark_willow[def: true]": true,
+    "striped_bark_wart[def: true]": true
   },
   "generator_empty_nether": {
     "cap_gen_density[def: 0.8]": 0.8,
