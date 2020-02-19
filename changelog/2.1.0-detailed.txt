@@ -1,0 +1,138 @@
+============================================
+All The Mods Fabric 2.0.2 --> All The Mods Fabric 2.1.0
+============================================
+
+Added:
+- Bamboo Everything (Fabric)
+- Cull Particles Fabric
+- Cursed Earth Fabric
+- CustomTitleScreen
+- Fabric Essentials
+- Fabric Resource Loader
+- Fabric Tree Chopper
+- FastFlyBlockBreaking
+- Infinity Fix (Fabric)
+- JumpOverFences
+- Nice To Have (Fabric)
+- Patchouli
+- Simple Quern
+- TitleScreenNotice
+- [Fabric] Angel Ring
+
+Updated:
+	Better Graves (bettergraves-0.2.1-beta.1.jar --> bettergraves-0.2.1-beta.2.jar):
+		bettergraves-0.2.1-beta.2.jar:
+			Fix crashing by replacing crashing with error messages
+
+	BetterNether (better-nether-2.0.0-1.15.X --> better-nether-2.1.0-1.15.X):
+		better-nether-2.1.0-1.15.X:
+			Added:
+			- New chairs
+			- Striped logs and wood
+			Fixed:
+			- Planks drop
+			- Cactus damage
+			- AWT color (MacOS)
+
+	Convenient Things (conv-things-0.3.0.jar --> conv-things-0.4.0.jar):
+		conv-things-0.4.0.jar:
+			- Config has changed! The mod needs too many separate files. Moved them to a sub-directory in the config folder. The format of existing files has not changed.
+			- New functional block: The Hydorator can dry or moisturise items depending on the liquid below it. E.g. cobblestone over water becomes mossy cobblestone...
+			- #3 Fixing an issue with extracting lava from crucible when there is less than a whole bucket of lava present. (May not have fixed all cases, but there is one less.)
+			- Changed the way resource plants are rendered. The look has changed to a more pastel tints. This happened in preparation for automatically generating them and including resources by other mods.
+			- Added a "hidden" config to activate resource plants for diamonds, emeralds and coal.
+
+	Creeper Spores (For Fabric) (Creeper-Spores-1.3.3.jar --> Creeper-Spores-1.3.5.jar):
+		Creeper-Spores-1.3.5.jar:
+			Version 1.3.5:
+			An update brought to you by yuwanjun564 - Added Chinese localization
+			see full changelog [here](https://github.com/Ladysnake/Creeper-Spores/blob/master/changelog.md)
+
+		Creeper-Spores-1.3.4.jar:
+			Version 1.3.4:
+			An update brought to you by Joaoh1 - Fixed creepers grown from creeperlings having less health than regular ones.
+			see full changelog [here](https://github.com/Ladysnake/Creeper-Spores/blob/master/changelog.md)
+
+	Elytra Swap (elytra_swap-1.3.0.1-1.15.2.jar --> elytra_swap-1.3.1-1.15.2.jar):
+		elytra_swap-1.3.1-1.15.2.jar:
+			 Ladders repaired
+
+		elytra_swap-1.3.1-1.15.1.jar:
+			Repaired ladders
+
+	Facility (facility-mc115-0.5.107.jar --> facility-mc115-0.6.109.jar):
+		facility-mc115-0.6.109.jar:
+			Make slotted crates actually compatible with hoppers as advertised.
+
+	Jumploader (Jumploader 1.0.4 (Forge/Fabric) -->  Jumploader 1.0.5 (Forge/Fabric)):
+		 Jumploader 1.0.5 (Forge/Fabric):
+			Improve downloading reliability: save to .tmp then rename, check SHA-1 hash of maven JARs
+
+	MobZ (MobZ 1.9.0.jar --> MobZ 1.9.2.jar):
+		MobZ 1.9.2.jar:
+			- Updated to 1.15.2
+			- Fixed Mage
+			- Changed some settings
+
+	Nbt Crafting (Fabric) (2.0.0-alpha.11+1.15.2 --> 2.0.0-alpha.12+1.15.2):
+		2.0.0-alpha.12+1.15.2:
+			 * Tiny cleanup 
+			 * Fix compatibility for dollar merges 
+
+	RSWires (rswires-4.0.6-standalone.jar --> rswires-4.0.7-standalone.jar):
+		rswires-4.0.7-standalone.jar:
+			Add Esperanto translation by Yoghurt4C
+
+	Roughly Enough Items (REI) ([Fabric 1.15.x] v3.4.4 --> [Fabric 1.15.x] v3.5.0):
+		[Fabric 1.15.x] v3.5.0:
+			REI v3.5.0
+			Updated at 2020-02-18 12:22.
+			[Click here for full changelog](https://gist.github.com/shedaniel/b7593e692319976f3349263208792922)
+
+		[Fabric 1.15.x] v3.4.5:
+			REI v3.4.5
+			Updated at 2020-02-18 06:55.
+			[Click here for full changelog](https://gist.github.com/shedaniel/b7593e692319976f3349263208792922)
+
+	Simplex Terrain Generation (Simplex Terrain Generation 0.5.0 --> Simplex Terrain Generation 0.5.1):
+		Simplex Terrain Generation 0.5.1:
+			* Updated to 20w07a
+			* Added Gabor Noise
+			* Added config to remove vanilla lakes
+			* Added config to not cache noise
+			* Fixed memory leakage from caches
+			* Made swamps rarer
+			* Fixed rather bad bug with multithreading
+
+	Strong and Fair Anvils (Archived file --> strongandfairanvils-0.3.0+1.15.jar):
+		strongandfairanvils-0.3.0+1.15.jar:
+			No changelog provided.
+
+	StuffZ (StuffZ 1.4.jar --> StuffZ 1.6.jar):
+		StuffZ 1.6.jar:
+			- Update to 1.15.2
+			- Removed Picture Motive
+
+		StuffZ 1.5.jar:
+			- Added chainmail plates
+
+	Terrestria (Fabric) ([1.15.2] Terrestria v1.2.0 --> [1.15.2] Terrestria 1.2.1):
+		[1.15.2] Terrestria 1.2.1:
+			Terrestria v1.2.1 for Minecraft 1.15.2: A Bugfix Update
+
+			 * Add custom boats to the minecraft:boats tag (you can now use terrestria boats as fuel) ([#93](https://github.com/TerraformersMC/Terrestria/issues/93)) 
+			 * Willow and cypress trees no longer grow through obstructions (not replacing them, but still growing around them) ([#98](https://github.com/TerraformersMC/Terrestria/issues/98)) 
+			 * Doors no longer allow you to see through the world ([#102](https://github.com/TerraformersMC/Terrestria/issues/102)) 
+			 * Boats no longer disappear and teleport to (0, 0, 0) when spawned ([#103](https://github.com/TerraformersMC/Terrestria/issues/103)) 
+
+	The Hallow (The Hallow Beta 1.1.3 --> The Hallow Beta 1.1.4):
+		The Hallow Beta 1.1.4:
+			- Fixed issues with 1.15.2.
+
+Removed:
+- Bow Infinity Fix
+- Data Loader
+- Fabric Autoswitch
+- LambdaControls
+
+Generated using [ChangelogGenerator 2.0.0-pre2](https://github.com/TheRandomLabs/ChangelogGenerator).
