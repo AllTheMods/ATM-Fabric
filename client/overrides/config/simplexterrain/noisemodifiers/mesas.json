@@ -1,5 +1,5 @@
 {
-  "version": "0.5.0",
+  "version": "0.5.1",
   "terraceOctaves": 1,
   "cutoffOctaves": 3,
   "terraceFrequency": 100.0,
