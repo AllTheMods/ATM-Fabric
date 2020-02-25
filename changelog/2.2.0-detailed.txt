@@ -1,0 +1,75 @@
+============================================
+All The Mods Fabric 2.1.0 --> All The Mods Fabric 2.2.0
+============================================
+
+Added:
+- Bee Resourceful
+- Building Wands
+- Dungeons Mod
+- Ender Box (Fabric)
+- Fence Hopper
+- Just Map
+- Leaf Me Alone
+- Mob Grinder Fabric
+- Modpack Menu
+- Resource Pack Organizer
+- Unlimiter
+
+Updated:
+	Elytra Swap (elytra_swap-1.3.1-1.15.2.jar --> elytra_swap-1.4.0-1.15.jar):
+		elytra_swap-1.4.0-1.15.jar:
+			Compatibility with Trinkets, for all of 1.15!
+
+	Exotic Matter Library (exotic-matter-mc115-1.17.295.jar --> exotic-matter-mc115-1.18.299.jar):
+		exotic-matter-mc115-1.18.299.jar:
+			Prevents non-geometric model state attributes from being included in collision volume cache keys. Likely was not noticeable but may improve performance and efficiency of collision handling for blocks using XM.
+			Also prevents an assertion error in dev environment. 
+
+	Extra Bows (ExtraBows v1.15.2 Fabric b2 --> ExtraBows-v1.15.2 Forge b1):
+		ExtraBows-v1.15.2 Forge b1:
+			+ Fixed end crash + updated to 1.15.2
+
+	Facility (facility-mc115-0.6.109.jar --> facility-mc115-0.7.118.jar):
+		facility-mc115-0.7.118.jar:
+			Fix apparent item duplication when chunks containing storage blocks are unloaded and reloaded
+			Fix bucket interactions with multi-block tanks
+			Add configurations for Universal Transport Bus & Importer transfer rates
+			Clear search box when inventory screen is displayed
+			Various stability and reliability improvements
+
+	Horse Stats Vanilla (Fabric) (1.15.2 HorseStatsVanilla-1.0.4 (Fabric) --> 1.15.2 HorseStatsVanilla-1.0.5 (Fabric)):
+		1.15.2 HorseStatsVanilla-1.0.5 (Fabric):
+			Llamas show how many item slots they would have with a chest.
+
+	Nbt Crafting (Fabric) (2.0.0-alpha.12+1.15.2 --> 1.2.14+1.15.1):
+		1.2.14+1.15.1:
+			Fix incompatibility caused by a Fabric standard lib
+
+		2.0.0-alpha.13+1.15.2:
+			Fix cauldron recipes not consuming items and handling remainders incorrectly
+
+		1.2.13+1.15.1:
+			Fix cauldron recipes not consuming items and handling remainders incorrectly
+
+	Roughly Enough Items (REI) ([Fabric 1.15.x] v3.5.0 --> [Fabric 1.15.x] v3.5.4):
+		[Fabric 1.15.x] v3.5.4:
+			REI v3.5.4
+			Updated at 2020-02-23 07:47.
+			[Click here for full changelog](https://gist.github.com/shedaniel/b7593e692319976f3349263208792922)
+
+		[Fabric 1.15.x] v3.5.3:
+			REI v3.5.3
+			Updated at 2020-02-22 06:15.
+			[Click here for full changelog](https://gist.github.com/shedaniel/b7593e692319976f3349263208792922)
+
+	Smooth Scrolling Everywhere (Fabric) ([Fabric 1.15.x] v2.3 --> [Fabric 1.15.x] v2.4):
+		[Fabric 1.15.x] v2.4:
+			Updated modmenu
+
+Removed:
+- All The Mods Fabric Helper
+- CustomTitleScreen
+- JumpOverFences
+- VoxelMap
+
+Generated using [ChangelogGenerator 2.0.0-pre2](https://github.com/TheRandomLabs/ChangelogGenerator).
