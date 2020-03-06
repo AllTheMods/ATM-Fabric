@@ -1,0 +1,246 @@
+=======================================================
+All The Mods Fabric 2.2.0 --> All The Mods Fabric 2.3.0
+=======================================================
+
+Added:
+- Corail Woodcutter
+- Corail Woodcutter Companion for Fabric
+- Dark Loading Screen
+- Fast Furnace for Fabric
+- FastBench for Fabric
+- Get Off My Lawn
+- Litematica
+- Magma Opus
+- Oysters Cooking
+- Pling
+- Roughly Enough Resources
+- The Bumblezone (Fabric)
+
+Updated:
+	BetterNether (better-nether-2.1.0-1.15.X --> better-nether-2.2.0-1.15.X):
+		better-nether-2.2.0-1.15.X:
+			- Biome plant limit noise is configurable (plants area size);
+			- Giant mold (source of strings);
+			- Changed plant parameters in Mushroom forest and Nether Grasslands (old config must be deleted);
+			- Biome system changed, now biomes not have too large (region size) areas (neighbor check and randomization);
+			- Bar chairs.
+
+	Building Wands (wands-1.0.4.jar --> wands-1.0.8.jar):
+		wands-1.0.8.jar:
+			values between 0 - 1.0 in blocks_per_xp to allow increasing the xp cost, e.g., "blocks_per_xp"=0.5 would mean half a block per xp, or 2 xp cost per block
+
+		wands-1.0.7.jar:
+			Fixed wands not breaking and going to negative durability
+
+		wands-1.0.6.jar:
+			Allow placement of stairs, fences, gates, and glass_panes.
+			Allow placement on water.
+			Fixed top_slab preview and grid.
+			Fixed so that double slab decrement by 2 slabs.
+			Fixed so that double slab require 2 slabs to place.
+			Undo keybinding. (creative mode only for now)
+
+		wands-1.0.5.jar:
+			Option to use xp to place blocks. Added config file wands.json
+
+	Cloth Config API (Fabric) ([Fabric 1.15.x] ClothConfig2-2.10 --> [Fabric 1.15.x] ClothConfig2-2.11):
+		[Fabric 1.15.x] ClothConfig2-2.11:
+			No changelog provided.
+
+	Creeper Spores (For Fabric) (Creeper-Spores-1.3.5.jar --> Creeper-Spores-1.3.6.jar):
+		Creeper-Spores-1.3.6.jar:
+			Version 1.3.6:
+			Bugfixes: - Fixed modded creeperlings always growing into vanilla creepers
+			API: - Added a new creeper registration method to the mod's API
+			see full changelog [here](https://github.com/Ladysnake/Creeper-Spores/blob/master/changelog.md)
+
+	Iron Barrels (Iron Barrels 2.2.1 (Fabric, Minecraft 1.15.2) --> Iron Barrels 2.3.0 (Fabric, Minecraft 1.15.2+)):
+		Iron Barrels 2.3.0 (Fabric, Minecraft 1.15.2+):
+			Snapshot compatibility is untested
+			Replaced LibGUI with ContainerLibrary
+			Replaced existing GUI with ContainerLibrary
+			ContainerLibrary is now included
+			Link to [ContainerLibrary](https://github.com/NinjaPhenix/container-lib)
+
+	Just Map (justmap-1.0.24-1.15.2.jar --> justmap-1.0.34-1.15.2.jar):
+		justmap-1.0.34-1.15.2.jar:
+			- fixed: size of watercreatures 3d model
+			- fixed: direction arrow icon when 3d models enabled
+			- changed default 3d model size
+			- added 3d models scaling depends of map scaling
+			- changed entities icon to circle if models and heads disabled
+
+		justmap-1.0.33-1.15.2.jar:
+			- map performance improvement
+			- added images caching and loading to/from disk
+			- added multithreading
+			- fixed missed waypoints names when these loaded from save file
+			- map now uses BufferedImage instead of NativeImage (need tests for MacOS)
+
+		justmap-1.0.32-1.15.2.jar:
+			- map performance improvement
+			- added images caching and loading to/from disk
+			- added multithreading
+			- map now uses BufferedImage instead of NativeImage (need tests for MacOS)
+
+		justmap-1.0.28-1.15.2.jar:
+			- performance and map render improvements
+			- added chunk level size config (4, 8 or 16 blocks)
+			- added chunk and chunk level update interval config (milliseconds)
+
+		justmap-1.0.27-1.15.2.jar:
+			- try to fix direction arrow picture ([#1](https://github.com/Bulldog83/JustMap/issues/1))
+			- add simple direction arrow (red triangle, disabled in config)
+
+		justmap-1.0.26-1.15.2.jar:
+			- fixed CraftPresence incompatibility
+
+	Linked Storage (linkedstorage-1.1.1.jar --> linkedstorage-1.1.2.jar):
+		linkedstorage-1.1.2.jar:
+			Fix crash when moving a storage block with a piston when made available by another mod
+
+	Lithium (Lithium 0.3.2 (Fabric) --> Lithium 0.4.3 (Fabric)):
+		Lithium 0.4.3 (Fabric):
+			new: Additional optimizations for complex mob brains (i.e. Villagers)
+			new: Added optimizations for explosions and TNT
+			fix: Avoid allocating a method target allocation on every call to retrieve entities from a sub-chunk
+
+		Lithium 0.4.2 (Fabric):
+			This update fixes an issue that could result in the game crashing when encountering villagers that have memories pointing to Y-coordinates outside the valid block position space.
+
+		Lithium 0.4.1 (Fabric):
+			This update brings many new optimizations and bug-fixes, while also significantly improving the underlying code to some of our systems and patches.
+			- new: Villager AIs (and other complex mob AIs) have been optimized to significantly reduce their CPU usage and memory allocation rate
+			- new: Entity collision resolution has been cleaned up and improved, resulting in much faster physics ticks
+			- new: BlockPos has received patches to help the JVM optimize code that works with them better, greatly improving some hotspots
+			- fix: Moving entities between chunks no longer has O(n) complexity in some edge cases, reducing lag spikes
+			- fix: Entities now see other nearby entities at the correct distance and will respect mob visibility rules
+			- ... and some other stuff.
+			You can view the full change-log on GitHub by clicking [here](https://github.com/jellysquid3/Lithium/commits/).
+
+	MaLiLib (malilib-fabric-1.15.2-0.10.0-dev.20+arne.2.jar --> malilib-fabric-1.15.2-0.10.0-dev.20+arne.4.jar):
+		malilib-fabric-1.15.2-0.10.0-dev.20+arne.4.jar:
+			 * Changed the ItemStack hover text color to match vanilla 
+			 * Moved the RenderWorldLast hook injection point to fix rendering issues in dependent mods -> Make sure to update all the dependent mods as well!! (I think mostly Litematica was affected) 
+			 * Added proper profiler sections for custom renderers 
+
+	Materialisation ([Fabric 1.15.x] v2.2.1 --> [Fabric 1.15.x] v2.4.1):
+		[Fabric 1.15.x] v2.4.1:
+			fix material pack json support
+
+		[Fabric 1.15.x] v2.4.0:
+			Cotton Resources compat will now run when tech reborn is installed + fixing json support
+
+	MobZ (MobZ 1.9.2.jar --> MobZ 1.9.4.jar):
+		MobZ 1.9.4.jar:
+			- Added the tiny spider
+			- Changed a few settings
+
+		MobZ 1.9.3.jar:
+			- Added White Bag (Ultra Rare Item)
+			- Added Orb of Levitation
+			- Changed Rainbow Sword Settings
+
+	Nbt Crafting (Fabric) (1.2.14+1.15.1 --> 2.0.0-alpha.16+1.15.2):
+		2.0.0-alpha.16+1.15.2:
+			Fix issue with client and server disagreeing over the order of nbt recipes in stonecutters
+
+		2.0.0-alpha.15+1.15.2:
+			Fix issue with dollars in brewing base ingredients
+
+		1.2.15+1.15.1:
+			Fix issue with dollars in brewing base ingredients
+
+	NonCorrelatedExtras (NonCorrelatedExtras 0.2.1 --> NonCorrelatedExtras 0.2.2):
+		NonCorrelatedExtras 0.2.2:
+			Disabled magnet's use in trinket slots for time being due to a dupe bug.
+
+	RSWires (rswires-4.0.7-standalone.jar --> rswires-4.0.8-standalone.jar):
+		rswires-4.0.8-standalone.jar:
+			bump versions ([commit: 839471a](https://github.com/2xsaiko/HCTM/commit/839471a575e89760547e11d6eb9cfc41b1a92100))
+			Fix /fill not placing wires properly ([commit: b2775e9](https://github.com/2xsaiko/HCTM/commit/b2775e9fdc7bc339240f40bcdd63aee16f41f4b7))
+
+	Roughly Enough Items (REI) ([Fabric 1.15.x] v3.5.4 --> [Fabric 1.15.x] v3.6.2):
+		[Fabric 1.15.x] v3.6.2:
+			REI v3.6.2
+			Updated at 2020-03-05 08:35.
+			[Click here for full changelog](https://gist.github.com/shedaniel/b7593e692319976f3349263208792922)
+
+		[Fabric 1.15.x] v3.6.1:
+			REI v3.6.1
+			Updated at 2020-02-29 14:15.
+			[Click here for full changelog](https://gist.github.com/shedaniel/b7593e692319976f3349263208792922)
+
+		[Fabric 1.15.x] v3.6.0:
+			REI v3.6.0
+			Updated at 2020-02-26 19:48.
+			[Click here for full changelog](https://gist.github.com/shedaniel/b7593e692319976f3349263208792922)
+
+	Screenshot to Clipboard (Fabric) (1.15-1.0.3 (Fabric 1.15.x) --> 1.15-1.0.4 (Fabric 1.15/1.16)):
+		1.15-1.0.4 (Fabric 1.15/1.16):
+			Literally just had to change the version specifier to support 1.15+ rather than 1.15.x
+
+	Statement Library (Statement-2.0.0+1.15.2.jar --> Statement-2.1.0+1.15.2.jar):
+		Statement-2.1.0+1.15.2.jar:
+			Additions:
+			Config to have custom state ID deferral for blockstates that match listed predicates
+			Config to disable state ID deferral from other mods
+			Bugfixes:
+			N/A
+			Changes:
+			N/A
+			Removals:
+			N/A
+			Last successfully tested on:
+			Minecraft version 1.15.2
+			Yarn mappings 1.15.2+build.14
+			Fabric Loader 0.7.8+build.184
+			[Fabric API 0.4.32+build.292-1.15](https://www.curseforge.com/minecraft/mc-mods/fabric-api/files/all)
+
+	StuffZ (StuffZ 1.6.jar --> StuffZ 1.8.jar):
+		StuffZ 1.8.jar:
+			- Added Flux Plant
+			- Changed some settings
+
+		StuffZ 1.7.jar:
+			- Added Beer
+			- Added Dark Beer
+			- Added 3 types of plants
+			- Changed Velvet Recipe
+			- Removed Flesh to Leather Recipe
+
+	Textile Backup (textile_backup-1.0.2-1.15.2.jar --> textile_backup-1.0.3-1.15.jar):
+		textile_backup-1.0.3-1.15.jar:
+			It is now possible to use absolute paths.
+
+	Tiny Fuel (Tiny Fuel 0.2.0 (Fabric, Minecraft 1.15+) --> Tiny Fuel 0.2.1 (Fabric, Minecraft 1.15+)):
+		Tiny Fuel 0.2.1 (Fabric, Minecraft 1.15+):
+			Snapshot compatibility is untested
+			Added a small Easter egg when you run the mod file.
+			Updated the license
+
+	Towelette (Towelette-3.1.0+1.15.2.jar --> Towelette-3.1.1+1.15.2.jar):
+		Towelette-3.1.1+1.15.2.jar:
+			Additions:
+			Config for fluidloggable honey blocks (off by default)
+			Bugfixes:
+			N/A
+			Changes:
+			N/A
+			Removals:
+			N/A
+			Last successfully tested on:
+			Minecraft version 1.15.2
+			Yarn mappings 1.15.2+build.14
+			Fabric Loader 0.7.8+build.184
+			[Fabric API 0.4.32+build.292-1.15](https://www.curseforge.com/minecraft/mc-mods/fabric-api/files/all)
+
+	Traverse (Fabric) (Traverse v2.1.9+build.17 for 1.15.2 --> Traverse v2.1.11+build.23 for 1.15.2):
+		Traverse v2.1.11+build.23 for 1.15.2:
+			 * Fix boats not spawning correctly from the boat item 
+
+Removed:
+- Elytra Swap
+
+Generated using [ChangelogGenerator 2.0.0-pre2](https://github.com/TheRandomLabs/ChangelogGenerator).
+ 

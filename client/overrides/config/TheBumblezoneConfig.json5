@@ -1,0 +1,127 @@
+{
+	/* ##############################################################
+	   ##############################################################
+	   
+	   Determines if Wrath of the Hive can be applied to players outside
+	   the Bumblezone dimension when they pick up Honey blocks, take honey
+	    from Filled Porous Honey blocks, or drink Honey Bottles.
+	*/
+	"allowWrathOfTheHiveOutsideBumblezone": false,
+	/* ##############################################################
+	   ##############################################################
+	   
+	   Show the orangish particles when you get Wrath of the Hive
+	   after you angered the bees in the Bumblezone dimension.
+	*/
+	"showWrathOfTheHiveParticles": true,
+	/* ##############################################################
+	   ##############################################################
+	   
+	   Turn off or on the ability to get Wrath of the Hive effect.
+	   
+	   The effect gets applied when you pick up Honey blocks, take
+	   honey from Filled Porous Honeycomb Blocks, or drink a
+	   Honey Bottle inside the Bumblezone dimension.
+	   Basically, bees become REALLY angry.
+	   
+	   In addition, the bees can see you through walls and will have 
+	   speed, absorption, and strength effects applied to them.
+	   
+	   Will also affect the bee's aggression toward bears in the dimension.
+	   Note: Peaceful mode will always override the bee aggressive setting.
+	*/
+	"aggressiveBees": true,
+	/* ##############################################################
+	   ##############################################################
+	   
+	   How far away the bee can be to become angry and hunt you down if
+	   you take their honey from the Bumblezone dimension.
+	   
+	   Will also affect the bee's aggression range toward bears in the dimension.
+	*/
+	"aggressionTriggerRadius": 64,
+	/* ##############################################################
+	   ##############################################################
+	   
+	   How long bees will keep their effects for (speed, absorption, strength).
+	   
+	   Note: This is not in seconds at all. And bee's anger will remain.
+	   Only the boosts given to the bees will be gone.
+	*/
+	"howLongWrathOfTheHiveLasts": 350,
+	/* ##############################################################
+	   ##############################################################
+	   
+	   How fast bees move along the ground (Not while flying).
+	   You will see this a lot when bees are about to attack
+	   you, they tend to touch the floor and the speed boost
+	   makes them dash forward at you. Set this to higher for
+	   faster dash attacks from bees.
+	*/
+	"speedBoostLevel": 1,
+	/* ##############################################################
+	   ##############################################################
+	   
+	   How much extra unrecoverable health boost the bees gets.
+	*/
+	"absorptionBoostLevel": 2,
+	/* ##############################################################
+	   ##############################################################
+	   
+	   How strong the bees attacks become.
+	   (5 or higher will instant kill you without armor).
+	*/
+	"strengthBoostLevel": 3,
+	/* ##############################################################
+	   ##############################################################
+	   
+	    Determines how the coordinates gets translated when entering
+	   and leaving the Bumblezone. The default ratio is 10 which means
+	   for every block you traverse in the dimension, it is equal to
+	   traveling 10 blocks in the Overworld. For comparison, the Nether
+	   has a 8 to 1 ratio with the Overworld. 
+	   
+	   The scaling of coordinates will take into account other dimension's
+	   coordinate ratios so it'll work for any dimension correctly.
+	   
+	   Note: Changing this in an already made world will change where Bee Nests will
+	   take you in the dimension and exiting will place you in a different spot too.
+	*/
+	"movementFactor": 10,
+	/* ##############################################################
+	   ##############################################################
+	   
+	   Determines if the day/night cycle active in the Bumblezone dimension.
+	   The cycle will be visible by the change in color of the fog. 
+	   If kept on, the day/night cycle will match the Overworld's 
+	   cycle even when players sleep to skip night in the Overworld.
+	   
+	   If this setting is set to false, the cycle 
+	   will be stuck at "noon" for the dimension.
+	*/
+	"dayNightCycle": true,
+	/* ##############################################################
+	   ##############################################################
+	   
+	   How bright the fog is in the Bumblezone dimension. 
+	   This will always affect the fog whether you have the 
+	   day/night cycle on or off.
+	   
+	   The brightness is represented as a percentage so if the 
+	   cycle is off, 0 will be pitch black, 50 will be half as 
+	   bright, 100 will be normal orange brightness, and 
+	   100000 will be white. When the cycle is on, 0 will be 
+	   but will not be completely black during daytime.
+	*/
+	"fogBrightnessPercentage": 100.0,
+	/* ##############################################################
+	   ##############################################################
+	   
+	   Makes leaving The Bumblezone dimension always places you back
+	    at the Overworld regardless of which dimension you originally 
+	   came from. Use this option if this dimension becomes locked in  
+	   with another dimension so you are stuck teleporting between the 
+	   two and cannot get back to the Overworld
+	*/
+	"forceExitToOverworld": false
+}

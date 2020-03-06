@@ -257,7 +257,14 @@
     "striped_log_wart[def: true]": true,
     "striped_bark_stalagnate[def: true]": true,
     "striped_bark_willow[def: true]": true,
-    "striped_bark_wart[def: true]": true
+    "striped_bark_wart[def: true]": true,
+    "bar_stool_reeds[def: true]": true,
+    "bar_stool_stalagnate[def: true]": true,
+    "bar_stool_willow[def: true]": true,
+    "bar_stool_wart[def: true]": true,
+    "bar_stool_cincinnasite[def: true]": true,
+    "giant_mold[def: true]": true,
+    "giant_mold_sapling[def: true]": true
   },
   "generator_empty_nether": {
     "cap_gen_density[def: 0.8]": 0.8,
@@ -286,7 +293,8 @@
       "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
       "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
       "name: spawn_altar_ladder; offset: -2; type: floor; chance: 1.000000"
-    ]
+    ],
+    "noise_density[def: 0.35]": 0.35
   },
   "generator_gravel_desert": {
     "cap_gen_density[def: 0.8]": 0.8,
@@ -321,7 +329,8 @@
       "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
       "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
       "name: spawn_altar_ladder; offset: -2; type: floor; chance: 1.000000"
-    ]
+    ],
+    "noise_density[def: 0.35]": 0.35
   },
   "generator_nether_jungle": {
     "cap_gen_density[def: 0.8]": 0.8,
@@ -377,7 +386,8 @@
       "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
       "name: spawn_altar_ladder; offset: -2; type: floor; chance: 1.000000",
       "name: ruined_temple; offset: -4; type: floor; chance: 10.000000"
-    ]
+    ],
+    "noise_density[def: 0.35]": 0.35
   },
   "generator_wart_forest": {
     "cap_gen_density[def: 0.8]": 0.8,
@@ -420,7 +430,9 @@
       "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
       "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
       "name: spawn_altar_ladder; offset: -2; type: floor; chance: 1.000000"
-    ]
+    ],
+    "wart_tree_density[def: 0.1]": 0.1,
+    "noise_density[def: 0.35]": 0.35
   },
   "generator_nether_grasslands": {
     "cap_gen_density[def: 0.8]": 0.8,
@@ -473,7 +485,16 @@
       "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
       "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
       "name: spawn_altar_ladder; offset: -2; type: floor; chance: 1.000000"
-    ]
+    ],
+    "nether_wart_limit[def: true]": true,
+    "magma_flower_limit[def: true]": true,
+    "smoker_limit[def: true]": true,
+    "ink_bush_limit[def: true]": true,
+    "black_apple_limit[def: true]": true,
+    "black_bush_limit[def: true]": true,
+    "wart_seed_limit[def: true]": true,
+    "nether_grass_limit[def: true]": true,
+    "noise_density[def: 0.35]": 0.35
   },
   "generator_nether_mushroom_forest": {
     "cap_gen_density[def: 0.8]": 0.8,
@@ -520,7 +541,17 @@
       "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
       "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
       "name: spawn_altar_ladder; offset: -2; type: floor; chance: 1.000000"
-    ]
+    ],
+    "large_red_mushroom_limit[def: true]": true,
+    "large_brown_mushroom_limit[def: true]": true,
+    "giant_mold_density[def: 0.15]": 0.15,
+    "giant_mold_limit[def: true]": true,
+    "orange_mushroom_limit[def: true]": true,
+    "red_mold_density[def: 0.5]": 0.5,
+    "red_mold_limit[def: true]": true,
+    "gray_mold_density[def: 0.5]": 0.5,
+    "gray_mold_limit[def: true]": true,
+    "noise_density[def: 0.75]": 0.75
   },
   "generator_nether_mushroom_forest_edge": {
     "cap_gen_density[def: 0.8]": 0.8,
@@ -557,7 +588,11 @@
       "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
       "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
       "name: spawn_altar_ladder; offset: -2; type: floor; chance: 1.000000"
-    ]
+    ],
+    "orange_mushroom_limit[def: true]": true,
+    "red_mold_density[def: 0.5]": 0.5,
+    "gray_mold_density[def: 0.5]": 0.5,
+    "noise_density[def: 0.35]": 0.35
   },
   "generator_nether_wart_forest_edge": {
     "cap_gen_density[def: 0.8]": 0.8,
@@ -592,7 +627,8 @@
       "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
       "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
       "name: spawn_altar_ladder; offset: -2; type: floor; chance: 1.000000"
-    ]
+    ],
+    "noise_density[def: 0.35]": 0.35
   },
   "generator_bone_reef": {
     "cap_gen_density[def: 0.8]": 0.8,
@@ -625,7 +661,8 @@
       "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
       "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
       "name: spawn_altar_ladder; offset: -2; type: floor; chance: 1.000000"
-    ]
+    ],
+    "noise_density[def: 0.35]": 0.35
   },
   "generator_poor_nether_grasslands": {
     "cap_gen_density[def: 0.8]": 0.8,
@@ -672,7 +709,16 @@
       "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
       "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
       "name: spawn_altar_ladder; offset: -2; type: floor; chance: 1.000000"
-    ]
+    ],
+    "nether_wart_limit[def: true]": true,
+    "magma_flower_limit[def: true]": true,
+    "smoker_limit[def: true]": true,
+    "ink_bush_limit[def: true]": true,
+    "black_apple_limit[def: true]": true,
+    "black_bush_limit[def: true]": true,
+    "wart_seed_limit[def: true]": true,
+    "nether_grass_limit[def: true]": true,
+    "noise_density[def: 0.35]": 0.35
   },
   "generator_nether_swampland": {
     "cap_gen_density[def: 0.8]": 0.8,
@@ -721,7 +767,8 @@
       "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
       "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
       "name: spawn_altar_ladder; offset: -2; type: floor; chance: 1.000000"
-    ]
+    ],
+    "noise_density[def: 0.35]": 0.35
   },
   "generator_nether_swampland_terraces": {
     "cap_gen_density[def: 0.8]": 0.8,
@@ -770,7 +817,8 @@
       "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
       "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
       "name: spawn_altar_ladder; offset: -2; type: floor; chance: 1.000000"
-    ]
+    ],
+    "noise_density[def: 0.35]": 0.35
   },
   "generator_magma_land": {
     "cap_gen_density[def: 0.8]": 0.8,
@@ -805,7 +853,8 @@
       "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
       "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
       "name: spawn_altar_ladder; offset: -2; type: floor; chance: 1.000000"
-    ]
+    ],
+    "noise_density[def: 0.35]": 0.35
   },
   "generator_soul_plain": {
     "cap_gen_density[def: 0.8]": 0.8,
@@ -840,7 +889,8 @@
       "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
       "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
       "name: spawn_altar_ladder; offset: -2; type: floor; chance: 1.000000"
-    ]
+    ],
+    "noise_density[def: 0.35]": 0.35
   },
   "generator_soul_forest": {
     "cap_gen_density[def: 0.8]": 0.8,
