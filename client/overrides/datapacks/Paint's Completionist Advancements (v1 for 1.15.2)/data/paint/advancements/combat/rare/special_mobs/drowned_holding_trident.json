@@ -1,0 +1,33 @@
+{
+  "parent": "paint:combat/rare/special_mobs/gardender",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:2242}"
+    },
+    "title": {
+      "text": "Drowned Holding Trident","color":"red"}
+    ,
+    "description":
+      {"text":"Kill a drowned holding a trident","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "drowned_holding_trident": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:drowned",
+		  "nbt": "{HandItems:[{id:\"minecraft:trident\"}]}"
+		}
+      }
+    }
+  },
+  "requirements": [
+    ["drowned_holding_trident"]
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "parent": "paint:village/bulk/farmer/wheat_farmer",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:5442}"
+    },
+    "title": {
+      "text": "Carrot Farmer","color":"green"}
+	,
+    "description": {
+      "text": "Obtain 8 stacks of carrots so you can trade with a novice farmer in bulk","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "carrot_farmer": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "paint:pca/rewards/village/bulk/farmer/carrot_farmer"
+  },
+  "requirements": [
+    ["carrot_farmer"]
+  ]
+}

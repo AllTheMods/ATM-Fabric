@@ -1,0 +1,31 @@
+{
+  "parent": "paint:adventure/food/herbivore/melon_slice",
+  "display": {
+    "icon": {
+      "item": "minecraft:milk_bucket"
+    },
+    "title": {
+      "text": "Milk Bucket","color":"blue"}
+	,
+    "description": {
+      "text": "Drink milk from a bucket","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "milk_bucket": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:milk_bucket"
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["milk_bucket"]
+  ]
+}

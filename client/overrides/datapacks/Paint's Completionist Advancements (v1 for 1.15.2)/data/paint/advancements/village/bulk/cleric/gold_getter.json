@@ -1,0 +1,30 @@
+{
+  "parent": "paint:village/bulk/cleric/its_like_jerky",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:5432}"
+    },
+    "title": {
+      "text": "Gold Getter","color":"green"}
+	,
+    "description": {
+      "text": "Obtain 8 stacks of gold blocks so you can trade with an apprentice cleric in bulk","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "gold_getter": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "paint:pca/rewards/village/bulk/cleric/gold_getter"
+  },
+  "requirements": [
+    ["gold_getter"]
+  ]
+}

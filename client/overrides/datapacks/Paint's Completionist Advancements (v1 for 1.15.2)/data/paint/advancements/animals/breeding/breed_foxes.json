@@ -1,0 +1,34 @@
+{
+  "parent": "paint:animals/breeding/breed_donkeys",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:1356}"
+    },
+    "title": {
+      "text": "Breed Foxes","color":"yellow"}
+    ,
+    "description": {
+      "translate": "Breed foxes with sweet berries","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "breed_foxes": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "type": "minecraft:fox"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "breed_foxes"
+    ]
+  ]
+}

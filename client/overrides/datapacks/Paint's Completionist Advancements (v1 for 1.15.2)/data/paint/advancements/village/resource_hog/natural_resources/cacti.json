@@ -1,0 +1,30 @@
+{
+  "parent": "paint:village/resource_hog/natural_resources/natural_resources",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:5305}"
+    },
+    "title": {
+      "text": "Cacti","color":"green"}
+	,
+    "description": {
+      "text": "Obtain 8 stacks of cacti","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "cacti": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "paint:pca/rewards/village/resource_hog/natural_resources/cacti"
+  },
+  "requirements": [
+    ["cacti"]
+  ]
+}

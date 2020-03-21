@@ -1,0 +1,57 @@
+{
+  "parent": "paint:magic/misc/overbooked",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:4504}"
+    },
+    "title": {
+      "text": "How Did We Get Here?","color":"light_purple"}
+    ,
+    "description": {
+      "text": "Have all the status effects at once","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "how_did_we_get_here": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:absorption": {},
+          "minecraft:bad_omen": {},
+          "minecraft:blindness": {},
+          "minecraft:conduit_power": {},
+          "minecraft:dolphins_grace": {},
+          "minecraft:fire_resistance": {},
+          "minecraft:glowing": {},
+          "minecraft:haste": {},
+          "minecraft:hero_of_the_village": {},
+          "minecraft:hunger": {},
+          "minecraft:invisibility": {},
+          "minecraft:jump_boost": {},
+          "minecraft:levitation": {},
+          "minecraft:mining_fatigue": {},
+          "minecraft:nausea": {},
+          "minecraft:night_vision": {},
+          "minecraft:poison": {},
+          "minecraft:regeneration": {},
+          "minecraft:resistance": {},
+          "minecraft:slow_falling": {},
+          "minecraft:slowness": {},
+          "minecraft:speed": {},
+          "minecraft:strength": {},
+          "minecraft:water_breathing": {},
+          "minecraft:weakness": {},
+          "minecraft:wither": {}
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["how_did_we_get_here"]
+  ]
+}

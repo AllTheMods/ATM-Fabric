@@ -1,0 +1,73 @@
+{
+  "parent": "paint:magic/deity/weapon/deity_sword",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:4422}"
+    },
+    "title": {
+      "text": "Deity Battleaxe","color":"light_purple"}
+    ,
+    "description": {
+      "text": "Obtain a diamond axe with:\n* Sharpness V or Smite V\n* Unbreaking III\n* Mending","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "deity_battleaxe_sharpness": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:diamond_axe",
+			"enchantments": [
+				{
+				"enchantment": "minecraft:sharpness",
+				"level": 5
+				},
+				{
+				"enchantment": "minecraft:unbreaking",
+				"level": 3
+				},
+				{
+				"enchantment": "minecraft:mending"
+				}
+			]
+          }
+        ]
+      }
+    },
+	"deity_battleaxe_smite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:diamond_axe",
+			"enchantments": [
+				{
+				"enchantment": "minecraft:smite",
+				"level": 5
+				},
+				{
+				"enchantment": "minecraft:unbreaking",
+				"level": 3
+				},
+				{
+				"enchantment": "minecraft:mending"
+				}
+			]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "deity_battleaxe_sharpness",
+	  "deity_battleaxe_smite"
+    ]
+  ]
+}

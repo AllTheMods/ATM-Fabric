@@ -1,0 +1,33 @@
+{
+  "parent": "paint:combat/heads/vanilla_headhunter",
+  "display": {
+    "icon": {
+      "item": "minecraft:creeper_head"
+    },
+    "title": {
+      "text": "Creeper Head","color":"red"}
+    ,
+    "description":
+      {"text":"Obtain a creeper head","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "creeper_head": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:creeper_head"
+		  }
+		]
+	  }
+	}
+  },
+  "requirements": [
+    ["creeper_head"]
+  ]
+}

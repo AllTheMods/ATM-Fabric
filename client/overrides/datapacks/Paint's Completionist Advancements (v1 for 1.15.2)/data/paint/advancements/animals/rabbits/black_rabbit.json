@@ -1,0 +1,35 @@
+{
+  "parent": "paint:animals/rabbits/white_rabbit",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:1183}"
+    },
+    "title": {
+      "text": "Black Rabbit","color":"yellow"}
+    ,
+    "description": {
+      "text": "10% of rabbits in non-snowy non-desert biomes are black","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "black_rabbit": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:rabbit",
+		  "nbt": "{RabbitType:2}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "black_rabbit"
+    ]
+  ]
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "icon/village/exclusive_offer/globe_banner_pattern"
+	}
+}

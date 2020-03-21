@@ -1,0 +1,32 @@
+{
+  "parent": "paint:magic/beacon/bringing_home_the_beacon",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:4011}"
+    },
+    "title": {
+      "text": "Beacon of Shine, Let Me Mine!","color":"light_purple"}
+    ,
+    "description": {
+      "text": "Beacon of shine, let me mine! With one level of the pyramid, cast a light in the sky that can give you speed and haste from 20m away","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "beacon_level_1": {
+      "trigger": "minecraft:construct_beacon",
+      "conditions": {
+        "level": {
+          "min": 1
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["beacon_level_1"]
+  ]
+}

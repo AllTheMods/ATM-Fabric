@@ -1,0 +1,30 @@
+{
+  "parent": "paint:village/bulk/shepherd/shepherd",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:5491}"
+    },
+    "title": {
+      "text": "White Wool Trader","color":"green"}
+	,
+    "description": {
+      "text": "Obtain 8 stacks of white wool so you can trade with a novice shepard in bulk","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "white_wool_trader": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "paint:pca/rewards/village/bulk/shepherd/white_wool_trader"
+  },
+  "requirements": [
+    ["white_wool_trader"]
+  ]
+}

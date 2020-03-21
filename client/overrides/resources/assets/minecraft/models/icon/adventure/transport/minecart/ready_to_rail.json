@@ -1,0 +1,6 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "icon/adventure/transport/minecart/ready_to_rail"
+	}
+}

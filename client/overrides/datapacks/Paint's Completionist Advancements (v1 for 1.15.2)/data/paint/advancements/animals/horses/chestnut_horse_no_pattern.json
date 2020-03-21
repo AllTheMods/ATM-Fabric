@@ -1,0 +1,33 @@
+{
+  "parent": "paint:animals/horses/creamy_horse_no_pattern",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:1103}"
+    },
+    "title": {
+      "text": "Chestnut Horse, No Pattern","color":"yellow"}
+    ,
+    "description": {
+      "text": "Tame a chestnut horse with no pattern","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "chestnut_horse_no_pattern": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+			"type": "minecraft:horse",
+			"nbt": "{Variant:2}"
+        }
+      }
+    }
+  },
+  "requirements": [
+	["chestnut_horse_no_pattern"]
+  ]
+}

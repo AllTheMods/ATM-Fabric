@@ -1,0 +1,33 @@
+{
+  "parent": "paint:animals/horses/brown_horse_spotty",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:1135}"
+    },
+    "title": {
+      "text": "Black Horse with Spots","color":"yellow"}
+    ,
+    "description": {
+      "text": "Tame a black horse with spots","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "black_horse_spotty": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+			"type": "minecraft:horse",
+			"nbt": "{Variant:772}"
+        }
+      }
+    }
+  },
+  "requirements": [
+	["black_horse_spotty"]
+  ]
+}

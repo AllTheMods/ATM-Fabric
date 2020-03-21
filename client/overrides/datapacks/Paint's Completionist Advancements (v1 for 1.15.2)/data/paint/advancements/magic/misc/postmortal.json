@@ -1,0 +1,31 @@
+{
+  "parent": "paint:magic/misc/overpowered",
+  "display": {
+    "icon": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "title": {
+      "text": "Postmortal","color":"light_purple"}
+    ,
+    "description": {
+      "text": "Use a totem of undying to cheat death","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "postmortal": {
+      "trigger": "minecraft:used_totem",
+      "conditions": {
+        "item": {
+          "item": "minecraft:totem_of_undying"
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["postmortal"]
+  ]
+}

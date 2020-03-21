@@ -1,0 +1,33 @@
+{
+  "parent": "paint:animals/horses/white_horse_spotty",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:1132}"
+    },
+    "title": {
+      "text": "Creamy Horse with Spots","color":"yellow"}
+    ,
+    "description": {
+      "text": "Tame a creamy horse with spots","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "creamy_horse_spotty": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+			"type": "minecraft:horse",
+			"nbt": "{Variant:769}"
+        }
+      }
+    }
+  },
+  "requirements": [
+	["creamy_horse_spotty"]
+  ]
+}

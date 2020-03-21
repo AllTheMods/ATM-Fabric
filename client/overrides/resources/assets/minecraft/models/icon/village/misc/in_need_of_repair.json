@@ -1,0 +1,6 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "icon/village/misc/in_need_of_repair"
+	}
+}

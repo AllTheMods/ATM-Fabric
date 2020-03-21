@@ -1,0 +1,35 @@
+{
+  "parent": "paint:animals/pandas/weak_panda",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:1207}"
+    },
+    "title": {
+      "text": "Brown Panda Cub","color":"yellow"}
+    ,
+    "description": {
+      "text": "Breed pandas around bamboo to get a brown panda cub","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "brown_brown": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+		"child": {
+			"type": "minecraft:panda",
+			"nbt": "{MainGene:\"brown\",HiddenGene:\"brown\"}"
+			}
+		}
+	}
+  },
+  "requirements": [
+    [
+      "brown_brown"
+    ]
+  ]
+}

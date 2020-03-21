@@ -1,0 +1,87 @@
+{
+  "parent": "paint:magic/deity/weapon/deity_battleaxe",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:4423}"
+    },
+    "title": {
+      "text": "Deity Bow","color":"light_purple"}
+    ,
+    "description": {
+      "text": "Obtain a bow with:\n* Power V\n* Punch II\n* Flame\n* Unbreaking III\n* Infinity or Mending","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "deity_bow_infinity": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:bow",
+			"enchantments": [
+				{
+				"enchantment": "minecraft:power",
+				"level": 5
+				},
+				{
+				"enchantment": "minecraft:punch",
+				"level": 2
+				},
+				{
+				"enchantment": "minecraft:flame"
+				},
+				{
+				"enchantment": "minecraft:unbreaking",
+				"level": 3
+				},
+				{
+				"enchantment": "minecraft:infinity"
+				}
+			]
+          }
+        ]
+      }
+    },
+	"deity_bow_mending": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:bow",
+			"enchantments": [
+				{
+				"enchantment": "minecraft:power",
+				"level": 5
+				},
+				{
+				"enchantment": "minecraft:punch",
+				"level": 2
+				},
+				{
+				"enchantment": "minecraft:flame"
+				},
+				{
+				"enchantment": "minecraft:unbreaking",
+				"level": 3
+				},
+				{
+				"enchantment": "minecraft:mending"
+				}
+			]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+	  "deity_bow_infinity",
+	  "deity_bow_mending"
+    ]
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "parent": "paint:magic/enchantments/sword/smite",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:4237}"
+    },
+    "title": {
+      "text": "Sweeping Edge III","color":"light_purple"}
+    ,
+    "description": {
+      "text": "Obtain the sweeping edge III enchantment on a sword","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "sweeping_edge": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "paint:swords",
+			"enchantments": [
+				{
+				"enchantment": "minecraft:sweeping",
+				"levels": 3
+				}
+			]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "sweeping_edge"
+    ]
+  ]
+}

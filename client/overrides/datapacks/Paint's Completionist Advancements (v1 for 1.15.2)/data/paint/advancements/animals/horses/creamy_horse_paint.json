@@ -1,0 +1,33 @@
+{
+  "parent": "paint:animals/horses/white_horse_paint",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:1122}"
+    },
+    "title": {
+      "text": "Creamy Horse with Paint","color":"yellow"}
+    ,
+    "description": {
+      "text": "Tame a creamy horse with paint pattern","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "creamy_horse_paint": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+			"type": "minecraft:horse",
+			"nbt": "{Variant:513}"
+        }
+      }
+    }
+  },
+  "requirements": [
+	["creamy_horse_paint"]
+  ]
+}

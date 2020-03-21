@@ -1,0 +1,32 @@
+{
+  "parent": "paint:village/misc/not_much_help",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:5702}"
+    },
+    "title": {
+      "text": "Hired Help","color":"green"}
+	,
+    "description": {
+      "text": "Build an Iron Golem","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "hired_help": {
+      "trigger": "minecraft:summoned_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:iron_golem"
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["hired_help"]
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "parent": "paint:combat/misc/overkill",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:2452}"
+    },
+    "title": {
+      "text": "Stealth Kill","color":"red"}
+    ,
+    "description":
+      {"text":"Melee kill a creeper while invisible and unarmored","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+   "stealth_kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+		"entity": {
+			"type": "minecraft:creeper"
+		},
+        "killing_blow": {
+			"direct_entity": {
+				"effects": {
+					"minecraft:invisibility": {
+						"amplifier": {
+							"min": 0
+						}
+					}
+				},
+				"nbt": "{Tags:[\"pca_unarmored\"]}"
+			}
+		}
+      }
+    }
+  },
+  "requirements": [
+    ["stealth_kill"]
+  ]
+}

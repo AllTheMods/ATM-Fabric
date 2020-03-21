@@ -1,0 +1,35 @@
+{
+  "parent": "paint:animals/fish/goatfish",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:1312}"
+    },
+    "title": {
+      "text": "Moorish Idol","color":"yellow"}
+    ,
+    "description": {
+      "text": "Capture a White-Gray Glitter","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "moorish_idol": {
+      "trigger": "minecraft:filled_bucket",
+      "conditions": {
+        "item": {
+          "item": "minecraft:tropical_fish_bucket",
+		  "nbt": "{BucketVariantTag:117441025}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "moorish_idol"
+    ]
+  ]
+}

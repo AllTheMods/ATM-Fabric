@@ -1,0 +1,32 @@
+{
+  "parent": "paint:combat/monsters/witch",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:2192}"
+    },
+    "title": {
+      "text": "Wither Skeleton","color":"red"}
+    ,
+    "description":
+      {"text":"Slay a wither skeleton","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "monster_slayer_wither_skeleton": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "wither_skeleton"
+		}
+      }
+    }
+  },
+  "requirements": [
+    ["monster_slayer_wither_skeleton"]
+  ]
+}

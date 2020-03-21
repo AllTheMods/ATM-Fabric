@@ -1,1 +1,0 @@
-advancement grant @s everything

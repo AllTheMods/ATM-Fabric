@@ -1,0 +1,35 @@
+{
+  "parent": "paint:animals/fish/queen_angelfish",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:1317}"
+    },
+    "title": {
+      "text": "Red Cichlid","color":"yellow"}
+    ,
+    "description": {
+      "text": "Capture a Red-White Betty","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "red_cichlid": {
+      "trigger": "minecraft:filled_bucket",
+      "conditions": {
+        "item": {
+          "item": "minecraft:tropical_fish_bucket",
+		  "nbt": "{BucketVariantTag:918529}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "red_cichlid"
+    ]
+  ]
+}

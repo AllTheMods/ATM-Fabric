@@ -1,0 +1,45 @@
+{
+  "parent": "paint:adventure/transport/taking_passage",
+  "display": {
+    "icon": {
+      "item": "minecraft:elytra"
+    },
+    "title": {
+      "text": "Master Glider","color":"blue"}
+    ,
+    "description":
+      {"text":"Complete all elytra advancements","color":"white"}
+    ,
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "wingin_it": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:elytra"
+          }
+        ]
+      }
+    },
+	"tight_fit": {
+      "trigger": "minecraft:impossible"
+    },
+	"long_haul_flight": {
+      "trigger": "minecraft:impossible"
+    },
+	"i_can_show_you_the_world": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    ["wingin_it"],
+	["tight_fit"],
+	["long_haul_flight"],
+	["i_can_show_you_the_world"]
+  ]
+}

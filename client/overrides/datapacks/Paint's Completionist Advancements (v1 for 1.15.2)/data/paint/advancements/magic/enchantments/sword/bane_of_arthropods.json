@@ -1,0 +1,42 @@
+{
+  "parent": "paint:magic/enchantments/sword/sword_enchantments",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:4231}"
+    },
+    "title": {
+      "text": "Bane of Arthropods V","color":"light_purple"}
+    ,
+    "description": {
+      "text": "Obtain the bane of arthropods V enchantment on an axe or sword","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "bane_of_arthropods": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "paint:axes_and_swords",
+			"enchantments": [
+				{
+				"enchantment": "minecraft:bane_of_arthropods",
+				"levels": 5
+				}
+			]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "bane_of_arthropods"
+    ]
+  ]
+}

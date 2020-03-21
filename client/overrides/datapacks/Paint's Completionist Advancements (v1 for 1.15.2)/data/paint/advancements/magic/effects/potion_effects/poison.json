@@ -1,0 +1,34 @@
+{
+  "parent": "paint:magic/effects/potion_effects/potion_master",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:4106}"
+    },
+    "title": {
+      "text": "Poison","color":"light_purple"}
+    ,
+    "description": {
+      "text": "Have been effected by poison","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "poison": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:poison": {}
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "poison"
+    ]
+  ]
+}

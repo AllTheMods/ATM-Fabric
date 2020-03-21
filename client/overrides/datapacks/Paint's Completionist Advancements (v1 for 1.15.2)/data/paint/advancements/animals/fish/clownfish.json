@@ -1,0 +1,35 @@
+{
+  "parent": "paint:animals/fish/plenty_of_fish_in_the_sea",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:1306}"
+    },
+    "title": {
+      "text": "Finding Nemo","color":"yellow"}
+    ,
+    "description": {
+      "text": "Capture a clownfish","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "clownfish": {
+      "trigger": "minecraft:filled_bucket",
+      "conditions": {
+        "item": {
+          "item": "minecraft:tropical_fish_bucket",
+		  "nbt": "{BucketVariantTag:65536}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "clownfish"
+    ]
+  ]
+}

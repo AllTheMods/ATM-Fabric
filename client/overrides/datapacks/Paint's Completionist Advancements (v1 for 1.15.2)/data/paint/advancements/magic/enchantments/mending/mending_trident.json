@@ -1,0 +1,41 @@
+{
+  "parent": "paint:magic/enchantments/mending/mending_crossbow",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:4295}"
+    },
+    "title": {
+      "text": "Mending Trident","color":"light_purple"}
+    ,
+    "description": {
+      "text": "Obtain a mending trient","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "mending_trident": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:trident",
+			"enchantments": [
+				{
+				"enchantment": "minecraft:mending"
+				}
+			]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "mending_trident"
+    ]
+  ]
+}

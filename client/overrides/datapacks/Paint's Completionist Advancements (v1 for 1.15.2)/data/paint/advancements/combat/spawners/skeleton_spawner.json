@@ -1,0 +1,30 @@
+{
+  "parent": "paint:combat/spawners/silverfish_spawner",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:2354}"
+    },
+    "title": {
+      "text": "Skeleton Spawner","color":"red"}
+    ,
+    "description":
+      {"text":"Mine a skeleton spawner","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "skeleton_spawner": {
+      "trigger": "minecraft:impossible"
+	  }
+    },
+  "rewards": {
+    "function": "paint:pca/rewards/combat/spawners/skeleton_spawner"
+  },
+  "requirements": [
+    ["skeleton_spawner"]
+  ]
+}

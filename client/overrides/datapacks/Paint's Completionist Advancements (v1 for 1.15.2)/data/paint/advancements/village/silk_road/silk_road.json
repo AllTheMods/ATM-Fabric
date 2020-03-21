@@ -1,0 +1,86 @@
+{
+  "parent": "paint:village/business_tycoon",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:5900}"
+    },
+    "title": {
+      "text": "Silk Road","color":"green"}
+	,
+    "description": {
+      "text": "Trade with a villager from every culture","color":"white"}
+	,
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "plains_villager": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{VillagerData:{type:\"minecraft:plains\"}}"
+        }
+      }
+    },
+	"taiga_villager": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{VillagerData:{type:\"minecraft:taiga\"}}"
+        }
+      }
+    },
+	"desert_villager": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{VillagerData:{type:\"minecraft:desert\"}}"
+        }
+      }
+    },
+	"savanna_villager": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{VillagerData:{type:\"minecraft:savanna\"}}"
+        }
+      }
+    },
+	"snow_villager": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{VillagerData:{type:\"minecraft:snow\"}}"
+        }
+      }
+    },
+	"swamp_villager": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{VillagerData:{type:\"minecraft:swamp\"}}"
+        }
+      }
+    },
+	"jungle_villager": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{VillagerData:{type:\"minecraft:jungle\"}}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["plains_villager"],
+	["taiga_villager"],
+	["desert_villager"],
+	["savanna_villager"],
+	["snow_villager"],
+	["swamp_villager"],
+	["jungle_villager"]
+  ]
+}

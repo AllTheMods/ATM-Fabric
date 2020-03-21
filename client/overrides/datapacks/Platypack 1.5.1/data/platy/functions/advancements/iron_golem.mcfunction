@@ -1,1 +1,0 @@
-advancement grant @s only platy:village/killed_by_golem

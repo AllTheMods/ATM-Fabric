@@ -1,0 +1,33 @@
+{
+  "parent": "paint:combat/rare/special_mobs/drowned_holding_trident",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:2243}"
+    },
+    "title": {
+      "text": "Charged Creeper","color":"red"}
+    ,
+    "description":
+      {"text":"Kill a charged creeper, either by channelling lightning upon one, or by finding a creeper that was already struck. Don't ignite it.","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "charged_creeper": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:creeper",
+		  "nbt": "{powered:1b}"
+		}
+      }
+    }
+  },
+  "requirements": [
+    ["charged_creeper"]
+  ]
+}

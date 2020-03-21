@@ -1,0 +1,38 @@
+{
+  "parent": "paint:adventure/transport/taking_passage",
+  "display": {
+    "icon": {
+      "item": "minecraft:saddle"
+    },
+    "title": {
+      "text": "Master Jockey","color":"blue"}
+    ,
+    "description":
+      {"text":"Complete all jockey advancements","color":"white"}
+    ,
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_carrot_and_the_stick": {
+      "trigger": "minecraft:impossible"
+    },
+	"when_pigs_fly": {
+      "trigger": "minecraft:impossible"
+    },
+	"equine_expediation": {
+      "trigger": "minecraft:impossible"
+    },
+	"trade_route": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+      ["the_carrot_and_the_stick"],
+	  ["when_pigs_fly"],
+	  ["equine_expediation"],
+	  ["trade_route"]
+  ]
+}

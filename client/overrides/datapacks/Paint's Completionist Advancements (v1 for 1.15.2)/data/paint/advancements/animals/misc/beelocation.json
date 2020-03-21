@@ -1,0 +1,38 @@
+{
+  "parent": "paint:animals/misc/cod_jobs",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:1905}"
+    },
+    "title": {
+      "text": "Beelocation","color":"yellow"}
+    ,
+    "description": {
+      "text": "Mine a Bee Nest, with 3 bees inside, using Silk Touch.","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "beelocation": {
+      "trigger": "minecraft:bee_nest_destroyed",
+      "conditions": {
+        "block": "minecraft:bee_nest",
+        "item": {
+          "enchantments": [
+            {
+              "enchantment": "minecraft:silk_touch"
+            }
+          ]
+        },
+        "num_bees_inside": 3
+      }
+    }
+  },
+  "requirements": [
+	["beelocation"]
+	]
+}

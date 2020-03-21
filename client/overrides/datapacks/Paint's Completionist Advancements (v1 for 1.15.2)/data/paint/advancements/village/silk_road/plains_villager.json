@@ -1,0 +1,34 @@
+{
+  "parent": "paint:village/silk_road/silk_road",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:5901}"
+    },
+    "title": {
+      "text": "Plains Villager","color":"green"}
+	,
+    "description": {
+      "text": "Trade with a villager from the plains","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "plains_villager": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{VillagerData:{type:\"minecraft:plains\"}}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "plains_villager"
+    ]
+  ]
+}

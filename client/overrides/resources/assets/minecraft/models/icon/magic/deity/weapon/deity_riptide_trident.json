@@ -1,0 +1,6 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "icon/magic/deity/weapon/deity_riptide_trident"
+	}
+}

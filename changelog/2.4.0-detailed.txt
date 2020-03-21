@@ -1,0 +1,260 @@
+=======================================================
+All The Mods Fabric 2.3.0 --> All The Mods Fabric 2.4.0
+=======================================================
+
+Added:
+- Adabranium
+- AppleZ
+- Blast Processing
+- BootZ
+- Enderlift
+- EquipZ
+- Fabric Controlling
+- Fabric Loading Screen (FLS)
+- GolemZ
+- I Need Keybinds
+- Lakeside
+- Light Overlay (Rift/Forge/Fabric)
+- Simple Drawers
+- YNet
+
+Updated:
+	BetterNether (better-nether-2.2.0-1.15.X --> better-nether-2.5.0-1.15.X):
+		better-nether-2.5.0-1.15.X:
+			* Added vanilla wood furniture;
+			* Added recipes for all furniture;
+			* Integration with VanillaHammers (Cincinnasite & Cincinnasite-Diamond Hammers);
+			* Integration with JustMap (Icons for fireflies);
+			* Lavafall particles;
+			* Nether Brewing Stand;
+			* Black apple restores less health over a longer period of time;
+			* Decreased black vine spawn in swamps (needs config deletion or rewriting);
+			* Small fixes;
+
+		better-nether-2.4.1-1.15.X:
+			Some small fixes
+
+		better-nether-2.4.0-1.15.X:
+			* Blue mycelium variant (experimental);
+			* New materials - blue obsidian, obsidian and blue obsidian bricks, glass and variants;
+			* Decreased fireflies spawn rate;
+			* Changed Magmaland surface generator.
+
+		better-nether-2.3.0-1.15.X:
+			* Added Mushroom Fir tree;
+			* Changed Mushroom Forest biome ground and trees density (needs config deletion/rewriting);
+			* Some recipes for cincinnasite (easy but ineffective smelting);
+			* Tech Reborn grinder integration;
+			* Fireflies AI and spawning;
+			* Creative tab content sorted;
+			* Small recipes fixes.
+
+	Blockus ((1.15.2) blockus - 1.3.2 --> (1.15.2) blockus - 1.4.1-1.15.2):
+		(1.15.2) blockus - 1.4.1-1.15.2:
+			* Fixed instant Crash in last API version
+			* Removed unused 1.16 strings in lang files
+
+	Building Wands (wands-1.0.8.jar --> wands-1.0.9.jar):
+		wands-1.0.9.jar:
+			moved invert to keybinding
+			fixed bug that prevented use on slabs
+
+	Cloth Config API (Fabric) ([Fabric 1.15.x] ClothConfig2-2.11 --> [Fabric 1.15.x] ClothConfig2-2.11.2):
+		[Fabric 1.15.x] ClothConfig2-2.11.2:
+			No changelog available.
+
+		[Fabric 1.15.x] ClothConfig2-2.11.1:
+			No changelog available.
+
+	Fabric API ([1.15.2] Fabric API 0.4.32 build 292 --> [1.15.2] Fabric API 0.5.1 build 294):
+		[1.15.2] Fabric API 0.5.1 build 294:
+			No changelog available.
+
+		[1.15.2] Fabric API 0.5.0 build 293:
+			See github for changelog
+
+	Improved Stations (Fabric) ([Fabric 1.15.x] v1.2.4 --> [Fabric 1.15.x] v1.2.5):
+		[Fabric 1.15.x] v1.2.5:
+			Fix Dupe Bug
+
+	Just Map (justmap-1.0.34-1.15.2.jar --> justmap-1.0.41-1.15.2.jar):
+		justmap-1.0.41-1.15.2.jar:
+			* fixed game crashes if Y level is out of world heigh limits;
+			* fixed [#20.](https://github.com/Bulldog83/JustMap/issues/20)
+
+		justmap-1.0.40-1.15.2.jar:
+			* added Map config button to the Worldmap screen;
+			* added creating waypoints by double-click on the Worldmap;
+			* added current coordinates under mouse cursor to the Worldmap;
+			* fixed waypoints icons colors;
+
+		justmap-1.0.39-1.15.2.jar:
+			* added Worldmap (press 'M' button)!
+			* removed config of level size;
+			* added config to disable plants render;
+			* updated ClothConfig and ModMenu versions to latest.
+			* added possibility to add creatures icons by another mods. For this just needs to place entity icon to 'assets/<modid>/textures/minimap/entities/<entityId>.png' (32x32 pixels);
+
+		justmap-1.0.36-1.15.2.jar:
+			* added map rotation (orientation of the map according to the player’s view direction), can be enabled in config
+			* fixed waypoint breaks out of the maps outline ([#16](https://github.com/Bulldog83/JustMap/issues/16))
+			* various small fixes
+
+		justmap-1.0.35-1.15.2.jar:
+			* fixed several potential NPEs
+			* fixed memory leaks
+			* map came back to uses NativeImage
+
+	Lithium (Lithium 0.4.3 (Fabric) --> 0.4.6 (Fabric/1.15.x)):
+		0.4.6 (Fabric/1.15.x):
+			* new: Extend BlockState$ShapeCache with additional properties
+			* fix: Do not attempt to cache return values in our block palette
+			* fix: Retrieve POIs from disk if a column is not loaded
+			* fix: Ensure immutable block references are passed to block/fluid tick tick methods
+
+		Lithium 0.4.5-rc2 (Forge):
+			This is an early alpha release of Lithium for Minecraft Forge. Please ensure you backup your worlds before installing this release, and be prepared to run into possible issues.
+			This release requires [MixinBootstrap 1.0.2](https://www.curseforge.com/minecraft/mc-mods/mixinbootstrap) to be installed alongside Lithium.
+			* fix: Re-implement Forge functionality in two patches
+
+		Lithium 0.4.5-rc1 (Forge):
+			This is an early alpha release of Lithium for Minecraft Forge. Please ensure you backup your worlds before installing this release, and be prepared to run into possible issues.
+			This release requires [MixinBootstrap 1.0.2](https://www.curseforge.com/minecraft/mc-mods/mixinbootstrap) to be installed alongside Lithium.
+			Initial release for Minecraft Forge.
+
+		Lithium 0.4.5 (Fabric):
+			* fix: Ensure that the cache position coordinates for explosions are initialized to be out of bounds, solves explosions being able to break some blocks in rare situations
+
+		Lithium 0.4.4 (Fabric):
+			* new: Additional optimizations for points-of-interest and raid logic
+			* fix: Resolve crashes with other mods that modify explosion code
+
+	Mod Menu (Fabric) (ModMenu v1.10.1+build.30 for 1.15.2 --> ModMenu v1.10.2+build.32 for 1.15.2):
+		ModMenu v1.10.2+build.32 for 1.15.2:
+			A changelog can be found at [https://github.com/Prospector/ModMenu](https://github.com/Prospector/ModMenu)
+
+		ModMenu v1.10.2+build.31 for 1.15.2:
+			A changelog can be found at [https://github.com/Prospector/ModMenu](https://github.com/Prospector/ModMenu)
+
+	Nbt Crafting (Fabric) (2.0.0-alpha.16+1.15.2 --> 2.0.0-alpha.22+1.15.2):
+		2.0.0-alpha.22+1.15.2:
+			Fixed an oversight on an oversight on an oversight (thx Neubulae)
+
+		2.0.0-alpha.20+1.15.2:
+			Fix a bundle of bugs
+
+		2.0.0-alpha.19+1.15.2:
+			Fixed recipes being only craftable once face🤦
+
+		2.0.0-alpha.18+1.15.2:
+			Fix brewing stand slots taking too many items
+
+		2.0.0-alpha.17+1.15.2:
+			Changes are this time mostly on the technical side but the remainder experience is hopefully a little smoother too ;)
+			* Added NBTCRecipe API interface extends ease of use for custom remainders
+			* Extended RecipeUtil with putRemainders
+			* Also RecipeUtil's getDollarAppliedOutputStack should now be getDollarAppliedResult
+			* Fixed some possible edge case bugs with null being returned for issues
+			* Now calling ItemStack#onCraft on some occasions
+			* Refactored vanilla recipe system
+
+	Phosphor (Phosphor 0.3.4 (Fabric) --> 0.4.2 (Fabric/1.15.x)):
+		0.4.2 (Fabric/1.15.x):
+			* fix: Ensure that the pending update queue doesn't get too large
+			* new: Additional optimizations to re-use block states where possible, reduces CPU time spent during skylight propagation by 15% in most situations
+
+		Phosphor 0.3.6 (Fabric):
+			This update resolves an issue with opaque, light-emitting blocks (in particular: Glowstone) not producing any light in the world.
+
+		Phosphor 0.3.5 (Fabric):
+			This update fixes lighting issues involving blocks with certain dynamic shapes or properties.
+
+	Reborn Core (RebornCore-1.15-4.2.3+build.99.jar --> RebornCore-1.15-4.2.4+build.102.jar):
+		RebornCore-1.15-4.2.4+build.102.jar:
+			(modmuss50) #releaseBuild
+			(modmuss50) Fix [https://github.com/TechReborn/TechReborn/issues/2040](https://github.com/TechReborn/TechReborn/issues/2040)
+			(modmuss50) Should fix [https://github.com/TechReborn/TechReborn/issues/2057](https://github.com/TechReborn/TechReborn/issues/2057)
+
+	Roughly Enough Items (REI) ([Fabric 1.15.x] v3.6.2 --> [Fabric 1.15.x] v3.6.4):
+		[Fabric 1.15.x] v3.6.4:
+			REI v3.6.4
+			Updated at 2020-03-08 15:25.
+			[Click here for full changelog](https://gist.github.com/shedaniel/b7593e692319976f3349263208792922)
+
+		[Fabric 1.15.x] v3.6.3:
+			REI v3.6.3
+			Updated at 2020-03-08 12:43.
+			[Click here for full changelog](https://gist.github.com/shedaniel/b7593e692319976f3349263208792922)
+
+	Roughly Enough Resources ([Fabric 1.15.x] v1.3.1 --> [Fabric 1.15.x] v1.3.2):
+		[Fabric 1.15.x] v1.3.2:
+			Fixed REI Villager Mode
+
+	Statement Library (Statement-2.1.0+1.15.2.jar --> Statement-2.1.2+20w11a.jar):
+		Statement-2.1.2+20w11a.jar:
+			Update to 20w11a
+			Additions:
+			Compatible with 1.15.2 and 1.14.4
+			Command to get the ID of a state in the world
+			Allow specifying a state instead of an int ID in state sync configs
+			Changes:
+			Better command feedback
+			Bugfixes:
+			Fix potential blockstate ID mismatch when connecting to vanilla servers
+			Removals:
+			N/A
+			Last successfully tested on:
+			Minecraft version 20w11a
+			Yarn mappings 20w11a+build.6
+			Fabric Loader 0.7.8+build.187
+			[Fabric API 0.5.3+build.308-1.16](https://www.curseforge.com/minecraft/mc-mods/fabric-api/files/all)
+
+	Tech Reborn (TechReborn-1.15-3.3.4+build.189.jar --> TechReborn-1.15-3.3.5+build.196.jar):
+		TechReborn-1.15-3.3.5+build.196.jar:
+			(modmuss50) #releaseBuild
+			(modmuss50) Fix [https://github.com/TechReborn/TechReborn/issues/2055](https://github.com/TechReborn/TechReborn/issues/2055)
+			(github) improved rei compat (#2054)
+			(drcrazy) End crystals can be used in implosion compressor. Closes #2027
+			(drcrazy) Added recipe fo flint dust from flint in grinder. Closes #2044
+			(drcrazy) Bump Omni-tool damage. Closes #2043
+			(drcrazy) Tags for most of ingredients. Thanks to justastranger
+
+	Towelette (Towelette-3.1.1+1.15.2.jar --> Towelette-3.1.4+20w11a.jar):
+		Towelette-3.1.4+20w11a.jar:
+			Bugfixes:
+			Fix incompatibility with FoamFix
+			Additions:
+			N/A
+			Changes:
+			N/A
+			Removals:
+			N/A
+			Last successfully tested on:
+			Minecraft version 20w11a
+			Yarn mappings 20w11a+build.6
+			Fabric Loader 0.7.8+build.187
+			[Fabric API 0.5.3+build.308-1.16](https://www.curseforge.com/minecraft/mc-mods/fabric-api/files/all)
+
+		Towelette-3.1.3+20w11a.jar:
+			Update to 20w11a
+			Additions:
+			Compatible with 1.15.2 and 1.14.4
+			Make Twisting Vines fluidloggable
+			Bugfixes:
+			Fix invalid flowing fluidlogging with particular config setups
+			Changes:
+			N/A
+			Removals:
+			N/A
+			Last successfully tested on:
+			Minecraft version 20w11a
+			Yarn mappings 20w11a+build.6
+			Fabric Loader 0.7.8+build.187
+			[Fabric API 0.5.3+build.308-1.16](https://www.curseforge.com/minecraft/mc-mods/fabric-api/files/all)
+
+Removed:
+- Dark Loading Screen
+- LightLevel
+- MobZ
+
+Generated using [ChangelogGenerator 2.0.0-pre3](https://github.com/TheRandomLabs/ChangelogGenerator).

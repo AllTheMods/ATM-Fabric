@@ -1,0 +1,33 @@
+{
+  "parent": "paint:animals/horses/chestnut_horse_no_pattern",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:1104}"
+    },
+    "title": {
+      "text": "Brown Horse, No Pattern","color":"yellow"}
+    ,
+    "description": {
+      "text": "Tame a brown horse with no pattern","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "brown_horse_no_pattern": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+			"type": "minecraft:horse",
+			"nbt": "{Variant:3}"
+        }
+      }
+    }
+  },
+  "requirements": [
+	["brown_horse_no_pattern"]
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "parent": "paint:animals/horses/chestnut_horse_sooty",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:1144}"
+    },
+    "title": {
+      "text": "Brown Horse with Soot","color":"yellow"}
+    ,
+    "description": {
+      "text": "Tame a brown horse with sooty pattern","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "brown_horse_sooty": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+			"type": "minecraft:horse",
+			"nbt": "{Variant:1027}"
+        }
+      }
+    }
+  },
+  "requirements": [
+	["brown_horse_sooty"]
+  ]
+}

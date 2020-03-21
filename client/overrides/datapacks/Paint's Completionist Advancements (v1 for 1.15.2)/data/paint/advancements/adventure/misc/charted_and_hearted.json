@@ -1,0 +1,30 @@
+{
+  "parent": "paint:adventure/misc/x_marks_the_spot",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:105}"
+    },
+    "title": {
+      "text": "Charted And Hearted","color":"blue"}
+    ,
+    "description":
+      {"text":"Love your cartography so much that you hang up 9 maps in item frames and stand within 10m of them.","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "charted_and_hearted": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "paint:pca/rewards/adventure/misc/charted_and_hearted"
+  },
+  "requirements": [
+    ["charted_and_hearted"]
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "parent": "paint:village/workstations/smoker",
+  "display": {
+    "icon": {
+      "item": "minecraft:cartography_table"
+    },
+    "title": {
+      "text": "Cartography Table","color":"green"}
+	,
+    "description": {
+      "text": "Obtain a cartography table so you can make an unemployed villager a cartographer","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "cartography_table": {
+      "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"items": [
+			{
+				"item": "minecraft:cartography_table"
+			}
+		]
+	  }
+    }
+  },
+  "requirements": [
+    ["cartography_table"]
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "parent": "paint:animals/horses/black_horse_no_pattern",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:1106}"
+    },
+    "title": {
+      "text": "Gray Horse, No Pattern","color":"yellow"}
+    ,
+    "description": {
+      "text": "Tame a gray horse with no pattern","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "gray_horse_no_pattern": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+			"type": "minecraft:horse",
+			"nbt": "{Variant:5}"
+        }
+      }
+    }
+  },
+  "requirements": [
+	["gray_horse_no_pattern"]
+  ]
+}

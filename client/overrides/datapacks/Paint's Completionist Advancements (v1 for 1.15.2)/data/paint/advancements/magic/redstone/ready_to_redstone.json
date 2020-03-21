@@ -1,0 +1,154 @@
+{
+  "parent": "paint:magic/supreme_wizard",
+  "display": {
+    "icon": {
+      "item": "minecraft:redstone"
+    },
+    "title": {
+      "text": "Ready To Redstone!","color":"light_purple"}
+    ,
+    "description": {
+      "text": "Obtain all these redstone components","color":"white"}
+	,
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+	"dispenser": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"item": "minecraft:dispenser"
+				}
+			]
+		}
+	},
+	"dropper": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"item": "minecraft:dropper"
+				}
+			]
+		}
+	},
+	"hopper": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"item": "minecraft:hopper"
+				}
+			]
+		}
+	},
+	"trapped_chest": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"item": "minecraft:trapped_chest"
+				}
+			]
+		}
+	},
+	"observer": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"item": "minecraft:observer"
+				}
+			]
+		}
+	},
+	"daylight_detector": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"item": "minecraft:daylight_detector"
+				}
+			]
+		}
+	},
+	"redstone_lamp": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"item": "minecraft:redstone_lamp"
+				}
+			]
+		}
+	},
+	"tnt": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"item": "minecraft:tnt"
+				}
+			]
+		}
+	},
+	"piston": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"item": "minecraft:piston"
+				}
+			]
+		}
+	},
+	"sticky_piston": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"item": "minecraft:sticky_piston"
+				}
+			]
+		}
+	},
+	"slime_block": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"item": "minecraft:slime_block"
+				}
+			]
+		}
+	},
+	"honey_block": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"item": "minecraft:honey_block"
+				}
+			]
+		}
+	}
+  },
+  "requirements": [
+    ["dispenser"],
+	["dropper"],
+	["hopper"],
+	["trapped_chest"],
+	["observer"],
+	["daylight_detector"],
+	["redstone_lamp"],
+	["tnt"],
+	["piston"],
+	["sticky_piston"],
+	["slime_block"],
+	["honey_block"]
+  ]
+}

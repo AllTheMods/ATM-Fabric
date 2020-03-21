@@ -1,0 +1,30 @@
+{
+  "parent": "paint:village/bulk/cartographer_librarian/paper_pusher",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:5422}"
+    },
+    "title": {
+      "text": "Need New Glasses","color":"green"}
+	,
+    "description": {
+      "text": "Obtain 8 stacks of glass panes so you can trade with an apprentice cartographer in bulk","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "need_new_glasses": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "paint:pca/rewards/village/bulk/cartographer_librarian/need_new_glasses"
+  },
+  "requirements": [
+    ["need_new_glasses"]
+  ]
+}

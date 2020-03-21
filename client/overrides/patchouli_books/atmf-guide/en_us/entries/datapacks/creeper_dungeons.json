@@ -1,0 +1,17 @@
+{
+    "name": "Creeper Dungeons",
+    "icon": "minecraft:command_block",
+    "category": "datapacks",
+    "pages": [
+        {
+            "type": "link",
+            "text": "This datapack by Voodoo Beard allows Creeper Dungeons to be a thing which apparently isnt in vanilla.",
+            "url": "http://mc.voodoobeard.com/#creeper_dungeon",
+            "link_text": "Developers Website"
+        },
+        {
+            "type": "crafting",
+            "recipe": "ram_fe:tweaked/written_book-7"
+        }
+    ]
+}

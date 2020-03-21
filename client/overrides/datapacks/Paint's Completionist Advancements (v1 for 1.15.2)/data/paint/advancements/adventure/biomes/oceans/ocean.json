@@ -1,0 +1,39 @@
+{
+  "parent": "paint:adventure/biomes/oceans/lukewarm_ocean",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:63}"
+    },
+    "title": {
+      "text": "Ocean","color":"blue"}
+    ,
+    "description":
+      {"text":"Visit the ocean or deep ocean","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:ocean"
+      }
+    },
+	"deep_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:deep_ocean"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "ocean",
+	  "deep_ocean"
+    ]
+  ]
+}

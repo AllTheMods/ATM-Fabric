@@ -1,0 +1,40 @@
+{
+  "parent": "paint:combat/rare/effected_spiders/effected_spiders",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:2221}"
+    },
+    "title": {
+      "text": "Speed Spider","color":"red"}
+    ,
+    "description":
+      {"text":"Kill a naturally occuring swift spider","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "speed_spider": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+		  "effects": {
+			"minecraft:speed": {
+				"amplifier": {
+					"min": 0
+				}
+			}
+		  },
+          "type": "spider",
+		  "nbt": "{Tags:[\"pca_effected_spider\"]}"
+		}
+      }
+    }
+  },
+  "requirements": [
+    ["speed_spider"]
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "paint:magic/beacon/beacon_level_2",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:4013}"
+    },
+    "title": {
+      "text": "Beacon Of Light, Give Me Might!","color":"light_purple"}
+    ,
+    "description": {
+      "text": "Beacon of light, give me might! With three levels of the pyramid, cast a light in the sky that can give you strength from 40m away","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "beacon_level_3": {
+      "trigger": "minecraft:construct_beacon",
+      "conditions": {
+        "level": {
+          "min": 3
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["beacon_level_3"]
+  ]
+}

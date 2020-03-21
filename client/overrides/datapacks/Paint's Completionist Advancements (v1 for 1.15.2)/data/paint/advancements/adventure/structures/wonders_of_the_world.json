@@ -1,0 +1,114 @@
+{
+  "parent": "paint:adventure/intrepid_adventurer",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:200}"
+    },
+    "title": {
+      "text": "Wonders of the World","color":"blue"}
+    ,
+    "description":
+      ["",{"text":"Find all these structures. ","color":"white"},{"text":"Announced in chat.","color":"dark_gray"}]
+    ,
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "desert_pyramid": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "feature": "desert_pyramid"
+      }
+    },
+	"end_city": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "feature": "endcity"
+      }
+    },
+	"fortress": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "feature": "fortress"
+      }
+    },
+	"igloo": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "feature": "igloo"
+      }
+    },
+	"jungle_temple": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "feature": "jungle_pyramid"
+      }
+    },
+	"mineshaft": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "feature": "mineshaft"
+      }
+    },
+	"ocean_monument": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "feature": "monument"
+      }
+    },
+	"ocean_ruins": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "feature": "ocean_ruin"
+      }
+    },
+	"pillager_outpost": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "feature": "pillager_outpost"
+      }
+    },
+	"shipwreck": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "feature": "shipwreck"
+      }
+    },
+	"stronghold": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "feature": "stronghold"
+      }
+    },
+	"witch_hut": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "feature": "swamp_hut"
+      }
+    },
+	"woodland_mansion": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "feature": "mansion"
+      }
+    }
+  },
+  "requirements": [
+    ["desert_pyramid"],
+	["end_city"],
+    ["fortress"],
+	["igloo"],
+	["jungle_temple"],
+	["mineshaft"],
+	["ocean_monument"],
+	["ocean_ruins"],
+	["pillager_outpost"],
+	["shipwreck"],
+	["stronghold"],
+	["witch_hut"],
+	["woodland_mansion"]
+  ]
+}

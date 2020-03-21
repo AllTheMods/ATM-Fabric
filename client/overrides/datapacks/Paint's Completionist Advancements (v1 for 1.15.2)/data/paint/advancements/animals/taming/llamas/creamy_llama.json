@@ -1,0 +1,33 @@
+{
+  "parent": "paint:animals/taming/llamas/llama_drama",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:1521}"
+    },
+    "title": {
+      "text": "Creamy Llama","color":"yellow"}
+    ,
+    "description": {
+      "text": "Tame a creamy llama","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "creamy_llama": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+			"type": "minecraft:llama",
+			"nbt": "{Variant:0}"
+        }
+      }
+    }
+  },
+  "requirements": [
+	["creamy_llama"]
+  ]
+}

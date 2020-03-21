@@ -1,0 +1,107 @@
+{
+  "parent": "paint:village/business_tycoon",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:5800}"
+    },
+    "title": {
+      "text": "Exclusive Offer","color":"green"}
+	,
+    "description":
+      ["",{"text": "Buy these unique items from villagers. ","color":"white"},{"text":"Announced in chat.","color":"dark_gray"}]
+	,
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "ocean_explorer_map": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "item": "minecraft:filled_map",
+          "nbt": "{display:{MapColor:3830373}}"
+        }
+      }
+    },
+	"woodland_explorer_map": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "item": "minecraft:filled_map",
+          "nbt": "{display:{MapColor:5393476}}"
+        }
+      }
+    },
+	"globe_banner_pattern": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "item": "minecraft:globe_banner_pattern"
+        }
+      }
+    },
+	"bell": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "item": "minecraft:bell"
+        }
+      }
+    },
+	"name_tag": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "item": "minecraft:name_tag"
+        }
+      }
+    },
+	"bottle_o_enchanting": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "item": "minecraft:experience_bottle"
+        }
+      }
+    },
+	"frost_walker_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "item": "minecraft:enchanted_book",
+		  "stored_enchantments": [
+			{
+			"enchantment": "minecraft:frost_walker" 
+			}
+		  ]
+        }
+      }
+    },
+	"mending_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "item": "minecraft:enchanted_book",
+		  "stored_enchantments": [
+		    {
+			"enchantment": "minecraft:mending" 
+			}
+		  ]
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["bell"],
+	["ocean_explorer_map"],
+	["woodland_explorer_map"],
+	["globe_banner_pattern"],
+	["name_tag"],
+	["bottle_o_enchanting"],
+	["frost_walker_book"],
+	["mending_book"]
+  ]
+}

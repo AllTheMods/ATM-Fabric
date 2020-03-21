@@ -1,0 +1,37 @@
+{
+  "parent": "paint:animals/breeding/two_by_two",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:1357}"
+    },
+    "title": {
+      "text": "Breed Horses","color":"yellow"}
+    ,
+    "description": {
+      "translate": "Breed horses with golden apples","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "breed_horse": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "type": "minecraft:horse"
+        },
+		"partner": {
+          "type": "minecraft:horse"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "breed_horse"
+    ]
+  ]
+}

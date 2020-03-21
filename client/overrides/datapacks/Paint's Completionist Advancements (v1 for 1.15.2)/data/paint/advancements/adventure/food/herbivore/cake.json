@@ -1,0 +1,29 @@
+{
+  "parent": "paint:adventure/food/herbivore/herbivore",
+  "display": {
+    "icon": {
+      "item": "minecraft:cake"
+    },
+    "title": {
+      "text": "Cake","color":"blue"}
+	,
+    "description": {
+      "text": "Eat a slice of cake","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "cake": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "paint:pca/rewards/adventure/food/herbivore/cake"
+  },
+  "requirements": [
+    ["cake"]
+  ]
+}

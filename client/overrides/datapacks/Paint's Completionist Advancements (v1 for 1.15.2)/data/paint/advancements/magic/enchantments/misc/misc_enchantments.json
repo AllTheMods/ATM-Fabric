@@ -1,0 +1,71 @@
+{
+  "parent": "paint:magic/enchantments/enlightenment",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:4275}"
+    },
+    "title": {
+      "text": "Misc Enchantments","color":"light_purple"}
+    ,
+    "description": {
+      "text": "Obtain the misc enchantments on items","color":"white"}
+	,
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "unbreaking": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "paint:unbreaking_compatible",
+			"enchantments": [
+				{
+				"enchantment": "minecraft:unbreaking",
+				"levels": 3
+				}
+			]
+          }
+        ]
+      }
+    },
+	"curse_of_binding": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "paint:binding_compatible",
+			"enchantments": [
+				{
+				"enchantment": "minecraft:binding_curse"
+				}
+			]
+          }
+        ]
+      }
+    },
+	"curse_of_vanishing": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+			"enchantments": [
+				{
+				"enchantment": "minecraft:vanishing_curse"
+				}
+			]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["unbreaking"],
+	["curse_of_binding"],
+	["curse_of_vanishing"]
+  ]
+}

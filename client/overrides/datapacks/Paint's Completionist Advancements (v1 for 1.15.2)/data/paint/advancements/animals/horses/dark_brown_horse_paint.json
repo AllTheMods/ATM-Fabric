@@ -1,0 +1,33 @@
+{
+  "parent": "paint:animals/horses/gray_horse_paint",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:1127}"
+    },
+    "title": {
+      "text": "Dark Brown Horse with Paint","color":"yellow"}
+    ,
+    "description": {
+      "text": "Tame a dark brown horse with paint pattern","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "dark_brown_horse_paint": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+			"type": "minecraft:horse",
+			"nbt": "{Variant:518}"
+        }
+      }
+    }
+  },
+  "requirements": [
+	["dark_brown_horse_paint"]
+  ]
+}

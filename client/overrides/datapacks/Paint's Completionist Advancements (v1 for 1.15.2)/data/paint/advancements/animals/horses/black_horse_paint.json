@@ -1,0 +1,33 @@
+{
+  "parent": "paint:animals/horses/brown_horse_paint",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:1125}"
+    },
+    "title": {
+      "text": "Black Horse with Paint","color":"yellow"}
+    ,
+    "description": {
+      "text": "Tame a black horse with paint pattern","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "black_horse_paint": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+			"type": "minecraft:horse",
+			"nbt": "{Variant:516}"
+        }
+      }
+    }
+  },
+  "requirements": [
+	["black_horse_paint"]
+  ]
+}

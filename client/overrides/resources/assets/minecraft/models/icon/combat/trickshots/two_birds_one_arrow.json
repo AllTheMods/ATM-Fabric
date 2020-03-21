@@ -1,0 +1,6 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "icon/combat/trickshots/two_birds_one_arrow"
+	}
+}

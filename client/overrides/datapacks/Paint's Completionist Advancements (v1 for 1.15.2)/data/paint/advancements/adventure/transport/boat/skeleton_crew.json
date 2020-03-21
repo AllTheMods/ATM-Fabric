@@ -1,0 +1,30 @@
+{
+  "parent": "paint:adventure/transport/boat/master_sailor",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:402}"
+    },
+    "title": {
+      "text": "Skeleton Crew","color":"blue"}
+    ,
+    "description":
+      {"text":"Get in a boat with a skeleton","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "skeleton_crew": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "paint:pca/rewards/adventure/transport/boat/skeleton_crew"
+  },
+  "requirements": [
+      ["skeleton_crew"]
+  ]
+}

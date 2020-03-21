@@ -1,0 +1,13 @@
+{
+    "name": "Extra Dragon Eggs",
+    "icon": "minecraft:command_block",
+    "category": "datapacks",
+    "pages": [
+        {
+            "type": "link",
+            "text": "Voodoo Beard made this datapack so public servers dont only have 1 copy of the rarest item in Minecraftia.",
+            "url": "http://mc.voodoobeard.com/#extra_dragon_eggs",
+            "link_text": "Developers Website"
+        }
+    ]
+}

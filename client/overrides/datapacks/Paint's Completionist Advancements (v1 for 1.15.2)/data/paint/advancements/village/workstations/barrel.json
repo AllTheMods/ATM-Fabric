@@ -1,0 +1,33 @@
+{
+  "parent": "paint:village/workstations/composter",
+  "display": {
+    "icon": {
+      "item": "minecraft:barrel"
+    },
+    "title": {
+      "text": "Barrel","color":"green"}
+	,
+    "description": {
+      "text": "Obtain a barrel so you can make an unemployed villager a fisherman","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "barrel": {
+      "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"items": [
+			{
+				"item": "minecraft:barrel"
+			}
+		]
+	  }
+    }
+  },
+  "requirements": [
+    ["barrel"]
+  ]
+}

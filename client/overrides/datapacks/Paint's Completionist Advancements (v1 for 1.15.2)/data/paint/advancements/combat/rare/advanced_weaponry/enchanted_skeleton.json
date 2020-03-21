@@ -1,0 +1,85 @@
+{
+  "parent": "paint:combat/rare/advanced_weaponry/enchanted_digger_zombie",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:2233}"
+    },
+    "title": {
+      "text": "Enchanted Skeleton","color":"red"}
+    ,
+    "description":
+      {"text":"Kill a Skeleton or Stray holding a bow with Power, Punch or Flame","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "enchanted_skeleton_power": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:skeleton",
+		  "nbt": "{HandItems:[{id:\"minecraft:bow\",tag:{Enchantments:[{id:\"minecraft:power\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_skeleton_punch": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:skeleton",
+		  "nbt": "{HandItems:[{id:\"minecraft:bow\",tag:{Enchantments:[{id:\"minecraft:punch\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_skeleton_flame": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:skeleton",
+		  "nbt": "{HandItems:[{id:\"minecraft:bow\",tag:{Enchantments:[{id:\"minecraft:flame\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_stray_power": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:stray",
+		  "nbt": "{HandItems:[{id:\"minecraft:bow\",tag:{Enchantments:[{id:\"minecraft:power\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_stray_punch": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:stray",
+		  "nbt": "{HandItems:[{id:\"minecraft:bow\",tag:{Enchantments:[{id:\"minecraft:punch\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_stray_flame": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:stray",
+		  "nbt": "{HandItems:[{id:\"minecraft:bow\",tag:{Enchantments:[{id:\"minecraft:flame\"}]}},{}]}"
+		}
+      }
+    }
+  },
+  "requirements": [
+    [
+	"enchanted_skeleton_power",
+	"enchanted_skeleton_punch",
+	"enchanted_skeleton_flame",
+	"enchanted_stray_power",
+	"enchanted_stray_punch",
+	"enchanted_stray_flame"
+	]
+  ]
+}

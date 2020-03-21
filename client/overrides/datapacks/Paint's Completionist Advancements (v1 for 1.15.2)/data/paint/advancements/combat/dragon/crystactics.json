@@ -1,0 +1,37 @@
+{
+  "parent": "paint:combat/dragon/enter_the_end",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:2052}"
+    },
+    "title": {
+      "text": "Crystactics","color":"red"}
+    ,
+    "description":
+      {"text":"Destroy an end crystal that the dragon is healing from","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "crystactics": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+		"damage": {
+			"type": {
+				"is_explosion": true
+			}
+		},
+        "entity": {
+          "type": "minecraft:ender_dragon"
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["crystactics"]
+  ]
+}

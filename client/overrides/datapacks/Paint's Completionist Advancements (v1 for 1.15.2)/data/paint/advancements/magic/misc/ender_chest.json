@@ -1,0 +1,33 @@
+{
+  "parent": "paint:magic/misc/aquatic_ascention",
+  "display": {
+    "icon": {
+      "item": "minecraft:ender_chest"
+    },
+    "title": {
+      "text": "Ender Chest","color":"light_purple"}
+    ,
+    "description": {
+      "text": "Obtain a magical block to store items remotely","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+	"ender_chest": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"item": "minecraft:ender_chest"
+				}
+			]
+		}
+	}
+  },
+  "requirements": [
+    ["ender_chest"]
+  ]
+}

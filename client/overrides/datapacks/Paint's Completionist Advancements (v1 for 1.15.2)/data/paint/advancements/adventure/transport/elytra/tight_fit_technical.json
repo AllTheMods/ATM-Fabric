@@ -1,0 +1,17 @@
+{
+  "parent": "paint:adventure/transport/elytra/tight_fit",
+  "criteria": {
+    "tight_fit_technical": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:end_gateway"
+      }
+    }
+  },
+  "rewards": {
+    "function": "paint:pca/rewards/adventure/transport/elytra/tight_fit_technical"
+  },
+  "requirements": [
+      ["tight_fit_technical"]
+  ]
+}

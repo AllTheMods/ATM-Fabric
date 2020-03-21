@@ -1,0 +1,30 @@
+{
+  "parent": "paint:adventure/transport/minecart/minecart_master",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:411}"
+    },
+    "title": {
+      "text": "Ready To Rail","color":"blue"}
+    ,
+    "description":
+      {"text":"Obtain 8 stacks of rail","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "ready_to_rail": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "paint:pca/rewards/adventure/transport/minecart/ready_to_rail"
+  },
+  "requirements": [
+      ["ready_to_rail"]
+  ]
+}

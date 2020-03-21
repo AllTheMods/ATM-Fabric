@@ -1,0 +1,32 @@
+{
+  "parent": "paint:adventure/biomes/snowy/all_snowy_biomes",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:11}"
+    },
+    "title": {
+      "text": "Snowy Tundra","color":"blue"}
+    ,
+    "description":
+      {"text":"Visit a snowy tundra","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "snowy_tundra": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:snowy_tundra"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "snowy_tundra"
+    ]
+  ]
+}

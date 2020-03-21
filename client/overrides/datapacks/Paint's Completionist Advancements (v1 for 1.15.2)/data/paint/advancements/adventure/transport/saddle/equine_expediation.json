@@ -1,0 +1,30 @@
+{
+  "parent": "paint:adventure/transport/saddle/when_pigs_fly",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:423}"
+    },
+    "title": {
+      "text": "Equine Expediation","color":"blue"}
+    ,
+    "description":
+      {"text":"Travel horizontally 2.5km in one horse journey. Getting off your horse or taking off their saddle will reset your progress.","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "equine_expediation": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "paint:pca/rewards/adventure/transport/saddle/equine_expediation"
+  },
+  "requirements": [
+      ["equine_expediation"]
+  ]
+}

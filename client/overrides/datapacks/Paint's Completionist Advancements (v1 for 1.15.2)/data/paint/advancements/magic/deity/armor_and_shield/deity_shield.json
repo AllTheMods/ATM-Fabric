@@ -1,0 +1,43 @@
+{
+  "parent": "paint:magic/deity/armor_and_shield/deity_boots",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:4406}"
+    },
+    "title": {
+      "text": "Deity Shield","color":"light_purple"}
+    ,
+    "description": {
+      "text": "Obtain a shield with:\n* Unbreaking III\n* Mending","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "deity_shield": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:shield",
+			"enchantments": [
+				{
+				"enchantment": "minecraft:unbreaking",
+				"level": 3
+				},
+				{
+				"enchantment": "minecraft:mending"
+				}
+			]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["deity_shield"]
+  ]
+}

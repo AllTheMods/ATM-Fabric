@@ -1,0 +1,30 @@
+{
+  "parent": "paint:village/bulk/armorer_toolsmith_weaponsmith/ironclad",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:5404}"
+    },
+    "title": {
+      "text": "Diamonds Are Forever","color":"green"}
+	,
+    "description": {
+      "text": "Obtain a stack of diamond blocks so you can sell to the Armorer/Toolsmith/Weaponsmith in bulk","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "diamonds_are_forever": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "paint:pca/rewards/village/bulk/armorer_toolsmith_weaponsmith/diamonds_are_forever"
+  },
+  "requirements": [
+    ["diamonds_are_forever"]
+  ]
+}

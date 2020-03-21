@@ -1,0 +1,958 @@
+{
+  "parent": "paint:village/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:5001}"
+    },
+    "title":
+      {"text":"Business Tycoon","color":"dark_green","bold":"true"}
+    ,
+    "description":
+      {"text":"Complete all village & resource advancements","color":"green","bold":"false"}
+    ,
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "ocean_explorer_map": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "item": "minecraft:filled_map",
+          "nbt": "{display:{MapColor:3830373}}"
+        }
+      }
+    },
+	"woodland_explorer_map": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "item": "minecraft:filled_map",
+          "nbt": "{display:{MapColor:5393476}}"
+        }
+      }
+    },
+	"globe_banner_pattern": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "item": "minecraft:globe_banner_pattern"
+        }
+      }
+    },
+	"bell": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "item": "minecraft:bell"
+        }
+      }
+    },
+	"name_tag": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "item": "minecraft:name_tag"
+        }
+      }
+    },
+	"bottle_o_enchanting": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "item": "minecraft:experience_bottle"
+        }
+      }
+    },
+	"frost_walker_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "item": "minecraft:enchanted_book",
+		  "stored_enchantments": [
+			{
+			"enchantment": "minecraft:frost_walker" 
+			}
+		  ]
+        }
+      }
+    },
+	"mending_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "item": "minecraft:enchanted_book",
+		  "stored_enchantments": [
+		    {
+			"enchantment": "minecraft:mending" 
+			}
+		  ]
+        }
+      }
+    },
+	"master_armorer": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{VillagerData:{profession:\"minecraft:armorer\",level:5}}"
+        }
+      }
+    },
+	"master_butcher": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{VillagerData:{profession:\"minecraft:butcher\",level:5}}"
+        }
+      }
+    },
+	"master_cartographer": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{VillagerData:{profession:\"minecraft:cartographer\",level:5}}"
+        }
+      }
+    },
+	"master_cleric": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{VillagerData:{profession:\"minecraft:cleric\",level:5}}"
+        }
+      }
+    },
+	"master_farmer": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{VillagerData:{profession:\"minecraft:farmer\",level:5}}"
+        }
+      }
+    },
+	"master_fisherman": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{VillagerData:{profession:\"minecraft:fisherman\",level:5}}"
+        }
+      }
+    },
+	"master_fletcher": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{VillagerData:{profession:\"minecraft:fletcher\",level:5}}"
+        }
+      }
+    },
+	"master_leatherworker": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{VillagerData:{profession:\"minecraft:leatherworker\",level:5}}"
+        }
+      }
+    },
+	"master_librarian": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{VillagerData:{profession:\"minecraft:librarian\",level:5}}"
+        }
+      }
+    },
+	"master_mason": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{VillagerData:{profession:\"minecraft:mason\",level:5}}"
+        }
+      }
+    },
+	"master_shepherd": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{VillagerData:{profession:\"minecraft:shepherd\",level:5}}"
+        }
+      }
+    },
+	"master_toolsmith": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{VillagerData:{profession:\"minecraft:toolsmith\",level:5}}"
+        }
+      }
+    },
+	"master_weaponsmith": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{VillagerData:{profession:\"minecraft:weaponsmith\",level:5}}"
+        }
+      }
+    },
+	"blast_furnace": {
+      "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"items": [
+			{
+				"item": "minecraft:blast_furnace"
+			}
+		]
+	  }
+    },
+	"smoker": {
+      "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"items": [
+			{
+				"item": "minecraft:smoker"
+			}
+		]
+	  }
+    },
+	"cartography_table": {
+      "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"items": [
+			{
+				"item": "minecraft:cartography_table"
+			}
+		]
+	  }
+    },
+	"brewing_stand": {
+      "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"items": [
+			{
+				"item": "minecraft:brewing_stand"
+			}
+		]
+	  }
+    },
+	"composter": {
+      "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"items": [
+			{
+				"item": "minecraft:composter"
+			}
+		]
+	  }
+    },
+	"barrel": {
+      "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"items": [
+			{
+				"item": "minecraft:barrel"
+			}
+		]
+	  }
+    },
+	"fletching_table": {
+      "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"items": [
+			{
+				"item": "minecraft:fletching_table"
+			}
+		]
+	  }
+    },
+	"cauldron": {
+      "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"items": [
+			{
+				"item": "minecraft:cauldron"
+			}
+		]
+	  }
+    },
+	"lectern": {
+      "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"items": [
+			{
+				"item": "minecraft:lectern"
+			}
+		]
+	  }
+    },
+	"stonecutter": {
+      "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"items": [
+			{
+				"item": "minecraft:stonecutter"
+			}
+		]
+	  }
+    },
+	"loom": {
+      "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"items": [
+			{
+				"item": "minecraft:loom"
+			}
+		]
+	  }
+    },
+	"smithing_table": {
+      "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"items": [
+			{
+				"item": "minecraft:smithing_table"
+			}
+		]
+	  }
+    },
+	"grindstone": {
+      "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"items": [
+			{
+				"item": "minecraft:grindstone"
+			}
+		]
+	  }
+    },
+	"redstone_blocks": {
+      "trigger": "minecraft:impossible"
+    },
+	"lapis_blocks": {
+      "trigger": "minecraft:impossible"
+    },
+	"bamboozled": {
+      "trigger": "minecraft:impossible"
+    },
+	"sea_pickles": {
+      "trigger": "minecraft:impossible"
+    },
+	"cacti": {
+      "trigger": "minecraft:impossible"
+    },
+	"glowstone_dust": {
+      "trigger": "minecraft:impossible"
+    },
+	"oak_logs": {
+      "trigger": "minecraft:impossible"
+    },
+	"birch_logs": {
+      "trigger": "minecraft:impossible"
+    },
+	"spruce_logs": {
+      "trigger": "minecraft:impossible"
+    },
+	"jungle_logs": {
+      "trigger": "minecraft:impossible"
+    },
+	"dark_oak_logs": {
+      "trigger": "minecraft:impossible"
+    },
+	"acacia_logs": {
+      "trigger": "minecraft:impossible"
+    },
+	"rh_brown_mushrooms": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:brown_mushroom",
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    },
+	"rh_red_mushrooms": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:red_mushroom",
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    },
+	"rh_apples": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:apple",
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    },
+	"rh_golden_apples": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:golden_apple",
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    },
+	"rh_honey_bottles": {
+      "trigger": "minecraft:impossible"
+    },
+	"rh_eggcellent": {
+      "trigger": "minecraft:impossible"
+    },
+	"rh_cocoa_beans": {
+      "trigger": "minecraft:impossible"
+    },
+	"rh_chorus_fruit": {
+      "trigger": "minecraft:impossible"
+    },
+	"bones": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:bone",
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    },
+	"spider_eyes": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:spider_eye",
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    },
+	"gunpowder": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:gunpowder",
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    },
+	"phantom_membranes": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:phantom_membrane",
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    },
+	"ender_pearls": {
+      "trigger": "minecraft:impossible"
+	},
+	"blaze_rods": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:blaze_rod",
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    },
+	"ghast_tears": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:ghast_tear",
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    },
+	"slime_blocks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:slime_block",
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    },
+	"saddles": {
+      "trigger": "minecraft:impossible"
+	},
+	"coal_collector": {
+      "trigger": "minecraft:impossible"
+    },
+	"ironclad": {
+      "trigger": "minecraft:impossible"
+    },
+	"diamonds_are_forever": {
+      "trigger": "minecraft:impossible"
+    },
+	"white_meat_trader": {
+      "trigger": "minecraft:impossible"
+    },
+	"red_meat_trader": {
+      "trigger": "minecraft:impossible"
+    },
+	"dried_kelp_trader": {
+      "trigger": "minecraft:impossible"
+    },
+	"berry_trader": {
+      "trigger": "minecraft:impossible"
+    },
+	"paper_pusher": {
+      "trigger": "minecraft:impossible"
+    },
+	"need_new_glasses": {
+      "trigger": "minecraft:impossible"
+    },
+	"bookworm": {
+      "trigger": "minecraft:impossible"
+    },
+	"black_gold": {
+      "trigger": "minecraft:impossible"
+    },
+	"its_like_jerky": {
+      "trigger": "minecraft:impossible"
+    },
+	"gold_getter": {
+      "trigger": "minecraft:impossible"
+    },
+	"it_used_to_be_thumpers": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:rabbit_foot",
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    },
+	"hitting_the_bottle": {
+      "trigger": "minecraft:impossible"
+    },
+	"wealth_of_wart": {
+      "trigger": "minecraft:impossible"
+    },
+	"wheat_farmer": {
+      "trigger": "minecraft:impossible"
+    },
+	"carrot_farmer": {
+      "trigger": "minecraft:impossible"
+    },
+	"potato_farmer": {
+      "trigger": "minecraft:impossible"
+    },
+	"beetroot_farmer": {
+      "trigger": "minecraft:impossible"
+    },
+	"pumpkin_farmer": {
+      "trigger": "minecraft:impossible"
+    },
+	"melon_farmer": {
+      "trigger": "minecraft:impossible"
+    },
+	"cod_fisherman": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:cod",
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    },
+	"salmon_fisherman": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:salmon",
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    },
+	"tropical_fish_fisherman": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:tropical_fish",
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    },
+	"pufferfish_fisherman": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:pufferfish",
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    },
+	"string_theory": {
+      "trigger": "minecraft:impossible"
+    },
+	"flinteresting": {
+      "trigger": "minecraft:impossible"
+    },
+	"feather_fletcher": {
+      "trigger": "minecraft:impossible"
+    },
+	"fresh_from_the_cow": {
+      "trigger": "minecraft:impossible"
+    },
+	"fresh_from_the_rabbit": {
+      "trigger": "minecraft:impossible"
+    },
+	"scute_over": {
+      "trigger": "minecraft:impossible"
+    },
+	"clay_time": {
+      "trigger": "minecraft:impossible"
+    },
+	"stone_trader": {
+      "trigger": "minecraft:impossible"
+    },
+	"granite_trader": {
+      "trigger": "minecraft:impossible"
+    },
+	"andesite_trader": {
+      "trigger": "minecraft:impossible"
+    },
+	"diorite_trader": {
+      "trigger": "minecraft:impossible"
+    },
+	"quartz_trader": {
+      "trigger": "minecraft:impossible"
+    },
+	"white_wool_trader": {
+      "trigger": "minecraft:impossible"
+    },
+	"brown_wool_trader": {
+      "trigger": "minecraft:impossible"
+    },
+	"black_wool_trader": {
+      "trigger": "minecraft:impossible"
+    },
+	"gray_wool_trader": {
+      "trigger": "minecraft:impossible"
+    },
+	"dye_me_a_river_1": {
+      "trigger": "minecraft:impossible"
+    },
+	"dye_me_a_river_2": {
+      "trigger": "minecraft:impossible"
+    },
+	"dye_me_a_river_3": {
+      "trigger": "minecraft:impossible"
+    },
+	"plains_villager": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{VillagerData:{type:\"minecraft:plains\"}}"
+        }
+      }
+    },
+	"taiga_villager": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{VillagerData:{type:\"minecraft:taiga\"}}"
+        }
+      }
+    },
+	"desert_villager": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{VillagerData:{type:\"minecraft:desert\"}}"
+        }
+      }
+    },
+	"savanna_villager": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{VillagerData:{type:\"minecraft:savanna\"}}"
+        }
+      }
+    },
+	"snow_villager": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{VillagerData:{type:\"minecraft:snow\"}}"
+        }
+      }
+    },
+	"swamp_villager": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{VillagerData:{type:\"minecraft:swamp\"}}"
+        }
+      }
+    },
+	"jungle_villager": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{VillagerData:{type:\"minecraft:jungle\"}}"
+        }
+      }
+    },
+	"not_much_help": {
+      "trigger": "minecraft:summoned_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:snow_golem"
+        }
+      }
+    },
+	 "hired_help": {
+      "trigger": "minecraft:summoned_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:iron_golem"
+        }
+      }
+    },
+	"risking_hyperinflation": {
+      "trigger": "minecraft:impossible"
+    },
+	"it_takes_a_village": {
+      "trigger": "minecraft:impossible"
+    },
+	"overpopulation": {
+      "trigger": "minecraft:impossible"
+    },
+	"the_wanderer": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "type": "minecraft:wandering_trader"
+        }
+      }
+    },
+	"first_diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:diamond"
+          }
+        ]
+      }
+    },
+	"raiders_incoming": {
+      "trigger": "minecraft:voluntary_exile"
+    },
+	"zombie_doctor": {
+      "trigger": "minecraft:cured_zombie_villager"
+    },
+	"im_rich": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:emerald_block",
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["bell"],
+	["ocean_explorer_map"],
+	["woodland_explorer_map"],
+	["globe_banner_pattern"],
+	["name_tag"],
+	["bottle_o_enchanting"],
+	["frost_walker_book"],
+	["mending_book"],
+	["master_armorer"],
+	["master_butcher"],
+	["master_cartographer"],
+	["master_cleric"],
+	["master_farmer"],
+	["master_fisherman"],
+	["master_fletcher"],
+	["master_leatherworker"],
+	["master_librarian"],
+	["master_mason"],
+	["master_shepherd"],
+	["master_toolsmith"],
+	["master_weaponsmith"],
+	["blast_furnace"],
+	["smoker"],
+	["cartography_table"],
+	["brewing_stand"],
+	["composter"],
+	["barrel"],
+	["fletching_table"],
+	["cauldron"],
+	["lectern"],
+	["stonecutter"],
+	["loom"],
+	["smithing_table"],
+	["grindstone"],
+	["redstone_blocks"],
+	["lapis_blocks"],
+	["bamboozled"],
+	["sea_pickles"],
+	["cacti"],
+	["glowstone_dust"],
+	["oak_logs"],
+	["birch_logs"],
+	["spruce_logs"],
+	["jungle_logs"],
+	["dark_oak_logs"],
+	["acacia_logs"],
+	["rh_brown_mushrooms"],
+	["rh_red_mushrooms"],
+	["rh_apples"],
+	["rh_golden_apples"],
+	["rh_honey_bottles"],
+	["rh_eggcellent"],
+	["rh_cocoa_beans"],
+	["rh_chorus_fruit"],
+	["bones"],
+	["spider_eyes"],
+	["gunpowder"],
+	["phantom_membranes"],
+	["ender_pearls"],
+	["blaze_rods"],
+	["ghast_tears"],
+	["slime_blocks"],
+	["saddles"],
+	["coal_collector"],
+	["ironclad"],
+	["diamonds_are_forever"],
+	["white_meat_trader"],
+	["red_meat_trader"],
+	["dried_kelp_trader"],
+	["berry_trader"],
+	["paper_pusher"],
+	["need_new_glasses"],
+	["bookworm"],
+	["black_gold"],
+	["its_like_jerky"],
+	["gold_getter"],
+	["it_used_to_be_thumpers"],
+	["hitting_the_bottle"],
+	["wealth_of_wart"],
+	["wheat_farmer"],
+	["carrot_farmer"],
+	["potato_farmer"],
+	["beetroot_farmer"],
+	["pumpkin_farmer"],
+	["melon_farmer"],
+	["cod_fisherman"],
+	["salmon_fisherman"],
+	["tropical_fish_fisherman"],
+	["pufferfish_fisherman"],
+	["string_theory"],
+	["flinteresting"],
+	["feather_fletcher"],
+	["fresh_from_the_cow"],
+	["fresh_from_the_rabbit"],
+	["scute_over"],
+	["clay_time"],
+	["stone_trader"],
+	["granite_trader"],
+	["andesite_trader"],
+	["diorite_trader"],
+	["quartz_trader"],
+	["white_wool_trader"],
+	["brown_wool_trader"],
+	["black_wool_trader"],
+	["gray_wool_trader"],
+	["dye_me_a_river_1"],
+	["dye_me_a_river_2"],
+	["dye_me_a_river_3"],
+	["plains_villager"],
+	["taiga_villager"],
+	["desert_villager"],
+	["savanna_villager"],
+	["snow_villager"],
+	["swamp_villager"],
+	["jungle_villager"],
+	["not_much_help"],
+	["hired_help"],
+	["risking_hyperinflation"],
+	["it_takes_a_village"],
+	["overpopulation"],
+	["the_wanderer"],
+	["first_diamond"],
+	["raiders_incoming"],
+	["zombie_doctor"],
+	["im_rich"]
+  ]
+}

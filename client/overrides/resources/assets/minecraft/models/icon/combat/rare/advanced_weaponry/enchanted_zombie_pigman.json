@@ -1,0 +1,6 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "icon/combat/rare/advanced_weaponry/enchanted_zombie_pigman"
+	}
+}

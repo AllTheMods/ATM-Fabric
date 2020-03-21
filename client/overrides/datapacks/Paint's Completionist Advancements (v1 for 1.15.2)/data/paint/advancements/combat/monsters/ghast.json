@@ -1,0 +1,32 @@
+{
+  "parent": "paint:combat/monsters/evoker",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:2163}"
+    },
+    "title": {
+      "text": "Ghast","color":"red"}
+    ,
+    "description":
+      {"text":"Slay a ghast","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "monster_slayer_ghast": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "ghast"
+		}
+      }
+    }
+  },
+  "requirements": [
+    ["monster_slayer_ghast"]
+  ]
+}

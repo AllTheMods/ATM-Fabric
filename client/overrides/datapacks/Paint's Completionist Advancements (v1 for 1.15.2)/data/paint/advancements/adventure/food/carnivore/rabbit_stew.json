@@ -1,0 +1,31 @@
+{
+  "parent": "paint:adventure/food/carnivore/cooked_rabbit",
+  "display": {
+    "icon": {
+      "item": "minecraft:rabbit_stew"
+    },
+    "title": {
+      "text": "Rabbit Stew","color":"blue"}
+	,
+    "description": {
+      "text": "Cook and eat rabbit stew","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+	"rabbit_stew": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:rabbit_stew"
+        }
+      }
+	}
+  },
+  "requirements": [
+    ["rabbit_stew"]
+  ]
+}

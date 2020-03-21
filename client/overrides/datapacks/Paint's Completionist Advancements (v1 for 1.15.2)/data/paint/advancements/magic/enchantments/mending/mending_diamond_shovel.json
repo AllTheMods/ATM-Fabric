@@ -1,0 +1,41 @@
+{
+  "parent": "paint:magic/enchantments/mending/mending_diamond_axe",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:4290}"
+    },
+    "title": {
+      "text": "Mending Diamond Shovel","color":"light_purple"}
+    ,
+    "description": {
+      "text": "Obtain a mending diamond shovel","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "mending_diamond_shovel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:diamond_shovel",
+			"enchantments": [
+				{
+				"enchantment": "minecraft:mending"
+				}
+			]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "mending_diamond_shovel"
+    ]
+  ]
+}

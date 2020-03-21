@@ -1,0 +1,42 @@
+{
+  "parent": "paint:magic/enchantments/armor/projectile_protection",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:4209}"
+    },
+    "title": {
+      "text": "Protection IV","color":"light_purple"}
+    ,
+    "description": {
+      "text": "Obtain any armor piece with protection IV","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "protection": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "paint:armor",
+			"enchantments": [
+				{
+				"enchantment": "minecraft:protection",
+				"level": 4
+				}
+			]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "protection"
+    ]
+  ]
+}

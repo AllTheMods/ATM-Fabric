@@ -1,0 +1,187 @@
+{
+  "parent": "paint:adventure/biomes/globetrotter",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:30}"
+    },
+    "title": {
+      "text": "Forest Explorer","color":"blue"}
+    ,
+    "description":
+      {"text":"Visit all temperate biomes","color":"white"}
+    ,
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "plains": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:plains"
+      }
+    },
+	"sunflower_plains": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:sunflower_plains"
+      }
+    },
+	"forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:forest"
+      }
+    },
+	"wooded_hills": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:wooded_hills"
+      }
+    },
+	"flower_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:flower_forest"
+      }
+    },
+	"birch_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:birch_forest"
+      }
+    },
+	"birch_forest_hills": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:birch_forest_hills"
+      }
+    },
+	"tall_birch_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:tall_birch_forest"
+      }
+    },
+	"tall_birch_hills": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:tall_birch_hills"
+      }
+    },
+	"dark_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:dark_forest"
+      }
+    },
+    "dark_forest_hills": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:dark_forest_hills"
+      }
+    },
+	"swamp": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:swamp"
+      }
+    },
+	"swamp_hills": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:swamp_hills"
+      }
+    },
+	"jungle": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:jungle"
+      }
+    },
+	"jungle_hills": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:jungle_hills"
+      }
+    },
+	"jungle_edge": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:jungle_edge"
+      }
+    },
+	"bamboo_jungle": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:bamboo_jungle"
+      }
+    },
+	"bamboo_jungle_hills": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:bamboo_jungle_hills"
+      }
+    },
+	"beach": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:beach"
+      }
+    },
+	"river": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:river"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "plains"
+    ],
+	[
+      "sunflower_plains"
+    ],
+	[
+      "forest",
+	  "wooded_hills"
+    ],
+	[
+      "flower_forest"
+    ],
+	[
+      "birch_forest",
+	  "birch_forest_hills"
+    ],
+	[
+      "tall_birch_forest",
+	  "tall_birch_hills"
+    ],
+	[
+      "dark_forest",
+	  "dark_forest_hills"
+    ],
+	[
+      "swamp",
+	  "swamp_hills"
+    ],
+	[
+      "jungle",
+	  "jungle_hills",
+	  "jungle_edge"
+    ],
+	[
+      "bamboo_jungle",
+	  "bamboo_jungle_hills"
+    ],
+	[
+      "beach"
+    ],
+	[
+      "river"
+    ]
+  ]
+}

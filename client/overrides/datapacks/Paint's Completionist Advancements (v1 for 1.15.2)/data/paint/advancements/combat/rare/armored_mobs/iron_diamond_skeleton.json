@@ -1,0 +1,65 @@
+{
+  "parent": "paint:combat/rare/armored_mobs/iron_diamond_zombie",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:2216}"
+    },
+    "title": {
+      "text": "Iron/Diamond Skeleton","color":"red"}
+    ,
+    "description":
+      {"text":"Kill a skeleton or stray in full iron/diamond armor","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "iron_skeleton": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:skeleton",
+		  "nbt": "{ArmorItems:[{id:\"minecraft:iron_boots\"},{id:\"minecraft:iron_leggings\"},{id:\"minecraft:iron_chestplate\"},{id:\"minecraft:iron_helmet\"}]}"
+		}
+      }
+    },
+	"iron_stray": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:stray",
+		  "nbt": "{ArmorItems:[{id:\"minecraft:iron_boots\"},{id:\"minecraft:iron_leggings\"},{id:\"minecraft:iron_chestplate\"},{id:\"minecraft:iron_helmet\"}]}"
+		}
+      }
+    },
+	"diamond_skeleton": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:skeleton",
+		  "nbt": "{ArmorItems:[{id:\"minecraft:diamond_boots\"},{id:\"minecraft:diamond_leggings\"},{id:\"minecraft:diamond_chestplate\"},{id:\"minecraft:diamond_helmet\"}]}"
+		}
+      }
+    },
+	"diamond_stray": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:stray",
+		  "nbt": "{ArmorItems:[{id:\"minecraft:diamond_boots\"},{id:\"minecraft:diamond_leggings\"},{id:\"minecraft:diamond_chestplate\"},{id:\"minecraft:diamond_helmet\"}]}"
+		}
+      }
+    }
+  },
+  "requirements": [
+    [
+	"iron_skeleton",
+	"iron_stray",
+	"diamond_skeleton",
+	"diamond_stray"
+	]
+  ]
+}

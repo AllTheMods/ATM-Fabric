@@ -1,0 +1,6 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "icon/magic/enchantments/mending/mending_diamond_axe"
+	}
+}

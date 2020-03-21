@@ -1,0 +1,35 @@
+{
+  "parent": "paint:village/bulk/selling_in_bulk",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:5108}"
+    },
+    "title": {
+      "text": "Leatherworker","color":"green"}
+	,
+    "description": {
+      "text": "Obtain all the things all enable you to sell to the Leatherworker in bulk","color":"white"}
+	,
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "fresh_from_the_cow": {
+      "trigger": "minecraft:impossible"
+    },
+	"fresh_from_the_rabbit": {
+      "trigger": "minecraft:impossible"
+    },
+	"scute_over": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    ["fresh_from_the_cow"],
+	["fresh_from_the_rabbit"],
+	["scute_over"]
+  ]
+}

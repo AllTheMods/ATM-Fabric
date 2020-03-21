@@ -1,0 +1,30 @@
+{
+  "parent": "paint:village/bulk/cleric/hitting_the_bottle",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:5435}"
+    },
+    "title": {
+      "text": "Wealth Of Wart","color":"green"}
+	,
+    "description": {
+      "text": "Obtain 8 stacks of nether wart so you can trade with a master cleric in bulk","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "wealth_of_wart": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "paint:pca/rewards/village/bulk/cleric/wealth_of_wart"
+  },
+  "requirements": [
+    ["wealth_of_wart"]
+  ]
+}

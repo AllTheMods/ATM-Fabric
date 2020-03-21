@@ -1,0 +1,33 @@
+{
+  "parent": "paint:village/workstations/put_em_to_work",
+  "display": {
+    "icon": {
+      "item": "minecraft:composter"
+    },
+    "title": {
+      "text": "Composter","color":"green"}
+	,
+    "description": {
+      "text": "Obtain a composter so you can make an unemployed villager a farmer","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "composter": {
+      "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"items": [
+			{
+				"item": "minecraft:composter"
+			}
+		]
+	  }
+    }
+  },
+  "requirements": [
+    ["composter"]
+  ]
+}

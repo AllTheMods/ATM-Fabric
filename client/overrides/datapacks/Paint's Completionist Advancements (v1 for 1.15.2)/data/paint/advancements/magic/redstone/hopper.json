@@ -1,0 +1,33 @@
+{
+  "parent": "paint:magic/redstone/dropper",
+  "display": {
+    "icon": {
+      "item": "minecraft:hopper"
+    },
+    "title": {
+      "text": "Hopper","color":"light_purple"}
+    ,
+    "description": {
+      "text": "Obtain a hopper","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+	"hopper": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"item": "minecraft:hopper"
+				}
+			]
+		}
+	}
+  },
+  "requirements": [
+    ["hopper"]
+  ]
+}

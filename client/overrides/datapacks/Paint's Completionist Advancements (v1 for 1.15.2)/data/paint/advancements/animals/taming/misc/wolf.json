@@ -1,0 +1,34 @@
+{
+  "parent": "paint:animals/taming/misc/the_other_ones",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:1541}"
+    },
+    "title": {
+      "text": "Wolf","color":"yellow"}
+    ,
+    "description": {
+      "text": "Tame a wolf","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "wolf": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+			"type": "minecraft:wolf"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "wolf"
+    ]
+  ]
+}

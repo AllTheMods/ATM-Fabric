@@ -1,0 +1,166 @@
+{
+  "parent": "paint:village/business_tycoon",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:5200}"
+    },
+    "title": {
+      "text": "Put 'Em To Work","color":"green"}
+	,
+    "description": {
+      "text": "Obtain all the work stations so you can make unemployed villagers employed","color":"white"}
+	,
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "blast_furnace": {
+      "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"items": [
+			{
+				"item": "minecraft:blast_furnace"
+			}
+		]
+	  }
+    },
+	"smoker": {
+      "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"items": [
+			{
+				"item": "minecraft:smoker"
+			}
+		]
+	  }
+    },
+	"cartography_table": {
+      "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"items": [
+			{
+				"item": "minecraft:cartography_table"
+			}
+		]
+	  }
+    },
+	"brewing_stand": {
+      "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"items": [
+			{
+				"item": "minecraft:brewing_stand"
+			}
+		]
+	  }
+    },
+	"composter": {
+      "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"items": [
+			{
+				"item": "minecraft:composter"
+			}
+		]
+	  }
+    },
+	"barrel": {
+      "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"items": [
+			{
+				"item": "minecraft:barrel"
+			}
+		]
+	  }
+    },
+	"fletching_table": {
+      "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"items": [
+			{
+				"item": "minecraft:fletching_table"
+			}
+		]
+	  }
+    },
+	"cauldron": {
+      "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"items": [
+			{
+				"item": "minecraft:cauldron"
+			}
+		]
+	  }
+    },
+	"lectern": {
+      "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"items": [
+			{
+				"item": "minecraft:lectern"
+			}
+		]
+	  }
+    },
+	"stonecutter": {
+      "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"items": [
+			{
+				"item": "minecraft:stonecutter"
+			}
+		]
+	  }
+    },
+	"loom": {
+      "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"items": [
+			{
+				"item": "minecraft:loom"
+			}
+		]
+	  }
+    },
+	"smithing_table": {
+      "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"items": [
+			{
+				"item": "minecraft:smithing_table"
+			}
+		]
+	  }
+    },
+	"grindstone": {
+      "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"items": [
+			{
+				"item": "minecraft:grindstone"
+			}
+		]
+	  }
+    }
+  },
+  "requirements": [
+    ["blast_furnace"],
+	["smoker"],
+	["cartography_table"],
+	["brewing_stand"],
+	["composter"],
+	["barrel"],
+	["fletching_table"],
+	["cauldron"],
+	["lectern"],
+	["stonecutter"],
+	["loom"],
+	["smithing_table"],
+	["grindstone"]
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "parent": "paint:animals/misc/jittery_target",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:1902}"
+    },
+    "title": {
+      "text": "Faster than a Smoker","color":"yellow"}
+    ,
+    "description": {
+      "text": "Kill a meat-producing animal with fire to produce cooked meat","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+	"faster_than_a_smoker_cod": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+			"entity": {
+				"type": "cod",
+				"flags": {
+					"is_on_fire": true
+				}
+			}
+		}
+	},
+	"faster_than_a_smoker_cow": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+			"entity": {
+				"type": "cow",
+				"flags": {
+					"is_on_fire": true,
+					"is_baby": false
+				}
+			}
+		}
+	},
+	"faster_than_a_smoker_chicken": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+			"entity": {
+				"type": "chicken",
+				"flags": {
+					"is_on_fire": true,
+					"is_baby": false
+				}
+			}
+		}
+	},
+	"faster_than_a_smoker_mooshroom": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+			"entity": {
+				"type": "mooshroom",
+				"flags": {
+					"is_on_fire": true,
+					"is_baby": false
+				}
+			}
+		}
+	},
+	"faster_than_a_smoker_pig": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+			"entity": {
+				"type": "pig",
+				"flags": {
+					"is_on_fire": true,
+					"is_baby": false
+				}
+			}
+		}
+	},
+	"faster_than_a_smoker_rabbit": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+			"entity": {
+				"type": "rabbit",
+				"flags": {
+					"is_on_fire": true,
+					"is_baby": false
+				}
+			}
+		}
+	},
+	"faster_than_a_smoker_salmon": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+			"entity": {
+				"type": "salmon",
+				"flags": {
+					"is_on_fire": true
+				}
+			}
+		}
+	},
+	"faster_than_a_smoker_sheep": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+			"entity": {
+				"type": "sheep",
+				"flags": {
+					"is_on_fire": true,
+					"is_baby": false
+				}
+			}
+		}
+	}
+  },
+  "requirements": [ 
+	[
+	"faster_than_a_smoker_cod",
+	"faster_than_a_smoker_cow",
+	"faster_than_a_smoker_chicken",
+	"faster_than_a_smoker_mooshroom",
+	"faster_than_a_smoker_pig",
+	"faster_than_a_smoker_rabbit",
+	"faster_than_a_smoker_salmon",
+	"faster_than_a_smoker_sheep"
+	]
+  ]
+}

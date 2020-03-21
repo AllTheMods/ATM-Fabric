@@ -1,0 +1,366 @@
+{
+  "parent": "paint:animals/animal_lover",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:1900}"
+    },
+    "title": {
+      "text": "Cod Jobs","color":"yellow"}
+    ,
+    "description":
+      ["",{"text": "Complete all miscellaneous animal advancements. ","color":"white"},{"text":"Announced in chat.","color":"dark_gray"}]
+    ,
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "jittery_target": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:bat",
+          "distance": {
+            "horizontal": {
+              "min": 20.0
+            }
+          }
+        },
+        "killing_blow": {
+          "is_projectile": true
+        }
+      }
+    },
+	"faster_than_a_smoker_cod": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+			"entity": {
+				"type": "cod",
+				"flags": {
+					"is_on_fire": true
+				}
+			}
+		}
+	},
+	"faster_than_a_smoker_cow": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+			"entity": {
+				"type": "cow",
+				"flags": {
+					"is_on_fire": true,
+					"is_baby": false
+				}
+			}
+		}
+	},
+	"faster_than_a_smoker_chicken": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+			"entity": {
+				"type": "chicken",
+				"flags": {
+					"is_on_fire": true,
+					"is_baby": false
+				}
+			}
+		}
+	},
+	"faster_than_a_smoker_mooshroom": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+			"entity": {
+				"type": "mooshroom",
+				"flags": {
+					"is_on_fire": true,
+					"is_baby": false
+				}
+			}
+		}
+	},
+	"faster_than_a_smoker_pig": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+			"entity": {
+				"type": "pig",
+				"flags": {
+					"is_on_fire": true,
+					"is_baby": false
+				}
+			}
+		}
+	},
+	"faster_than_a_smoker_rabbit": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+			"entity": {
+				"type": "rabbit",
+				"flags": {
+					"is_on_fire": true,
+					"is_baby": false
+				}
+			}
+		}
+	},
+	"faster_than_a_smoker_salmon": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+			"entity": {
+				"type": "salmon",
+				"flags": {
+					"is_on_fire": true
+				}
+			}
+		}
+	},
+	"faster_than_a_smoker_sheep": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+			"entity": {
+				"type": "sheep",
+				"flags": {
+					"is_on_fire": true,
+					"is_baby": false
+				}
+			}
+		}
+	},
+	"echolocation": {
+      "trigger": "minecraft:impossible"
+	},
+	"polar_bear": {
+      "trigger": "minecraft:impossible"
+    },
+	"beelocation": {
+      "trigger": "minecraft:bee_nest_destroyed",
+      "conditions": {
+        "block": "minecraft:bee_nest",
+        "item": {
+          "enchantments": [
+            {
+              "enchantment": "minecraft:silk_touch"
+            }
+          ]
+        },
+        "num_bees_inside": 3
+      }
+    },
+	"bee_our_guest": {
+      "trigger": "minecraft:safely_harvest_honey",
+      "conditions": {
+        "block": {
+          "tag": "minecraft:beehives"
+        },
+        "item": {
+          "item": "minecraft:glass_bottle"
+        }
+      }
+    },
+	"transmootation_lightning": {
+	  "trigger": "minecraft:channeled_lightning",
+      "conditions": {
+        "victims": [
+          {
+            "type": "minecraft:mooshroom"
+          }
+        ]
+      }
+	},
+	"transmootation_breeding": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+		"child": {
+			"type": "minecraft:mooshroom",
+			"nbt": "{Type:\"brown\"}"
+			}
+		}
+	},
+	"were_ewe_adopted_orange": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+		"parent": {
+			"type": "minecraft:sheep",
+			"nbt": "{Color:14b}"
+			},
+		"partner": {
+			"type": "minecraft:sheep",
+			"nbt": "{Color:4b}"
+			},
+		"child": {
+			"type": "minecraft:sheep",
+			"nbt": "{Color:1b}"
+			}
+		}
+	},
+	"were_ewe_adopted_purple": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+		"parent": {
+			"type": "minecraft:sheep",
+			"nbt": "{Color:14b}"
+			},
+		"partner": {
+			"type": "minecraft:sheep",
+			"nbt": "{Color:11b}"
+			},
+		"child": {
+			"type": "minecraft:sheep",
+			"nbt": "{Color:10b}"
+			}
+		}
+	},
+	"were_ewe_adopted_pink": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+		"parent": {
+			"type": "minecraft:sheep",
+			"nbt": "{Color:14b}"
+			},
+		"partner": {
+			"type": "minecraft:sheep",
+			"nbt": "{Color:0b}"
+			},
+		"child": {
+			"type": "minecraft:sheep",
+			"nbt": "{Color:6b}"
+			}
+		}
+	},
+	"were_ewe_adopted_lime": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+		"parent": {
+			"type": "minecraft:sheep",
+			"nbt": "{Color:13b}"
+			},
+		"partner": {
+			"type": "minecraft:sheep",
+			"nbt": "{Color:0b}"
+			},
+		"child": {
+			"type": "minecraft:sheep",
+			"nbt": "{Color:5b}"
+			}
+		}
+	},
+	"were_ewe_adopted_cyan": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+		"parent": {
+			"type": "minecraft:sheep",
+			"nbt": "{Color:13b}"
+			},
+		"partner": {
+			"type": "minecraft:sheep",
+			"nbt": "{Color:11b}"
+			},
+		"child": {
+			"type": "minecraft:sheep",
+			"nbt": "{Color:9b}"
+			}
+		}
+	},
+	"were_ewe_adopted_light_blue": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+		"parent": {
+			"type": "minecraft:sheep",
+			"nbt": "{Color:11b}"
+			},
+		"partner": {
+			"type": "minecraft:sheep",
+			"nbt": "{Color:0b}"
+			},
+		"child": {
+			"type": "minecraft:sheep",
+			"nbt": "{Color:3b}"
+			}
+		}
+	},
+	"were_ewe_adopted_magenta": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+		"parent": {
+			"type": "minecraft:sheep",
+			"nbt": "{Color:10b}"
+			},
+		"partner": {
+			"type": "minecraft:sheep",
+			"nbt": "{Color:6b}"
+			},
+		"child": {
+			"type": "minecraft:sheep",
+			"nbt": "{Color:2b}"
+			}
+		}
+	},
+	"were_ewe_adopted_light_gray": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+		"parent": {
+			"type": "minecraft:sheep",
+			"nbt": "{Color:0b}"
+			},
+		"partner": {
+			"type": "minecraft:sheep",
+			"nbt": "{Color:7b}"
+			},
+		"child": {
+			"type": "minecraft:sheep",
+			"nbt": "{Color:8b}"
+			}
+		}
+	},
+	"were_ewe_adopted_gray": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+		"parent": {
+			"type": "minecraft:sheep",
+			"nbt": "{Color:0b}"
+			},
+		"partner": {
+			"type": "minecraft:sheep",
+			"nbt": "{Color:15b}"
+			},
+		"child": {
+			"type": "minecraft:sheep",
+			"nbt": "{Color:7b}"
+			}
+		}
+	}
+	},
+  "requirements": [
+	["jittery_target"],
+	[
+	"faster_than_a_smoker_cod",
+	"faster_than_a_smoker_cow",
+	"faster_than_a_smoker_chicken",
+	"faster_than_a_smoker_mooshroom",
+	"faster_than_a_smoker_pig",
+	"faster_than_a_smoker_rabbit",
+	"faster_than_a_smoker_salmon",
+	"faster_than_a_smoker_sheep"
+	],
+	["echolocation"],
+	["polar_bear"],
+	["beelocation"],
+	["bee_our_guest"],
+	[
+	"transmootation_lightning",
+	"transmootation_breeding"
+	],
+	[
+	"were_ewe_adopted_orange",
+	"were_ewe_adopted_purple",
+	"were_ewe_adopted_pink",
+	"were_ewe_adopted_lime",
+	"were_ewe_adopted_cyan",
+	"were_ewe_adopted_light_blue",
+	"were_ewe_adopted_magenta",
+	"were_ewe_adopted_light_gray",
+	"were_ewe_adopted_gray"
+	]
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "paint:animals/taming/cats/complete_catalogue",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:1502}"
+    },
+    "title": {
+      "text": "Black Cat","color":"yellow"}
+    ,
+    "description": {
+      "text": "Tame a black cat with orange eyes","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "black_cat": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+			"type": "minecraft:cat",
+			"nbt": "{CatType:10}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "black_cat"
+    ]
+  ]
+}

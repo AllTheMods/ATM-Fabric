@@ -1,0 +1,52 @@
+{
+  "parent": "paint:combat/rare/once_in_a_blue_moon",
+  "display": {
+    "icon": {
+      "item": "minecraft:creeper_head"
+    },
+    "title": {
+      "text": "Special Mobs","color":"red"}
+    ,
+    "description":
+      {"text":"Kill these special mobs","color":"white"}
+    ,
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "gardender": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:enderman",
+		  "nbt": "{carriedBlockState:{Name:\"minecraft:grass_block\"}}"
+		}
+      }
+    },
+	"drowned_holding_trident": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:drowned",
+		  "nbt": "{HandItems:[{id:\"minecraft:trident\"}]}"
+		}
+      }
+    },
+	"charged_creeper": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:creeper",
+		  "nbt": "{powered:1b}"
+		}
+      }
+    }
+  },
+  "requirements": [
+    ["gardender"],
+	["drowned_holding_trident"],
+	["charged_creeper"]
+  ]
+}

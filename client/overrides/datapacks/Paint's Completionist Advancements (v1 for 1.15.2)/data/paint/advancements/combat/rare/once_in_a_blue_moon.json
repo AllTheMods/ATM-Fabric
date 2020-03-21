@@ -1,0 +1,1065 @@
+{
+  "parent": "paint:combat/ultimate_warrior",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:2200}"
+    },
+    "title": {
+      "text": "Once in a Blue Moon","color":"red"}
+    ,
+    "description":
+      {"text":"Kill all these rare mobs","color":"white"}
+    ,
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "enchanted_digger_zombie_efficiency": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:zombie",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_shovel\",tag:{Enchantments:[{id:\"minecraft:efficiency\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_digger_zombie_unbreaking": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:zombie",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_shovel\",tag:{Enchantments:[{id:\"minecraft:unbreaking\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_digger_zombie_fortune": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:zombie",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_shovel\",tag:{Enchantments:[{id:\"minecraft:fortune\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_digger_zombie_silk_touch": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:zombie",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_shovel\",tag:{Enchantments:[{id:\"minecraft:silk_touch\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_digger_husk_efficiency": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:husk",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_shovel\",tag:{Enchantments:[{id:\"minecraft:efficiency\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_digger_husk_unbreaking": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:husk",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_shovel\",tag:{Enchantments:[{id:\"minecraft:unbreaking\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_digger_husk_fortune": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:husk",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_shovel\",tag:{Enchantments:[{id:\"minecraft:fortune\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_digger_husk_silk_touch": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:husk",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_shovel\",tag:{Enchantments:[{id:\"minecraft:silk_touch\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_digger_drowned_efficiency": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:drowned",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_shovel\",tag:{Enchantments:[{id:\"minecraft:efficiency\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_digger_drowned_unbreaking": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:drowned",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_shovel\",tag:{Enchantments:[{id:\"minecraft:unbreaking\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_digger_drowned_fortune": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:drowned",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_shovel\",tag:{Enchantments:[{id:\"minecraft:fortune\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_digger_drowned_silk_touch": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:drowned",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_shovel\",tag:{Enchantments:[{id:\"minecraft:silk_touch\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_digger_zombie_villager_efficiency": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:zombie_villager",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_shovel\",tag:{Enchantments:[{id:\"minecraft:efficiency\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_digger_zombie_villager_unbreaking": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:zombie_villager",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_shovel\",tag:{Enchantments:[{id:\"minecraft:unbreaking\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_digger_zombie_villager_fortune": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:zombie_villager",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_shovel\",tag:{Enchantments:[{id:\"minecraft:fortune\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_digger_zombie_villager_silk_touch": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:zombie_villager",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_shovel\",tag:{Enchantments:[{id:\"minecraft:silk_touch\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_fighter_zombie_sharpness": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:zombie",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_sword\",tag:{Enchantments:[{id:\"minecraft:sharpness\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_fighter_zombie_knockback": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:zombie",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_sword\",tag:{Enchantments:[{id:\"minecraft:knockback\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_fighter_zombie_fire_aspect": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:zombie",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_sword\",tag:{Enchantments:[{id:\"minecraft:fire_aspect\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_fighter_husk_sharpness": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:husk",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_sword\",tag:{Enchantments:[{id:\"minecraft:sharpness\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_fighter_husk_knockback": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:husk",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_sword\",tag:{Enchantments:[{id:\"minecraft:knockback\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_fighter_husk_fire_aspect": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:husk",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_sword\",tag:{Enchantments:[{id:\"minecraft:fire_aspect\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_fighter_drowned_sharpness": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:drowned",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_sword\",tag:{Enchantments:[{id:\"minecraft:sharpness\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_fighter_drowned_knockback": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:drowned",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_sword\",tag:{Enchantments:[{id:\"minecraft:knockback\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_fighter_drowned_fire_aspect": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:drowned",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_sword\",tag:{Enchantments:[{id:\"minecraft:fire_aspect\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_fighter_zombie_villager_sharpness": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:zombie_villager",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_sword\",tag:{Enchantments:[{id:\"minecraft:sharpness\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_fighter_zombie_villager_knockback": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:zombie_villager",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_sword\",tag:{Enchantments:[{id:\"minecraft:knockback\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_fighter_zombie_villager_fire_aspect": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:zombie_villager",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_sword\",tag:{Enchantments:[{id:\"minecraft:fire_aspect\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_skeleton_power": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:skeleton",
+		  "nbt": "{HandItems:[{id:\"minecraft:bow\",tag:{Enchantments:[{id:\"minecraft:power\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_skeleton_punch": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:skeleton",
+		  "nbt": "{HandItems:[{id:\"minecraft:bow\",tag:{Enchantments:[{id:\"minecraft:punch\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_skeleton_flame": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:skeleton",
+		  "nbt": "{HandItems:[{id:\"minecraft:bow\",tag:{Enchantments:[{id:\"minecraft:flame\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_stray_power": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:stray",
+		  "nbt": "{HandItems:[{id:\"minecraft:bow\",tag:{Enchantments:[{id:\"minecraft:power\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_stray_punch": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:stray",
+		  "nbt": "{HandItems:[{id:\"minecraft:bow\",tag:{Enchantments:[{id:\"minecraft:punch\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_stray_flame": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:stray",
+		  "nbt": "{HandItems:[{id:\"minecraft:bow\",tag:{Enchantments:[{id:\"minecraft:flame\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_zombie_pigman_sharpness": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:zombie_pigman",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_sword\",tag:{Enchantments:[{id:\"minecraft:sharpness\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_zombie_pigman_knockback": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:zombie_pigman",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_sword\",tag:{Enchantments:[{id:\"minecraft:knockback\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_zombie_pigman_fire_aspect": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:zombie_pigman",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_sword\",tag:{Enchantments:[{id:\"minecraft:fire_aspect\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_pillager_multishot": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:pillager",
+		  "nbt": "{HandItems:[{id:\"minecraft:crossbow\",tag:{Enchantments:[{id:\"minecraft:multishot\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_pillager_piercing": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:pillager",
+		  "nbt": "{HandItems:[{id:\"minecraft:crossbow\",tag:{Enchantments:[{id:\"minecraft:piercing\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_pillager_quick_charge": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:pillager",
+		  "nbt": "{HandItems:[{id:\"minecraft:crossbow\",tag:{Enchantments:[{id:\"minecraft:quick_charge\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_vindicator_efficiency": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:vindicator",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_axe\",tag:{Enchantments:[{id:\"minecraft:efficiency\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_vindicator_unbreaking": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:vindicator",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_axe\",tag:{Enchantments:[{id:\"minecraft:unbreaking\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_vindicator_fortune": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:vindicator",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_axe\",tag:{Enchantments:[{id:\"minecraft:fortune\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_vindicator_silk_touch": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:vindicator",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_axe\",tag:{Enchantments:[{id:\"minecraft:silk_touch\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_vex_sharpness": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "vex",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_sword\",tag:{Enchantments:[{id:\"minecraft:sharpness\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_vex_knockback": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "vex",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_sword\",tag:{Enchantments:[{id:\"minecraft:knockback\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_vex_fire_aspect": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "vex",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_sword\",tag:{Enchantments:[{id:\"minecraft:fire_aspect\"}]}},{}]}"
+		}
+      }
+    },
+	"chain_zombie": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:zombie",
+		  "nbt": "{ArmorItems:[{id:\"minecraft:chainmail_boots\"},{id:\"minecraft:chainmail_leggings\"},{id:\"minecraft:chainmail_chestplate\"},{id:\"minecraft:chainmail_helmet\"}]}"
+		}
+      }
+    },
+	"chain_husk": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:husk",
+		  "nbt": "{ArmorItems:[{id:\"minecraft:chainmail_boots\"},{id:\"minecraft:chainmail_leggings\"},{id:\"minecraft:chainmail_chestplate\"},{id:\"minecraft:chainmail_helmet\"}]}"
+		}
+      }
+    },
+	"chain_drowned": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:drowned",
+		  "nbt": "{ArmorItems:[{id:\"minecraft:chainmail_boots\"},{id:\"minecraft:chainmail_leggings\"},{id:\"minecraft:chainmail_chestplate\"},{id:\"minecraft:chainmail_helmet\"}]}"
+		}
+      }
+    },
+	"chain_zombie_villager": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:zombie_villager",
+		  "nbt": "{ArmorItems:[{id:\"minecraft:chainmail_boots\"},{id:\"minecraft:chainmail_leggings\"},{id:\"minecraft:chainmail_chestplate\"},{id:\"minecraft:chainmail_helmet\"}]}"
+		}
+      }
+    },
+	"chain_skeleton": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:skeleton",
+		  "nbt": "{ArmorItems:[{id:\"minecraft:chainmail_boots\"},{id:\"minecraft:chainmail_leggings\"},{id:\"minecraft:chainmail_chestplate\"},{id:\"minecraft:chainmail_helmet\"}]}"
+		}
+      }
+    },
+	"chain_stray": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:stray",
+		  "nbt": "{ArmorItems:[{id:\"minecraft:chainmail_boots\"},{id:\"minecraft:chainmail_leggings\"},{id:\"minecraft:chainmail_chestplate\"},{id:\"minecraft:chainmail_helmet\"}]}"
+		}
+      }
+    },
+	"gold_zombie": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:zombie",
+		  "nbt": "{ArmorItems:[{id:\"minecraft:golden_boots\"},{id:\"minecraft:golden_leggings\"},{id:\"minecraft:golden_chestplate\"},{id:\"minecraft:golden_helmet\"}]}"
+		}
+      }
+    },
+	"gold_husk": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:husk",
+		  "nbt": "{ArmorItems:[{id:\"minecraft:golden_boots\"},{id:\"minecraft:golden_leggings\"},{id:\"minecraft:golden_chestplate\"},{id:\"minecraft:golden_helmet\"}]}"
+		}
+      }
+    },
+	"gold_drowned": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:drowned",
+		  "nbt": "{ArmorItems:[{id:\"minecraft:golden_boots\"},{id:\"minecraft:golden_leggings\"},{id:\"minecraft:golden_chestplate\"},{id:\"minecraft:golden_helmet\"}]}"
+		}
+      }
+    },
+	"gold_zombie_villager": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:zombie_villager",
+		  "nbt": "{ArmorItems:[{id:\"minecraft:golden_boots\"},{id:\"minecraft:golden_leggings\"},{id:\"minecraft:golden_chestplate\"},{id:\"minecraft:golden_helmet\"}]}"
+		}
+      }
+    },
+	"gold_skeleton": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:skeleton",
+		  "nbt": "{ArmorItems:[{id:\"minecraft:golden_boots\"},{id:\"minecraft:golden_leggings\"},{id:\"minecraft:golden_chestplate\"},{id:\"minecraft:golden_helmet\"}]}"
+		}
+      }
+    },
+	"gold_stray": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:skeleton",
+		  "nbt": "{ArmorItems:[{id:\"minecraft:golden_boots\"},{id:\"minecraft:golden_leggings\"},{id:\"minecraft:golden_chestplate\"},{id:\"minecraft:golden_helmet\"}]}"
+		}
+      }
+    },
+	"iron_zombie": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:zombie",
+		  "nbt": "{ArmorItems:[{id:\"minecraft:iron_boots\"},{id:\"minecraft:iron_leggings\"},{id:\"minecraft:iron_chestplate\"},{id:\"minecraft:iron_helmet\"}]}"
+		}
+      }
+    },
+	"iron_husk": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:husk",
+		  "nbt": "{ArmorItems:[{id:\"minecraft:iron_boots\"},{id:\"minecraft:iron_leggings\"},{id:\"minecraft:iron_chestplate\"},{id:\"minecraft:iron_helmet\"}]}"
+		}
+      }
+    },
+	"iron_drowned": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:drowned",
+		  "nbt": "{ArmorItems:[{id:\"minecraft:iron_boots\"},{id:\"minecraft:iron_leggings\"},{id:\"minecraft:iron_chestplate\"},{id:\"minecraft:iron_helmet\"}]}"
+		}
+      }
+    },
+	"iron_zombie_villager": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:zombie_villager",
+		  "nbt": "{ArmorItems:[{id:\"minecraft:iron_boots\"},{id:\"minecraft:iron_leggings\"},{id:\"minecraft:iron_chestplate\"},{id:\"minecraft:iron_helmet\"}]}"
+		}
+      }
+    },
+	"diamond_zombie": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:zombie",
+		  "nbt": "{ArmorItems:[{id:\"minecraft:diamond_boots\"},{id:\"minecraft:diamond_leggings\"},{id:\"minecraft:diamond_chestplate\"},{id:\"minecraft:diamond_helmet\"}]}"
+		}
+      }
+    },
+	"diamond_husk": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:husk",
+		  "nbt": "{ArmorItems:[{id:\"minecraft:diamond_boots\"},{id:\"minecraft:diamond_leggings\"},{id:\"minecraft:diamond_chestplate\"},{id:\"minecraft:diamond_helmet\"}]}"
+		}
+      }
+    },
+	"diamond_drowned": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:drowned",
+		  "nbt": "{ArmorItems:[{id:\"minecraft:diamond_boots\"},{id:\"minecraft:diamond_leggings\"},{id:\"minecraft:diamond_chestplate\"},{id:\"minecraft:diamond_helmet\"}]}"
+		}
+      }
+    },
+	"diamond_zombie_villager": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:zombie_villager",
+		  "nbt": "{ArmorItems:[{id:\"minecraft:diamond_boots\"},{id:\"minecraft:diamond_leggings\"},{id:\"minecraft:diamond_chestplate\"},{id:\"minecraft:diamond_helmet\"}]}"
+		}
+      }
+    },
+	"iron_skeleton": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:skeleton",
+		  "nbt": "{ArmorItems:[{id:\"minecraft:iron_boots\"},{id:\"minecraft:iron_leggings\"},{id:\"minecraft:iron_chestplate\"},{id:\"minecraft:iron_helmet\"}]}"
+		}
+      }
+    },
+	"iron_stray": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:stray",
+		  "nbt": "{ArmorItems:[{id:\"minecraft:iron_boots\"},{id:\"minecraft:iron_leggings\"},{id:\"minecraft:iron_chestplate\"},{id:\"minecraft:iron_helmet\"}]}"
+		}
+      }
+    },
+	"diamond_skeleton": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:skeleton",
+		  "nbt": "{ArmorItems:[{id:\"minecraft:diamond_boots\"},{id:\"minecraft:diamond_leggings\"},{id:\"minecraft:diamond_chestplate\"},{id:\"minecraft:diamond_helmet\"}]}"
+		}
+      }
+    },
+	"diamond_stray": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:stray",
+		  "nbt": "{ArmorItems:[{id:\"minecraft:diamond_boots\"},{id:\"minecraft:diamond_leggings\"},{id:\"minecraft:diamond_chestplate\"},{id:\"minecraft:diamond_helmet\"}]}"
+		}
+      }
+    },
+	"enchanted_zombie_thorns": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:zombie",
+		  "nbt": "{ArmorItems:[{},{},{tag:{Enchantments:[{id:\"minecraft:thorns\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_husk_thorns": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:husk",
+		  "nbt": "{ArmorItems:[{},{},{tag:{Enchantments:[{id:\"minecraft:thorns\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_drowned_thorns": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:drowned",
+		  "nbt": "{ArmorItems:[{},{},{tag:{Enchantments:[{id:\"minecraft:thorns\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_zombie_villager_thorns": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:zombie_villager",
+		  "nbt": "{ArmorItems:[{},{},{tag:{Enchantments:[{id:\"minecraft:thorns\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_skeleton_thorns": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:skeleton",
+		  "nbt": "{ArmorItems:[{},{},{tag:{Enchantments:[{id:\"minecraft:thorns\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_stray_thorns": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:stray",
+		  "nbt": "{ArmorItems:[{},{},{tag:{Enchantments:[{id:\"minecraft:thorns\"}]}},{}]}"
+		}
+      }
+    },
+	"speed_spider": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+		  "effects": {
+			"minecraft:speed": {
+				"amplifier": {
+					"min": 0
+				}
+			}
+		  },
+          "type": "spider",
+		  "nbt": "{Tags:[\"pca_effected_spider\"]}"
+		}
+      }
+    },
+	"strength_spider": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+		  "effects": {
+			"minecraft:strength": {
+				"amplifier": {
+					"min": 0
+				}
+			}
+		  },
+          "type": "spider",
+		  "nbt": "{Tags:[\"pca_effected_spider\"]}"
+		}
+      }
+    },
+	"regeneration_spider": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+		  "effects": {
+			"minecraft:regeneration": {
+				"amplifier": {
+					"min": 0
+				}
+			}
+		  },
+          "type": "spider",
+		  "nbt": "{Tags:[\"pca_effected_spider\"]}"
+		}
+      }
+    },
+	"invisibility_spider": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+		  "effects": {
+			"minecraft:invisibility": {
+				"amplifier": {
+					"min": 0
+				}
+			}
+		  },
+          "type": "spider",
+		  "nbt": "{Tags:[\"pca_effected_spider\"]}"
+		}
+      }
+    },
+	"spider_mount": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:spider",
+		  "nbt": "{Tags:[\"pca_spider_jockey\"]}"
+		}
+      }
+    },
+	"skeleton_jockey": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:skeleton",
+		  "nbt": "{Tags:[\"pca_spider_jockey\"]}"
+		}
+      }
+    },
+	"stray_jockey": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:stray",
+		  "nbt": "{Tags:[\"pca_spider_jockey\"]}"
+		}
+      }
+    },
+	"chicken_mount_zombie": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:chicken",
+		  "nbt": "{Tags:[\"pca_zombie_chicken_jockey\"]}"
+		}
+      }
+    },
+	"zombie_jockey": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:zombie",
+		  "nbt": "{Tags:[\"pca_zombie_chicken_jockey\"]}"
+		}
+      }
+    },
+	"husk_jockey": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:husk",
+		  "nbt": "{Tags:[\"pca_zombie_chicken_jockey\"]}"
+		}
+      }
+    },
+	"drowned_jockey": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:drowned",
+		  "nbt": "{Tags:[\"pca_zombie_chicken_jockey\"]}"
+		}
+      }
+    },
+	"chicken_mount_zombie_pigman": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:chicken",
+		  "nbt": "{Tags:[\"pca_zombie_pigman_chicken_jockey\"]}"
+		}
+      }
+    },
+	"zombie_pigman_jockey": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:zombie_pigman",
+		  "nbt": "{Tags:[\"pca_zombie_pigman_chicken_jockey\"]}"
+		}
+      }
+    },
+	"skeleton_horseman": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:skeleton",
+		  "nbt": "{Tags:[\"pca_skeleton_horseman\"]}"
+		}
+      }
+    },
+	"ravager_mount": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:ravager",
+		  "nbt": "{Tags:[\"pca_ravager_jockey\"]}"
+		}
+      }
+    },
+	"evoker_jockey": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:evoker",
+		  "nbt": "{Tags:[\"pca_ravager_jockey\"]}"
+		}
+      }
+    },
+	"pillager_jockey": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:pillager",
+		  "nbt": "{Tags:[\"pca_ravager_jockey\"]}"
+		}
+      }
+    },
+	"vindicator_jockey": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:vindicator",
+		  "nbt": "{Tags:[\"pca_ravager_jockey\"]}"
+		}
+      }
+    },
+	"gardender": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:enderman",
+		  "nbt": "{carriedBlockState:{Name:\"minecraft:grass_block\"}}"
+		}
+      }
+    },
+	"drowned_holding_trident": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:drowned",
+		  "nbt": "{HandItems:[{id:\"minecraft:trident\"}]}"
+		}
+      }
+    },
+	"charged_creeper": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:creeper",
+		  "nbt": "{powered:1b}"
+		}
+      }
+    }
+  },
+  "requirements": [
+    [
+	"enchanted_digger_zombie_efficiency",
+	"enchanted_digger_zombie_unbreaking",
+	"enchanted_digger_zombie_fortune",
+	"enchanted_digger_zombie_silk_touch",
+	"enchanted_digger_husk_efficiency",
+	"enchanted_digger_husk_unbreaking",
+	"enchanted_digger_husk_fortune",
+	"enchanted_digger_husk_silk_touch",
+	"enchanted_digger_drowned_efficiency",
+	"enchanted_digger_drowned_unbreaking",
+	"enchanted_digger_drowned_fortune",
+	"enchanted_digger_drowned_silk_touch",
+	"enchanted_digger_zombie_villager_efficiency",
+	"enchanted_digger_zombie_villager_unbreaking",
+	"enchanted_digger_zombie_villager_fortune",
+	"enchanted_digger_zombie_villager_silk_touch"
+	],
+	[
+	"enchanted_fighter_zombie_sharpness",
+	"enchanted_fighter_zombie_knockback",
+	"enchanted_fighter_zombie_fire_aspect",
+	"enchanted_fighter_husk_sharpness",
+	"enchanted_fighter_husk_knockback",
+	"enchanted_fighter_husk_fire_aspect",
+	"enchanted_fighter_drowned_sharpness",
+	"enchanted_fighter_drowned_knockback",
+	"enchanted_fighter_drowned_fire_aspect",
+	"enchanted_fighter_zombie_villager_sharpness",
+	"enchanted_fighter_zombie_villager_knockback",
+	"enchanted_fighter_zombie_villager_fire_aspect"
+	],
+	[
+	"enchanted_skeleton_power",
+	"enchanted_skeleton_punch",
+	"enchanted_skeleton_flame",
+	"enchanted_stray_power",
+	"enchanted_stray_punch",
+	"enchanted_stray_flame"
+	],
+	[
+	"enchanted_zombie_pigman_sharpness",
+	"enchanted_zombie_pigman_knockback",
+	"enchanted_zombie_pigman_fire_aspect"
+	],
+	[
+	"enchanted_pillager_multishot",
+	"enchanted_pillager_piercing",
+	"enchanted_pillager_quick_charge"
+	],
+	[
+	"enchanted_vindicator_efficiency",
+	"enchanted_vindicator_unbreaking",
+	"enchanted_vindicator_fortune",
+	"enchanted_vindicator_silk_touch"
+	],
+	[
+	"enchanted_vex_sharpness",
+	"enchanted_vex_knockback",
+	"enchanted_vex_fire_aspect"
+	],
+	[
+	"chain_zombie",
+	"chain_husk",
+	"chain_drowned",
+	"chain_zombie_villager"
+	],
+	[
+	"chain_skeleton",
+	"chain_stray"
+	],
+	[
+	"gold_zombie",
+	"gold_husk",
+	"gold_drowned",
+	"gold_zombie_villager"
+	],
+	[
+	"gold_skeleton",
+	"gold_stray"
+	],
+	[
+	"iron_zombie",
+	"iron_husk",
+	"iron_drowned",
+	"iron_zombie_villager",
+	"diamond_zombie",
+	"diamond_husk",
+	"diamond_drowned",
+	"diamond_zombie_villager"
+	],
+	[
+	"iron_skeleton",
+	"iron_stray",
+	"diamond_skeleton",
+	"diamond_stray"
+	],
+	[
+	"enchanted_zombie_thorns",
+	"enchanted_husk_thorns",
+	"enchanted_drowned_thorns",
+	"enchanted_zombie_villager_thorns",
+	"enchanted_skeleton_thorns",
+	"enchanted_stray_thorns"
+	],
+	["speed_spider"],
+	["strength_spider"],
+	["regeneration_spider"],
+	["invisibility_spider"],
+	["spider_mount"],
+	[
+	"skeleton_jockey",
+	"stray_jockey"
+	],
+	["chicken_mount_zombie"],
+	[
+	"zombie_jockey",
+	"husk_jockey",
+	"drowned_jockey"
+	],
+	["chicken_mount_zombie_pigman"],
+	["zombie_pigman_jockey"],
+	["skeleton_horseman"],
+	["ravager_mount"],
+	[
+	"evoker_jockey",
+	"pillager_jockey",
+	"vindicator_jockey"
+	],
+	["gardender"],
+	["drowned_holding_trident"],
+	["charged_creeper"]
+  ]
+}

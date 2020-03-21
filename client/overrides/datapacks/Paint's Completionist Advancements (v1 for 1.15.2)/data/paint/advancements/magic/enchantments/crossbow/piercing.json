@@ -1,0 +1,42 @@
+{
+  "parent": "paint:magic/enchantments/crossbow/multishot",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:4252}"
+    },
+    "title": {
+      "text": "Piercing IV","color":"light_purple"}
+    ,
+    "description": {
+      "text": "Obtain the piercing IV enchantment on a crossbow","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "piercing": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:crossbow",
+			"enchantments": [
+				{
+				"enchantment": "minecraft:piercing",
+				"levels": 4
+				}
+			]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "piercing"
+    ]
+  ]
+}

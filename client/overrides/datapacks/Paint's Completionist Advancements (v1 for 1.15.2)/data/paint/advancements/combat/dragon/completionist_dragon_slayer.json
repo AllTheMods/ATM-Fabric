@@ -1,0 +1,167 @@
+{
+  "parent": "paint:combat/ultimate_warrior",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:2050}"
+    },
+    "title": {
+      "text": "Completionist Dragon Slayer","color":"red"}
+    ,
+    "description":
+      ["",{"text":"Complete all dragon advancements. ","color":"white"},{"text":"Announced in chat.","color":"dark_gray"}]
+    ,
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "enter_the_end": {
+      "trigger": "minecraft:changed_dimension",
+	  "conditions": {
+        "to": "minecraft:the_end"
+      }
+    },
+	"crystactics": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+		"damage": {
+			"type": {
+				"is_explosion": true
+			}
+		},
+        "entity": {
+          "type": "minecraft:ender_dragon"
+        }
+      }
+    },
+	"take_her_breath_away": {
+      "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"items": [
+			{
+				"item": "minecraft:dragon_breath",
+				"count": {
+					"min": 64
+				}
+			}
+		]
+	  }
+    },
+	"dragon_slayer": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:ender_dragon"
+        }
+      }
+    },
+	"figurehead": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:dragon_head"
+          }
+        ]
+      }
+    },
+	"dragain": {
+      "trigger": "minecraft:summoned_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:ender_dragon"
+        }
+      }
+    },
+	"gateway_icosagon_1": {
+      "trigger": "minecraft:impossible"
+    },
+	"gateway_icosagon_2": {
+      "trigger": "minecraft:impossible"
+    },
+	"gateway_icosagon_3": {
+      "trigger": "minecraft:impossible"
+    },
+	"gateway_icosagon_4": {
+      "trigger": "minecraft:impossible"
+    },
+	"gateway_icosagon_5": {
+      "trigger": "minecraft:impossible"
+    },
+	"gateway_icosagon_6": {
+      "trigger": "minecraft:impossible"
+    },
+	"gateway_icosagon_7": {
+      "trigger": "minecraft:impossible"
+    },
+	"gateway_icosagon_8": {
+      "trigger": "minecraft:impossible"
+    },
+	"gateway_icosagon_9": {
+      "trigger": "minecraft:impossible"
+    },
+	"gateway_icosagon_10": {
+      "trigger": "minecraft:impossible"
+    },
+	"gateway_icosagon_11": {
+      "trigger": "minecraft:impossible"
+    },
+	"gateway_icosagon_12": {
+      "trigger": "minecraft:impossible"
+    },
+	"gateway_icosagon_13": {
+      "trigger": "minecraft:impossible"
+    },
+	"gateway_icosagon_14": {
+      "trigger": "minecraft:impossible"
+    },
+	"gateway_icosagon_15": {
+      "trigger": "minecraft:impossible"
+    },
+	"gateway_icosagon_16": {
+      "trigger": "minecraft:impossible"
+    },
+	"gateway_icosagon_17": {
+      "trigger": "minecraft:impossible"
+    },
+	"gateway_icosagon_18": {
+      "trigger": "minecraft:impossible"
+    },
+	"gateway_icosagon_19": {
+      "trigger": "minecraft:impossible"
+    },
+	"gateway_icosagon_20": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    ["enter_the_end"],
+	["crystactics"],
+	["take_her_breath_away"],
+	["dragon_slayer"],
+	["figurehead"],
+	["dragain"],
+	["gateway_icosagon_1"],
+	["gateway_icosagon_2"],
+	["gateway_icosagon_3"],
+	["gateway_icosagon_4"],
+	["gateway_icosagon_5"],
+	["gateway_icosagon_6"],
+	["gateway_icosagon_7"],
+	["gateway_icosagon_8"],
+	["gateway_icosagon_9"],
+	["gateway_icosagon_10"],
+	["gateway_icosagon_11"],
+	["gateway_icosagon_12"],
+	["gateway_icosagon_13"],
+	["gateway_icosagon_14"],
+	["gateway_icosagon_15"],
+	["gateway_icosagon_16"],
+	["gateway_icosagon_17"],
+	["gateway_icosagon_18"],
+	["gateway_icosagon_19"],
+	["gateway_icosagon_20"]
+  ]
+}

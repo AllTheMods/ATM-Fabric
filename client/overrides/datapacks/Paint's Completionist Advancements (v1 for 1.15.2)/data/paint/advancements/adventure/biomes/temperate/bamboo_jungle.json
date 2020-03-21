@@ -1,0 +1,39 @@
+{
+  "parent": "paint:adventure/biomes/temperate/jungle",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:40}"
+    },
+    "title": {
+      "text": "Bamboo Jungle","color":"blue"}
+    ,
+    "description":
+      {"text":"Visit the bamboo jungle","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "bamboo_jungle": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:bamboo_jungle"
+      }
+    },
+	"bamboo_jungle_hills": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:bamboo_jungle_hills"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "bamboo_jungle",
+	  "bamboo_jungle_hills"
+    ]
+  ]
+}

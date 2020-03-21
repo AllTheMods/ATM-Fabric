@@ -1,0 +1,31 @@
+{
+  "parent": "paint:magic/misc/arrow_with_extra_ow",
+  "display": {
+    "icon": {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    "title": {
+      "text": "Overpowered","color":"light_purple"}
+    ,
+    "description": {
+      "text": "Consume an enchanted golden apple","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+	"overpowered": {
+		"trigger": "minecraft:consume_item",
+		"conditions": {
+			"item": {
+			"item": "minecraft:enchanted_golden_apple"
+			}
+		}
+	}
+  },
+  "requirements": [
+    ["overpowered"]
+  ]
+}

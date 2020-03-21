@@ -1,0 +1,91 @@
+{
+  "parent": "paint:adventure/biomes/globetrotter",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:10}"
+    },
+    "title": {
+      "text": "Artic Explorer","color":"blue"}
+    ,
+    "description":
+      {"text":"Visit all snowy biomes","color":"white"}
+    ,
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "snowy_tundra": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:snowy_tundra"
+      }
+    },
+	"snowy_mountains": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:snowy_mountains"
+      }
+    },
+	"snowy_taiga": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:snowy_taiga"
+      }
+    },
+	"snowy_taiga_hills": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:snowy_taiga_hills"
+      }
+    },
+	"snowy_taiga_mountains": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:snowy_taiga_mountains"
+      }
+    },
+	"ice_spikes": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:ice_spikes"
+      }
+    },
+	"snowy_beach": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:snowy_beach"
+      }
+    },
+    "frozen_river": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:frozen_river"
+      }
+    }
+  },
+  "requirements": [
+	[
+	  "snowy_tundra"
+	],
+	[
+	  "snowy_mountains"
+	],
+	[
+      "snowy_taiga",
+	  "snowy_taiga_hills"
+    ],
+	["snowy_taiga_mountains"],
+	[
+      "ice_spikes"
+    ],
+	[
+      "snowy_beach"
+    ],
+    [
+      "frozen_river"
+    ]
+  ]
+}

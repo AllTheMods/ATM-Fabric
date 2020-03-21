@@ -1,0 +1,34 @@
+{
+  "parent": "paint:magic/misc/shulker_box",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:4502}"
+    },
+    "title": {
+      "text": "Great View From Up Here","color":"light_purple"}
+    ,
+    "description": {
+      "text": "Leviate upwards 50m","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+	"great_view_from_up_here": {
+      "trigger": "minecraft:levitation",
+      "conditions": {
+		"distance": {
+          "y": {
+            "min": 50.0
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["great_view_from_up_here"]
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "paint:animals/taming/cats/red_cat",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:1509}"
+    },
+    "title": {
+      "text": "We are Siamese if you Please","color":"yellow"}
+    ,
+    "description": {
+      "text": "Tame a white cat with gray tail and face","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "siamese": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+			"type": "minecraft:cat",
+			"nbt": "{CatType:3}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "siamese"
+    ]
+  ]
+}

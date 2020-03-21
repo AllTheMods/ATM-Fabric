@@ -1,0 +1,35 @@
+{
+  "parent": "paint:animals/taming/cats/calico",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:1505}"
+    },
+    "title": {
+      "text": "Jellie","color":"yellow"}
+    ,
+    "description": {
+      "text": "Tame a gray and white cat with gray-green eyes","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "jellie": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+			"type": "minecraft:cat",
+			"nbt": "{CatType:9}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "jellie"
+    ]
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "parent": "paint:animals/animal_lover",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:1400}"
+    },
+    "title": {
+      "text": "Woolverine","color":"yellow"}
+    ,
+    "description": {
+      "text": "Use sheep to farm all 16 colors of wool","color":"white"}
+    ,
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+	"brown_sheep": {
+      "trigger": "minecraft:impossible"
+	},
+	"red_sheep": {
+      "trigger": "minecraft:impossible"
+	},
+	"orange_sheep": {
+      "trigger": "minecraft:impossible"
+	},
+	"yellow_sheep": {
+      "trigger": "minecraft:impossible"
+	},
+	"lime_sheep": {
+      "trigger": "minecraft:impossible"
+	},
+	"green_sheep": {
+      "trigger": "minecraft:impossible"
+	},
+	"cyan_sheep": {
+      "trigger": "minecraft:impossible"
+	},
+	"light_blue_sheep": {
+      "trigger": "minecraft:impossible"
+	},
+	"blue_sheep": {
+      "trigger": "minecraft:impossible"
+	},
+	"purple_sheep": {
+      "trigger": "minecraft:impossible"
+	},
+	"magenta_sheep": {
+      "trigger": "minecraft:impossible"
+	},
+	"pink_sheep": {
+      "trigger": "minecraft:impossible"
+	},
+    "white_sheep": {
+      "trigger": "minecraft:impossible"
+	},
+	"light_gray_sheep": {
+      "trigger": "minecraft:impossible"
+	},
+	"gray_sheep": {
+      "trigger": "minecraft:impossible"
+	},
+	"black_sheep": {
+      "trigger": "minecraft:impossible"
+	}
+  },
+  "rewards": {
+    "function": "paint:pca/rewards/animals/sheep/woolverine"
+  },
+  "requirements": [
+    ["brown_sheep"],
+	["red_sheep"],
+	["orange_sheep"],
+	["yellow_sheep"],
+	["lime_sheep"],
+	["green_sheep"],
+	["cyan_sheep"],
+	["light_blue_sheep"],
+	["blue_sheep"],
+	["purple_sheep"],
+	["magenta_sheep"],
+	["pink_sheep"],
+	["white_sheep"],
+	["light_gray_sheep"],
+	["gray_sheep"],
+	["black_sheep"]
+  ]
+}

@@ -1,0 +1,4 @@
+scoreboard players set @a[advancements={paint:adventure/transport/minecart/on_a_rail=false},nbt=!{RootVehicle:{Entity:{id:"minecraft:minecart"}}}] pca_jrn_rail 0
+execute as @a[advancements={paint:adventure/transport/minecart/on_a_rail=false},nbt=!{RootVehicle:{Entity:{id:"minecraft:minecart"}}}] at @s store result score @s pca_jrn_rail_x1 run data get entity @s Pos[0]
+execute as @a[advancements={paint:adventure/transport/minecart/on_a_rail=false},nbt=!{RootVehicle:{Entity:{id:"minecraft:minecart"}}}] at @s store result score @s pca_jrn_rail_z1 run data get entity @s Pos[2]
+execute as @a[advancements={paint:adventure/transport/minecart/on_a_rail=false},scores={pca_jrn_rail=100000..}] run function paint:pca/two_seconds/on_a_rail/traveled_1km

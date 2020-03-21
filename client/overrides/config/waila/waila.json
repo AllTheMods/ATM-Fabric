@@ -16,8 +16,15 @@
     "overlayPosY": 0.99,
     "overlayScale": 1.2,
     "color": {
-      "alpha": 35,
+      "alpha": 55,
       "themes": [
+        {
+          "id": "waila:oneprobe",
+          "backgroundColor": 2537471,
+          "gradientStart": 2537471,
+          "gradientEnd": 2537471,
+          "fontColor": 10526880
+        },
         {
           "id": "waila:dark",
           "backgroundColor": 1250067,
@@ -33,7 +40,7 @@
           "fontColor": 10526880
         }
       ],
-      "activeTheme": "waila:dark"
+      "activeTheme": "waila:oneprobe"
     }
   },
   "formatting": {

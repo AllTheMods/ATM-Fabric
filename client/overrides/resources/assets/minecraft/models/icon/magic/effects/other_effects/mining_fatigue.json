@@ -1,0 +1,6 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "icon/magic/effects/other_effects/mining_fatigue"
+	}
+}

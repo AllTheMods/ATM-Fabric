@@ -1,0 +1,34 @@
+{
+  "parent": "paint:magic/effects/potion_effects/resistance",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:4109}"
+    },
+    "title": {
+      "text": "Slow Falling","color":"light_purple"}
+    ,
+    "description": {
+      "text": "Have been effected by slow falling","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "slow_falling": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:slow_falling": {}
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "slow_falling"
+    ]
+  ]
+}

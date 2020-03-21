@@ -1,0 +1,13 @@
+{
+    "name": "ATM Mod Fixes",
+    "icon": "minecraft:command_block",
+    "category": "datapacks",
+    "pages": [
+        {
+            "type": "link",
+            "text": "ATM Mod Fixes is a datapack by the people who wrote this guide book the All The Mods Team. It provides recipe tweaks and is basically what we are using instead of CraftTweaker.",
+            "url": "https://discordapp.com/invite/FdFDVWb",
+            "link_text": "ATM Discord"
+        }
+    ]
+}

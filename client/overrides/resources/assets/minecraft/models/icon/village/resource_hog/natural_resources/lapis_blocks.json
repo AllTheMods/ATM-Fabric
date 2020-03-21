@@ -1,0 +1,6 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "icon/village/resource_hog/natural_resources/lapis_blocks"
+	}
+}

@@ -1,0 +1,33 @@
+{
+  "parent": "paint:combat/records/music_disc_mall",
+  "display": {
+    "icon": {
+      "item": "minecraft:music_disc_mellohi"
+    },
+    "title": {
+      "text": "Music Disc Mellohi","color":"red"}
+    ,
+    "description":
+      {"text":"Obtain music disc mellohi","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "music_disc_mellohi": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:music_disc_mellohi"
+		  }
+		]
+	  }
+	}
+  },
+  "requirements": [
+    ["music_disc_mellohi"]
+  ]
+}

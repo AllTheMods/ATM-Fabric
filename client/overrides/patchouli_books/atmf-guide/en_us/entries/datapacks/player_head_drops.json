@@ -1,0 +1,13 @@
+{
+    "name": "PVP Player Heads",
+    "icon": "minecraft:command_block",
+    "category": "datapacks",
+    "pages": [
+        {
+            "type": "link",
+            "text": "PVP Player Heads makes players drop their heads when killed by another player.",
+            "url": "http://mc.voodoobeard.com/#pvp_player_heads",
+            "link_text": "Developers Website"
+        }
+    ]
+}

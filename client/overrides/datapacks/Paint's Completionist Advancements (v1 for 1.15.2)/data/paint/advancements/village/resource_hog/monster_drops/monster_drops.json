@@ -1,0 +1,129 @@
+{
+  "parent": "paint:village/resource_hog/resource_hog",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:5360}"
+    },
+    "title": {
+      "text": "Monster Drops","color":"green"}
+	,
+    "description": {
+      "text": "Obtain a large amount of monster drops that can't be sold, so you can keep them for yourself","color":"white"}
+	,
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "bones": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:bone",
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    },
+	"spider_eyes": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:spider_eye",
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    },
+	"gunpowder": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:gunpowder",
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    },
+	"phantom_membranes": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:phantom_membrane",
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    },
+	"ender_pearls": {
+      "trigger": "minecraft:impossible"
+	},
+	"blaze_rods": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:blaze_rod",
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    },
+	"ghast_tears": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:ghast_tear",
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    },
+	"slime_blocks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:slime_block",
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    },
+	"saddles": {
+      "trigger": "minecraft:impossible"
+	}
+  },
+  "requirements": [
+    ["bones"],
+	["spider_eyes"],
+	["gunpowder"],
+	["phantom_membranes"],
+	["ender_pearls"],
+	["blaze_rods"],
+	["ghast_tears"],
+	["slime_blocks"],
+	["saddles"]
+  ]
+}

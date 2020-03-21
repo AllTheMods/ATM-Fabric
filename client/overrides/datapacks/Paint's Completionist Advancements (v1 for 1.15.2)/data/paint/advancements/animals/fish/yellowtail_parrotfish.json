@@ -1,0 +1,35 @@
+{
+  "parent": "paint:animals/fish/triggerfish",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:1324}"
+    },
+    "title": {
+      "text": "Yellowtail Parrotfish","color":"yellow"}
+    ,
+    "description": {
+      "text": "Capture a Teal-Yellow Dasher","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "yellowtail_parrotfish": {
+      "trigger": "minecraft:filled_bucket",
+      "conditions": {
+        "item": {
+          "item": "minecraft:tropical_fish_bucket",
+		  "nbt": "{BucketVariantTag:67699456}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "yellowtail_parrotfish"
+    ]
+  ]
+}

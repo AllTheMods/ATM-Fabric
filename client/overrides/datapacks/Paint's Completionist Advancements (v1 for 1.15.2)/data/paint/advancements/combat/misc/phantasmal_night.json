@@ -1,0 +1,74 @@
+{
+  "parent": "paint:combat/misc/healing_to_death",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:2455}"
+    },
+    "title": {
+      "text": "Phantasmal Night","color":"red"}
+    ,
+    "description":
+      {"text":"Kill 12 phantoms in one night. The progress of this advancement resets on morning if it isn't completed.","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "phantasmal_night_1": {
+      "trigger": "minecraft:impossible"
+    },
+	"phantasmal_night_2": {
+      "trigger": "minecraft:impossible"
+    },
+	"phantasmal_night_3": {
+      "trigger": "minecraft:impossible"
+    },
+	"phantasmal_night_4": {
+      "trigger": "minecraft:impossible"
+    },
+	"phantasmal_night_5": {
+      "trigger": "minecraft:impossible"
+    },
+	"phantasmal_night_6": {
+      "trigger": "minecraft:impossible"
+    },
+	"phantasmal_night_7": {
+      "trigger": "minecraft:impossible"
+    },
+	"phantasmal_night_8": {
+      "trigger": "minecraft:impossible"
+    },
+	"phantasmal_night_9": {
+      "trigger": "minecraft:impossible"
+    },
+	"phantasmal_night_10": {
+      "trigger": "minecraft:impossible"
+    },
+	"phantasmal_night_11": {
+      "trigger": "minecraft:impossible"
+    },
+	"phantasmal_night_12": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "paint:pca/rewards/combat/misc/phantasmal_night"
+  },
+  "requirements": [
+    ["phantasmal_night_1"],
+	["phantasmal_night_2"],
+	["phantasmal_night_3"],
+	["phantasmal_night_4"],
+	["phantasmal_night_5"],
+	["phantasmal_night_6"],
+	["phantasmal_night_7"],
+	["phantasmal_night_8"],
+	["phantasmal_night_9"],
+	["phantasmal_night_10"],
+	["phantasmal_night_11"],
+	["phantasmal_night_12"]
+  ]
+}

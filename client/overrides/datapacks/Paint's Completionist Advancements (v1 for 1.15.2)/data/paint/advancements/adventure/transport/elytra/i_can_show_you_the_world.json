@@ -1,0 +1,321 @@
+{
+  "parent": "paint:adventure/transport/elytra/long_haul_flight",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:434}"
+    },
+    "title": {
+      "text": "I Can Show You The World","color":"blue"}
+    ,
+    "description":
+      {"text":"Visit a snowy, a cold, a temperate, and a warm biome in one elytra flight without touching the ground. Oceans don't count. This advancement reset when you're not flying.","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "i_can_show_you_the_world_snowy_tundra": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:snowy_tundra"
+      }
+    },
+	"i_can_show_you_the_world_snowy_mountains": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:snowy_mountains"
+      }
+    },
+	"i_can_show_you_the_world_snowy_taiga": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:snowy_taiga"
+      }
+    },
+	"i_can_show_you_the_world_snowy_taiga_mountains": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:snowy_taiga_mountains"
+      }
+    },
+	"i_can_show_you_the_world_ice_spikes": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:ice_spikes"
+      }
+    },
+	"i_can_show_you_the_world_snowy_beach": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:snowy_beach"
+      }
+    },
+    "i_can_show_you_the_world_frozen_river": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:frozen_river"
+      }
+    },
+	"i_can_show_you_the_world_mountains": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:mountains"
+      }
+    },
+	"i_can_show_you_the_world_wooded_mountains": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:wooded_mountains"
+      }
+    },
+	"i_can_show_you_the_world_gravelly_mountains": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:gravelly_mountains"
+      }
+    },
+	"i_can_show_you_the_world_modified_gravelly_mountains": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:modified_gravelly_mountains"
+      }
+    },
+	"i_can_show_you_the_world_taiga": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:taiga"
+      }
+    },
+	"i_can_show_you_the_world_taiga_mountains": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:taiga_mountains"
+      }
+    },
+	"i_can_show_you_the_world_giant_tree_taiga": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:giant_tree_taiga"
+      }
+    },
+	"i_can_show_you_the_world_giant_tree_taiga_hills": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:giant_tree_taiga_hills"
+      }
+    },
+	"i_can_show_you_the_world_giant_spruce_taiga": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:giant_spruce_taiga"
+      }
+    },
+	"i_can_show_you_the_world_giant_spruce_taiga_hills": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:giant_spruce_taiga_hills"
+      }
+    },
+	"i_can_show_you_the_world_stone_shore": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:stone_shore"
+      }
+    },
+	"i_can_show_you_the_world_plains": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:plains"
+      }
+    },
+	"i_can_show_you_the_world_sunflower_plains": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:sunflower_plains"
+      }
+    },
+	"i_can_show_you_the_world_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:forest"
+      }
+    },
+	"i_can_show_you_the_world_flower_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:flower_forest"
+      }
+    },
+	"i_can_show_you_the_world_birch_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:birch_forest"
+      }
+    },
+	"i_can_show_you_the_world_tall_birch_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:tall_birch_forest"
+      }
+    },
+	"i_can_show_you_the_world_dark_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:dark_forest"
+      }
+    },
+    "i_can_show_you_the_world_dark_forest_hills": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:dark_forest_hills"
+      }
+    },
+	"i_can_show_you_the_world_swamp": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:swamp"
+      }
+    },
+	"i_can_show_you_the_world_jungle": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:jungle"
+      }
+    },
+	"i_can_show_you_the_world_jungle_edge": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:jungle_edge"
+      }
+    },
+	"i_can_show_you_the_world_bamboo_jungle": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:bamboo_jungle"
+      }
+    },
+	"i_can_show_you_the_world_beach": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:beach"
+      }
+    },
+	"i_can_show_you_the_world_river": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:river"
+      }
+    },
+	"i_can_show_you_the_world_desert": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:desert"
+      }
+    },
+	"i_can_show_you_the_world_desert_lakes": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:desert_lakes"
+      }
+    },
+	"i_can_show_you_the_world_savanna": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:savanna"
+      }
+    },
+	"i_can_show_you_the_world_savanna_plateau": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:savanna_plateau"
+      }
+    },
+	"i_can_show_you_the_world_shattered_savanna": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:shattered_savanna"
+      }
+    },
+	"i_can_show_you_the_world_shattered_savanna_plateau": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:shattered_savanna_plateau"
+      }
+    },
+	"i_can_show_you_the_world_badlands": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:badlands"
+      }
+    },
+	"i_can_show_you_the_world_wooded_badlands_plateau": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:wooded_badlands_plateau"
+      }
+    },
+	"i_can_show_you_the_world_eroded_badlands": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:eroded_badlands"
+      }
+    }
+  },
+  "rewards": {
+    "function": "paint:pca/rewards/adventure/transport/elytra/i_can_show_you_the_world"
+  },
+  "requirements": [
+	[
+	  "i_can_show_you_the_world_snowy_tundra",
+	  "i_can_show_you_the_world_snowy_mountains",
+	  "i_can_show_you_the_world_snowy_taiga",
+	  "i_can_show_you_the_world_snowy_taiga_mountains",
+	  "i_can_show_you_the_world_ice_spikes",
+	  "i_can_show_you_the_world_snowy_beach",
+	  "i_can_show_you_the_world_frozen_river"
+    ],
+	[
+	  "i_can_show_you_the_world_mountains",
+	  "i_can_show_you_the_world_wooded_mountains",
+	  "i_can_show_you_the_world_gravelly_mountains",
+	  "i_can_show_you_the_world_modified_gravelly_mountains",
+	  "i_can_show_you_the_world_taiga",
+	  "i_can_show_you_the_world_taiga_mountains",
+	  "i_can_show_you_the_world_giant_tree_taiga",
+	  "i_can_show_you_the_world_giant_tree_taiga_hills",
+	  "i_can_show_you_the_world_giant_spruce_taiga",
+	  "i_can_show_you_the_world_giant_spruce_taiga_hills",
+	  "i_can_show_you_the_world_stone_shore"
+	],
+	[
+      "i_can_show_you_the_world_plains",
+	  "i_can_show_you_the_world_sunflower_plains",
+	  "i_can_show_you_the_world_forest",
+	  "i_can_show_you_the_world_flower_forest",
+	  "i_can_show_you_the_world_birch_forest",
+	  "i_can_show_you_the_world_tall_birch_forest",
+	  "i_can_show_you_the_world_dark_forest",
+	  "i_can_show_you_the_world_dark_forest_hills",
+	  "i_can_show_you_the_world_swamp",
+	  "i_can_show_you_the_world_jungle",
+	  "i_can_show_you_the_world_jungle_edge",
+	  "i_can_show_you_the_world_bamboo_jungle",
+	  "i_can_show_you_the_world_beach",
+	  "i_can_show_you_the_world_river"
+    ],
+	[
+      "i_can_show_you_the_world_desert",
+      "i_can_show_you_the_world_desert_lakes",
+      "i_can_show_you_the_world_savanna",
+	  "i_can_show_you_the_world_savanna_plateau",
+      "i_can_show_you_the_world_shattered_savanna",
+	  "i_can_show_you_the_world_shattered_savanna_plateau",
+      "i_can_show_you_the_world_badlands",
+      "i_can_show_you_the_world_wooded_badlands_plateau",
+      "i_can_show_you_the_world_eroded_badlands"
+    ]
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "parent": "paint:village/workstations/blast_furnace",
+  "display": {
+    "icon": {
+      "item": "minecraft:smoker"
+    },
+    "title": {
+      "text": "Smoker","color":"green"}
+	,
+    "description": {
+      "text": "Obtain a smoker so you can make an unemployed villager a butcher","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "smoker": {
+      "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"items": [
+			{
+				"item": "minecraft:smoker"
+			}
+		]
+	  }
+    }
+  },
+  "requirements": [
+    ["smoker"]
+  ]
+}

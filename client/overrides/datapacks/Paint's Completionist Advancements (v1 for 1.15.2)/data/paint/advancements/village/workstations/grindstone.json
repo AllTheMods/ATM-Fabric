@@ -1,0 +1,33 @@
+{
+  "parent": "paint:village/workstations/smithing_table",
+  "display": {
+    "icon": {
+      "item": "minecraft:grindstone"
+    },
+    "title": {
+      "text": "Grindstone","color":"green"}
+	,
+    "description": {
+      "text": "Obtain a grindstone so you can make an unemployed villager a weaponsmith","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "grindstone": {
+      "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"items": [
+			{
+				"item": "minecraft:grindstone"
+			}
+		]
+	  }
+    }
+  },
+  "requirements": [
+    ["grindstone"]
+  ]
+}

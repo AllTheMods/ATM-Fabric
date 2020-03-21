@@ -1,0 +1,33 @@
+{
+  "parent": "paint:magic/redstone/hopper",
+  "display": {
+    "icon": {
+      "item": "minecraft:trapped_chest"
+    },
+    "title": {
+      "text": "Trapped Chest","color":"light_purple"}
+    ,
+    "description": {
+      "text": "Obtain a trapped chest","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+	"trapped_chest": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"item": "minecraft:trapped_chest"
+				}
+			]
+		}
+	}
+  },
+  "requirements": [
+    ["trapped_chest"]
+  ]
+}

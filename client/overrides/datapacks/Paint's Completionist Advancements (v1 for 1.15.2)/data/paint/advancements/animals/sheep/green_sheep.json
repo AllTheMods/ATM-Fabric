@@ -1,0 +1,32 @@
+{
+  "parent": "paint:animals/sheep/lime_sheep",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:1406}"
+    },
+    "title": {
+      "text": "Green Sheep","color":"yellow"}
+    ,
+    "description": {
+      "text": "Have 5 green sheep around you in a 10m radius","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "green_sheep": {
+      "trigger": "minecraft:impossible"
+	  }
+	},
+	"rewards": {
+    "function": "paint:pca/rewards/animals/sheep/green_sheep"
+  },
+  "requirements": [
+    [
+      "green_sheep"
+    ]
+  ]
+}

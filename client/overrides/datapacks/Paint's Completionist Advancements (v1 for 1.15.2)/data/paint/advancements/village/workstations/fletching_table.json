@@ -1,0 +1,33 @@
+{
+  "parent": "paint:village/workstations/barrel",
+  "display": {
+    "icon": {
+      "item": "minecraft:fletching_table"
+    },
+    "title": {
+      "text": "Fletching Table","color":"green"}
+	,
+    "description": {
+      "text": "Obtain a fletching table so you can make an unemployed villager a fletcher","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "fletching_table": {
+      "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"items": [
+			{
+				"item": "minecraft:fletching_table"
+			}
+		]
+	  }
+    }
+  },
+  "requirements": [
+    ["fletching_table"]
+  ]
+}

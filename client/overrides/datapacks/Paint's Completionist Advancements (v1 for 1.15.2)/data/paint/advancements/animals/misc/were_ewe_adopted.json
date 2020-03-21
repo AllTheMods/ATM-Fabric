@@ -1,0 +1,185 @@
+{
+  "parent": "paint:animals/misc/transmootation",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:1908}"
+    },
+    "title": {
+      "text": "Were Ewe Adopted?","color":"yellow"}
+    ,
+    "description": {
+      "text": "Breed two sheep to make a lamb that has neither parents' color","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "were_ewe_adopted_orange": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+		"parent": {
+			"type": "minecraft:sheep",
+			"nbt": "{Color:14b}"
+			},
+		"partner": {
+			"type": "minecraft:sheep",
+			"nbt": "{Color:4b}"
+			},
+		"child": {
+			"type": "minecraft:sheep",
+			"nbt": "{Color:1b}"
+			}
+		}
+	},
+	"were_ewe_adopted_purple": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+		"parent": {
+			"type": "minecraft:sheep",
+			"nbt": "{Color:14b}"
+			},
+		"partner": {
+			"type": "minecraft:sheep",
+			"nbt": "{Color:11b}"
+			},
+		"child": {
+			"type": "minecraft:sheep",
+			"nbt": "{Color:10b}"
+			}
+		}
+	},
+	"were_ewe_adopted_pink": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+		"parent": {
+			"type": "minecraft:sheep",
+			"nbt": "{Color:14b}"
+			},
+		"partner": {
+			"type": "minecraft:sheep",
+			"nbt": "{Color:0b}"
+			},
+		"child": {
+			"type": "minecraft:sheep",
+			"nbt": "{Color:6b}"
+			}
+		}
+	},
+	"were_ewe_adopted_lime": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+		"parent": {
+			"type": "minecraft:sheep",
+			"nbt": "{Color:13b}"
+			},
+		"partner": {
+			"type": "minecraft:sheep",
+			"nbt": "{Color:0b}"
+			},
+		"child": {
+			"type": "minecraft:sheep",
+			"nbt": "{Color:5b}"
+			}
+		}
+	},
+	"were_ewe_adopted_cyan": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+		"parent": {
+			"type": "minecraft:sheep",
+			"nbt": "{Color:13b}"
+			},
+		"partner": {
+			"type": "minecraft:sheep",
+			"nbt": "{Color:11b}"
+			},
+		"child": {
+			"type": "minecraft:sheep",
+			"nbt": "{Color:9b}"
+			}
+		}
+	},
+	"were_ewe_adopted_light_blue": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+		"parent": {
+			"type": "minecraft:sheep",
+			"nbt": "{Color:11b}"
+			},
+		"partner": {
+			"type": "minecraft:sheep",
+			"nbt": "{Color:0b}"
+			},
+		"child": {
+			"type": "minecraft:sheep",
+			"nbt": "{Color:3b}"
+			}
+		}
+	},
+	"were_ewe_adopted_magenta": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+		"parent": {
+			"type": "minecraft:sheep",
+			"nbt": "{Color:10b}"
+			},
+		"partner": {
+			"type": "minecraft:sheep",
+			"nbt": "{Color:6b}"
+			},
+		"child": {
+			"type": "minecraft:sheep",
+			"nbt": "{Color:2b}"
+			}
+		}
+	},
+	"were_ewe_adopted_light_gray": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+		"parent": {
+			"type": "minecraft:sheep",
+			"nbt": "{Color:0b}"
+			},
+		"partner": {
+			"type": "minecraft:sheep",
+			"nbt": "{Color:7b}"
+			},
+		"child": {
+			"type": "minecraft:sheep",
+			"nbt": "{Color:8b}"
+			}
+		}
+	},
+	"were_ewe_adopted_gray": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+		"parent": {
+			"type": "minecraft:sheep",
+			"nbt": "{Color:0b}"
+			},
+		"partner": {
+			"type": "minecraft:sheep",
+			"nbt": "{Color:15b}"
+			},
+		"child": {
+			"type": "minecraft:sheep",
+			"nbt": "{Color:7b}"
+			}
+		}
+	}
+  },
+  "requirements": [ [
+	"were_ewe_adopted_orange",
+	"were_ewe_adopted_purple",
+	"were_ewe_adopted_pink",
+	"were_ewe_adopted_lime",
+	"were_ewe_adopted_cyan",
+	"were_ewe_adopted_light_blue",
+	"were_ewe_adopted_magenta",
+	"were_ewe_adopted_light_gray",
+	"were_ewe_adopted_gray"
+	] ]
+}

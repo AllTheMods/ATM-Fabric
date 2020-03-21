@@ -1,0 +1,1 @@
+give @s minecraft:player_head{display:{Name:"{\"text\":\"Wonders Of The World\",\"color\":\"blue\"}"},SkullOwner:{Id:"ed78c07a-0253-4cef-89ba-bb6151097163",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWMxMWQ2Yzc5YjhhMWYxODkwMmQ3ODNjZGRhNGJkZmI5ZDQ3MzM3YjczNzkxMDI4YTEyNmE2ZTZjZjEwMWRlZiJ9fX0="}]}}} 1

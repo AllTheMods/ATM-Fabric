@@ -1,0 +1,27 @@
+{
+  "parent": "paint:adventure/misc/interdimensional_travel",
+  "display": {
+    "icon": {
+      "item": "minecraft:ender_eye"
+    },
+    "title": {
+      "text": "Eyes This Way","color":"blue"}
+    ,
+    "description":
+      {"text":"Use an eye of ender to help you locate a stronghold","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "eyes_this_way": {
+      "trigger": "minecraft:used_ender_eye"
+      }
+    }
+  },
+  "requirements": [
+	["eyes_this_way"]
+	]
+}

@@ -1,0 +1,34 @@
+{
+  "parent": "paint:village/silk_road/desert_villager",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:5904}"
+    },
+    "title": {
+      "text": "Savanna Villager","color":"green"}
+	,
+    "description": {
+      "text": "Trade with a villager from the savanna","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "savanna_villager": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{VillagerData:{type:\"minecraft:savanna\"}}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "savanna_villager"
+    ]
+  ]
+}

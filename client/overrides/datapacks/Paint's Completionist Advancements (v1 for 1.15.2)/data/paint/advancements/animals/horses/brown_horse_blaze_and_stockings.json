@@ -1,0 +1,33 @@
+{
+  "parent": "paint:animals/horses/chestnut_horse_blaze_and_stockings",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:1114}"
+    },
+    "title": {
+      "text": "Brown Horse with Blaze","color":"yellow"}
+    ,
+    "description": {
+      "text": "Tame a brown horse with blaze and stockings","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "brown_horse_blaze_and_stockings": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+			"type": "minecraft:horse",
+			"nbt": "{Variant:259}"
+        }
+      }
+    }
+  },
+  "requirements": [
+	["brown_horse_blaze_and_stockings"]
+  ]
+}

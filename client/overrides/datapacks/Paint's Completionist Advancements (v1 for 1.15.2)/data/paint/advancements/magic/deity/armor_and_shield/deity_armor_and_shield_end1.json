@@ -1,0 +1,8 @@
+{
+   "criteria":{
+      "end1":{
+         "trigger":"minecraft:tick"
+      }
+   },
+      "parent":"paint:magic/deity/armor_and_shield/deity_elytra"
+}
