@@ -35,38 +35,59 @@ function Clear-SleepHost {
 if (-not (test-path "$env:ProgramFiles\7-Zip\7z.exe")) {throw "$env:ProgramFiles\7-Zip\7z.exe needed to use the ModpackUploader."} 
     Set-Alias sz "$env:ProgramFiles\7-Zip\7z.exe"
 
+if (-not (test-path "$env:C:\Windows\System32\curl.exe")) {throw "$env:Windows\System32\curl.exe needed to use the ModpackUploader."} 
+    Set-Alias cl "$env:C:\Windows\System32\curl.exe"
+
 if ($ENABLE_MANIFEST_BUILDER_MODULE) {
     if (!(Test-Path TwitchExportBuilder.exe) -or $ENABLE_ALWAYS_UPDATE_JARS) {
+        Write-Host "######################################" -ForegroundColor Cyan
+        Write-Host ""
+        Write-Host "Downloading Twitch Export Builder..." -ForegroundColor Green
+        Write-Host ""
+        Write-Host "######################################" -ForegroundColor Cyan
+        Write-Host ""
         Remove-Item TwitchExportBuilder.exe -Recurse -Force -ErrorAction SilentlyContinue
         Download-GithubRelease -repo "Gaz492/twitch-export-builder" -file $TwitchExportBuilderDL	
 		Rename-Item -Path $TwitchExportBuilderDL -NewName TwitchExportBuilder.exe -ErrorAction SilentlyContinue	
     }
-    .\TwitchExportBuilder.exe -n "$CLIENT_NAME" -p "$MODPACK_VERSION"
+    Clear-SleepHost
+    Write-Host "######################################" -ForegroundColor Cyan
+    Write-Host ""
+    Write-Host "Compressing Client Files..." -ForegroundColor Green
+    Write-Host ""
+    Write-Host "######################################" -ForegroundColor Cyan
+    Write-Host ""
     Remove-Item "$CLIENT_ZIP_NAME.zip" -Recurse -Force -ErrorAction SilentlyContinue
+    .\TwitchExportBuilder.exe -n "$CLIENT_NAME" -p "$MODPACK_VERSION"
 	Rename-Item -Path "$CLIENT_NAME-$MODPACK_VERSION.zip" -NewName "$CLIENT_ZIP_NAME.zip" -ErrorAction SilentlyContinue
     Clear-SleepHost
 }
 
 if ($ENABLE_CHANGELOG_GENERATOR_MODULE -and $ENABLE_MODPACK_UPLOADER_MODULE) {
     if (!(Test-Path ChangelogGenerator.jar) -or $ENABLE_ALWAYS_UPDATE_JARS) {
+        Write-Host "######################################" -ForegroundColor Cyan
+        Write-Host ""
+        Write-Host "Downloading Modpack Chanelog Generator..." -ForegroundColor Green
+        Write-Host ""
+        Write-Host "######################################" -ForegroundColor Cyan
+        Write-Host ""
         Remove-Item ChangelogGenerator.jar -Recurse -ErrorAction SilentlyContinue
         Download-GithubRelease -repo "TheRandomLabs/ChangelogGenerator" -file $ChangelogGeneratorDL
 		Rename-Item -Path $ChangelogGeneratorDL -NewName ChangelogGenerator.jar -ErrorAction SilentlyContinue
     }
-
     Remove-Item old.json, new.json, shortchangelog.txt, MOD_CHANGELOGS.txt -ErrorAction SilentlyContinue
-    $LAST_MODPACK_VERSION = "$CLIENT_NAME-$LAST_MODPACK_VERSION.zip"
-    sz e "Curse-$CLIENT_ZIP_NAME-$LAST_MODPACK_VERSION.zip" manifest.json
+    $LAST_ZIP_NAME_EXTRACT = "$LAST_MODPACK_ZIP_NAME.zip"
+    sz e -bd $LAST_ZIP_NAME_EXTRACT manifest.json
     Rename-Item -Path manifest.json -NewName old.json
-    sz e "Curse-$CLIENT_ZIP_NAME.zip" manifest.json
+    sz e -bd "$CLIENT_ZIP_NAME.zip" manifest.json
     Rename-Item -Path manifest.json -NewName new.json
-
     Clear-SleepHost
     Write-Host "######################################" -ForegroundColor Cyan
     Write-Host ""
     Write-Host "Generating changelog..." -ForegroundColor Green
     Write-Host ""
-
+    Write-Host "######################################" -ForegroundColor Cyan
+    Write-Host ""
     java -jar ChangelogGenerator.jar
     Remove-Item MOD_CHANGELOGS.txt -Recurse -Force -ErrorAction SilentlyContinue
     Rename-Item -Path changelog.txt -NewName MOD_CHANGELOGS.txt
@@ -101,6 +122,8 @@ if ($ENABLE_GITHUB_CHANGELOG_GENERATOR_MODULE) {
     Write-Host ""
     Write-Host "Making GitHub Release..." -ForegroundColor Green
     Write-Host ""
+    Write-Host "######################################" -ForegroundColor Cyan
+    Write-Host ""
 
     [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
     Invoke-RestMethod -Headers $Headers -Uri $Uri -Body $Body -Method Post
@@ -131,8 +154,9 @@ if ($ENABLE_MODPACK_UPLOADER_MODULE) {
     Write-Host ""
     Write-Host "Uploading client files..." -ForegroundColor Green
     Write-Host ""
-    $CLIENT_UPLOAD_ZIP = "$CLIENT_ZIP_NAME.zip"
-    $Response = curl.exe --url "https://minecraft.curseforge.com/api/projects/$CURSEFORGE_PROJECT_ID/upload-file" --user "$CURSEFORGE_USER`:$CURSEFORGE_TOKEN" -H "Accept: application/json" -H X-Api-Token:$CURSEFORGE_TOKEN -F metadata=$CLIENT_METADATA -F file=@"$CLIENT_UPLOAD_ZIP" --progress-bar | ConvertFrom-Json
+    Write-Host "######################################" -ForegroundColor Cyan
+    Write-Host ""
+    $Response = cl --url "https://minecraft.curseforge.com/api/projects/$CURSEFORGE_PROJECT_ID/upload-file" --user "$CURSEFORGE_USER`:$CURSEFORGE_TOKEN" -H "Accept: application/json" -H X-Api-Token:$CURSEFORGE_TOKEN -F metadata=$CLIENT_METADATA -F file=@"$CLIENT_ZIP_NAME.zip" --progress-bar | ConvertFrom-Json
     $ResponseId = $Response.id
 
     Write-Host ""
@@ -156,7 +180,8 @@ if ($ENABLE_SERVER_FILE_MODULE -and $ENABLE_MODPACK_UPLOADER_MODULE) {
     Write-Host "######################################" -ForegroundColor Cyan
     Write-Host ""
 
-    sz a -tzip "Server.zip" $CONTENTS_TO_ZIP
+    Remove-Item "Server.zip" -Recurse -Force -ErrorAction SilentlyContinue
+    sz a -tzip "Server.zip" $CONTENTS_TO_ZIP_SERVER
     Remove-Item "$SERVER_ZIP_NAME.zip" -Recurse -Force -ErrorAction SilentlyContinue
 
     Write-Host "Removing Client Mods from Server Files" -ForegroundColor Cyan
@@ -188,16 +213,75 @@ if ($ENABLE_SERVER_FILE_MODULE -and $ENABLE_MODPACK_UPLOADER_MODULE) {
     Write-Host ""
     Write-Host "Uploading server files..." -ForegroundColor Green
     Write-Host ""
+    Write-Host "######################################" -ForegroundColor Cyan
+    Write-Host ""
     $SERVER_UPLOAD_ZIP = "$SERVER_ZIP_NAME.zip"
-    $ResponseServer = curl.exe --url "https://minecraft.curseforge.com/api/projects/$CURSEFORGE_PROJECT_ID/upload-file" --user "$CURSEFORGE_USER`:$CURSEFORGE_TOKEN" -H "Accept: application/json" -H X-Api-Token:$CURSEFORGE_TOKEN -F metadata=$SERVER_METADATA -F file=@$SERVER_UPLOAD_ZIP --progress-bar
+    $ResponseServer = cl --url "https://minecraft.curseforge.com/api/projects/$CURSEFORGE_PROJECT_ID/upload-file" --user "$CURSEFORGE_USER`:$CURSEFORGE_TOKEN" -H "Accept: application/json" -H X-Api-Token:$CURSEFORGE_TOKEN -F metadata=$SERVER_METADATA -F file=@$SERVER_UPLOAD_ZIP --progress-bar
 }
 
-Clear-SleepHost
+if ($ENABLE_MMC_FILE_MODULE -and $ENABLE_MODPACK_UPLOADER_MODULE) 
+{
+    Clear-SleepHost
+    Write-Host ""
+    Write-Host "######################################" -ForegroundColor Cyan
+    Write-Host ""
+    Write-Host "Compressing MultiMC files..." -ForegroundColor Green
+    Write-Host ""
+    Write-Host "######################################" -ForegroundColor Cyan
+    Write-Host ""
+
+    Remove-Item "MMC.zip" -Recurse -Force -ErrorAction SilentlyContinue
+    Remove-Item "$MMCCLIENT_ZIP_NAME.zip" -Recurse -Force -ErrorAction SilentlyContinue
+    MKDIR "temp\All The Mods Fabric\minecraft" -ErrorAction SilentlyContinue
+    Move-Item -Path config -Destination "temp\All The Mods Fabric\minecraft\config"
+    Move-Item -Path datapacks -Destination "temp\All The Mods Fabric\minecraft\datapacks"
+    Move-Item -Path mods -Destination "temp\All The Mods Fabric\minecraft\mods"
+    Move-Item -Path patchoulI_books -Destination "temp\All The Mods Fabric\minecraft\patchouli_books"
+    Move-Item -Path resources -Destination "temp\All The Mods Fabric\minecraft\resources"
+    Move-Item -Path instance.cfg -Destination "temp\All The Mods Fabric"
+    Move-Item -Path mmc-pack.json -Destination "temp\All The Mods Fabric"
+    cd temp
+    sz a -tzip "MMC.zip" "All The Mods Fabric"
+    cd "All The Mods Fabric"
+    cd "minecraft"
+    Move-Item -Path config -Destination "..\..\.."
+    Move-Item -Path datapacks -Destination "..\..\.."
+    Move-Item -Path mods -Destination "..\..\.."
+    Move-Item -Path patchoulI_books -Destination "..\..\.."
+    Move-Item -Path resources -Destination "..\..\.."
+    cd ..
+    Move-Item -Path instance.cfg -Destination "..\.."
+    Move-Item -Path mmc-pack.json -Destination "..\.."
+    cd ..
+    Move-Item -Path "MMC.zip" -Destination ".."
+    cd ..
+    Remove-Item -Path "temp" -Recurse -Force -ErrorAction SilentlyContinue
+    Rename-Item -Path MMC.zip -NewName "$MMCCLIENT_ZIP_NAME.zip"
+    
+    $MMC_METADATA = "{
+    'changelog': `'$MMCCLIENT_CHANGELOG`',
+    'changelogType': `'$MMCLIENT_CHANGELOG_TYPE`',
+    'displayName': `'$MMCCLIENT_FILE_DISPLAY_NAME`',
+    'parentFileId': $ResponseId,
+    'releaseType': `'$MMCLIENT_RELEASE_TYPE`'
+    }"
+    
+
+    Write-Host ""
+    Write-Host "######################################" -ForegroundColor Cyan
+    Write-Host ""
+    Write-Host "Uploading MultiMC files..." -ForegroundColor Green
+    Write-Host ""
+    Write-Host "######################################" -ForegroundColor Cyan
+    Write-Host ""
+    $MMC_UPLOAD_ZIP = "$MMCCLIENT_ZIP_NAME.zip"
+    $ResponseServer = cl --url "https://minecraft.curseforge.com/api/projects/$CURSEFORGE_PROJECT_ID/upload-file" --user "$CURSEFORGE_USER`:$CURSEFORGE_TOKEN" -H "Accept: application/json" -H X-Api-Token:$CURSEFORGE_TOKEN -F metadata=$MMC_METADATA -F file=@$MMC_UPLOAD_ZIP --progress-bar
+}
 
 Write-Host "######################################" -ForegroundColor Cyan
 Write-Host ""
 Write-Host "The Modpack Uploader has completed." -ForegroundColor Green
 Write-Host ""
 Write-Host "######################################" -ForegroundColor Cyan
-
+Write-Host ""
 Start-Sleep -Seconds 5

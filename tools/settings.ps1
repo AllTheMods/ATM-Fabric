@@ -2,19 +2,19 @@
 # For details/help see: https://github.com/NillerMedDild/ModpackUploader
 
 # =====================================================================//
-#  CURSEFORGE SETTINGS
+# CURSEFORGE SETTINGS
 # =====================================================================//
 
 $CURSEFORGE_USER = "CrankySupertoon"
 
 # For details see: https://www.curseforge.com/account/api-tokens
-$CURSEFORGE_TOKEN = "snip"
+$CURSEFORGE_TOKEN = "36815033-005f-4ba0-b166-da075c56a796"
 
 # ProjectID can be found on the modpack's Curseforge Projects page, under "About This Project"
 $CURSEFORGE_PROJECT_ID = 361635
 
 #=====================================================================//
-#  DEPENDENCIES URL
+# DEPENDENCIES URL
 #=====================================================================//
 
 # File name of the latest https://github.com/Gaz492/twitch-export-builder/releases
@@ -24,19 +24,30 @@ $TwitchExportBuilderDL = "twitch-export-builder_windows_amd64.exe"
 $ChangelogGeneratorDL = "ChangelogGenerator-2.0.0-pre3.jar"
 
 # =====================================================================//
-#  MODPACK & CLIENT FILE SETTINGS
+# MODPACK SETTINGS
 # =====================================================================//
 
 # Version Of The Modpack
-$MODPACK_VERSION = "2.4.2b"
+$MODPACK_VERSION = "2.4.3a"
 
 # Last Version Of The Modpack
 # Needed For Changelog Parsing
-$LAST_MODPACK_VERSION = "2.4.1"
+$LAST_MODPACK_VERSION = "2.4.2b"
+$LAST_MODPACK_ZIP_NAME = "Curse-$CLIENT_NAME-$LAST_MODPACK_VERSION"
 
 # Modpacks Forge Version: 
 # Default: "14.23.5.2836"
 $FORGE_VERSION=31.1.25
+
+# An array of compatible game versions of Minecraft.
+# See GameVersions.json for possible versions.
+# @(6756) - is Minecraft 1.12.2
+# @(7722) - is Minecraft 1.15.2
+$GAME_VERSIONS = @(7722)
+
+# =====================================================================//
+#  CURSE PACK SETTINGS
+# =====================================================================//
 
 # Name of the Modpack in the ZIP File
 $CLIENT_NAME = "ATMF"
@@ -47,12 +58,6 @@ $CLIENT_ZIP_NAME = "Curse-$CLIENT_NAME-$MODPACK_VERSION"
 $CLIENT_FANCY_NAME = "All The Mods Fabric"
 $CLIENT_FILE_DISPLAY_NAME = "$CLIENT_FANCY_NAME - $MODPACK_VERSION"
 
-# An array of compatible game versions of Minecraft.
-# See GameVersions.json for possible versions.
-# @(6756) - is Minecraft 1.12.2
-# @(7722) - is Minecraft 1.15.2
-$GAME_VERSIONS = @(7722)
-
 # Can be "markdown", "text" or "html"
 $CLIENT_CHANGELOG_TYPE = "html"
 
@@ -61,6 +66,35 @@ $CLIENT_CHANGELOG = "Empty"
 
 # Can be "alpha", "beta" or "release"
 $CLIENT_RELEASE_TYPE = "release"
+
+# =====================================================================//
+#  MultiMC PACK SETTINGS
+# =====================================================================//
+
+# Name of the Modpack in the ZIP File
+$MMCCLIENT_NAME = "ATMF"
+$MMCCLIENT_ZIP_NAME = "MMC-$CLIENT_NAME-$MODPACK_VERSION"
+
+# Display Name of the Modpack on CurseForge
+# Default: "$CLIENT_FANCY_NAME $MODPACK_VERSION"
+$MMCCLIENT_FANCY_NAME = "All The Mods Fabric"
+$MMCCLIENT_FILE_DISPLAY_NAME = "MultiMC - $CLIENT_FANCY_NAME - $MODPACK_VERSION"
+
+# A continuous line of the folders and files (with extensions) to zip into MMC Files.
+# Default: @("mods", "config")
+$CONTENTS_TO_ZIP_MMC = @("mods", "config", "datapacks", "resources", "patchouli_books")
+
+# Can be "markdown", "text" or "html"
+# Default: $CLIENT_CHANGELOG_TYPE
+$MMCLIENT_CHANGELOG_TYPE = $CLIENT_CHANGELOG_TYPE
+
+# Must be a single string. Use Powershell escaping for new lines etc. New line is `n and indent is `t
+# Default: $CLIENT_CHANGELOG
+$MMCCLIENT_CHANGELOG = $CLIENT_CHANGELOG
+
+# Can be "alpha", "beta" or "release"
+# Default: $CLIENT_RELEASE_TYPE
+$MMCLIENT_RELEASE_TYPE = $CLIENT_RELEASE_TYPE
 
 #=====================================================================//
 #  SERVER FILE SETTINGS
@@ -79,7 +113,7 @@ $SERVER_FILE_DISPLAY_NAME = "$CLIENT_FANCY_NAME Server $MODPACK_VERSION"
 
 # A continuous line of the folders and files (with extensions) to zip into Server Files.
 # Default: @("mods", "config")
-$CONTENTS_TO_ZIP = @("mods", "config", "datapacks", "resources", "patchouli_books", "Start.bat", "server.jar", "fabric-server-launch.jar", "eula.txt")
+$CONTENTS_TO_ZIP_SERVER = @("mods", "config", "datapacks", "resources", "patchouli_books", "Start.bat", "server.jar", "fabric-server-launch.jar", "eula.txt")
 
 # Can be "markdown", "text" or "html"
 # Default: $CLIENT_CHANGELOG_TYPE
@@ -111,8 +145,8 @@ $ENABLE_MODPACK_UPLOADER_MODULE = $true
 $ENABLE_SERVER_FILE_MODULE = $true
 
 # Toggle multimc file feature on/off
-# Default: $false
-$ENABLE_SERVER_FILE_MODULE = $false
+# Default: $true
+$ENABLE_MMC_FILE_MODULE = $true
 
 # Toggle automatic changelog generator on/off
 # This module requires an older modpack manifest zip to be present, 
