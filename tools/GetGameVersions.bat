@@ -1,0 +1,1 @@
+curl -H X-Api-Token:INSERT-TOKEN-HERE https://minecraft.curseforge.com/api/game/versions >> GameVersions.json
