@@ -15,7 +15,7 @@
     ],
     "maven": [
       {
-        "mavenPath": "net.fabricmc:fabric-loader:0.7.8+build.184",
+        "mavenPath": "net.fabricmc:fabric-loader:0.7.8+build.189",
         "repoUrl": "https://maven.fabricmc.net/"
       },
       {
@@ -65,8 +65,8 @@
     ]
   },
   "autoconfig": {
-    "enable": false,
+    "enable": true,
     "handler": "fabric",
-    "forceUpdate": false
+    "forceUpdate": true
   }
 }
