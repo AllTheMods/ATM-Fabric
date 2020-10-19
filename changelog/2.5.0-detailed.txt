@@ -1,0 +1,2720 @@
+================================================
+ATMF 2.4.3a --> All the Mods Fabric   ATMF 2.5.0
+================================================
+
+Added:
+- Allure
+- Audio Output
+- Auth Me
+- Auto Config Updated API
+- Better Mod Button
+- Better Weather[Fabric]
+- Better World List
+- BlockMeterFabric
+- Blockshifter [Fabric]
+- Boring Tweaks
+- Campanion
+- Cauldron Overhaul
+- Cave Biomes
+- Draylar's Battle Towers
+- Dynamic FPS
+- Ears
+- End: Rebellion
+- Extra Pieces
+- Fabric Language Scala
+- Filtered Receptacles
+- Gravestones
+- Grid
+- Inca
+- Inmis
+- Launchers
+- Lightstones
+- Linkart: Fabric
+- More Totems Of Undying
+- Notes Fabric
+- Nourish
+- Packages
+- PlayerAbilityLib
+- RelicCraft
+- Sandwichable
+- Simple Drawers
+- Slip
+- Staff of Building
+- StaffDerpsMod
+- TacoCraft
+- VoxelMap
+- slotlink
+
+Updated:
+	Adabranium ((1.15.2) adabraniummod - 1.1.1-1.15.2 --> (1.15.2) adabraniummod - 1.1.5-1.15.2):
+		(1.15.2) adabraniummod - 1.1.5-1.15.2:
+			Last update for 1.15.2
+			* Added sword and tools to Fabric Tool Tags
+			* Fixed Wooden and Stone Paxels durability (have 3x base durability like other paxels).
+
+		(1.15.2) adabraniummod - 1.1.3.1-1.15.2:
+			* Vibranium and Adamantine Ores now generate in all modded biomes
+			* Heart Shaped Plants now generate in modded Jungles
+
+		(1.15.2) adabraniummod - 1.1.3-1.15.2:
+			* Fixed all paxels, except diamond and vibranium, don't drop some blocks: [https://github.com/Brandcraf06/AdabraniumMod/issues/2](https://github.com/Brandcraf06/AdabraniumMod/issues/2) & [https://github.com/Brandcraf06/AdabraniumMod/issues/3](https://github.com/Brandcraf06/AdabraniumMod/issues/3)
+
+		(1.15.2) adabraniummod - 1.1.2-1.15.2:
+			* Fixed Paxels don't mine Obsidian
+			* Increased by 1 the "[Vanilla Material] Paxels" attack damage to match with 1.16 version of the mod.
+			* 50% durability reduction of adamantium sword, tools and armor
+			* For example : Tools have 25000 durability instead of 50000 durability
+			* 15% durability reduction of vibranium sword, tools and armor
+			* For example : Tools have 8500 durability instead of 10000 durability
+			* Added Russian Translation by fantom2010
+
+	Adorn (Adorn 1.8.0 for 1.15.2 --> Adorn 1.8.4 for 1.15.2):
+		Adorn 1.8.4 for 1.15.2:
+			*
+			* Added support for all variants of Lil Tater -- even ones yet to come.
+
+		Adorn 1.8.1 for 1.15.2:
+			Fixed Extra Pieces compatibility.
+
+	AppleSkin (appleskin-mc1.15-fabric-1.0.8.jar --> appleskin-mc1.15-fabric-1.0.11.jar):
+		appleskin-mc1.15-fabric-1.0.11.jar:
+			* Food overlay now works for food in off hand ([#65](https://github.com/squeek502/AppleSkin/pull/65))
+			* Clamp exhaustion to stop it from drawing outside the hunger bar in some situations ([#66](https://github.com/squeek502/AppleSkin/issues/66))
+			* Improve support for 'rotten' foods (foods that give you negative status effects) ([#69](https://github.com/squeek502/AppleSkin/pull/69)) [Forge for 1.15.2 and Fabric versions only]
+			*  - Food that gives you negative status effects will now have their hunger drawn using the 'rotten' food icon in their tooltips and their HUD overlay
+			*  - Non-rotten food always draw its potential added hunger as non-rotten, and vice versa for rotten. Previously, if you were under the hunger status effect, all food would draw it's potential added hunger as rotten, but with this change it makes rotten/non-rotten distinguishable even when under the hunger status effect.
+			*  - Removes the green background that would show when flashing the potential hunger from held held food, and instead uses a faint white for non-rotten and a very faint green for rotten foods. This makes rotten/non-rotten food more distinguishable when holding it.
+
+		AppleSkin-mc1.15.2-forge-1.0.14.jar:
+			* Food overlay now works for food in off hand ([#65](https://github.com/squeek502/AppleSkin/pull/65))
+			* Clamp exhaustion to stop it from drawing outside the hunger bar in some situations ([#66](https://github.com/squeek502/AppleSkin/issues/66))
+			* Improve support for 'rotten' foods (foods that give you negative status effects) ([#69](https://github.com/squeek502/AppleSkin/pull/69)) [Forge for 1.15.2 and Fabric versions only]
+			*  - Food that gives you negative status effects will now have their hunger drawn using the 'rotten' food icon in their tooltips and their HUD overlay
+			*  - Non-rotten food always draw its potential added hunger as non-rotten, and vice versa for rotten. Previously, if you were under the hunger status effect, all food would draw it's potential added hunger as rotten, but with this change it makes rotten/non-rotten distinguishable even when under the hunger status effect.
+			*  - Removes the green background that would show when flashing the potential hunger from held held food, and instead uses a faint white for non-rotten and a very faint green for rotten foods. This makes rotten/non-rotten food more distinguishable when holding it.
+
+		AppleSkin-mc1.15.2-forge-1.0.13.jar:
+			Initial Forge version for Minecraft 1.15.2
+
+	BetterNether (better-nether-2.5.1-1.15.X --> better-nether-2.7.5-1.15.2):
+		better-nether-2.7.5-1.15.2:
+			Compatibility with ExtraPieces and Adorn (with ExtraPieces installed)
+
+		better-nether-2.7.4-1.15.2:
+			* Added missing recipes;
+			* Striped logs fixes;
+			* Mobs eggs dispensing;
+			* Small errors fixes.
+
+		better-nether-2.7.3-1.15.X:
+			* Naga map icon;
+			* Water potion recipe (from Barrel Cactus on Nether Brewing Stand);
+			* Big mushrooms felling (like cactus or chorus trees);
+			* Small bugfixes.
+
+		better-nether-2.7.2-1.15.X:
+			* Tag fix;
+			* Missing blocks added;
+			* Missing recipes added;
+			* Custom shears;
+			* More recipes from cincinnasite;
+			* Cincinnasite anvil;
+			* Small Fixes.
+
+		better-nether-2.7.1-1.15.X:
+			* Translation fix;
+			* Egg plant shears fix.
+
+		better-nether-2.7.0-1.15.X:
+			* Saplings fix;
+			* Naga mob;
+			* More mouse pickup items;
+			* Rubeus tree;
+			* Blocks from rubeus.
+
+		better-nether-2.6.3-1.15.X:
+			* Plants mouse pickup fixes;
+			* Armor stand fix;
+			* Mushrooms item texture fix.
+
+		better-nether-2.6.2-1.15.X:
+			* Fixed Jellyfish entity server crash;
+			* Fixed messy biomes at world bottom.
+
+		better-nether-2.6.1-1.15.X:
+			* Translation fixes;
+			* World generation fixes & optimization;
+			* Bonemeal fixes (for most plants);
+			* New biome size.
+
+		better-nether-2.6.0-1.15.X:
+			* New plants scatter;
+			* Old Fungiwood biome;
+			* Jelllyfish mob;
+			* Block drop fixes;
+			* Nether superflat preset;
+			* Potted willow (bonsai; plant sapling);
+			* Potted smoker;
+			* Potted nether wart;
+			* Small fixes & tweaks;
+			* Ghast Hives (old config must be deleted).
+
+	Blockus ((1.15.2) blockus - 1.4.1-1.15.2 --> (1.15.2) blockus - 1.6.0-1.15.2):
+		(1.15.2) blockus - 1.6.0-1.15.2:
+			Blockus Texture Update 1.6.0
+			Last major update for 1.15.2
+			* - New texture for most blocks
+			*  - They have been redone by the artist [futurenp](https://www.curseforge.com/members/futurenp), The author of this awesome resource pack: [Nate's Tweaks](https://www.curseforge.com/minecraft/texture-packs/nates-tweaks).
+			*  - Some of these changes can change/improve the look of your currents builds.
+			*  - See screenshot below for differences
+			* - Added Small Sandstone Bricks, Small Red Sandstone Bricks and Small Soul Sandstone Bricks.
+			* - Renamed Blaze Block into "Blaze Lantern"
+			* - Renamed Purpur Little Bricks and Bluestone Little Bricks into "Small Purpur Bricks" & "Small Bluestone Bricks".
+			* - Changed Paper Lantern and Iron Gate model.
+			* - Changed Charred Planks recipe
+			*  - It's now flammable planks in an furnace.
+			* - New Blockus Logo
+			*   - Goodbye Lava Bricks, welcome Blaze Bricks.
+			* Fixed [https://github.com/Brandcraf06/Blockus/pull/39](https://github.com/Brandcraf06/Blockus/pull/39)
+			* Fixed Large Bricks & Zigzagged Bricks/Nether Bricks/Red Nether Bricks/Charred Nether Bricks/Teal Nether Bricks don't drop
+
+		(1.15.2) blockus - 1.5.3.3-1.15.2:
+			* Marble, Limestone and Bluestone now generate in all modded biomes
+			* White Oak now generate in modded Plains
+
+		(1.15.2) blockus - 1.5.3.2-1.15.2:
+			* Fixed White Oak Leaves hardness
+			* Tweaked some things
+			* Asphalt/Nether Stars Block now apply their effects to the player only
+			* Companion and Weight Storage Cube can nom be mined quickly and obtained with hand
+
+		(1.15.2) blockus - 1.5.3-1.15.2:
+			* Added Teal Nether Bricks [Slab, Stairs & Wall], Smooth Teal Nether Bricks and Teal Nether Pillar (by [SynthRose](https://www.curseforge.com/members/synthrose/projects))
+			* Crafted with 2 Cyan Dyes and 2 Nether Bricks item
+			* Added Companion Cube and Weight Storage Cube from Portal (Only decorative)
+			* Added Chiseled Andesite, Diorite & Granite Bricks
+			* Added Cracked Andesite, Diorite, Granite & End Stone Bricks
+			* Added Andesite, Diorite, Granite & End Stone Pillars
+			* Added 7 new colored tiles to the collection: Black/Gray, Black/Red, Black/Blue, Magenta/Black, Purple/Orange, Purple/Blue & Green/Brown
+			* Changed Green/Orange Colored Tiles texture --> The green part was lime. Now, the green part is green.
+			* The Stonecutter is no longer required for Vanilla blocks
+			* Burned paper block and charred wood can no longer be used as fuel.
+			* Increased White Oak spawn in forests and decreased White Oak spawns in plains.
+			* Burned paper block and charred wood can no longer be used as fuel.
+			* Fixed the mod generate Oak Trees in abundance, the mod wasn't supposed to generate any Oak Trees.
+
+		(1.15.2) blockus - 1.5.2.1-1.15.2:
+			* Fixed Legacy Leaves Xray
+			* Fixed suffocation in Legacy Leaves
+
+		(1.15.2) blockus - 1.5.1-1.15.2:
+			* Added Polished End Stone crafted with 4 End Stone.
+			* Changed Chiseled End Stone Texture
+			* Changed End Stone Bricks recipe (4 Polished End Stone)
+			* Renamed "Quartz Bricks" into "Quartz Tiles"
+			* Added common tags to marble and limestone blocks for [TechReborn](https://www.curseforge.com/minecraft/mc-mods/techreborn) compatibility. (Thanks to Sturmlilie)
+			* Fixed White Oak Door in flammable planks tag instead of White Oak Planks.
+
+	Cloth Config API (Fabric) ([Fabric 1.15.x] ClothConfig2-2.11.2 --> [Fabric 1.15.x] ClothConfig2-2.14.2):
+		[Fabric 1.15.x] ClothConfig2-2.14.2:
+			No changelog available.
+
+		[Fabric 1.15.x] ClothConfig2-2.14.1:
+			No changelog available.
+
+		[Fabric 1.15.x] ClothConfig2-2.14.0:
+			No changelog available.
+
+		[Fabric 1.15.x] ClothConfig2-2.13.6:
+			No changelog available.
+
+		[Fabric 1.15.x] ClothConfig2-2.13.5:
+			No changelog available.
+
+		[Fabric 1.15.x] ClothConfig2-2.13.4:
+			No changelog available.
+
+		[Fabric 1.15.x] ClothConfig2-2.13.3:
+			No changelog available.
+
+		[Fabric 1.15.x] ClothConfig2-2.13.2:
+			No changelog available.
+
+		[Fabric 1.15.x] ClothConfig2-2.13.1:
+			No changelog available.
+
+		[Fabric 1.15.x] ClothConfig2-2.13:
+			No changelog available.
+
+		[Fabric 1.15.x] ClothConfig2-2.12:
+			No changelog available.
+
+	Convenient Things (conv-things-0.4.0.jar --> conv-things-0.8.0-1.15.jar):
+		conv-things-0.8.0-1.15.jar:
+			* Added sickles (wood, stone, gold, iron, diamond) to harvest plants and immediately replant them. Material determines the affected area.
+
+		conv-things-0.7.0.jar:
+			* #10 Add support for [Mechanized Steam Power](https://www.curseforge.com/minecraft/mc-mods/mechanized-steam-power)
+			* Mechanized Steam Power comes last when tinting the plants and seeds, after Cotton and TechReborn.
+
+		conv-things-0.6.0.jar:
+			* #9 Fix dependency to LibCD. You can now update LibCD without breaking Convenient Things. - Thanks to [lorilith](https://www.curseforge.com/members/lorilith/followers)!
+			* Colour of resource seeds are dynamically drawn. Just like the petals of the plants.
+			* Optional dependency to [Cotton Resources](https://www.curseforge.com/minecraft/mc-mods/cotton-resources) added. Aluminum, copper, lead, silver and tin can be grown.
+			* Added a nickel plant for [Tech Reborn](https://www.curseforge.com/minecraft/mc-mods/techreborn). (Getting the 8 ingots is quite a challenge in itself, but doable.)
+			* If [Tech Reborn](https://www.curseforge.com/minecraft/mc-mods/techreborn) and [Cotton Resources](https://www.curseforge.com/minecraft/mc-mods/cotton-resources) are present, the colour of cotton resources' ingots is used to tint the plants and seeds.
+
+		conv-things-0.5.2.jar:
+			This is a pure technical release. No game play elements have been added or altered. However, there are some general improvements:
+			* Use loot tables for resource plants.
+			* Have resource plants' asItem() return their respective seed item.
+			* Fix unnecessary errors when parts of the mod are disabled because of config, or missing optional dependencies. <=> Added required dependency to [LibCD](https://www.curseforge.com/minecraft/mc-mods/libcd)
+			And, huge thanks to [lorilith](https://www.curseforge.com/members/lorilith) for pointing out most of the above flaws and his help fixing them.
+
+		conv-things-0.5.1.jar:
+			Hotfix-Release
+			* #5: Fixing a bug with cobblestone generator and hoppers allowing the hoppers to extract the whole stack at once instead of item by item.
+			* Adding a config option to disable the background blinking when under the effect of the Khajiit charm. Set enable-khajiit-blinking=false in the main config file.
+
+		conv-things-0.5.0.jar:
+			New Charms
+			* Salamandra grants Fire Resistance II
+			* Gift of the Khajiit grants Night Vision, sort of
+			Started experimenting with mod support for resource plants. Not too happy with it. Therefore, only a couple of plants added:
+			* Tin from Tech Reborn
+			* Silver from Tech Reborn
+			* Lead from Tech Reborn
+			* Copper from Tech Reborn
+			Note: Fluid support for Crusible does not progress well.
+
+	Cotton (1.0.2 --> 1.0.3):
+		1.0.3:
+			No longer include LibCD as it's not a mandatory dependency.
+			Improve the function of cauldron tweakers so that they're simpler and easier to use.
+
+	CraftPresence (CraftPresence-Fabric v1.6.1 (1.15-1.15.2) --> CraftPresence-Fabric v1.7.2 Release (1.15.2)):
+		CraftPresence-Fabric v1.7.2 Release (1.15.2):
+			CraftPresence Changes
+			v1.7.2 (10/11/2020)
+			A Detailed Changelog from the last Release is available [here]()
+			Changes
+			* Added Gif Image Support to external Image compatibility
+			* Hover tooltips for some buttons have been modified if they require saving the config before access
+			* Added Button Background and Background Tint Options to Accessibility Settings
+			Fixes
+			* Fixes Biome Logic in 1.16.2+ to avoid null-case scenarios
+			* Fixes a NPE in Tuple/Pair toString() outputs
+			More Information
+			v1.7.0 Upgrade Info
+			v1.7.0 of CraftPresence is the next major feature and technical update after v1.6.0. It is celebrating the recent milestones of over five million downloads as well as hitting the number one spot in Twitch Integration.
+			This release holds numerous improvements over the existing configuration system, as well as adding numerous long-standing user requests and planned features that have been queued over time since v1.4.0s release, that are outlined in the changelog above.
+			While no config migrations are necessary at this time for updating to v1.7.0, this can change as time goes on in the v1.7.x Pipeline, and will be noted here as such when and if these types of changes occur.
+			More features will additionally be planned and added for later in the v1.7.x Pipeline as further releases arrive.
+			1.13.x Build Info
+			The Rift Edition of this Mod Requires the [Rift ModLoader](https://www.curseforge.com/minecraft/mc-mods/rift) and contains the following differences to take Note of:
+			* KeyCodes have changed from an LWJGL Upgrade! Be Sure to check and edit your KeyBinds if migrating from 1.12.2 and below.
+			Starting in v1.5.0, The 1.13 Rift Port of CraftPresence was deprecated in favor of the 1.13.2 Rift Port.
+			Starting in v1.7.0, The aforementioned KeyCode warning is now void, due to new systems introduced to convert keybindings between LWJGL versions, and this message will be removed in v1.7.1.
+			Note: Due to Maven Troubles on behalf of the Rift Team, Rift Versions are no longer supported as of v1.6.1, though the Differences do still take effect for Forge.
+			1.14.x - 1.16.x Build Info
+			Some 1.14.x, 1.15.x, and 1.16.x Ports of this Mod Require the [FabricMC ModLoader](https://www.curseforge.com/minecraft/mc-mods/fabric-api) and contains the same differences as the 1.13.x Port.
+			Snapshot Build Info
+			Some Versions of this Mod are for Minecraft Snapshots or Experimental Versions, and as such, caution should be noted.
+			Any Snapshot Build released will be marked as BETA to match its Snapshot Status depending on tests done before release and issues found.
+			Snapshot Builds, depending on circumstances, may also contain changes for a future version of the mod, and will be noted as so if this is the case.
+			Legacy Build Info (Minecraft Versions 1.5.2 and Below)
+			Ports of this Mod for Minecraft Versions 1.5.2 and Lower are on very limited support.
+			Please keep in mind the following:
+			* There is NO Support for Server RPC Displays from MC 1.2.5 and Below, due to modding limitations.
+			* Bugs that relate with or are caused by issues in the Vanilla Codebase, are unlikely able to be fixed due to Minecraft's limitations
+			See the Mod Description // README for More Info
+
+		CraftPresence-Forge v1.7.2 Release (1.15.2):
+			CraftPresence Changes
+			v1.7.2 (10/11/2020)
+			A Detailed Changelog from the last Release is available [here]()
+			Changes
+			* Added Gif Image Support to external Image compatibility
+			* Hover tooltips for some buttons have been modified if they require saving the config before access
+			* Added Button Background and Background Tint Options to Accessibility Settings
+			Fixes
+			* Fixes Biome Logic in 1.16.2+ to avoid null-case scenarios
+			* Fixes a NPE in Tuple/Pair toString() outputs
+			More Information
+			v1.7.0 Upgrade Info
+			v1.7.0 of CraftPresence is the next major feature and technical update after v1.6.0. It is celebrating the recent milestones of over five million downloads as well as hitting the number one spot in Twitch Integration.
+			This release holds numerous improvements over the existing configuration system, as well as adding numerous long-standing user requests and planned features that have been queued over time since v1.4.0s release, that are outlined in the changelog above.
+			While no config migrations are necessary at this time for updating to v1.7.0, this can change as time goes on in the v1.7.x Pipeline, and will be noted here as such when and if these types of changes occur.
+			More features will additionally be planned and added for later in the v1.7.x Pipeline as further releases arrive.
+			1.13.x Build Info
+			The Rift Edition of this Mod Requires the [Rift ModLoader](https://www.curseforge.com/minecraft/mc-mods/rift) and contains the following differences to take Note of:
+			* KeyCodes have changed from an LWJGL Upgrade! Be Sure to check and edit your KeyBinds if migrating from 1.12.2 and below.
+			Starting in v1.5.0, The 1.13 Rift Port of CraftPresence was deprecated in favor of the 1.13.2 Rift Port.
+			Starting in v1.7.0, The aforementioned KeyCode warning is now void, due to new systems introduced to convert keybindings between LWJGL versions, and this message will be removed in v1.7.1.
+			Note: Due to Maven Troubles on behalf of the Rift Team, Rift Versions are no longer supported as of v1.6.1, though the Differences do still take effect for Forge.
+			1.14.x - 1.16.x Build Info
+			Some 1.14.x, 1.15.x, and 1.16.x Ports of this Mod Require the [FabricMC ModLoader](https://www.curseforge.com/minecraft/mc-mods/fabric-api) and contains the same differences as the 1.13.x Port.
+			Snapshot Build Info
+			Some Versions of this Mod are for Minecraft Snapshots or Experimental Versions, and as such, caution should be noted.
+			Any Snapshot Build released will be marked as BETA to match its Snapshot Status depending on tests done before release and issues found.
+			Snapshot Builds, depending on circumstances, may also contain changes for a future version of the mod, and will be noted as so if this is the case.
+			Legacy Build Info (Minecraft Versions 1.5.2 and Below)
+			Ports of this Mod for Minecraft Versions 1.5.2 and Lower are on very limited support.
+			Please keep in mind the following:
+			* There is NO Support for Server RPC Displays from MC 1.2.5 and Below, due to modding limitations.
+			* Bugs that relate with or are caused by issues in the Vanilla Codebase, are unlikely able to be fixed due to Minecraft's limitations
+			See the Mod Description // README for More Info
+
+		CraftPresence-Fabric v1.7.1 Release (1.15.2):
+			CraftPresence Changes
+			v1.7.1 (09/21/2020)
+			A Detailed Changelog from the last Release is available [here]()
+			Changes
+			* The Slot Gui Screens have been remastered to have accurate padding, scaling, and Support for Image Previews (In the case of Discord Assets)
+			* Added Support for external texture usage throughout the Config Gui
+			* Renamed /cp view guis to /cp view screens for better clarity
+			* Backend Improvements to improve debugging pipeline
+			Fixes
+			* Fixed issues pertaining to shading certain elements in the Gui
+			More Information
+			v1.7.0 Upgrade Info
+			v1.7.0 of CraftPresence is the next major feature and technical update after v1.6.0. It is celebrating the recent milestones of over five million downloads as well as hitting the number one spot in Twitch Integration.
+			This release holds numerous improvements over the existing configuration system, as well as adding numerous long-standing user requests and planned features that have been queued over time since v1.4.0s release, that are outlined in the changelog above.
+			While no config migrations are necessary at this time for updating to v1.7.0, this can change as time goes on in the v1.7.x Pipeline, and will be noted here as such when and if these types of changes occur.
+			More features will additionally be planned and added for later in the v1.7.x Pipeline as further releases arrive.
+			1.13.x Build Info
+			The Rift Edition of this Mod Requires the [Rift ModLoader](https://www.curseforge.com/minecraft/mc-mods/rift) and contains the following differences to take Note of:
+			* KeyCodes have changed from an LWJGL Upgrade! Be Sure to check and edit your KeyBinds if migrating from 1.12.2 and below.
+			Starting in v1.5.0, The 1.13 Rift Port of CraftPresence was deprecated in favor of the 1.13.2 Rift Port.
+			Starting in v1.7.0, The aforementioned KeyCode warning is now void, due to new systems introduced to convert keybindings between LWJGL versions, and this message will be removed in v1.7.1.
+			Note: Due to Maven Troubles on behalf of the Rift Team, Rift Versions are no longer supported as of v1.6.1, though the Differences do still take effect for Forge.
+			1.14.x - 1.16.x Build Info
+			Some 1.14.x, 1.15.x, and 1.16.x Ports of this Mod Require the [FabricMC ModLoader](https://www.curseforge.com/minecraft/mc-mods/fabric-api) and contains the same differences as the 1.13.x Port.
+			Snapshot Build Info
+			Some Versions of this Mod are for Minecraft Snapshots or Experimental Versions, and as such, caution should be noted.
+			Any Snapshot Build released will be marked as BETA to match its Snapshot Status depending on tests done before release and issues found.
+			Snapshot Builds, depending on circumstances, may also contain changes for a future version of the mod, and will be noted as so if this is the case.
+			Legacy Build Info (Minecraft Versions 1.5.2 and Below)
+			Ports of this Mod for Minecraft Versions 1.5.2 and Lower are on very limited support.
+			Please keep in mind the following:
+			* There is NO Support for Server RPC Displays from MC 1.2.5 and Below, due to modding limitations.
+			* Bugs that relate with or are caused by issues in the Vanilla Codebase, are unlikely able to be fixed due to Minecraft's limitations
+			See the Mod Description // README for More Info
+
+		CraftPresence-Forge v1.7.1 Release (1.15.2):
+			CraftPresence Changes
+			v1.7.1 (09/21/2020)
+			A Detailed Changelog from the last Release is available [here]()
+			Changes
+			* The Slot Gui Screens have been remastered to have accurate padding, scaling, and Support for Image Previews (In the case of Discord Assets)
+			* Added Support for external texture usage throughout the Config Gui
+			* Renamed /cp view guis to /cp view screens for better clarity
+			* Backend Improvements to improve debugging pipeline
+			Fixes
+			* Fixed issues pertaining to shading certain elements in the Gui
+			More Information
+			v1.7.0 Upgrade Info
+			v1.7.0 of CraftPresence is the next major feature and technical update after v1.6.0. It is celebrating the recent milestones of over five million downloads as well as hitting the number one spot in Twitch Integration.
+			This release holds numerous improvements over the existing configuration system, as well as adding numerous long-standing user requests and planned features that have been queued over time since v1.4.0s release, that are outlined in the changelog above.
+			While no config migrations are necessary at this time for updating to v1.7.0, this can change as time goes on in the v1.7.x Pipeline, and will be noted here as such when and if these types of changes occur.
+			More features will additionally be planned and added for later in the v1.7.x Pipeline as further releases arrive.
+			1.13.x Build Info
+			The Rift Edition of this Mod Requires the [Rift ModLoader](https://www.curseforge.com/minecraft/mc-mods/rift) and contains the following differences to take Note of:
+			* KeyCodes have changed from an LWJGL Upgrade! Be Sure to check and edit your KeyBinds if migrating from 1.12.2 and below.
+			Starting in v1.5.0, The 1.13 Rift Port of CraftPresence was deprecated in favor of the 1.13.2 Rift Port.
+			Starting in v1.7.0, The aforementioned KeyCode warning is now void, due to new systems introduced to convert keybindings between LWJGL versions, and this message will be removed in v1.7.1.
+			Note: Due to Maven Troubles on behalf of the Rift Team, Rift Versions are no longer supported as of v1.6.1, though the Differences do still take effect for Forge.
+			1.14.x - 1.16.x Build Info
+			Some 1.14.x, 1.15.x, and 1.16.x Ports of this Mod Require the [FabricMC ModLoader](https://www.curseforge.com/minecraft/mc-mods/fabric-api) and contains the same differences as the 1.13.x Port.
+			Snapshot Build Info
+			Some Versions of this Mod are for Minecraft Snapshots or Experimental Versions, and as such, caution should be noted.
+			Any Snapshot Build released will be marked as BETA to match its Snapshot Status depending on tests done before release and issues found.
+			Snapshot Builds, depending on circumstances, may also contain changes for a future version of the mod, and will be noted as so if this is the case.
+			Legacy Build Info (Minecraft Versions 1.5.2 and Below)
+			Ports of this Mod for Minecraft Versions 1.5.2 and Lower are on very limited support.
+			Please keep in mind the following:
+			* There is NO Support for Server RPC Displays from MC 1.2.5 and Below, due to modding limitations.
+			* Bugs that relate with or are caused by issues in the Vanilla Codebase, are unlikely able to be fixed due to Minecraft's limitations
+			See the Mod Description // README for More Info
+
+		CraftPresence-Fabric v1.7.0 Release (1.15.2):
+			CraftPresence Changes
+			v1.7.0 (09/15/2020)
+			A Detailed Changelog from the last Release is available [here]()
+			Changes
+			* Amended Releases to now always have -%ModLoaderName% as the suffix (Previously, Forge releases didn't have this suffix)
+			* Added the &yPosition& Sub-Placeholder to the &coords& Placeholder
+			* Added a Fallback &PACK& Placeholder Message in Status Messages (Will only be used if no pack gets found, and is not empty)
+			* Hardcore Mode now supported in &difficulty& Sub-Placeholder
+			* Added Comments to the Config File, showing a title and more clearly showing version and modified metadata
+			* Added a Conversion Layer for converting KeyCodes between LWJGL2 (1.12.2 and below) and LWJGL3 (1.13 and above)
+			* Added a Conversion Layer for converting Language IDs between Pack Format 1-2 (1.10.2 and below) and Pack Format 3 and Up (1.11 and above)
+			* Hovering over the Config Gui Main Screen Title, now shows a tooltip with the current mod version
+			* Separated IS_DEV into two options, to allow for toggling excessive logging and stacktrace outputs (Verbose Logging)
+			* Added Support for the minecraftinstance.json file in Twitch/Curse Packs (IE Custom Twitch/Curse Packs now work)
+			* Added Support for Live Editing (Clicking the Sync Config button will sync any changes made to craftpresence.properties to the game without needing to restart minecraft)
+			* Changed &GUI& to &SCREEN& for clarification; removed old &SCREEN& placeholder
+			* Removed the placeholder limits in Image Keys in Presence Settings
+			* Localization, Documentation, and Backend Updates
+			Fixes
+			* Fixed filename issues that corresponded with increased user-base confusion
+			* Fixed instances of the Mod Id not being the same across mod loaders
+			* Fixed an issue causing KeyCode Properties to be able to skip verification due to improper identification
+			* Fixed an issue where the Config Gui KeyBind was not properly identified as an Integer
+			* Fixed an issue causing some LWJGL 3 KeyCodes to not be recognized
+			* Fixed an issue causing Format Exceptions on some translations
+			* Fixed an issue causing the Load State to be infinitely displayed, if you modified your config whilst in-game
+			* Fixed an issue that caused some pack icon keys to be parsed incorrectly
+			* Fixed an issue causing properties with an empty default value to become falsely interpreted to be reset if still empty
+			* Fixed an issue with some translations being missing
+			* Fixed an issue where some disabled options were reporting the wrong options to be enabled
+			More Information
+			v1.7.0 Upgrade Info
+			v1.7.0 of CraftPresence is the next major feature and technical update after v1.6.0. It is celebrating the recent milestones of over five million downloads as well as hitting the number one spot in Twitch Integration.
+			This release holds numerous improvements over the Configuration System, as well as adding long-standing user requests and planned features that I've queued over time since v1.4.0s release, that are outlined in the changelog above.
+			While no Config Migrations are necessary at this time for updating to v1.7.0, this can change as time goes on in the v1.7.x Pipeline, and will be noted here as such when and if these types of changes occur.
+			More features will additionally be planned and added for later in the v1.7.x Pipeline as further releases arrive.
+			1.13.x Build Info
+			The Rift Edition of this Mod Requires the [Rift ModLoader](https://www.curseforge.com/minecraft/mc-mods/rift) and contains the following differences to take Note of:
+			* KeyCodes have changed from an LWJGL Upgrade! Be Sure to check and edit your KeyBinds if migrating from 1.12.2 and below.
+			Starting in v1.5.0, The 1.13 Rift Port of CraftPresence was deprecated in favor of the 1.13.2 Rift Port.
+			Starting in v1.7.0, The aforementioned KeyCode warning is now void, due to new systems introduced to convert keybindings between LWJGL versions, and this message will be removed in v1.7.1.
+			Note: Due to Maven Troubles on behalf of the Rift Team, Rift Versions are no longer supported as of v1.6.1, though the Differences do still take effect for Forge.
+			1.14.x - 1.16.x Build Info
+			Some 1.14.x, 1.15.x, and 1.16.x Ports of this Mod Require the [FabricMC ModLoader](https://www.curseforge.com/minecraft/mc-mods/fabric-api) and contains the same differences as the 1.13.x Port.
+			Snapshot Build Info
+			Some Versions of this Mod are for Minecraft Snapshots or Experimental Versions, and as such, caution should be noted.
+			Any Snapshot Build Released will be marked as BETA to match its Snapshot Status depending on Tests done before release and issues found.
+			Snapshot Builds, depending on circumstances, may also contain changes for a future version of the mod, and will be noted as so if this is the case.
+			Legacy Build Info (Minecraft Versions 1.5.2 and Below)
+			Ports of this Mod for Minecraft Versions 1.5.2 and Lower are on very limited support.
+			Please Keep in Mind the Following:
+			* There is NO Support for Server RPC Displays from MC 1.2.5 and Below, due to modding limitations.
+			* Bugs that relate with or are caused by issues in the Vanilla Codebase, are unlikely able to be fixed due to MC's limitations
+			See the Mod Description // README for More Info
+
+		CraftPresence-Forge v1.7.0 Release (1.15.2):
+			CraftPresence Changes
+			v1.7.0 (09/15/2020)
+			A Detailed Changelog from the last Release is available [here]()
+			Changes
+			* Amended Releases to now always have -%ModLoaderName% as the suffix (Previously, Forge releases didn't have this suffix)
+			* Added the &yPosition& Sub-Placeholder to the &coords& Placeholder
+			* Added a Fallback &PACK& Placeholder Message in Status Messages (Will only be used if no pack gets found, and is not empty)
+			* Hardcore Mode now supported in &difficulty& Sub-Placeholder
+			* Added Comments to the Config File, showing a title and more clearly showing version and modified metadata
+			* Added a Conversion Layer for converting KeyCodes between LWJGL2 (1.12.2 and below) and LWJGL3 (1.13 and above)
+			* Added a Conversion Layer for converting Language IDs between Pack Format 1-2 (1.10.2 and below) and Pack Format 3 and Up (1.11 and above)
+			* Hovering over the Config Gui Main Screen Title, now shows a tooltip with the current mod version
+			* Separated IS_DEV into two options, to allow for toggling excessive logging and stacktrace outputs (Verbose Logging)
+			* Added Support for the minecraftinstance.json file in Twitch/Curse Packs (IE Custom Twitch/Curse Packs now work)
+			* Added Support for Live Editing (Clicking the Sync Config button will sync any changes made to craftpresence.properties to the game without needing to restart minecraft)
+			* Changed &GUI& to &SCREEN& for clarification; removed old &SCREEN& placeholder
+			* Removed the placeholder limits in Image Keys in Presence Settings
+			* Localization, Documentation, and Backend Updates
+			Fixes
+			* Fixed filename issues that corresponded with increased user-base confusion
+			* Fixed instances of the Mod Id not being the same across mod loaders
+			* Fixed an issue causing KeyCode Properties to be able to skip verification due to improper identification
+			* Fixed an issue where the Config Gui KeyBind was not properly identified as an Integer
+			* Fixed an issue causing some LWJGL 3 KeyCodes to not be recognized
+			* Fixed an issue causing Format Exceptions on some translations
+			* Fixed an issue causing the Load State to be infinitely displayed, if you modified your config whilst in-game
+			* Fixed an issue that caused some pack icon keys to be parsed incorrectly
+			* Fixed an issue causing properties with an empty default value to become falsely interpreted to be reset if still empty
+			* Fixed an issue with some translations being missing
+			* Fixed an issue where some disabled options were reporting the wrong options to be enabled
+			More Information
+			v1.7.0 Upgrade Info
+			v1.7.0 of CraftPresence is the next major feature and technical update after v1.6.0. It is celebrating the recent milestones of over five million downloads as well as hitting the number one spot in Twitch Integration.
+			This release holds numerous improvements over the Configuration System, as well as adding long-standing user requests and planned features that I've queued over time since v1.4.0s release, that are outlined in the changelog above.
+			While no Config Migrations are necessary at this time for updating to v1.7.0, this can change as time goes on in the v1.7.x Pipeline, and will be noted here as such when and if these types of changes occur.
+			More features will additionally be planned and added for later in the v1.7.x Pipeline as further releases arrive.
+			1.13.x Build Info
+			The Rift Edition of this Mod Requires the [Rift ModLoader](https://www.curseforge.com/minecraft/mc-mods/rift) and contains the following differences to take Note of:
+			* KeyCodes have changed from an LWJGL Upgrade! Be Sure to check and edit your KeyBinds if migrating from 1.12.2 and below.
+			Starting in v1.5.0, The 1.13 Rift Port of CraftPresence was deprecated in favor of the 1.13.2 Rift Port.
+			Starting in v1.7.0, The aforementioned KeyCode warning is now void, due to new systems introduced to convert keybindings between LWJGL versions, and this message will be removed in v1.7.1.
+			Note: Due to Maven Troubles on behalf of the Rift Team, Rift Versions are no longer supported as of v1.6.1, though the Differences do still take effect for Forge.
+			1.14.x - 1.16.x Build Info
+			Some 1.14.x, 1.15.x, and 1.16.x Ports of this Mod Require the [FabricMC ModLoader](https://www.curseforge.com/minecraft/mc-mods/fabric-api) and contains the same differences as the 1.13.x Port.
+			Snapshot Build Info
+			Some Versions of this Mod are for Minecraft Snapshots or Experimental Versions, and as such, caution should be noted.
+			Any Snapshot Build Released will be marked as BETA to match its Snapshot Status depending on Tests done before release and issues found.
+			Snapshot Builds, depending on circumstances, may also contain changes for a future version of the mod, and will be noted as so if this is the case.
+			Legacy Build Info (Minecraft Versions 1.5.2 and Below)
+			Ports of this Mod for Minecraft Versions 1.5.2 and Lower are on very limited support.
+			Please Keep in Mind the Following:
+			* There is NO Support for Server RPC Displays from MC 1.2.5 and Below, due to modding limitations.
+			* Bugs that relate with or are caused by issues in the Vanilla Codebase, are unlikely able to be fixed due to MC's limitations
+			See the Mod Description // README for More Info
+
+		CraftPresence-Fabric v1.6.8 (1.15.2):
+			CraftPresence Changes
+			v1.6.8 (08/04/2020)
+			Changes
+			* Each release going forward will have a tag attached to it on the repository, going down to v1.4.0
+			* Added a Fallback Switch for the config gui for if it is forced closed (Reference: [#69]())
+			* RPC Formatting will now only capitalize the first word in the parameter, giving more control to the separate placeholders
+			* Removed Support for &ID& Placeholders, to comply with some MC Version requisites
+			* Added a Minified Variant of all placeholders, to trimmed down to a length of 4 (&DIM& and &DIMENSION& are the same) (Reference: [#68]())
+			* Minor Backend Updates involving Dependency and Logic Updates
+			Fixes
+			* Fixed a Bug causing Concurrent Modifications and Hard Crashes
+			More Information
+			v1.6.0 Mod Rewrite Info
+			In v1.6.0, CraftPresence has undergone numerous performance and under-the-hood improvements, to both acknowledge user feedback over the last several months and pursue the goal of further modularity.
+			As Elements such as the Config System and General RPC Elements have undergone various changes, please report any bugs found to [the Issue Tracker]()
+			Migration Notes:
+			*
+			The RPC System has changed to an internal IPC System hooking into Discord's official endpoints
+			* As a result, you can remove any discord-rpc DLL files present in CraftPresence's folders as they are no longer being used
+			*
+			gameTimePlaceholder is now combined into the &worldinfo& Placeholder
+			*
+			Some other placeholders within Server and Status Messages have been changed or renamed, please refer to the in-game tooltips for these new names
+			*
+			Entity Messages now use the Default Message as the Format, while specific Item Messages are placeholders for the formatted string
+			* This means, only &item& (The Specific Item's Name) will work for specific Items
+			* Otherwise, the more familiar placeholders such as &main& and &offhand& will retrieve this message when part of the default format setting
+			*
+			Both &mods& and &ign& are now Generalized Placeholders and can only be called within the Presence Formatting GUI
+			* &ign& in Server Messages should be changed to using &playerinfo& for in-world Player Data and &ign& for out-of-world Player Data
+			*
+			overwriteServerIcon has been deprecated, instead use the Presence Formatting GUI to define the priority for icons
+			* Example: overwriteServerIcon = Setting smallImageKey to &PACK&&SERVER& (Having &PACK& be before anything else)
+			1.13.x Build Info
+			The Rift Edition of this Mod Requires the [Rift ModLoader](https://www.curseforge.com/minecraft/mc-mods/rift) and contains the following differences to take Note of:
+			* KeyCodes have changed from an LWJGL Upgrade! Be Sure to check and edit your KeyBinds if migrating from 1.12.2 and below.
+			Starting in v1.5.0, The 1.13 Rift Port of CraftPresence was deprecated in favor of the 1.13.2 Rift Port
+			1.14.x - 1.16.x Build Info
+			The 1.14.x and 1.16.x Ports of this Mod Require the [FabricMC ModLoader](https://www.curseforge.com/minecraft/mc-mods/fabric-api) and contains the same differences as the 1.13.x Port
+			Snapshot Build Info
+			Some Versions of this Mod are for Minecraft Snapshots, and as such, caution should be noted.
+			Any Snapshot Build Released will be marked as BETA to match its Snapshot Status depending on Tests done before release and issues found.
+			Legacy Build Info (Minecraft Versions 1.5.2 and Below)
+			Ports of this Mod for Minecraft Versions 1.5.2 and Lower are on very limited support.
+			Please Keep in Mind the Following:
+			* There is NO Support for Server RPC Displays from MC 1.2.5 and Below, due to modding limitations.
+			* Bugs that relate with or are caused by issues in the Vanilla Codebase, are unlikely able to be fixed due to MC's limitations
+			See the Mod Description // README for More Info
+
+		CraftPresence-Fabric v1.6.8 (1_15_combat-6):
+			CraftPresence Changes
+			v1.6.8 (08/04/2020)
+			Changes
+			* Each release going forward will have a tag attached to it on the repository, going down to v1.4.0
+			* Added a Fallback Switch for the config gui for if it is forced closed (Reference: [#69]())
+			* RPC Formatting will now only capitalize the first word in the parameter, giving more control to the separate placeholders
+			* Removed Support for &ID& Placeholders, to comply with some MC Version requisites
+			* Added a Minified Variant of all placeholders, to trimmed down to a length of 4 (&DIM& and &DIMENSION& are the same) (Reference: [#68]())
+			* Minor Backend Updates involving Dependency and Logic Updates
+			Fixes
+			* Fixed a Bug causing Concurrent Modifications and Hard Crashes
+			More Information
+			v1.6.0 Mod Rewrite Info
+			In v1.6.0, CraftPresence has undergone numerous performance and under-the-hood improvements, to both acknowledge user feedback over the last several months and pursue the goal of further modularity.
+			As Elements such as the Config System and General RPC Elements have undergone various changes, please report any bugs found to [the Issue Tracker]()
+			Migration Notes:
+			*
+			The RPC System has changed to an internal IPC System hooking into Discord's official endpoints
+			* As a result, you can remove any discord-rpc DLL files present in CraftPresence's folders as they are no longer being used
+			*
+			gameTimePlaceholder is now combined into the &worldinfo& Placeholder
+			*
+			Some other placeholders within Server and Status Messages have been changed or renamed, please refer to the in-game tooltips for these new names
+			*
+			Entity Messages now use the Default Message as the Format, while specific Item Messages are placeholders for the formatted string
+			* This means, only &item& (The Specific Item's Name) will work for specific Items
+			* Otherwise, the more familiar placeholders such as &main& and &offhand& will retrieve this message when part of the default format setting
+			*
+			Both &mods& and &ign& are now Generalized Placeholders and can only be called within the Presence Formatting GUI
+			* &ign& in Server Messages should be changed to using &playerinfo& for in-world Player Data and &ign& for out-of-world Player Data
+			*
+			overwriteServerIcon has been deprecated, instead use the Presence Formatting GUI to define the priority for icons
+			* Example: overwriteServerIcon = Setting smallImageKey to &PACK&&SERVER& (Having &PACK& be before anything else)
+			1.13.x Build Info
+			The Rift Edition of this Mod Requires the [Rift ModLoader](https://www.curseforge.com/minecraft/mc-mods/rift) and contains the following differences to take Note of:
+			* KeyCodes have changed from an LWJGL Upgrade! Be Sure to check and edit your KeyBinds if migrating from 1.12.2 and below.
+			Starting in v1.5.0, The 1.13 Rift Port of CraftPresence was deprecated in favor of the 1.13.2 Rift Port
+			1.14.x - 1.16.x Build Info
+			The 1.14.x and 1.16.x Ports of this Mod Require the [FabricMC ModLoader](https://www.curseforge.com/minecraft/mc-mods/fabric-api) and contains the same differences as the 1.13.x Port
+			Snapshot Build Info
+			Some Versions of this Mod are for Minecraft Snapshots, and as such, caution should be noted.
+			Any Snapshot Build Released will be marked as BETA to match its Snapshot Status depending on Tests done before release and issues found.
+			Legacy Build Info (Minecraft Versions 1.5.2 and Below)
+			Ports of this Mod for Minecraft Versions 1.5.2 and Lower are on very limited support.
+			Please Keep in Mind the Following:
+			* There is NO Support for Server RPC Displays from MC 1.2.5 and Below, due to modding limitations.
+			* Bugs that relate with or are caused by issues in the Vanilla Codebase, are unlikely able to be fixed due to MC's limitations
+			See the Mod Description // README for More Info
+
+		CraftPresence v1.6.8 (1.15.2):
+			CraftPresence Changes
+			v1.6.8 (08/04/2020)
+			Changes
+			* Each release going forward will have a tag attached to it on the repository, going down to v1.4.0
+			* Added a Fallback Switch for the config gui for if it is forced closed (Reference: [#69]())
+			* RPC Formatting will now only capitalize the first word in the parameter, giving more control to the separate placeholders
+			* Removed Support for &ID& Placeholders, to comply with some MC Version requisites
+			* Added a Minified Variant of all placeholders, to trimmed down to a length of 4 (&DIM& and &DIMENSION& are the same) (Reference: [#68]())
+			* Minor Backend Updates involving Dependency and Logic Updates
+			Fixes
+			* Fixed a Bug causing Concurrent Modifications and Hard Crashes
+			More Information
+			v1.6.0 Mod Rewrite Info
+			In v1.6.0, CraftPresence has undergone numerous performance and under-the-hood improvements, to both acknowledge user feedback over the last several months and pursue the goal of further modularity.
+			As Elements such as the Config System and General RPC Elements have undergone various changes, please report any bugs found to [the Issue Tracker]()
+			Migration Notes:
+			*
+			The RPC System has changed to an internal IPC System hooking into Discord's official endpoints
+			* As a result, you can remove any discord-rpc DLL files present in CraftPresence's folders as they are no longer being used
+			*
+			gameTimePlaceholder is now combined into the &worldinfo& Placeholder
+			*
+			Some other placeholders within Server and Status Messages have been changed or renamed, please refer to the in-game tooltips for these new names
+			*
+			Entity Messages now use the Default Message as the Format, while specific Item Messages are placeholders for the formatted string
+			* This means, only &item& (The Specific Item's Name) will work for specific Items
+			* Otherwise, the more familiar placeholders such as &main& and &offhand& will retrieve this message when part of the default format setting
+			*
+			Both &mods& and &ign& are now Generalized Placeholders and can only be called within the Presence Formatting GUI
+			* &ign& in Server Messages should be changed to using &playerinfo& for in-world Player Data and &ign& for out-of-world Player Data
+			*
+			overwriteServerIcon has been deprecated, instead use the Presence Formatting GUI to define the priority for icons
+			* Example: overwriteServerIcon = Setting smallImageKey to &PACK&&SERVER& (Having &PACK& be before anything else)
+			1.13.x Build Info
+			The Rift Edition of this Mod Requires the [Rift ModLoader](https://www.curseforge.com/minecraft/mc-mods/rift) and contains the following differences to take Note of:
+			* KeyCodes have changed from an LWJGL Upgrade! Be Sure to check and edit your KeyBinds if migrating from 1.12.2 and below.
+			Starting in v1.5.0, The 1.13 Rift Port of CraftPresence was deprecated in favor of the 1.13.2 Rift Port
+			1.14.x - 1.16.x Build Info
+			The 1.14.x and 1.16.x Ports of this Mod Require the [FabricMC ModLoader](https://www.curseforge.com/minecraft/mc-mods/fabric-api) and contains the same differences as the 1.13.x Port
+			Snapshot Build Info
+			Some Versions of this Mod are for Minecraft Snapshots, and as such, caution should be noted.
+			Any Snapshot Build Released will be marked as BETA to match its Snapshot Status depending on Tests done before release and issues found.
+			Legacy Build Info (Minecraft Versions 1.5.2 and Below)
+			Ports of this Mod for Minecraft Versions 1.5.2 and Lower are on very limited support.
+			Please Keep in Mind the Following:
+			* There is NO Support for Server RPC Displays from MC 1.2.5 and Below, due to modding limitations.
+			* Bugs that relate with or are caused by issues in the Vanilla Codebase, are unlikely able to be fixed due to MC's limitations
+			See the Mod Description // README for More Info
+
+		CraftPresence-Fabric v1.6.6 (1.15.2):
+			CraftPresence Changes
+			v1.6.6 (7/31/2020)
+			Changes
+			* 1.16.x Forge/Fabric Officially Supported
+			* Migrations to Discord IPC Data to use discord.com endpoints
+			* Adjusted Update Gui to accommodate full text width
+			* Minor Backend Updates
+			Fixes
+			* Fixed Issues with Item Message Placeholders not working properly (Now boomerangs to a new Placeholder in Item Messages)
+			* Fixed Mismatched Translations in 1.13+ Ports
+			* Fixed Race Case Issues with Mod Shutdown Methods
+			* Fixed an NPE in EntityUtils in 1.14+ Ports
+			* Fixed Possible Button Duplication in Gui's
+			* Fixed Rounding Issues pertaining to Negative Coordinates
+			* Fixed Issues causing some symbols to be unintentionally replaced during formatting (May cause other issues, Report any Formatting anomaly's)
+			* Fixed Race-Case Issue causing Null Party IDs to be allowed
+			* Reverted a Change that caused Improper Module Clearing
+			More Information
+			v1.6.0 Mod Rewrite Info
+			In v1.6.0, CraftPresence has undergone numerous performance and under-the-hood improvements, to both acknowledge user feedback over the last several months and pursue the goal of further modularity.
+			As Elements such as the Config System and General RPC Elements have undergone various changes, please report any bugs found to [the Issue Tracker]()
+			Migration Notes:
+			*
+			The RPC System has changed to an internal IPC System hooking into Discord's official endpoints
+			* As a result, you can remove any discord-rpc DLL files present in CraftPresence's folders as they are no longer being used
+			*
+			gameTimePlaceholder is now combined into the &worldinfo& Placeholder
+			*
+			Some other placeholders within Server and Status Messages have been changed or renamed, please refer to the in-game tooltips for these new names
+			*
+			Entity Messages now use the Default Message as the Format, while specific Item Messages are placeholders for the formatted string
+			* This means, only &item& (The Specific Item's Name) will work for specific Items
+			* Otherwise, the more familiar placeholders such as &main& and &offhand& will retrieve this message when part of the default format setting
+			*
+			Both &mods& and &ign& are now Generalized Placeholders and can only be called within the Presence Formatting GUI
+			* &ign& in Server Messages should be changed to using &playerinfo& for in-world Player Data and &ign& for out-of-world Player Data
+			*
+			overwriteServerIcon has been deprecated, instead use the Presence Formatting GUI to define the priority for icons
+			* Example: overwriteServerIcon = Setting smallImageKey to &PACK&&SERVER& (Having &PACK& be before anything else)
+			1.13.x Build Info
+			The Rift Edition of this Mod Requires the [Rift ModLoader](https://www.curseforge.com/minecraft/mc-mods/rift) and contains the following differences to take Note of:
+			* KeyCodes have changed from an LWJGL Upgrade! Be Sure to check and edit your KeyBinds if migrating from 1.12.2 and below.
+			Starting in v1.5.0, The 1.13 Rift Port of CraftPresence was deprecated in favor of the 1.13.2 Rift Port
+			1.14.x - 1.16.x Build Info
+			The 1.14.x and 1.16.x Ports of this Mod Require the [FabricMC ModLoader](https://www.curseforge.com/minecraft/mc-mods/fabric-api) and contains the same differences as the 1.13.x Port
+			Snapshot Build Info
+			Some Versions of this Mod are for Minecraft Snapshots, and as such, caution should be noted.
+			Any Snapshot Build Released will be marked as BETA to match its Snapshot Status depending on Tests done before release and issues found.
+			Legacy Build Info (Minecraft Versions 1.5.2 and Below)
+			Ports of this Mod for Minecraft Versions 1.5.2 and Lower are on very limited support.
+			Please Keep in Mind the Following:
+			* There is NO Support for Server RPC Displays from MC 1.2.5 and Below, due to modding limitations.
+			* Bugs that relate with or are caused by issues in the Vanilla Codebase, are unlikely able to be fixed due to MC's limitations
+			See the Mod Description // README for More Info
+
+		CraftPresence v1.6.6 (1.15.2):
+			CraftPresence Changes
+			v1.6.6 (7/31/2020)
+			Changes
+			* 1.16.x Forge/Fabric Officially Supported
+			* Migrations to Discord IPC Data to use discord.com endpoints
+			* Adjusted Update Gui to accommodate full text width
+			* Minor Backend Updates
+			Fixes
+			* Fixed Issues with Item Message Placeholders not working properly (Now boomerangs to a new Placeholder in Item Messages)
+			* Fixed Mismatched Translations in 1.13+ Ports
+			* Fixed Race Case Issues with Mod Shutdown Methods
+			* Fixed an NPE in EntityUtils in 1.14+ Ports
+			* Fixed Possible Button Duplication in Gui's
+			* Fixed Rounding Issues pertaining to Negative Coordinates
+			* Fixed Issues causing some symbols to be unintentionally replaced during formatting (May cause other issues, Report any Formatting anomaly's)
+			* Fixed Race-Case Issue causing Null Party IDs to be allowed
+			* Reverted a Change that caused Improper Module Clearing
+			More Information
+			v1.6.0 Mod Rewrite Info
+			In v1.6.0, CraftPresence has undergone numerous performance and under-the-hood improvements, to both acknowledge user feedback over the last several months and pursue the goal of further modularity.
+			As Elements such as the Config System and General RPC Elements have undergone various changes, please report any bugs found to [the Issue Tracker]()
+			Migration Notes:
+			*
+			The RPC System has changed to an internal IPC System hooking into Discord's official endpoints
+			* As a result, you can remove any discord-rpc DLL files present in CraftPresence's folders as they are no longer being used
+			*
+			gameTimePlaceholder is now combined into the &worldinfo& Placeholder
+			*
+			Some other placeholders within Server and Status Messages have been changed or renamed, please refer to the in-game tooltips for these new names
+			*
+			Entity Messages now use the Default Message as the Format, while specific Item Messages are placeholders for the formatted string
+			* This means, only &item& (The Specific Item's Name) will work for specific Items
+			* Otherwise, the more familiar placeholders such as &main& and &offhand& will retrieve this message when part of the default format setting
+			*
+			Both &mods& and &ign& are now Generalized Placeholders and can only be called within the Presence Formatting GUI
+			* &ign& in Server Messages should be changed to using &playerinfo& for in-world Player Data and &ign& for out-of-world Player Data
+			*
+			overwriteServerIcon has been deprecated, instead use the Presence Formatting GUI to define the priority for icons
+			* Example: overwriteServerIcon = Setting smallImageKey to &PACK&&SERVER& (Having &PACK& be before anything else)
+			1.13.x Build Info
+			The Rift Edition of this Mod Requires the [Rift ModLoader](https://www.curseforge.com/minecraft/mc-mods/rift) and contains the following differences to take Note of:
+			* KeyCodes have changed from an LWJGL Upgrade! Be Sure to check and edit your KeyBinds if migrating from 1.12.2 and below.
+			Starting in v1.5.0, The 1.13 Rift Port of CraftPresence was deprecated in favor of the 1.13.2 Rift Port
+			1.14.x - 1.16.x Build Info
+			The 1.14.x and 1.16.x Ports of this Mod Require the [FabricMC ModLoader](https://www.curseforge.com/minecraft/mc-mods/fabric-api) and contains the same differences as the 1.13.x Port
+			Snapshot Build Info
+			Some Versions of this Mod are for Minecraft Snapshots, and as such, caution should be noted.
+			Any Snapshot Build Released will be marked as BETA to match its Snapshot Status depending on Tests done before release and issues found.
+			Legacy Build Info (Minecraft Versions 1.5.2 and Below)
+			Ports of this Mod for Minecraft Versions 1.5.2 and Lower are on very limited support.
+			Please Keep in Mind the Following:
+			* There is NO Support for Server RPC Displays from MC 1.2.5 and Below, due to modding limitations.
+			* Bugs that relate with or are caused by issues in the Vanilla Codebase, are unlikely able to be fixed due to MC's limitations
+			See the Mod Description // README for More Info
+
+		CraftPresence-Fabric v1.6.5 (1_15_combat-6):
+			CraftPresence Changes
+			v1.6.5 (6/26/2020)
+			Changes
+			* Source upgrades for ForgeGradle 3.x and Gradle on 1.12.2 and above
+			* Added a Format Words option in Advanced Settings, used to toggle automatic capitalization in RPC Strings
+			* Added Entity Target, Entity Attacking and Entity Riding Options in Advanced Settings to begin the Per-Entity System
+			* Additionally, added NBT Tag Support for Per-Item System
+			* Debug Mode now supports Placeholder Value previews in some circumstances
+			* Changed &ENTITY& placeholder belonging to Items and Blocks to &TILEENTITY&
+			* Backend Upgrades and Rewrites to Gui Screens and related Utilities
+			* Localization Updates to Update Checker
+			* Returning from Popular Demand, Added Back the Loading Message to Status Messages
+			* Added Refresh Rate Option to Advanced Settings to control the rate modules and RPC is refreshed
+			* 1.13.2 Rift Port now Temporarily Deprecated due to lack of support and Maven Downtime
+			* Adjusted Translations to be more concise and in-line with namespaced id requirements
+			* Minor cleanups and backend improvements
+			Fixes
+			* Fixed Dynamic Editor Screen to properly display the placeholders when hovering over message label
+			* Fixed missing Backend Gradle functions on ForgeGradle 3.x Ports
+			* Fixed Improper Version Label on 1.13+ Ports
+			* Fixed Focus Gui Issues again on 1.13+ Ports
+			* Fixed Rare Instances of Button Actions not functioning on 1.13+ Ports
+			* Fixed Possible Gui Rescaling Issues
+			* Fixed &difficulty& placeholder interpretation
+			* Fixed a NPE that occurred without a Discord Avatar
+			* Fixed Possible Precision Inconsistencies related to Coordinate Information
+			* Fixed a possible 403 HTTP Error in receiving Update Information
+			More Information
+			v1.6.0 Mod Rewrite Info
+			In v1.6.0, CraftPresence has undergone numerous performance and under-the-hood improvements, to both acknowledge user feedback over the last several months and pursue the goal of further modularity.
+			As Elements such as the Config System and General RPC Elements have undergone various changes, please report any bugs found to [the Issue Tracker]()
+			Migration Notes:
+			*
+			The RPC System has changed to an internal IPC System hooking into Discord's official endpoints
+			* As a result, you can remove any discord-rpc DLL files present in CraftPresence's folders as they are no longer being used
+			*
+			gameTimePlaceholder is now combined into the &worldinfo& Placeholder
+			*
+			Some other placeholders within Server and Status Messages have been changed or renamed, please refer to the in-game tooltips for these new names
+			*
+			Entity Messages now use the Default Message as the Format, while specific Item Messages are placeholders for the formatted string
+			* This means, only &item& (The Specific Item's Name) will work for specific Items
+			* Otherwise, the more familiar placeholders such as &main& and &offhand& will retrieve this message when part of the default format setting
+			*
+			&mods& and &ign& are now Generalized Placeholders and can only be called within the Presence Formatting GUI
+			* &ign& in Server Messages should be changed to using &playerinfo& for in-world Player Data and &ign& for out-of-world Player Data
+			*
+			overwriteServerIcon has been deprecated, instead use the Presence Formatting GUI to define the priority for icons
+			* Example: overwriteServerIcon = Setting smallImageKey to &PACK&&SERVER& (Having &PACK& be before anything else)
+			1.13.x Build Info
+			The Rift Edition of this Mod Requires the [Rift ModLoader](https://www.curseforge.com/minecraft/mc-mods/rift) and contains the following differences to take Note of:
+			* KeyCodes have changed from an LWJGL Upgrade! Be Sure to check and edit your KeyBinds if migrating from 1.12.2 and below.
+			Starting in v1.5.0, The 1.13 Rift Port of CraftPresence was deprecated in favor of the 1.13.2 Rift Port
+			1.14.x - 1.15.x Build Info
+			The 1.14.x and 1.15.x Ports of this Mod Require the [FabricMC ModLoader](https://www.curseforge.com/minecraft/mc-mods/fabric-api) and contains the same differences as the 1.13.x Port
+			Snapshot Build Info
+			Some Versions of this Mod are based on Minecraft Snapshots, and as such, caution is advised.
+			Any Snapshot Build Released will be marked as BETA to match its Snapshot Status
+			Legacy Build Info (Minecraft Versions 1.5.2 and Below)
+			Ports of this Mod for Minecraft Versions 1.5.2 and Lower are on very limited support.
+			Please Keep in Mind the Following:
+			* There is NO Support for Server RPC Displays from MC 1.2.5 and Below, due to modding limitations.
+			* Bugs that relate with or are caused by issues in the Vanilla Codebase, are unlikely able to be fixed due to MC's limitations
+			See the Mod Description // README for More Info
+
+		CraftPresence v1.6.5 (1.15.2):
+			CraftPresence Changes
+			v1.6.5 (6/26/2020)
+			Changes
+			* Source upgrades for ForgeGradle 3.x and Gradle on 1.12.2 and above
+			* Added a Format Words option in Advanced Settings, used to toggle automatic capitalization in RPC Strings
+			* Added Entity Target, Entity Attacking and Entity Riding Options in Advanced Settings to begin the Per-Entity System
+			* Additionally, added NBT Tag Support for Per-Item System
+			* Debug Mode now supports Placeholder Value previews in some circumstances
+			* Changed &ENTITY& placeholder belonging to Items and Blocks to &TILEENTITY&
+			* Backend Upgrades and Rewrites to Gui Screens and related Utilities
+			* Localization Updates to Update Checker
+			* Returning from Popular Demand, Added Back the Loading Message to Status Messages
+			* Added Refresh Rate Option to Advanced Settings to control the rate modules and RPC is refreshed
+			* 1.13.2 Rift Port now Temporarily Deprecated due to lack of support and Maven Downtime
+			* Adjusted Translations to be more concise and in-line with namespaced id requirements
+			* Minor cleanups and backend improvements
+			Fixes
+			* Fixed Dynamic Editor Screen to properly display the placeholders when hovering over message label
+			* Fixed missing Backend Gradle functions on ForgeGradle 3.x Ports
+			* Fixed Improper Version Label on 1.13+ Ports
+			* Fixed Focus Gui Issues again on 1.13+ Ports
+			* Fixed Rare Instances of Button Actions not functioning on 1.13+ Ports
+			* Fixed Possible Gui Rescaling Issues
+			* Fixed &difficulty& placeholder interpretation
+			* Fixed a NPE that occurred without a Discord Avatar
+			* Fixed Possible Precision Inconsistencies related to Coordinate Information
+			* Fixed a possible 403 HTTP Error in receiving Update Information
+			More Information
+			v1.6.0 Mod Rewrite Info
+			In v1.6.0, CraftPresence has undergone numerous performance and under-the-hood improvements, to both acknowledge user feedback over the last several months and pursue the goal of further modularity.
+			As Elements such as the Config System and General RPC Elements have undergone various changes, please report any bugs found to [the Issue Tracker]()
+			Migration Notes:
+			*
+			The RPC System has changed to an internal IPC System hooking into Discord's official endpoints
+			* As a result, you can remove any discord-rpc DLL files present in CraftPresence's folders as they are no longer being used
+			*
+			gameTimePlaceholder is now combined into the &worldinfo& Placeholder
+			*
+			Some other placeholders within Server and Status Messages have been changed or renamed, please refer to the in-game tooltips for these new names
+			*
+			Entity Messages now use the Default Message as the Format, while specific Item Messages are placeholders for the formatted string
+			* This means, only &item& (The Specific Item's Name) will work for specific Items
+			* Otherwise, the more familiar placeholders such as &main& and &offhand& will retrieve this message when part of the default format setting
+			*
+			&mods& and &ign& are now Generalized Placeholders and can only be called within the Presence Formatting GUI
+			* &ign& in Server Messages should be changed to using &playerinfo& for in-world Player Data and &ign& for out-of-world Player Data
+			*
+			overwriteServerIcon has been deprecated, instead use the Presence Formatting GUI to define the priority for icons
+			* Example: overwriteServerIcon = Setting smallImageKey to &PACK&&SERVER& (Having &PACK& be before anything else)
+			1.13.x Build Info
+			The Rift Edition of this Mod Requires the [Rift ModLoader](https://www.curseforge.com/minecraft/mc-mods/rift) and contains the following differences to take Note of:
+			* KeyCodes have changed from an LWJGL Upgrade! Be Sure to check and edit your KeyBinds if migrating from 1.12.2 and below.
+			Starting in v1.5.0, The 1.13 Rift Port of CraftPresence was deprecated in favor of the 1.13.2 Rift Port
+			1.14.x - 1.15.x Build Info
+			The 1.14.x and 1.15.x Ports of this Mod Require the [FabricMC ModLoader](https://www.curseforge.com/minecraft/mc-mods/fabric-api) and contains the same differences as the 1.13.x Port
+			Snapshot Build Info
+			Some Versions of this Mod are based on Minecraft Snapshots, and as such, caution is advised.
+			Any Snapshot Build Released will be marked as BETA to match its Snapshot Status
+			Legacy Build Info (Minecraft Versions 1.5.2 and Below)
+			Ports of this Mod for Minecraft Versions 1.5.2 and Lower are on very limited support.
+			Please Keep in Mind the Following:
+			* There is NO Support for Server RPC Displays from MC 1.2.5 and Below, due to modding limitations.
+			* Bugs that relate with or are caused by issues in the Vanilla Codebase, are unlikely able to be fixed due to MC's limitations
+			See the Mod Description // README for More Info
+
+		CraftPresence-Fabric v1.6.5 (1.15.2):
+			CraftPresence Changes
+			v1.6.5 (6/26/2020)
+			Changes
+			* Source upgrades for ForgeGradle 3.x and Gradle on 1.12.2 and above
+			* Added a Format Words option in Advanced Settings, used to toggle automatic capitalization in RPC Strings
+			* Added Entity Target, Entity Attacking and Entity Riding Options in Advanced Settings to begin the Per-Entity System
+			* Additionally, added NBT Tag Support for Per-Item System
+			* Debug Mode now supports Placeholder Value previews in some circumstances
+			* Changed &ENTITY& placeholder belonging to Items and Blocks to &TILEENTITY&
+			* Backend Upgrades and Rewrites to Gui Screens and related Utilities
+			* Localization Updates to Update Checker
+			* Returning from Popular Demand, Added Back the Loading Message to Status Messages
+			* Added Refresh Rate Option to Advanced Settings to control the rate modules and RPC is refreshed
+			* 1.13.2 Rift Port now Temporarily Deprecated due to lack of support and Maven Downtime
+			* Adjusted Translations to be more concise and in-line with namespaced id requirements
+			* Minor cleanups and backend improvements
+			Fixes
+			* Fixed Dynamic Editor Screen to properly display the placeholders when hovering over message label
+			* Fixed missing Backend Gradle functions on ForgeGradle 3.x Ports
+			* Fixed Improper Version Label on 1.13+ Ports
+			* Fixed Focus Gui Issues again on 1.13+ Ports
+			* Fixed Rare Instances of Button Actions not functioning on 1.13+ Ports
+			* Fixed Possible Gui Rescaling Issues
+			* Fixed &difficulty& placeholder interpretation
+			* Fixed a NPE that occurred without a Discord Avatar
+			* Fixed Possible Precision Inconsistencies related to Coordinate Information
+			* Fixed a possible 403 HTTP Error in receiving Update Information
+			More Information
+			v1.6.0 Mod Rewrite Info
+			In v1.6.0, CraftPresence has undergone numerous performance and under-the-hood improvements, to both acknowledge user feedback over the last several months and pursue the goal of further modularity.
+			As Elements such as the Config System and General RPC Elements have undergone various changes, please report any bugs found to [the Issue Tracker]()
+			Migration Notes:
+			*
+			The RPC System has changed to an internal IPC System hooking into Discord's official endpoints
+			* As a result, you can remove any discord-rpc DLL files present in CraftPresence's folders as they are no longer being used
+			*
+			gameTimePlaceholder is now combined into the &worldinfo& Placeholder
+			*
+			Some other placeholders within Server and Status Messages have been changed or renamed, please refer to the in-game tooltips for these new names
+			*
+			Entity Messages now use the Default Message as the Format, while specific Item Messages are placeholders for the formatted string
+			* This means, only &item& (The Specific Item's Name) will work for specific Items
+			* Otherwise, the more familiar placeholders such as &main& and &offhand& will retrieve this message when part of the default format setting
+			*
+			&mods& and &ign& are now Generalized Placeholders and can only be called within the Presence Formatting GUI
+			* &ign& in Server Messages should be changed to using &playerinfo& for in-world Player Data and &ign& for out-of-world Player Data
+			*
+			overwriteServerIcon has been deprecated, instead use the Presence Formatting GUI to define the priority for icons
+			* Example: overwriteServerIcon = Setting smallImageKey to &PACK&&SERVER& (Having &PACK& be before anything else)
+			1.13.x Build Info
+			The Rift Edition of this Mod Requires the [Rift ModLoader](https://www.curseforge.com/minecraft/mc-mods/rift) and contains the following differences to take Note of:
+			* KeyCodes have changed from an LWJGL Upgrade! Be Sure to check and edit your KeyBinds if migrating from 1.12.2 and below.
+			Starting in v1.5.0, The 1.13 Rift Port of CraftPresence was deprecated in favor of the 1.13.2 Rift Port
+			1.14.x - 1.15.x Build Info
+			The 1.14.x and 1.15.x Ports of this Mod Require the [FabricMC ModLoader](https://www.curseforge.com/minecraft/mc-mods/fabric-api) and contains the same differences as the 1.13.x Port
+			Snapshot Build Info
+			Some Versions of this Mod are based on Minecraft Snapshots, and as such, caution is advised.
+			Any Snapshot Build Released will be marked as BETA to match its Snapshot Status
+			Legacy Build Info (Minecraft Versions 1.5.2 and Below)
+			Ports of this Mod for Minecraft Versions 1.5.2 and Lower are on very limited support.
+			Please Keep in Mind the Following:
+			* There is NO Support for Server RPC Displays from MC 1.2.5 and Below, due to modding limitations.
+			* Bugs that relate with or are caused by issues in the Vanilla Codebase, are unlikely able to be fixed due to MC's limitations
+			See the Mod Description // README for More Info
+
+		CraftPresence v1.6.1 (1.15.2):
+			CraftPresence Changes
+			v1.6.1 (1/11/2020)
+			Changes
+			*
+			All Builds, except for those with META-INF Errors, are now Signed
+			* Before, this only applied to 1.8.9 and above
+			*
+			Added a Parser for Update Data, so any Updates will display in the Gui, regardless if using Forge or not
+			*
+			Added a Debug Mode Option in Advanced Setting, useful to see Debugging Logging and further features in the future
+			Fixes
+			* Fixed java.awt.HeadlessException when Opening a Url
+			* Fixed Issues pertaining to Non-Functional RPC Displays on Unix Systems
+			* Fixed Default Tooltip Color Values so just visiting the Gui doesn't trigger a hasChanged State
+			* Fixed Some Versions of Minecraft having incorrect Dimension Names (Below 1.5.2)
+			* Fixed Slider and Escape Button Functionality on MC 1.14+ Ports
+			* Fixed an Incorrect GUI Background Texture Name on MC 1.5.2- Ports
+			More Information
+			v1.6.0 Mod Rewrite Info
+			In v1.6.0, CraftPresence has undergone numerous performance and under-the-hood improvements, to both acknowledge user feedback over the last several months and pursue the goal of further modularity.
+			As Elements such as the Config System and General RPC Elements have undergone various changes, please report any bugs found to [the Issue Tracker]()
+			v1.5.x is Generally Recommended at this time for new users, as the systems used in v1.6.0 may have a variety of issues, and are considered bleeding-edge for the time being
+			Migration Notes:
+			*
+			The RPC System has changed to an internal IPC System hooking into Discord's official endpoints
+			* As a result, you can remove any discord-rpc DLL files present in CraftPresence's folders as they are no longer being used
+			*
+			gameTimePlaceholder is now combined into the &worldinfo& Placeholder
+			*
+			Some of the other placeholders within Server and Status Messages have been changed or renamed, please refer to the in-game tooltips for these new names
+			*
+			Entity Messages now use the Default Message as the Format, while specific Item Messages are considered placeholders for the formatter
+			* This means, only &item& (The Specific Item's Name) will work for specific Items
+			* Otherwise, the more familiar placeholders such as &main& and &offhand& will retrieve these message when part of the default format setting
+			*
+			&mods& and &ign& are now Generalized Placeholders and can only be called within the Presence Formatting GUI
+			* &ign& in Server Messages should be changed to using &playerinfo& for in-world Player Data and &ign& for out-of-world Player Data
+			*
+			overwriteServerIcon has been deprecated, instead use the Presence Formatting GUI to define the priority for icons
+			* Example: overwriteServerIcon = Setting smallImageKey to &PACK&&SERVER& (Having &PACK& be before anything else)
+			1.13.x Build Info
+			The Rift Edition of this Mod Requires the [Rift ModLoader](https://www.curseforge.com/minecraft/mc-mods/rift) and contains the following differences to take Note of:
+			* KeyCodes have changed from an LWJGL Upgrade! Be Sure to Check and Edit your KeyBinds if Migrating from 1.12.2 and Below
+			Starting In v1.5.0, The 1.13 Rift Port of CraftPresence was deprecated in favor of the 1.13.2 Rift Port
+			1.14.x - 1.15.x Build Info
+			The 1.14.x and 1.15.x Ports of this Mod Require the [FabricMC ModLoader](https://www.curseforge.com/minecraft/mc-mods/fabric-api) and contains the same differences as the 1.13.x Port
+			Snapshot Build Info
+			Some Versions of this Mod are based on Minecraft Snapshots, and as such, caution is advised.
+			Any Snapshot Build Released will be marked as BETA to match it's Snapshot Status
+			Legacy Build Info (Minecraft Versions 1.5.2 and Below)
+			Ports of this Mod for Minecraft Versions 1.5.2 and Lower are on very limited support.
+			Please Keep in Mind the Following:
+			* There is NO Support for Server RPC Displays from MC 1.2.5 and Below, due to Modding Limitations.
+			* Bugs that Relate with or are caused by Issues in the Vanilla CodeBase, are unlikely able to be fixed due to MC's Limitations
+			Please See the Mod Description // README for More Info
+
+		CraftPresence-Fabric v1.6.1 (1.15 Combat Test 6):
+			CraftPresence Changes
+			v1.6.1 (1/11/2020)
+			Changes
+			*
+			All Builds, except for those with META-INF Errors, are now Signed
+			* Before, this only applied to 1.8.9 and above
+			*
+			Added a Parser for Update Data, so any Updates will display in the Gui, regardless if using Forge or not
+			*
+			Added a Debug Mode Option in Advanced Setting, useful to see Debugging Logging and further features in the future
+			Fixes
+			* Fixed java.awt.HeadlessException when Opening a Url
+			* Fixed Issues pertaining to Non-Functional RPC Displays on Unix Systems
+			* Fixed Default Tooltip Color Values so just visiting the Gui doesn't trigger a hasChanged State
+			* Fixed Some Versions of Minecraft having incorrect Dimension Names (Below 1.5.2)
+			* Fixed Slider and Escape Button Functionality on MC 1.14+ Ports
+			* Fixed an Incorrect GUI Background Texture Name on MC 1.5.2- Ports
+			More Information
+			v1.6.0 Mod Rewrite Info
+			In v1.6.0, CraftPresence has undergone numerous performance and under-the-hood improvements, to both acknowledge user feedback over the last several months and pursue the goal of further modularity.
+			As Elements such as the Config System and General RPC Elements have undergone various changes, please report any bugs found to [the Issue Tracker]()
+			v1.5.x is Generally Recommended at this time for new users, as the systems used in v1.6.0 may have a variety of issues, and are considered bleeding-edge for the time being
+			Migration Notes:
+			*
+			The RPC System has changed to an internal IPC System hooking into Discord's official endpoints
+			* As a result, you can remove any discord-rpc DLL files present in CraftPresence's folders as they are no longer being used
+			*
+			gameTimePlaceholder is now combined into the &worldinfo& Placeholder
+			*
+			Some of the other placeholders within Server and Status Messages have been changed or renamed, please refer to the in-game tooltips for these new names
+			*
+			Entity Messages now use the Default Message as the Format, while specific Item Messages are considered placeholders for the formatter
+			* This means, only &item& (The Specific Item's Name) will work for specific Items
+			* Otherwise, the more familiar placeholders such as &main& and &offhand& will retrieve these message when part of the default format setting
+			*
+			&mods& and &ign& are now Generalized Placeholders and can only be called within the Presence Formatting GUI
+			* &ign& in Server Messages should be changed to using &playerinfo& for in-world Player Data and &ign& for out-of-world Player Data
+			*
+			overwriteServerIcon has been deprecated, instead use the Presence Formatting GUI to define the priority for icons
+			* Example: overwriteServerIcon = Setting smallImageKey to &PACK&&SERVER& (Having &PACK& be before anything else)
+			1.13.x Build Info
+			The Rift Edition of this Mod Requires the [Rift ModLoader](https://www.curseforge.com/minecraft/mc-mods/rift) and contains the following differences to take Note of:
+			* KeyCodes have changed from an LWJGL Upgrade! Be Sure to Check and Edit your KeyBinds if Migrating from 1.12.2 and Below
+			Starting In v1.5.0, The 1.13 Rift Port of CraftPresence was deprecated in favor of the 1.13.2 Rift Port
+			1.14.x - 1.15.x Build Info
+			The 1.14.x and 1.15.x Ports of this Mod Require the [FabricMC ModLoader](https://www.curseforge.com/minecraft/mc-mods/fabric-api) and contains the same differences as the 1.13.x Port
+			Snapshot Build Info
+			Some Versions of this Mod are based on Minecraft Snapshots, and as such, caution is advised.
+			Any Snapshot Build Released will be marked as BETA to match it's Snapshot Status
+			Legacy Build Info (Minecraft Versions 1.5.2 and Below)
+			Ports of this Mod for Minecraft Versions 1.5.2 and Lower are on very limited support.
+			Please Keep in Mind the Following:
+			* There is NO Support for Server RPC Displays from MC 1.2.5 and Below, due to Modding Limitations.
+			* Bugs that Relate with or are caused by Issues in the Vanilla CodeBase, are unlikely able to be fixed due to MC's Limitations
+			Please See the Mod Description // README for More Info
+
+		CraftPresence v1.6.1 (1.15.1):
+			CraftPresence Changes
+			v1.6.1 (1/11/2020)
+			Changes
+			*
+			All Builds, except for those with META-INF Errors, are now Signed
+			* Before, this only applied to 1.8.9 and above
+			*
+			Added a Parser for Update Data, so any Updates will display in the Gui, regardless if using Forge or not
+			*
+			Added a Debug Mode Option in Advanced Setting, useful to see Debugging Logging and further features in the future
+			Fixes
+			* Fixed java.awt.HeadlessException when Opening a Url
+			* Fixed Issues pertaining to Non-Functional RPC Displays on Unix Systems
+			* Fixed Default Tooltip Color Values so just visiting the Gui doesn't trigger a hasChanged State
+			* Fixed Some Versions of Minecraft having incorrect Dimension Names (Below 1.5.2)
+			* Fixed Slider and Escape Button Functionality on MC 1.14+ Ports
+			* Fixed an Incorrect GUI Background Texture Name on MC 1.5.2- Ports
+			More Information
+			v1.6.0 Mod Rewrite Info
+			In v1.6.0, CraftPresence has undergone numerous performance and under-the-hood improvements, to both acknowledge user feedback over the last several months and pursue the goal of further modularity.
+			As Elements such as the Config System and General RPC Elements have undergone various changes, please report any bugs found to [the Issue Tracker]()
+			v1.5.x is Generally Recommended at this time for new users, as the systems used in v1.6.0 may have a variety of issues, and are considered bleeding-edge for the time being
+			Migration Notes:
+			*
+			The RPC System has changed to an internal IPC System hooking into Discord's official endpoints
+			* As a result, you can remove any discord-rpc DLL files present in CraftPresence's folders as they are no longer being used
+			*
+			gameTimePlaceholder is now combined into the &worldinfo& Placeholder
+			*
+			Some of the other placeholders within Server and Status Messages have been changed or renamed, please refer to the in-game tooltips for these new names
+			*
+			Entity Messages now use the Default Message as the Format, while specific Item Messages are considered placeholders for the formatter
+			* This means, only &item& (The Specific Item's Name) will work for specific Items
+			* Otherwise, the more familiar placeholders such as &main& and &offhand& will retrieve these message when part of the default format setting
+			*
+			&mods& and &ign& are now Generalized Placeholders and can only be called within the Presence Formatting GUI
+			* &ign& in Server Messages should be changed to using &playerinfo& for in-world Player Data and &ign& for out-of-world Player Data
+			*
+			overwriteServerIcon has been deprecated, instead use the Presence Formatting GUI to define the priority for icons
+			* Example: overwriteServerIcon = Setting smallImageKey to &PACK&&SERVER& (Having &PACK& be before anything else)
+			1.13.x Build Info
+			The Rift Edition of this Mod Requires the [Rift ModLoader](https://www.curseforge.com/minecraft/mc-mods/rift) and contains the following differences to take Note of:
+			* KeyCodes have changed from an LWJGL Upgrade! Be Sure to Check and Edit your KeyBinds if Migrating from 1.12.2 and Below
+			Starting In v1.5.0, The 1.13 Rift Port of CraftPresence was deprecated in favor of the 1.13.2 Rift Port
+			1.14.x - 1.15.x Build Info
+			The 1.14.x and 1.15.x Ports of this Mod Require the [FabricMC ModLoader](https://www.curseforge.com/minecraft/mc-mods/fabric-api) and contains the same differences as the 1.13.x Port
+			Snapshot Build Info
+			Some Versions of this Mod are based on Minecraft Snapshots, and as such, caution is advised.
+			Any Snapshot Build Released will be marked as BETA to match it's Snapshot Status
+			Legacy Build Info (Minecraft Versions 1.5.2 and Below)
+			Ports of this Mod for Minecraft Versions 1.5.2 and Lower are on very limited support.
+			Please Keep in Mind the Following:
+			* There is NO Support for Server RPC Displays from MC 1.2.5 and Below, due to Modding Limitations.
+			* Bugs that Relate with or are caused by Issues in the Vanilla CodeBase, are unlikely able to be fixed due to MC's Limitations
+			Please See the Mod Description // README for More Info
+
+	Creeper Spores (For Fabric) (Creeper-Spores-1.3.6.jar --> Creeper-Spores-1.3.7.jar):
+		Creeper-Spores-1.3.7.jar:
+			Version 1.3.7:
+			Another patch brought to you by Joaoh1 - Fixed edge case health issues with creepers grown from creeperlings
+			see full changelog [here](https://github.com/Ladysnake/Creeper-Spores/blob/master/changelog.md)
+
+	Diggus Maximus (diggusmaximus-1.2.6.jar --> diggusmaximus-1.2.10.jar):
+		diggusmaximus-1.2.10.jar:
+			Fix crash on dedicated servers
+
+		diggusmaximus-1.2.9.jar:
+			Fix diagonal mining not working
+
+		diggusmaximus-1.2.8.jar:
+			Adds support for an exhaustion multiplier when excavating
+			Should add support for allure(Should have been fixed on their end)
+
+		diggusmaximus-1.2.7.jar:
+			Add support for specifying a custom tool
+
+	Dungeons Mod (DungeonsMod-1.12.2-0.4.0.0.jar --> DungeonsModLite-1.15.2-0.2.2.1.jar):
+		DungeonsMod-1.12.2-0.6.1.2.jar:
+			* Fixes
+
+		DungeonsMod-1.12.2-0.5.2.1.jar:
+			Bug fixes
+			King Phase 2
+
+		DungeonsMod-1.12.2-0.5.1.0.jar:
+			WARNING: Without intensive testing, could have potential bugs.
+			Added
+			-Mobs
+			*  - Mimic
+			Bosses (WIP)
+			*  -Crawler
+			*  -King – Phase 1
+			Completing Iron Slime.
+			Lowering Deserted Level
+
+		DungeonsMod-1.12.2-0.5.0.0.jar:
+			Added(All are WIP):
+			Mobs:
+			*  - Ninja
+			*  - Guard
+			*  - Shark
+			Boss:
+			*  - The King
+			Dungeons:
+			*  - The Castle
+			*  - The Ship
+			Revisited
+			*  - Pirahna, changed visuals
+			*  - Rogue, minor modify to texture
+			*  - Anthermite, now drops less experience
+			*  - Traveler, changed Prices
+			Added loot for:
+			*  - Deserted
+			*  - Iron Slime
+			*  - Kraken
+			Minor Fixes to WorldGen
+
+		DungeonsMod-1.12.2-0.4.2.0.jar:
+			* Try to fix cascading
+			* Now only one traveler can be invoked in a range
+			* Enhance world gen
+			* Minor fixes
+
+		DungeonsMod-1.12.2-0.4.1.0.jar:
+			Minor Fixes
+
+	Enchanted ToolTips (EnchantedToolTips-1.2.4.jar --> EnchantedToolTips-1.3.1.jar):
+		EnchantedToolTips-1.3.1.jar:
+			Having the sort enchants config button enable always sorts enchants now
+
+		EnchantedToolTips-1.3.0.jar:
+			Update Dependencies
+			Added config option to sort enchant info alphabetically
+
+	ExtraDoors (ExtraDoors 1.6.0 [1.15] --> ExtraDoors 1.8.0 [1.15]):
+		ExtraDoors 1.8.0 [1.15]:
+			Fixed an issue where mobs that could open interactable doors still couldn't path through them.
+
+		ExtraDoors 1.7.0 [1.15]:
+			Fixed refmap issues, bumped ProgrammerArtInjector
+
+	Fabric API ([1.15.2] Fabric API 0.5.1 build 294 --> [1.15.2] Fabric API 0.23.0 build 328):
+		[1.15.2] Fabric API 0.23.0 build 328:
+			A changelog can be found at [https://github.com/FabricMC/fabric/commits](https://github.com/FabricMC/fabric/commits)
+
+		[1.15.2] Fabric API 0.21.1 build 327:
+			A changelog can be found at [https://github.com/FabricMC/fabric/commits](https://github.com/FabricMC/fabric/commits)
+
+		[1.15.2] Fabric API 0.21.0 build 326:
+			A changelog can be found at [https://github.com/FabricMC/fabric/commits](https://github.com/FabricMC/fabric/commits)
+
+		[1.15.2] Fabric API 0.19.0 build 325:
+			A changelog can be found at [https://github.com/FabricMC/fabric/commits](https://github.com/FabricMC/fabric/commits)
+
+		[1.15.2] Fabric API 0.18.0 build 324:
+			A changelog can be found at [https://github.com/FabricMC/fabric/commits](https://github.com/FabricMC/fabric/commits)
+
+		[1.15.2] Fabric API 0.17.0 build 323:
+			A changelog can be found at [https://github.com/FabricMC/fabric/commits](https://github.com/FabricMC/fabric/commits)
+
+		[1.15.2] Fabric API 0.16.2 build 322:
+			A changelog can be found at [https://github.com/FabricMC/fabric/commits](https://github.com/FabricMC/fabric/commits)
+
+		[1.15.2] Fabric API 0.16.0 build 321:
+			A changelog can be found at [https://github.com/FabricMC/fabric/commits](https://github.com/FabricMC/fabric/commits)
+
+		[1.15.2] Fabric API 0.15.1 build 319:
+			A changelog can be found at [https://github.com/FabricMC/fabric/commits](https://github.com/FabricMC/fabric/commits)
+
+		[1.15.2] Fabric API 0.15.0 build 318:
+			A changelog can be found at [https://github.com/FabricMC/fabric/commits](https://github.com/FabricMC/fabric/commits)
+
+		[1.15.2] Fabric API 0.14.0 build 317:
+			A changelog can be found at [https://github.com/FabricMC/fabric/commits](https://github.com/FabricMC/fabric/commits)
+
+		[1.15.2] Fabric API 0.13.1 build 316:
+			A changelog can be found at [https://github.com/FabricMC/fabric/commits](https://github.com/FabricMC/fabric/commits)
+
+		[1.15.2] Fabric API 0.12.0 build 313:
+			A changelog can be found at [https://github.com/FabricMC/fabric/commits](https://github.com/FabricMC/fabric/commits)
+
+		[1.15.2] Fabric API 0.11.1 build 312:
+			A changelog can be found at [https://github.com/FabricMC/fabric/commits](https://github.com/FabricMC/fabric/commits)
+
+		[1.15.2] Fabric API 0.11.0 build 311:
+			A changelog can be found at [https://github.com/FabricMC/fabric/commits](https://github.com/FabricMC/fabric/commits)
+
+		[1.15.2] Fabric API 0.10.8 build 310:
+			A changelog can be found at [https://github.com/FabricMC/fabric/commits](https://github.com/FabricMC/fabric/commits)
+
+		[1.15.2] Fabric API 0.10.7 build 309:
+			A changelog can be found at [https://github.com/FabricMC/fabric/commits](https://github.com/FabricMC/fabric/commits)
+
+		[1.15.2] Fabric API 0.10.1 build 307:
+			A changelog can be found at [https://github.com/FabricMC/fabric/commits](https://github.com/FabricMC/fabric/commits)
+
+		[1.15.2] Fabric API 0.10.1 build 306:
+			A changelog can be found at [https://github.com/FabricMC/fabric/commits](https://github.com/FabricMC/fabric/commits)
+
+		[1.15.2] Fabric API 0.10.0 build 305:
+			A changelog can be found at [https://github.com/FabricMC/fabric/commits](https://github.com/FabricMC/fabric/commits)
+
+		[1.15.2] Fabric API 0.9.0 build 303:
+			A changelog can be found at [https://github.com/FabricMC/fabric/commits](https://github.com/FabricMC/fabric/commits)
+
+		[1.15.2] Fabric API 0.8.0 build 302:
+			A changelog can be found at [https://github.com/FabricMC/fabric/commits](https://github.com/FabricMC/fabric/commits)
+
+		[1.15.2] Fabric API 0.7.1 build 301:
+			A changelog can be found at [https://github.com/FabricMC/fabric/commits](https://github.com/FabricMC/fabric/commits)
+
+		[1.15.2] Fabric API 0.6.0 build 298:
+			A changelog can be found at [https://github.com/FabricMC/fabric/commits](https://github.com/FabricMC/fabric/commits)
+
+		[1.15.2] Fabric API 0.5.13 build 297:
+			A changelog can be found at [https://github.com/FabricMC/fabric/commits](https://github.com/FabricMC/fabric/commits)
+
+		[1.15.2] Fabric API 0.5.12 build 296:
+			A changelog can be found at [https://github.com/FabricMC/fabric/commits](https://github.com/FabricMC/fabric/commits)
+
+	Fabric Language Kotlin (Fabric Language Kotlin 1.3.61+build.1 --> Fabric Language Kotlin 1.3.71+build.1):
+		Fabric Language Kotlin 1.3.71+build.1:
+			update stdlib to 1.3.71
+
+		Fabric Language Kotlin 1.3.61+build.2:
+			Update Versions.kt (#18)
+
+	Fabric Tree Chopper (fabric-tree-chopper-0.4.0 --> fabric-tree-chopper-0.4.1):
+		fabric-tree-chopper-0.4.1:
+			<sup><sup>*Release notes were automatically generated by [Shipkit]([http://shipkit.org/]())*</sup></sup>
+			#### 0.4.1
+			* 2020-05-08 - [5 commits]([https://github.com/magneticflux-/fabric-tree-chopper/compare/v0.4.0...v0.4.1](https://github.com/magneticflux-/fabric-tree-chopper/compare/v0.4.0...v0.4.1)) by [Mitchell Skaggs]([https://github.com/magneticflux-](https://github.com/magneticflux-)) - published to [![Bintray]([https://img.shields.io/badge/Bintray-0.4.1-green.svg]())]([https://bintray.com/magneticflux/maven/fabric-tree-chopper/0.4.1]())
+			* Cut new release [(#28)]([https://github.com/magneticflux-/fabric-tree-chopper/pull/28](https://github.com/magneticflux-/fabric-tree-chopper/pull/28))
+			* Create zh_cn.json [(#27)]([https://github.com/magneticflux-/fabric-tree-chopper/pull/27](https://github.com/magneticflux-/fabric-tree-chopper/pull/27))
+			#### 0.4.0
+			* 2020-02-15 - [10 commits]([https://github.com/magneticflux-/fabric-tree-chopper/compare/v0.3.0...v0.4.0](https://github.com/magneticflux-/fabric-tree-chopper/compare/v0.3.0...v0.4.0)) by [Mitchell Skaggs]([https://github.com/magneticflux-](https://github.com/magneticflux-)) - published to [![Bintray]([https://img.shields.io/badge/Bintray-0.4.0-green.svg]())]([https://bintray.com/magneticflux/maven/fabric-tree-chopper/0.4.0]())
+			* Cut new release [(#24)]([https://github.com/magneticflux-/fabric-tree-chopper/pull/24](https://github.com/magneticflux-/fabric-tree-chopper/pull/24))
+			* feature#22-leaf-detection [(#23)]([https://github.com/magneticflux-/fabric-tree-chopper/pull/23](https://github.com/magneticflux-/fabric-tree-chopper/pull/23))
+			* Disable chopping when no natural leaves are present [(#22)]([https://github.com/magneticflux-/fabric-tree-chopper/issues/22](https://github.com/magneticflux-/fabric-tree-chopper/issues/22))
+			#### 0.3.0
+			* 2020-01-22 - [9 commits]([https://github.com/magneticflux-/fabric-tree-chopper/compare/v0.2.1...v0.3.0](https://github.com/magneticflux-/fabric-tree-chopper/compare/v0.2.1...v0.3.0)) by [Mitchell Skaggs]([https://github.com/magneticflux-](https://github.com/magneticflux-)) - published to [![Bintray]([https://img.shields.io/badge/Bintray-0.3.0-green.svg]())]([https://bintray.com/magneticflux/maven/fabric-tree-chopper/0.3.0]())
+			* Cut new release [(#21)]([https://github.com/magneticflux-/fabric-tree-chopper/pull/21](https://github.com/magneticflux-/fabric-tree-chopper/pull/21))
+			* Sneak disable [(#20)]([https://github.com/magneticflux-/fabric-tree-chopper/pull/20](https://github.com/magneticflux-/fabric-tree-chopper/pull/20))
+			#### 0.2.1
+			* 2020-01-21 - [4 commits]([https://github.com/magneticflux-/fabric-tree-chopper/compare/v0.2.0...v0.2.1](https://github.com/magneticflux-/fabric-tree-chopper/compare/v0.2.0...v0.2.1)) by [Mitchell Skaggs]([https://github.com/magneticflux-](https://github.com/magneticflux-)) (3), The_BadPlayer (1) - published to [![Bintray]([https://img.shields.io/badge/Bintray-0.2.1-green.svg]())]([https://bintray.com/magneticflux/maven/fabric-tree-chopper/0.2.1]())
+			* Cut new release [(#19)]([https://github.com/magneticflux-/fabric-tree-chopper/pull/19](https://github.com/magneticflux-/fabric-tree-chopper/pull/19))
+			* Create ru_ru.json [(#17)]([https://github.com/magneticflux-/fabric-tree-chopper/pull/17](https://github.com/magneticflux-/fabric-tree-chopper/pull/17))
+			#### 0.2.0
+			* 2019-12-13 - [6 commits]([https://github.com/magneticflux-/fabric-tree-chopper/compare/v0.1.2...v0.2.0](https://github.com/magneticflux-/fabric-tree-chopper/compare/v0.1.2...v0.2.0)) by [Mitchell Skaggs]([https://github.com/magneticflux-](https://github.com/magneticflux-)) - published to [![Bintray]([https://img.shields.io/badge/Bintray-0.2.0-green.svg]())]([https://bintray.com/magneticflux/maven/fabric-tree-chopper/0.2.0]())
+			* Cut new release [(#16)]([https://github.com/magneticflux-/fabric-tree-chopper/pull/16](https://github.com/magneticflux-/fabric-tree-chopper/pull/16))
+			#### 0.1.2
+			* 2019-08-05 - [4 commits]([https://github.com/magneticflux-/fabric-tree-chopper/compare/v0.1.1...v0.1.2](https://github.com/magneticflux-/fabric-tree-chopper/compare/v0.1.1...v0.1.2)) by [Mitchell Skaggs]([https://github.com/magneticflux-](https://github.com/magneticflux-)) - published to [![Bintray]([https://img.shields.io/badge/Bintray-0.1.2-green.svg]())]([https://bintray.com/magneticflux/maven/fabric-tree-chopper/0.1.2]())
+			* Prepare to cut a release [(#14)]([https://github.com/magneticflux-/fabric-tree-chopper/pull/14](https://github.com/magneticflux-/fabric-tree-chopper/pull/14))
+			* Add all CurseForge relations [(#13)]([https://github.com/magneticflux-/fabric-tree-chopper/pull/13](https://github.com/magneticflux-/fabric-tree-chopper/pull/13))
+			#### 0.1.1
+			* 2019-08-05 - [2 commits]([https://github.com/magneticflux-/fabric-tree-chopper/compare/v0.1.0...v0.1.1](https://github.com/magneticflux-/fabric-tree-chopper/compare/v0.1.0...v0.1.1)) by [Mitchell Skaggs]([https://github.com/magneticflux-](https://github.com/magneticflux-)) - published to [![Bintray]([https://img.shields.io/badge/Bintray-0.1.1-green.svg]())]([https://bintray.com/magneticflux/maven/fabric-tree-chopper/0.1.1]())
+			* No pull requests referenced in commit messages.
+			#### 0.1.0
+			* 2019-08-05 - 31 commits by [Mitchell Skaggs]([https://github.com/magneticflux-](https://github.com/magneticflux-)) (21), [William Skaggs]([https://github.com/ft-l](https://github.com/ft-l)) (10) - published to [![Bintray]([https://img.shields.io/badge/Bintray-0.1.0-green.svg]())]([https://bintray.com/magneticflux/maven/fabric-tree-chopper/0.1.0]())
+			* Cut a new release [(#12)]([https://github.com/magneticflux-/fabric-tree-chopper/pull/12](https://github.com/magneticflux-/fabric-tree-chopper/pull/12))
+			* Shipkit ci [(#11)]([https://github.com/magneticflux-/fabric-tree-chopper/pull/11](https://github.com/magneticflux-/fabric-tree-chopper/pull/11))
+			* Tool break mid chop [(#10)]([https://github.com/magneticflux-/fabric-tree-chopper/pull/10](https://github.com/magneticflux-/fabric-tree-chopper/pull/10))
+			* Tree chop [(#8)]([https://github.com/magneticflux-/fabric-tree-chopper/pull/8](https://github.com/magneticflux-/fabric-tree-chopper/pull/8))
+			* leaf-decay [(#4)]([https://github.com/magneticflux-/fabric-tree-chopper/pull/4](https://github.com/magneticflux-/fabric-tree-chopper/pull/4))
+			* Add Kotlin support [(#1)]([https://github.com/magneticflux-/fabric-tree-chopper/issues/1](https://github.com/magneticflux-/fabric-tree-chopper/issues/1))
+
+	FastBench for Fabric (fastbench-1.0.jar --> fastbench-1.1.jar):
+		fastbench-1.1.jar:
+			* fix server crash
+
+	FriendZ (Archived file --> invo-1.5.0-1.15.2.jar):
+		invo-1.5.0-1.15.2.jar:
+			No changelog available.
+
+	HoneyMod (v1.0.1 (Fabric 1.15.2) --> v1.0.2 (Fabric 1.15.2)):
+		v1.0.2 (Fabric 1.15.2):
+			Support latest Fabric 1.15.2 build
+
+	Horse Stats Vanilla (Fabric) (1.15.2 HorseStatsVanilla-1.0.5 (Fabric) --> 1.15.2 HorseStatsVanilla-4.1.2 (Fabric)):
+		1.15.2 HorseStatsVanilla-4.1.2 (Fabric):
+			No changelog available.
+
+	Hwyla (Hwyla-fabric-1.15.2-1.9.20-71.jar --> Hwyla-fabric-1.15.2-1.9.22-73.jar):
+		Hwyla-fabric-1.15.2-1.9.22-73.jar:
+			Version 1.9.22:
+			* Fixed crash when looking at player heads spawned in with a UUID
+
+		Hwyla-fabric-1.15.2-1.9.21-72.jar:
+			Version 1.9.21:
+			* Limited overlay scale to 2 (currently) values
+			* 1.0x and 0.5x
+			* These are the 2 values at which the tooltip renders without scaling issues
+			* Allows for the tooltip to be forced to stay on screen rather than overflowing off the edge
+			* Fixed falling block display names
+			* Fixed Netherwart not having a maturity tooltip
+			* Player heads now display the correct texture in the tooltip
+			* The name is also added to the body now
+			* Fixed the tooltip for Repeaters and Comparators not being localized properly
+
+	I Am Very Smart (Fabric) (i-am-very-smart-1.5.0+mc1.14.4.jar --> i-am-very-smart-2.0.0+mc1.15.2.jar):
+	Jumploader ( Jumploader 1.0.5 (Forge/Fabric) -->  Jumploader 2.0.1 (Forge/Fabric)):
+		 Jumploader 2.0.1 (Forge/Fabric):
+			Fixes a bug causing a crash on macOS
+
+		 Jumploader 2.0.0 (Forge/Fabric):
+			Significantly rewritten, with the following improvements:
+			* Fixed the tree leaf decay bug, along with probably a few others waiting to be found
+			* Simplified configuration system - only change 1 line to load a different Minecraft version!
+			Do note that this will overwrite your existing configuration file
+			* Clearer error messages
+			* Changed client version name when using Twitch from forge to Jumploader to stop confusion
+
+		Jumploader 1.0.12 (Forge/Fabric):
+			Rewrite jimfs compat to work on OpenJ9, and in a cleaner way
+
+		Jumploader 1.0.11 (Forge/Fabric):
+			Report OpenJ9 as unsupported
+
+		 Jumploader 1.0.10 (Forge/Fabric):
+			Fix ByteBuffer crash on Java 8 and older by casting to Buffer
+
+		 Jumploader 1.0.9 (Forge/Fabric):
+			Fix support for newer Java by using VarHandle to bypass the reflection blacklist
+
+		Jumploader 1.0.8 (Forge/Fabric):
+			Hide existing Minecraft JARs from getResources, and change exception class - fixes lang files and other issues in 1.16 snapshots jumploaded from 1.15.2
+
+		Jumploader 1.0.7 (Forge/Fabric):
+			Fix classloading issues - fixes 1.16 snapshot loading from 1.15.2
+
+		Jumploader 1.0.6 (Forge/Fabric):
+			Allows specifying the gameVersion for autoconfig to use
+
+	LibCapableData (LibCD) (Archived file --> 2.4.0+1.15.2):
+		2.4.0+1.15.2:
+			Adds a system for declaring and getting default items for tags.
+			* The libcd block of a tag JSON can now take a "default" field with an item ID, specifying the default item for that tag. If no tag JSONs for a given tag ID define a default, then the default will be selected based on namespace preference defined in the config.
+			* Recipe JSON "result" fields can have a "tag" field instead of an "item" field to use the default value of that tag for item output.
+			* Loot tables can use a "libcd:defaulted_tag" entry to drop the default value of that tag for item output.
+			* Recipe tweakers can use a # at the beginning of an output string to get the default value of an item tag for item output.
+			* Tweakers can alternatively use the TweakerUtils.getDefaultItem method for getting the default value of an item tag.
+			* Loot tweakers can now use the Entries.defaultedTag method to create a loot entry based on a libcd:defaulted_tag entry.
+			* Cooking and cutting recipe JSONs can now take an object for their respective "result" fields along with the standard string value, allowing them to use default items and NBT in outputs.
+			* The conditions libcd:item_tag_exists and libcd:block_tag_exists now require the tag to have at least on entry to be considered existent.
+			* Inside of obfuscation, the TagHelper class and its TagHelper.ITEM implementation provide access to default resources at any time.
+
+	Light Overlay (Rift/Forge/Fabric) ([Forge / Fabric 1.15.x] v4.3 --> [Forge / Fabric 1.15.x] v4.7.2):
+		[Forge / Fabric 1.15.x] v4.7.2:
+			Fix an issue where crosses appear in mushroom biomes
+			In case you are new to this merging method, this mod jar will work on both Fabric and Forge, just slap this jar into minecraft/mods and it will work.
+
+		[Forge / Fabric 1.15.x] v4.7.1:
+			Less dumb code
+			In case you are new to this merging method, this mod jar will work on both Fabric and Forge, just slap this jar into minecraft/mods and it will work.
+
+		[Forge / Fabric 1.15.x] v4.7.0:
+			Fabric / Forge: 3 more configuration options.
+			In case you are new to this merging method, this mod jar will work on both Fabric and Forge, just slap this jar into minecraft/mods and it will work.
+
+		[Forge / Fabric 1.15.x] v4.6.1:
+			Fabric/Forge: Fixed cache while disabled.
+			In case you are new to this merging method, this mod jar will work on both Fabric and Forge, just slap this jar into minecraft/mods and it will work.
+
+		[Forge / Fabric 1.15.x] v4.6:
+			Fabric/Forge: Added 2 new options:
+			* Smooth Lines
+			* Display Underwater
+			In case you are new to this merging method, this mod jar will work on both Fabric and Forge, just slap this jar into minecraft/mods and it will work.
+
+		[Forge / Fabric 1.15.x] v4.5:
+			Forge: Update Cloth Config to allow color entry
+			Fabric: No change
+			In case you are new to this merging method, this mod jar will work on both Fabric and Forge, just slap this jar into minecraft/mods and it will work.
+
+		[Forge / Fabric 1.15.x] v4.4:
+			Fabric: Now caching overlays, increased maximum range to 64 due to massively improved performance.
+			Forge: Now caching overlays, increased maximum range to 64 due to massively improved performance.
+
+	Linked Storage (linkedstorage-1.1.2.jar --> linkedstorage-1.3.0.jar):
+		linkedstorage-1.3.0.jar:
+			Adds personal dye channels, right click on a storage chest with a diamond
+
+		linkedstorage-1.2.1.jar:
+			Fix another crash on servers
+
+		linkedstorage-1.2.0.jar:
+			A lot of under the hood changes.
+			Implements new custom saving format for saving inventorys, uses Persistent state now instead of cardinal components
+			Fixes a crash on servers when multiple players use the same inventory
+			Storage blocks now have a comparator output
+			Begin work on personal dye channels
+
+	Litematica (litematica-fabric-1.15.2-0.0.0-dev.20200302.233247.jar --> litematica-fabric-1.15.2-0.0.0-dev.20200515.184506.jar):
+		litematica-fabric-1.15.2-0.0.0-dev.20200515.184506.jar:
+			* - Fix pasting over existing identical blocks didn't restore the BlockEntity data
+			* - Add a temporary way of not pasting inventory contents
+			* - Fix the Material Cache getting polluted with pick-blocked NBT data in creative mode
+			* - Disable the translucent rendering for now for entities and block entities (it didn't work properly anyway, and it just broke vanilla block entity rendering with shaders enabled)
+			Requires malilib 0.10.0-dev.21
+
+		litematica-fabric-1.15.2-0.0.0-dev.20200501.214810.jar:
+			* - Fixed issues with Optifine shaders
+			*  > The schematic block rendering should now mostly work with shaders
+			*  > Using translucent rendering doesn't break all world rendering anymore (the good old purple world...)
+			*  > The overlays are still broken/missing, but then again so are things like vanilla chunk debug renderer and even block targeting overlay... I have no idea if this is even fixable.
+			Requires malilib 0.10.0-dev.21
+
+		litematica-fabric-1.15.2-0.0.0-dev.20200424.222747.jar:
+			* - Fix the Delete mode disabling the sendCommandFeedback GameRule in single player
+			* - Clamp schematic pasting to the world bounds instead of preventing it completely if the schematic went below y = 0 or over y = 255
+			* - Add an error message when reading a vanilla structure block template fails
+			Requires malilib 0.10.0-dev.21
+
+		litematica-fabric-1.15.2-0.0.0-dev.20200409.182607.jar:
+			* Fix verifier hover info item rendering for extra blocks (copy paste derp)
+			* Fix #83: The setblock-based Paste task failing on some locales (decimal point)
+			* Add support for converting the old all-bark logs when loading old '*.schematic' files
+
+	MaLiLib (malilib-fabric-1.15.2-0.10.0-dev.20+arne.4.jar --> malilib-fabric-1.15.2-0.10.0-dev.21+arne.2.jar):
+		malilib-fabric-1.15.2-0.10.0-dev.21+arne.2.jar:
+			* - Made a rendering change/fix mostly for MiniHUD
+			* - Added Russian localization by kyrtion
+			* - Update all the other dependent mods as well!
+
+		malilib-forge-1.15.2-0.10.0-dev.20+beta.1.jar:
+			* Forge port on top of the current 1.15.2 Fabric code base
+
+		malilib-fabric-1.15.2-0.10.0-dev.20+arne.6.jar:
+			* Fixed resetting configs not calling the value change callback
+
+	Materialisation ([Fabric 1.15.x] v2.4.1 --> [Fabric 1.15.x] v2.6):
+		[Fabric 1.15.x] v2.6:
+			Updated to support new Fabric API
+
+		[Fabric 1.15.x] v2.5:
+			Updated Fabric API, REI, Cloth Config to fix crash
+
+	Mouse Wheelie (Fabric) (1.4.0+1.15.2-pre1 --> [1.15.x] 1.5.7):
+		[1.15.x] 1.5.7:
+			Changed the config option "push-hotbar-separately" to "hotbar-scope" and changed the default to enabled.
+			This fixes issues where the hotbar got sorted together with the main inventory.
+			The old behavior is still there but I doubt that anyone really wants that anyways.
+
+		[1.15.x] 1.5.6:
+			Fixes a specific crash in screens when trying to sort over slots with no inventory.
+			Fixes the offhand slot getting sorted with the main inventory.
+
+		[1.15.x] 1.5.5:
+			Update Amecs' API and internal Minecraft version
+
+		[1.15.x] 1.5.4:
+			Fixes to scope handling.
+
+		[1.15.x] 1.5.0:
+			Introducing offhand refill.
+
+		[1.15.x] 1.4.13:
+			* Bulk dropping items when holding alt and clicking (supports modifiers) - thanks to @TheDeaX
+			* Fast drop crafting: hover over recipes in your books and press Q to quick craft them (supports shift)
+			* Improved support of simple quick crafting when right-clicking recipes
+			Discord Server ;) [https://discord.gg/6gaXmbj](https://discord.gg/6gaXmbj)
+
+		1.4.12+mc1.15.2:
+			Fix Litematica incompatibility
+
+		1.4.11+mc1.15.2:
+			Fixed creative scrolling with REI Fixed anti-cheat triggers when swapping armor on clients Added option to select whether the hotbar should be included when pushing the big parts of the inventory Moved some options to the new "Scrolling" category Fixed scrolling in creative menu (mode now toggle-able via an option) Updated Amecs to fix minor incompatibility with Litematica
+
+		1.4.5+mc1.15.2-pre1:
+			Improve item refilling
+
+	Nbt Crafting (Fabric) (2.0.0-alpha.24+mc1.15.2 --> [1.15.x] 2.0.0):
+		[1.15.x] 2.0.0:
+			Final release of Nbt Crafting v2.
+			This contains a small bug fix by dzwdz concerning anvil recipes.
+
+		[1.15.x] 2.0.0-rc.6:
+			Fix another bunch of important bugs with dollars. The road to the full release of 2.0.0 seems clear now.
+
+		[1.15.x] 2.0.0-rc.5:
+			Fix a critical NPE
+
+		[1.15.x] 2.0.0-rc.4:
+			A couple of backend changes and a critical bug fix concerning recipe filling.
+
+		[1.15.2] 2.0.0-rc.2:
+			Fixed a memory leak Smaller fixes
+
+		[1.15.x] 2.0.0-rc.0:
+			A lot of fixes
+			$stringify is now deprecated in favor of nbtcrafting:stringify
+			Introducing nbtcrafting:array_type= to set an array's type
+			A new logo!
+
+		[1.15.x] 2.0.0-beta.2:
+			I forgot to upload this. Optimizations iirc.
+
+		[1.15.x] 2.0.0-beta.1:
+			Improve merge behavior specification
+
+		[1.15.x] 2.0.0-beta.0:
+			Finally a beta release ^^
+			You can now specify how exactly merging nbt data should work. If you wanna use this feature join [the discord]([https://discord.gg/6gaXmbj](https://discord.gg/6gaXmbj)) and ask :)
+
+		[1.15.x] 2.0.0-alpha.30:
+			Fix crash with Fabric API
+
+		2.0.0-alpha.29+mc20w15a:
+			More powerful + operators in dollars!
+
+		2.0.0-alpha.29+mc1.15.2:
+			More powerful + operators in dollars!
+
+		2.0.0-alpha.28+mc1.15.2:
+			Now with ternary operators in Dollars - woohoo!
+
+		2.0.0-alpha.26+mc1.15.2:
+			Fix vanilla remainders being broken
+
+	Not Enough Crashes (Not Enough Crashes 1.2.3+1.15.1 --> Not Enough Crashes 2.0.0+1.15.1):
+		Not Enough Crashes 2.0.0+1.15.1:
+			1.0.9
+			Released
+			1.0.10
+			* Fixed an exception while starting game.
+			1.0.11
+			* Fixed two "Not Enough Crashes deobfuscated stack trace" lines appearing (instead of just one).
+			1.1.0
+			* Added an API for running code when the game crashes to prevent the window getting stuck in weird states.
+			1.1.1
+			* Forgot a debug flag
+			1.1.2
+			* Fixed the entry point catcher not being enabled...
+			1.1.3
+			* Initialization errors will now be printed as soon as an error is caught, instead of only when displaying the crash screen.
+			* The init error screen will now display in more disaster cases.
+			1.1.4
+			* Fixed the window not closing when pre-initialization errors occur.
+			1.1.5
+			* Fixed a rare error.
+			1.2.0
+			* Compatibility with [Informed Load](https://www.curseforge.com/minecraft/mc-mods/informed-load).
+			1.2.1
+			* Compatibility with [Multiconnect](https://www.curseforge.com/minecraft/mc-mods/multiconnect/files).
+			Note: Informed Load has yet to publish the compatible version.
+			1.2.3
+			* Fixed an incompatibility with LambdaControls (mostly just a mistake, not really an incompatibility).
+			* Crash logs will now be uploaded as gists instead of to the dimdev haste. This can be reverted by setting uploadCrashLogTo to DIMDEV_HASTE in the config.
+			* Fixed some GUI bugs in the crash scree
+			1.2.4
+			* Will no longer blame jumploader for errors all the time
+
+		Not Enough Crashes 1.2.4+1.15.1:
+			1.0.9
+			Released
+			1.0.10
+			* Fixed an exception while starting game.
+			1.0.11
+			* Fixed two "Not Enough Crashes deobfuscated stack trace" lines appearing (instead of just one).
+			1.1.0
+			* Added an API for running code when the game crashes to prevent the window getting stuck in weird states.
+			1.1.1
+			* Forgot a debug flag
+			1.1.2
+			* Fixed the entry point catcher not being enabled...
+			1.1.3
+			* Initialization errors will now be printed as soon as an error is caught, instead of only when displaying the crash screen.
+			* The init error screen will now display in more disaster cases.
+			1.1.4
+			* Fixed the window not closing when pre-initialization errors occur.
+			1.1.5
+			* Fixed a rare error.
+			1.2.0
+			* Compatibility with [Informed Load](https://www.curseforge.com/minecraft/mc-mods/informed-load).
+			1.2.1
+			* Compatibility with [Multiconnect](https://www.curseforge.com/minecraft/mc-mods/multiconnect/files).
+			Note: Informed Load has yet to publish the compatible version.
+			1.2.3
+			* Fixed an incompatibility with LambdaControls (mostly just a mistake, not really an incompatibility).
+			* Crash logs will now be uploaded as gists instead of to the dimdev haste. This can be reverted by setting uploadCrashLogTo to DIMDEV_HASTE in the config.
+			* Fixed some GUI bugs in the crash scree
+			1.2.4
+			* Will no longer blame jumploader for errors all the time
+
+	Ok Zoomer (okzoomer-2.1.4-1.15.2 --> okzoomer-4.0.0+1.15.2):
+		okzoomer-4.0.0+1.15.2:
+			This is a backport of Ok Zoomer 4.0.0+1.16.2 to Minecraft 1.15.2. Some changes were needed in order to work on the outdated version, but it should be completely functional.
+
+	Oysters (oysters-fabric-0.1.4-1.15.1.jar --> oysters-fabric-0.1.5-1.15.2.jar):
+		oysters-fabric-0.1.5-1.15.2.jar:
+			* Updated Render to fix opaque issue
+			* Resource slot in basket will no longer extract, so basket can used with Hopper underneath
+			* increased mining speed of shears on coral blocks to emphasize its use. not as OP shears
+
+	Patchouli (Patchouli-1.15.2-1.2-27-FABRIC.jar --> Patchouli-1.15.2-1.2-34-FABRIC.jar):
+		Patchouli-1.15.2-1.2-34-FABRIC.jar:
+			Fabric release of Patchouli 1.2-34.
+			There was no Fabric release for Patchouli 1.2-32 and 1.2-33, so this build includes those changes as well.
+
+		Patchouli-1.15.2-1.2-34.jar:
+			* Expose multiblock size to API (minecraftschurli)
+			* Add statematcher that filters on blockstate properties (minecraftschurli)
+			* Tweak category UI to not have the sad face when the category is empty
+			* Empty categories are now unlocked by default
+			* Fix incorrect block rotations in multiblocks
+			* Sparse multiblock support now exposed to JSON. Example: [https://github.com/Vazkii/Patchouli/blob/3798ea9837a870bafd013cca6ed96a459688e282/src/main/resources/data/patchouli/patchouli_books/comprehensive_test_book/en_us/entries/multiblocks/sparse.json#L8](https://github.com/Vazkii/Patchouli/blob/3798ea9837a870bafd013cca6ed96a459688e282/src/main/resources/data/patchouli/patchouli_books/comprehensive_test_book/en_us/entries/multiblocks/sparse.json#L8)
+			* Add details on the open Patchouli book to crash reports (Hubry)
+			* Fix compiler warnings (Alwinfy)
+			* Fix duplicate book toasts when multiple entries are unlocked in quick succession (Hubry)
+
+		Patchouli-1.15.2-1.2-33.jar:
+			* Fix crash when visualizing multiblocks with no name defined
+
+		Patchouli-1.15.2-1.2-32.jar:
+			* Add ability for books to pause the game in singleplayer (check the book.json wiki page)
+			* Internal cleanups and reformats
+			* Fix tooltips being offset when in non-default gui scales!
+			* There is a new config for selectively disabling advancement gating for specific books instead of the entire mod
+			* Expose some more stuff to the API (for botania, mostly)
+
+		Patchouli-1.15.2-1.2-31-FABRIC.jar:
+			Fabric version of Patchouli 1.2-31
+			This Fabric port is mostly unsupported except in the case of major gamebreaking bugs. Please reproduce any minor bugs with the Forge version before reporting.
+			See [https://github.com/Vazkii/Patchouli/blob/1.15-fabric/README.md](https://github.com/Vazkii/Patchouli/blob/1.15-fabric/README.md) for more details.
+
+		Patchouli-1.15.2-1.2-31.jar:
+			* Fix crash that could happen if you logged in while holding a patchouli book
+
+		Patchouli-1.15.2-1.2-30-FABRIC.jar:
+			Fabric version of Patchouli 1.2-30
+			This Fabric port is mostly unsupported except in the case of major gamebreaking bugs. Please reproduce any minor bugs with the Forge version before reporting.
+			See [https://github.com/Vazkii/Patchouli/blob/1.15-fabric/README.md](https://github.com/Vazkii/Patchouli/blob/1.15-fabric/README.md) for more details.
+
+		Patchouli-1.15.2-1.2-30.jar:
+			* Suppress quick lookup in all book guis, restriction may be relaxed later
+			* Fix page numbers being treated like spread numbers and vice versa in many places in the mod.
+
+		Patchouli-1.15.2-1.2-29.jar:
+			* Fix some blocks rendering incorrectly in multiblocks
+			* Potential fix for the "everything becomes boxes" font bug
+			* Fix quick lookup not working for custom books
+			* Expose the ability to open a specific entry from the API.
+
+		Patchouli-1.15.2-1.2-28.jar:
+			* Reintroduce quick lookup feature from old botania lexicon
+			* Advancement locking now piggybacks off the vanilla advancement packet. As a result, "advancement_namespaces" is no longer required, and entries can now be gated on vanilla advancements
+			* For some reason the jar version of b27 was marked as b25, so this release is mostly to fix that.
+
+	Pling (1.1.0 --> 1.1.2):
+		1.1.2:
+			This release fixes a crash when an invalid sound event ID is specified.
+
+		1.1.1:
+			This release improves compatibility with other mods and versions of Minecraft.
+
+	Quazi-Modded (v1.0.1-1.15.x --> v1.0.2-1.15.x):
+		v1.0.2-1.15.x:
+			Changelog at [https://github.com/origami-games/quazi-modded/releases/v1.0.2-1.15.x](https://github.com/origami-games/quazi-modded/releases/v1.0.2-1.15.x) Requires SheetLib! (v1.7.0-1.15.2^) [https://curseforge.com/minecraft/mc-mods/sheetlib](https://curseforge.com/minecraft/mc-mods/sheetlib)
+
+	RandomPatches (RandomPatches 1.15.2-0.0.0.2-Fabric --> RandomPatches 1.15.2-0.0.0.3-Fabric):
+		RandomPatches 1.15.2-0.0.0.3-Fabric:
+			Potentially fixed a crash.
+
+		RandomPatches 1.15.2-1.21.1.1:
+			Fixed the MC-2025 fix.
+
+		RandomPatches 1.15.2-1.21.1.0:
+			Added support for 1.15's activity-specific window titles.
+
+	Reborn Core (RebornCore-1.15-4.2.4+build.102.jar --> RebornCore-1.15-4.2.9+build.115.jar):
+		RebornCore-1.15-4.2.9+build.115.jar:
+			(modmuss50) #releaseBuild
+			(modmuss50) Fix not being able to join servers, cleanup some mixins as well
+
+		RebornCore-1.15-4.2.8+build.113.jar:
+			(modmuss50) #releaseBuild
+			(modmuss50) fix license warnings
+			(modmuss50) Check recipe conditions on all recipes in the rc and tr namespace
+
+		RebornCore-1.15-4.2.6+build.111.jar:
+			(modmuss50) #releaseBuild
+			(modmuss50) Fix [https://github.com/TechReborn/TechReborn/issues/2042](https://github.com/TechReborn/TechReborn/issues/2042)
+			(modmuss50) Add getter for gui tabs
+
+		RebornCore-1.15-4.2.5+build.108.jar:
+			(modmuss50) #releaseBuild
+			(modmuss50) Support latest energy version
+			(modmuss50) Add a reborncore:water_explosion tag. Any item in this tag will explode when touching water.
+			(modmuss50) Remove custom shields
+			(drcrazy) Small refactoring for HUD
+			(drcrazy) Show stack info on HUD.
+
+	Roughly Enough Items (REI) ([Fabric 1.15.x] v3.6.4 --> [Fabric 1.15.x] v3.6.21):
+		[Fabric 1.15.x] v3.6.21:
+			REI v3.6.21 for 1.15.x
+			Updated at 2020-06-13 13:03.
+			[Click here for changelog](https://www.github.com/shedaniel/RoughlyEnoughItems/commits/3.x)
+			* "Remove REI from controls settings, therefore fix #350"
+			* "Fix tags in favorites, fix #349"
+			* "Fix sort in favourites"
+			* "Favourites in inventory"
+			* "Fix #339"
+			* "Fix nbt entries for entry registry"
+			* "UTF-8 charset"
+			* "Fix unknown keycode saving"
+			* "Add recipe exporter"
+			* "maybe fix warning error screen"
+			* "Fix invalid cf file"
+			* "Trying to fix 313"
+			* "Update translations"
+			* "Bump version"
+			* "Adds warning screen"
+			* "Error Screen when Fabric API is not installed"
+			* "9 patch textures"
+			* "ScrollingContainer & SubsetsMenu"
+			* "3.6.4"
+			* "3.6.3 update"
+			* "fix license"
+			* "get fluid bucket"
+			* "bump version"
+			* "change border"
+			* "hmm?"
+			* "Better refiltering, delta based PreRecipeViewingScreen animation and fix pressing E closes when searching."
+			* "change header"
+			* "lines of code"
+			* "License"
+			* "unbump"
+			* "fix last entry not searched"
+			* "improved notice filtering"
+			* "modmenu update"
+			* "Fix #274 3.5.3"
+			* "Fix #273"
+			* "compile"
+			* "3.5.1"
+			* "Change group amount"
+			* "3.5.0 - Adds async search - Adds debug search option - Set entry size range from 50%-400% to 25%-400%"
+			* "re-init and c and global modid"
+			* "3.4.4"
+			* "- Fix config button color - Fix favorites cheating"
+			* "3.4.2"
+			* "3.4.1"
+
+		[Fabric 1.15.x] v3.6.20:
+			REI v3.6.20 for 1.15.x
+			Updated at 2020-06-11 06:57.
+			[Click here for changelog](https://www.github.com/shedaniel/RoughlyEnoughItems/commits/3.x)
+			* "Fix tags in favorites, fix #349"
+			* "Fix sort in favourites"
+			* "Favourites in inventory"
+			* "Fix #339"
+			* "Fix nbt entries for entry registry"
+			* "UTF-8 charset"
+			* "Fix unknown keycode saving"
+			* "Add recipe exporter"
+			* "maybe fix warning error screen"
+			* "Fix invalid cf file"
+			* "Trying to fix 313"
+			* "Update translations"
+			* "Bump version"
+			* "Adds warning screen"
+			* "Error Screen when Fabric API is not installed"
+			* "9 patch textures"
+			* "ScrollingContainer & SubsetsMenu"
+			* "3.6.4"
+			* "3.6.3 update"
+			* "fix license"
+			* "get fluid bucket"
+			* "bump version"
+			* "change border"
+			* "hmm?"
+			* "Better refiltering, delta based PreRecipeViewingScreen animation and fix pressing E closes when searching."
+			* "change header"
+			* "lines of code"
+			* "License"
+			* "unbump"
+			* "fix last entry not searched"
+			* "improved notice filtering"
+			* "modmenu update"
+			* "Fix #274 3.5.3"
+			* "Fix #273"
+			* "compile"
+			* "3.5.1"
+			* "Change group amount"
+			* "3.5.0 - Adds async search - Adds debug search option - Set entry size range from 50%-400% to 25%-400%"
+			* "re-init and c and global modid"
+			* "3.4.4"
+			* "- Fix config button color - Fix favorites cheating"
+			* "3.4.2"
+			* "3.4.1"
+			* "FilteringEntry"
+			* "fix license"
+
+		[Fabric 1.15.x] v3.6.19:
+			REI v3.6.19 for 1.15.x
+			Updated at 2020-06-09 06:50.
+			[Click here for changelog](https://www.github.com/shedaniel/RoughlyEnoughItems/commits/3.x)
+			* "Fix sort in favourites"
+			* "Favourites in inventory"
+			* "Fix #339"
+			* "Fix nbt entries for entry registry"
+			* "UTF-8 charset"
+			* "Fix unknown keycode saving"
+			* "Add recipe exporter"
+			* "maybe fix warning error screen"
+			* "Fix invalid cf file"
+			* "Trying to fix 313"
+			* "Update translations"
+			* "Bump version"
+			* "Adds warning screen"
+			* "Error Screen when Fabric API is not installed"
+			* "9 patch textures"
+			* "ScrollingContainer & SubsetsMenu"
+			* "3.6.4"
+			* "3.6.3 update"
+			* "fix license"
+			* "get fluid bucket"
+			* "bump version"
+			* "change border"
+			* "hmm?"
+			* "Better refiltering, delta based PreRecipeViewingScreen animation and fix pressing E closes when searching."
+			* "change header"
+			* "lines of code"
+			* "License"
+			* "unbump"
+			* "fix last entry not searched"
+			* "improved notice filtering"
+			* "modmenu update"
+			* "Fix #274 3.5.3"
+			* "Fix #273"
+			* "compile"
+			* "3.5.1"
+			* "Change group amount"
+			* "3.5.0 - Adds async search - Adds debug search option - Set entry size range from 50%-400% to 25%-400%"
+			* "re-init and c and global modid"
+			* "3.4.4"
+			* "- Fix config button color - Fix favorites cheating"
+			* "3.4.2"
+			* "3.4.1"
+			* "FilteringEntry"
+			* "fix license"
+
+		[Fabric 1.15.x] v3.6.17:
+			REI v3.6.17 for 1.15.x
+			Updated at 2020-05-29 16:51.
+			[Click here for changelog](https://www.github.com/shedaniel/RoughlyEnoughItems/commits/3.x)
+			* "Fix #339"
+			* "Fix nbt entries for entry registry"
+			* "UTF-8 charset"
+			* "Fix unknown keycode saving"
+			* "Add recipe exporter"
+			* "maybe fix warning error screen"
+			* "Fix invalid cf file"
+			* "Trying to fix 313"
+			* "Update translations"
+			* "Bump version"
+			* "Adds warning screen"
+			* "Error Screen when Fabric API is not installed"
+			* "9 patch textures"
+			* "ScrollingContainer & SubsetsMenu"
+			* "3.6.4"
+			* "3.6.3 update"
+			* "fix license"
+			* "get fluid bucket"
+			* "bump version"
+			* "change border"
+			* "hmm?"
+			* "Better refiltering, delta based PreRecipeViewingScreen animation and fix pressing E closes when searching."
+			* "change header"
+			* "lines of code"
+			* "License"
+			* "unbump"
+			* "fix last entry not searched"
+			* "improved notice filtering"
+			* "modmenu update"
+			* "Fix #274 3.5.3"
+			* "Fix #273"
+			* "compile"
+			* "3.5.1"
+			* "Change group amount"
+			* "3.5.0 - Adds async search - Adds debug search option - Set entry size range from 50%-400% to 25%-400%"
+			* "re-init and c and global modid"
+			* "3.4.4"
+			* "- Fix config button color - Fix favorites cheating"
+			* "3.4.2"
+			* "3.4.1"
+			* "FilteringEntry"
+			* "fix license"
+
+		[Fabric 1.15.x] v3.6.16:
+			REI v3.6.16 for 1.15.x
+			Updated at 2020-05-26 16:41.
+			[Click here for changelog](https://www.github.com/shedaniel/RoughlyEnoughItems/commits/3.x)
+			* "Fix nbt entries for entry registry"
+			* "UTF-8 charset"
+			* "Fix unknown keycode saving"
+			* "Add recipe exporter"
+			* "maybe fix warning error screen"
+			* "Fix invalid cf file"
+			* "Trying to fix 313"
+			* "Update translations"
+			* "Bump version"
+			* "Adds warning screen"
+			* "Error Screen when Fabric API is not installed"
+			* "9 patch textures"
+			* "ScrollingContainer & SubsetsMenu"
+			* "3.6.4"
+			* "3.6.3 update"
+			* "fix license"
+			* "get fluid bucket"
+			* "bump version"
+			* "change border"
+			* "hmm?"
+			* "Better refiltering, delta based PreRecipeViewingScreen animation and fix pressing E closes when searching."
+			* "change header"
+			* "lines of code"
+			* "License"
+			* "unbump"
+			* "fix last entry not searched"
+			* "improved notice filtering"
+			* "modmenu update"
+			* "Fix #274 3.5.3"
+			* "Fix #273"
+			* "compile"
+			* "3.5.1"
+			* "Change group amount"
+			* "3.5.0 - Adds async search - Adds debug search option - Set entry size range from 50%-400% to 25%-400%"
+			* "re-init and c and global modid"
+			* "3.4.4"
+			* "- Fix config button color - Fix favorites cheating"
+			* "3.4.2"
+			* "3.4.1"
+			* "FilteringEntry"
+			* "fix license"
+
+		[Fabric 1.15.x] v3.6.15:
+			REI v3.6.15 for 1.15.x
+			Updated at 2020-05-19 12:13.
+			[Click here for changelog](https://www.github.com/shedaniel/RoughlyEnoughItems/commits/3.x)
+			* "UTF-8 charset"
+			* "Fix unknown keycode saving"
+			* "Add recipe exporter"
+			* "maybe fix warning error screen"
+			* "Fix invalid cf file"
+			* "Trying to fix 313"
+			* "Update translations"
+			* "Bump version"
+			* "Adds warning screen"
+			* "Error Screen when Fabric API is not installed"
+			* "9 patch textures"
+			* "ScrollingContainer & SubsetsMenu"
+			* "3.6.4"
+			* "3.6.3 update"
+			* "fix license"
+			* "get fluid bucket"
+			* "bump version"
+			* "change border"
+			* "hmm?"
+			* "Better refiltering, delta based PreRecipeViewingScreen animation and fix pressing E closes when searching."
+			* "change header"
+			* "lines of code"
+			* "License"
+			* "unbump"
+			* "fix last entry not searched"
+			* "improved notice filtering"
+			* "modmenu update"
+			* "Fix #274 3.5.3"
+			* "Fix #273"
+			* "compile"
+			* "3.5.1"
+			* "Change group amount"
+			* "3.5.0 - Adds async search - Adds debug search option - Set entry size range from 50%-400% to 25%-400%"
+			* "re-init and c and global modid"
+			* "3.4.4"
+			* "- Fix config button color - Fix favorites cheating"
+			* "3.4.2"
+			* "3.4.1"
+			* "FilteringEntry"
+			* "fix license"
+
+		[Fabric 1.15.x] v3.6.14:
+			REI v3.6.14 for 1.15.x
+			Updated at 2020-04-30 05:34.
+			[Click here for changelog](https://www.github.com/shedaniel/RoughlyEnoughItems/commits/3.x)
+			* "Add recipe exporter"
+			* "maybe fix warning error screen"
+			* "Fix invalid cf file"
+			* "Trying to fix 313"
+			* "Update translations"
+			* "Bump version"
+			* "Adds warning screen"
+			* "Error Screen when Fabric API is not installed"
+			* "9 patch textures"
+			* "ScrollingContainer & SubsetsMenu"
+			* "3.6.4"
+			* "3.6.3 update"
+			* "fix license"
+			* "get fluid bucket"
+			* "bump version"
+			* "change border"
+			* "hmm?"
+			* "Better refiltering, delta based PreRecipeViewingScreen animation and fix pressing E closes when searching."
+			* "change header"
+			* "lines of code"
+			* "License"
+			* "unbump"
+			* "fix last entry not searched"
+			* "improved notice filtering"
+			* "modmenu update"
+			* "Fix #274 3.5.3"
+			* "Fix #273"
+			* "compile"
+			* "3.5.1"
+			* "Change group amount"
+			* "3.5.0 - Adds async search - Adds debug search option - Set entry size range from 50%-400% to 25%-400%"
+			* "re-init and c and global modid"
+			* "3.4.4"
+			* "- Fix config button color - Fix favorites cheating"
+			* "3.4.2"
+			* "3.4.1"
+			* "FilteringEntry"
+			* "fix license"
+			* "fix favorites saving"
+			* "Bump version"
+			* "Fix crash"
+			* "Fix crash"
+			* "Improved EntryListWidget"
+			* "bump version"
+			* "api for favorites"
+			* "3.3.18"
+			* "3.3.17"
+
+		[Fabric 1.15.x] v3.6.13:
+			REI v3.6.13 for 1.15.x
+			Updated at 2020-04-21 03:14.
+			[Click here for changelog](https://www.github.com/shedaniel/RoughlyEnoughItems/commits/3.x)
+			* "maybe fix warning error screen"
+			* "Fix invalid cf file"
+			* "Trying to fix 313"
+			* "Update translations"
+			* "Bump version"
+			* "Adds warning screen"
+			* "Error Screen when Fabric API is not installed"
+			* "9 patch textures"
+			* "ScrollingContainer & SubsetsMenu"
+			* "3.6.4"
+			* "3.6.3 update"
+			* "fix license"
+			* "get fluid bucket"
+			* "bump version"
+			* "change border"
+			* "hmm?"
+			* "Better refiltering, delta based PreRecipeViewingScreen animation and fix pressing E closes when searching."
+			* "change header"
+			* "lines of code"
+			* "License"
+			* "unbump"
+			* "fix last entry not searched"
+			* "improved notice filtering"
+			* "modmenu update"
+			* "Fix #274 3.5.3"
+			* "Fix #273"
+			* "compile"
+			* "3.5.1"
+			* "Change group amount"
+			* "3.5.0 - Adds async search - Adds debug search option - Set entry size range from 50%-400% to 25%-400%"
+			* "re-init and c and global modid"
+			* "3.4.4"
+			* "- Fix config button color - Fix favorites cheating"
+			* "3.4.2"
+			* "3.4.1"
+			* "FilteringEntry"
+			* "fix license"
+			* "fix favorites saving"
+			* "Bump version"
+			* "Fix crash"
+			* "Fix crash"
+			* "Improved EntryListWidget"
+			* "bump version"
+			* "api for favorites"
+			* "3.3.18"
+			* "3.3.17"
+
+		[Fabric 1.15.x] v3.6.12:
+			REI v3.6.12 for 1.15.x
+			Updated at 2020-04-19 15:21.
+			[Click here for changelog](https://www.github.com/shedaniel/RoughlyEnoughItems/commits/3.x)
+			* "Fix invalid cf file"
+			* "Trying to fix 313"
+			* "Update translations"
+			* "Bump version"
+			* "Adds warning screen"
+			* "Error Screen when Fabric API is not installed"
+			* "9 patch textures"
+			* "ScrollingContainer & SubsetsMenu"
+			* "3.6.4"
+			* "3.6.3 update"
+			* "fix license"
+			* "get fluid bucket"
+			* "bump version"
+			* "change border"
+			* "hmm?"
+			* "Better refiltering, delta based PreRecipeViewingScreen animation and fix pressing E closes when searching."
+			* "change header"
+			* "lines of code"
+			* "License"
+			* "unbump"
+			* "fix last entry not searched"
+			* "improved notice filtering"
+			* "modmenu update"
+			* "Fix #274 3.5.3"
+			* "Fix #273"
+			* "compile"
+			* "3.5.1"
+			* "Change group amount"
+			* "3.5.0 - Adds async search - Adds debug search option - Set entry size range from 50%-400% to 25%-400%"
+			* "re-init and c and global modid"
+			* "3.4.4"
+			* "- Fix config button color - Fix favorites cheating"
+			* "3.4.2"
+			* "3.4.1"
+			* "FilteringEntry"
+			* "fix license"
+			* "fix favorites saving"
+			* "Bump version"
+			* "Fix crash"
+			* "Fix crash"
+			* "Improved EntryListWidget"
+			* "bump version"
+			* "api for favorites"
+			* "3.3.18"
+			* "3.3.17"
+
+		[Fabric 1.15.x] v3.6.10:
+			REI v3.6.10
+			Updated at 2020-04-18 07:10.
+			[Click here for full changelog](https://gist.github.com/shedaniel/b7593e692319976f3349263208792922)
+
+		[Fabric 1.15.x] v3.6.9:
+			REI v3.6.9
+			Updated at 2020-04-15 18:50.
+			[Click here for full changelog](https://gist.github.com/shedaniel/b7593e692319976f3349263208792922)
+
+		[Fabric 1.15.x] v3.6.8:
+			REI v3.6.8
+			Updated at 2020-04-11 18:14.
+			[Click here for full changelog](https://gist.github.com/shedaniel/b7593e692319976f3349263208792922)
+
+		[Fabric 1.15.x] v3.6.7:
+			REI v3.6.7
+			Updated at 2020-04-10 13:35.
+			[Click here for full changelog](https://gist.github.com/shedaniel/b7593e692319976f3349263208792922)
+
+		[Fabric 1.15.x] v3.6.6:
+			REI v3.6.6
+			Updated at 2020-04-05 09:03.
+			[Click here for full changelog](https://gist.github.com/shedaniel/b7593e692319976f3349263208792922)
+
+		[Fabric 1.15.x] v3.6.5:
+			REI v3.6.5
+			Updated at 2020-04-01 17:29.
+			[Click here for full changelog](https://gist.github.com/shedaniel/b7593e692319976f3349263208792922)
+
+	Screenshot to Clipboard (Fabric) (1.15-1.0.4 (Fabric 1.15/1.16) -->  1.15-1.0.5 (Fabric 1.15/1.16)):
+		 1.15-1.0.5 (Fabric 1.15/1.16):
+			Add support for Optifine
+
+	SheetLib (v1.4.0-1.15.x --> v1.7.0-1.15.2-fabric):
+		v1.7.0-1.15.2-fabric:
+			* Port 1.6.0 to 1.15.2 - Also new stuff - ColorBlocks: create all different coloured blocks in one call! * Reorganised method params - There've been quite a few, take a look yourself :p
+
+	ShulkerBoxTooltip ([1.15 - 1.15.2] ShulkerBoxTooltip-1.4.5+1.15 --> [1.15.2] ShulkerBoxTooltip-2.0.3+1.15.2):
+		[1.15.2] ShulkerBoxTooltip-2.0.3+1.15.2:
+			Version 2.0.3+1.15.2:
+			* Fixed rare crash when opening ender chest previews or quitting worlds
+
+		[1.15.2] ShulkerBoxTooltip-2.0.2+1.15.2:
+			Version 2.0.2+1.15.2
+			* Fixed NONE tooltip type not hiding shulker boxes' lore.
+
+		[1.15.2] ShulkerBoxTooltip-2.0.1+1.15.2:
+			Version 2.0.1+1.15.2
+			* Fixed crash when connecting to spigot servers.
+			* Added serverIntegration config option.
+
+		[1.15.2] ShulkerBoxTooltip-2.0.0+1.15.2:
+			Version 2.0.0+1.15.2
+			* Updated to mc 1.15.2
+			* Added ender chest preview
+			* Added showKeyHints config option to show/hide the key hint in tooltips.
+			* The mod can now be installed on the server to provide extra preview info for the clients.
+			This is optional and servers do not require to have the mod installed for clients to use the mod.
+			(Required for ender chest preview)
+			* Added config options for servers: clientIntegration & enderChestSyncType
+			* New API allowing mods to draw preview of items and more.
+			* API breaking changes: (sorry!)
+			PreviewProviders is no longer client-only
+			Most methods in PreviewProviders now takes a PreviewContext instead of an ItemStack.
+
+	Smooth Scrolling Everywhere (Fabric) ([Fabric 1.15.x] v2.4 --> [Fabric 1.15.x] v2.4.1):
+		[Fabric 1.15.x] v2.4.1:
+			No changelog available.
+
+	Statement Library (Statement-2.1.2+20w11a.jar --> Statement-3.0.3+1.15.2.jar):
+		Statement-3.0.3+1.15.2.jar:
+			Changes:
+			Internal cleanup
+			Additions:
+			N/A
+			Bugfixes:
+			N/A
+			Removals:
+			N/A
+			Last successfully tested on:
+			Minecraft version 1.15.2
+			Yarn mappings 1.15.2+build.17
+			Fabric Loader 0.9.0+build.204
+			[Fabric API 0.16.2+build.322-1.15](https://www.curseforge.com/minecraft/mc-mods/fabric-api/files/all)
+
+		Statement-3.0.0+1.15.2.jar:
+			Split off 1.14-1.16 jar into 1.14-1.15 version
+			Compatible with 1.15.2 and 1.14.4
+			Bugfixes:
+			Fix potentially incorrect visual when right clicking certain blocks
+			Additions:
+			N/A
+			Changes:
+			N/A
+			Removals:
+			N/A
+			Last successfully tested on:
+			Minecraft version 1.15.2
+			Yarn mappings 1.15.2+build.17
+			Fabric Loader 0.8.5+build.199
+			[Fabric API 0.11.1+build.312-1.15](https://www.curseforge.com/minecraft/mc-mods/fabric-api/files/all)
+
+		Statement-2.2.0+20w19a.jar:
+			Update to 20w19a
+			Compatible with 1.15.2 and 1.14.4
+			Changes:
+			Less potential log spam
+			Additions:
+			N/A
+			Bugfixes:
+			N/A
+			Removals:
+			N/A
+			Last successfully tested on:
+			Minecraft version 20w19a
+			Yarn mappings 20w19a+build.6
+			Fabric Loader 0.8.2+build.194
+			[Fabric API 0.10.7+build.344-1.16](https://www.curseforge.com/minecraft/mc-mods/fabric-api/files/all)
+
+		Statement-2.1.3+20w15a.jar:
+			Update to 20w15a
+			Compatible with 1.15.2 and 1.14.4
+			Additions:
+			N/A
+			Changes:
+			N/A
+			Bugfixes:
+			N/A
+			Removals:
+			N/A
+			Last successfully tested on:
+			Minecraft version 20w15a
+			Yarn mappings 20w15a+build.1
+			Fabric Loader 0.8.2+build.194
+			[Fabric API 0.5.9+build.319-1.16](https://www.curseforge.com/minecraft/mc-mods/fabric-api/files/all)
+
+	StuffZ (StuffZ 1.8.jar --> stuffz-2.1.0-1.15.2.jar):
+		stuffz-2.1.0-1.15.2.jar:
+			No changelog available.
+
+	Tech Reborn (TechReborn-1.15-3.3.5+build.196.jar --> TechReborn-1.15-3.3.11+build.224.jar):
+		TechReborn-1.15-3.3.11+build.224.jar:
+			(modmuss50) #releaseBuild
+
+		TechReborn-1.15-3.3.10+build.223.jar:
+			(modmuss50) #releaseBuild
+			(modmuss50) fix license warnings
+			(modmuss50) Fix #2097
+			(github) Blockus compatibility (1.15+) (#2091)
+			(drcrazy) More usage of rubber wood
+			(github) Add rubber wood and stripped rubber wood (#2086). Thanks to haykam821
+			(drcrazy) Ore spawn rates config. Closes #2087
+
+		TechReborn-1.15-3.3.8+build.216.jar:
+			(modmuss50) #releaseBuild
+			(modmuss50) Fix #2084
+			(modmuss50) Display flying when an elytra is used with the trinkets mod. Closes #2074
+			(modmuss50) Fix #2070
+			(modmuss50) Add plant products to the Composter. Fixes #2075
+			(drcrazy) Fix cloaking device texture. Closes #2067
+
+		TechReborn-1.15-3.3.7+build.210.jar:
+			(github) #releaseBuild
+			(drcrazy) Rubber trees are less frequent and have configs. Closes #2079
+			(drcrazy) More fixes for unused configs
+			(drcrazy) Fix copper oregen config typo
+			(modmuss50) Add constructor that allows passing a custom Block.Settings
+			(modmuss50) Refactor guis
+
+		TechReborn-1.15-3.3.6+build.205.jar:
+			(modmuss50) #releaseBuild
+			(modmuss50) Support latest energy version
+			(modmuss50) Merge remote-tracking branch 'origin/1.15' into 1.15
+			(modmuss50) Sodium explodes in water, closes #2069
+			(drcrazy) Config for Oregen. Closes #2062
+			(drcrazy) Buff Nano Saber damage. Closes #1714
+			(prospector) Update almandine dust textures
+			(prospector) Update some textures and rebalance a few recipes
+			(drcrazy) Allow to keep enchants only for TR items. Closes #1952
+			(drcrazy) Enchants persist through crafting. Some work on #1952
+
+	Textile Backup (textile_backup-1.0.3-1.15.jar --> textile_backup-1.4.0-1.15.2.jar):
+		textile_backup-1.4.0-1.15.2.jar:
+			Changes:
+			* When starting backup form server console there won't be double output.
+			* Repaired: java.lang.NoSuchMethodError: java.util.stream.Stream.takeWhile
+			* Maybe repaired Zip compression...
+			* Compression time is now displayed in more useful format (HH:mm:ss.SSS)
+			* There is now differentiation between backups started from server console, by timer, and because of shutdown
+
+		textile_backup-1.3.0-1.15.2.jar:
+			Added new scheduling system (by request #27)
+			Slightly improved backup execution
+			Last backup still gets done even if all the player leave just before it starts (by request #3)
+			Config gets checked on startup
+
+		textile_backup-1.2.4-1.15.2.jar:
+			Repaired bug causing mod to firstly delete files form last month and few other things.
+
+		textile_backup-1.2.1-1.15.jar:
+			Added:
+			* option to limit number of cpu cores used to do compression
+			Updated:
+			* Apache Commons Compress 1.13 -> 1.19
+
+		textile_backup-1.2.0-1.15.jar:
+			Changes in 1.2.0:
+			*
+			You can now select what compression algorithm is used. You by setting format filed in config file to one of those:
+			* ZIP: same as before, but compression happens now on multiple threads
+			* BZIP: packaged with tarball and compressed using multi-threaded bzip2 compressor.
+			* GZIP: packaged with tarball and compressed using multi-threaded gzip compressor.
+			* LZMA: packaged with tarball and compressed using lzma compressor into .xz archive. Please keep in mind that default windows archive viewer does not support tarballs, so to view them you will need winrar for example. Most linux distros, if not all, are able to open compressed tarballs out of box.
+			*
+			It is now possible to exclude a file or a directory form being compressed. It is done using fileBlacklist option in config.
+
+		textile_backup-1.1.1-1.15.jar:
+			Repaired dot in windows filenames.
+
+		textile_backup-1.1.0-1.15.jar:
+			Added:
+			-per world backup
+			-configurable datetime format
+			-configurable permission level
+			-player black and whitelist
+
+		textile_backup-1.0.4-1.15.jar:
+			Added:
+			-Option to comment the file.
+			-Option to limit the size of a backup folder.
+
+	Towelette (Towelette-3.1.4+20w11a.jar --> Towelette-4.1.4+1.15.2.jar):
+		Towelette-4.1.4+1.15.2.jar:
+			Bugfixes:
+			Fix flowing logic being incorrect in some cases with flowing fluidlogging enabled
+			Fix automatic fluidlogging happening when only the API is present
+			Additions:
+			N/A
+			Changes:
+			N/A
+			Removals:
+			N/A
+			Last successfully tested on:
+			Minecraft version 1.15.2
+			Yarn mappings 1.15.2+build.17
+			Fabric Loader 0.9.0+build.204
+			[Fabric API 0.16.2+build.322-1.15](https://www.curseforge.com/minecraft/mc-mods/fabric-api/files/all)
+
+		Towelette-4.1.3+1.15.2.jar:
+			Bugfixes:
+			Fix flowing logic being incorrect in some cases with flowing fluidlogging enabled
+			Additions:
+			N/A
+			Changes:
+			N/A
+			Removals:
+			N/A
+			Last successfully tested on:
+			Minecraft version 1.15.2
+			Yarn mappings 1.15.2+build.17
+			Fabric Loader 0.9.0+build.204
+			[Fabric API 0.16.2+build.322-1.15](https://www.curseforge.com/minecraft/mc-mods/fabric-api/files/all)
+
+		Towelette-4.1.0+1.15.2.jar:
+			Additions:
+			Configs to whitelist/blacklist fluids by mod ID
+			Bugfixes:
+			Hide lava sounds and particles from lavalogged blocks with solid tops
+			Changes:
+			N/A
+			Removals:
+			N/A
+			Last successfully tested on:
+			Minecraft version 1.15.2
+			Yarn mappings 1.15.2+build.17
+			Fabric Loader 0.9.0+build.204
+			[Fabric API 0.16.2+build.322-1.15](https://www.curseforge.com/minecraft/mc-mods/fabric-api/files/all)
+
+		Towelette-4.0.0+1.15.2.jar:
+			Split off 1.14-1.16 jar into 1.14-1.15 version
+			Compatible with 1.15.2 and 1.14.4
+			Additions:
+			Configs for whitelisting what fluids are allowed for fluidlogging
+			Configs for waterlogging similar to the existing fluidlogging configs
+			Bugfixes:
+			Fix water/fluidloggability config to work with buckets
+			Changes:
+			N/A
+			Removals:
+			N/A
+			Last successfully tested on:
+			Minecraft version 1.15.2
+			Yarn mappings 1.15.2+build.17
+			Fabric Loader 0.8.5+build.199
+			[Fabric API 0.11.1+build.312-1.15](https://www.curseforge.com/minecraft/mc-mods/fabric-api/files/all)
+
+		Towelette-3.2.0+20w19a.jar:
+			Update to 20w19a
+			Compatible with 1.15.2 and 1.14.4
+			Additions:
+			Chains are now fluidloggable
+			Config to make any block be fluidloggable by fluid sources (does not yet work with buckets)
+			Config to make any block be fluidloggable by flowing fluids
+			Config to make blocks no longer be fluidloggable
+			Config to make any block be waterloggable (does not yet work with buckets)
+			Config to make blocks no longer be waterloggable
+			Bugfixes:
+			N/A
+			Changes:
+			N/A
+			Removals:
+			N/A
+			Last successfully tested on:
+			Minecraft version 20w19a
+			Yarn mappings 20w19a+build.6
+			Fabric Loader 0.8.2+build.194
+			[Fabric API 0.10.7+build.344-1.16](https://www.curseforge.com/minecraft/mc-mods/fabric-api/files/all)
+
+		Towelette-3.1.6+20w15a.jar:
+			Bugfixes:
+			Fix compatibility issue in 1.15.2 and 1.14.4 involving doors
+			Changes:
+			N/A
+			Additions:
+			N/A
+			Removals:
+			N/A
+			Last successfully tested on:
+			Minecraft version 20w15a
+			Yarn mappings 20w15a+build.1
+			Fabric Loader 0.8.2+build.194
+			[Fabric API 0.5.9+build.319-1.16](https://www.curseforge.com/minecraft/mc-mods/fabric-api/files/all)
+
+		Towelette-3.1.5+20w15a.jar:
+			Update to 20w15a
+			Compatible with 1.15.2 and 1.14.4
+			Changes:
+			Use accurate Lava collision from 20w14a when in older MC versions
+			Bugfixes:
+			Fix placing double slabs in flowing fluids
+			Additions:
+			N/A
+			Removals:
+			N/A
+			Last successfully tested on:
+			Minecraft version 20w15a
+			Yarn mappings 20w15a+build.1
+			Fabric Loader 0.8.2+build.194
+			[Fabric API 0.5.9+build.319-1.16](https://www.curseforge.com/minecraft/mc-mods/fabric-api/files/all)
+
+	Traverse (Traverse v2.1.11+build.23 for 1.15.2 --> Traverse v2.1.14 for 1.15.2):
+		Traverse v2.1.14 for 1.15.2:
+			* Fix the surface builder of the Wooded Island
+			Changes in v2.1.13:
+			* Fix a crash with Terraform
+			Changes in v2.1.12:
+			* Sweet Berry Bushes will now generate in Snowy Coniferous Forests
+			* Fixed Fir trees leaves generating too close to the ground
+			* Fixed Yellow Autumnal trees being too short
+			* Horses and Donkeys no longer spawn in Rocky Edges or on Wooded Islands
+			* Decrease the number of Blue Orchids in Mini Jungles
+			* Emerald Ore will now generate in Plains Plateaus (and variants)
+			* Pillager Outposts will now generate in Coniferous Forests and Snowy Coniferous Forests
+			* Pillager Outposts will no longer generate in Rolling Hills
+			* Wolves will now spawn on Wooded Islands
+			* Wolves will no longer spawn in Meadows or Rolling Hills
+			* Strongholds will now generate in Lush Swamps
+			* Changed the category of Plains Plateaus to Plains (was Forest)
+			* Changed the category of Snowy Coniferous Forests (and variants) to Taiga (was Forest)
+			* Update Chinese Translation (Courtesy of taowaren on GitHub)
+
+		Traverse v2.1.13 for 1.15.2:
+			* Fix a crash with Terraform
+			Changes in v2.1.12:
+			* Sweet Berry Bushes will now generate in Snowy Coniferous Forests
+			* Fixed Fir trees leaves generating too close to the ground
+			* Fixed Yellow Autumnal trees being too short
+			* Horses and Donkeys no longer spawn in Rocky Edges or on Wooded Islands
+			* Decrease the number of Blue Orchids in Mini Jungles
+			* Emerald Ore will now generate in Plains Plateaus (and variants)
+			* Pillager Outposts will now generate in Coniferous Forests and Snowy Coniferous Forests
+			* Pillager Outposts will no longer generate in Rolling Hills
+			* Wolves will now spawn on Wooded Islands
+			* Wolves will no longer spawn in Meadows or Rolling Hills
+			* Strongholds will now generate in Lush Swamps
+			* Changed the category of Plains Plateaus to Plains (was Forest)
+			* Changed the category of Snowy Coniferous Forests (and variants) to Taiga (was Forest)
+			* Update Chinese Translation (Courtesy of taowaren on GitHub)
+			<header class="flex justify-between"></header>
+
+	Trinkets (Fabric) (1.15.1-trinkets-2.4.1.jar --> 1.15.2-trinkets-2.4.2.jar):
+		1.15.2-trinkets-2.4.2.jar:
+			Updated to 1.15.2
+			Additions
+			* Hovering over a trinket will display what slots it can be put in.
+			* Hovering over a trinket will display what attributes it provides, and, if varying, in what slots.
+			Changes
+			* ITrinket.tick() is now called on both the server and the client, fixing [#15](https://github.com/emilyploszaj/trinkets/issues/15)
+
+	Vanilla Hammers (vanilla-hammers_1.15.2-1.7.1.jar --> vanilla-hammers-1.8.0_1.15.2):
+		vanilla-hammers-1.8.0_1.15.2:
+			1.8.0 release for 1.15.2. Adds support for the Adabranium material "Vibranium" and fixes a model bug.
+
+		vanilla-hammers-1.7.2_1.15.2.jar:
+			1.7.2 release for 1.15.2. Includes a new ItemGroup and fixes for invalid recipes loading when certain config values are set!
+
+	Window Title Changer (window_title_changer-1.0.0-1.15.2.jar --> window_title_changer-1.1.0-1.15.jar):
+		window_title_changer-1.1.0-1.15.jar:
+			Now when icon change is enabled, but one of files is not found, the default icon will be used instead to using both default
+
+	[Fabric] Expanded Storage (Expanded Storage 3.8.34+1.15.2 --> Expanded Storage 5.3.14+1.15.2):
+		Expanded Storage 5.3.14+1.15.2:
+			* This should be the final version for 1.15.2
+			* Backport of 1.16 changes
+			* Fix a minor issue with tooltip rendering for select screen type button
+			* Fixed model being remade every frame for chests.
+
+		Expanded Storage 5.1.2+1.15.2:
+			* Added New Screen types
+			* Fixed bug present when REI is not installed.
+
+		Expanded Storage 5.1.1+1.15.2:
+			* Added more screen types.
+
+		Expanded Storage 5.0.1+1.15.2:
+			* Fix container lib printing out auto focus state on start up.
+			* Change item group translation key to have lowercase itemgroup instead of itemGroup
+			* Added upside down translation for item group.
+
+		Expanded Storage 5.0.0+1.15.2:
+			* Added a config to container library allowing auto-focus to be turned on, defaults to off now. An in-game gui will be added in the future.
+			* Removed Expanded Storage API.
+
+	[Fabric] NonCorrelatedExtras (NonCorrelatedExtras 0.2.2 --> NonCorrelatedExtras 0.3.0+1.15.2):
+		NonCorrelatedExtras 0.3.0+1.15.2:
+			* Add structure compasses, Only stronghold one is enabled by default, ( has custom textures unlike others too )
+
+		NonCorrelatedExtras 0.2.4+1.15.2:
+			* Altered the magnet item model so it looks nicer in off hand and in third person.
+
+		NonCorrelatedExtras 0.2.3:
+			Requires Fabric Loader 0.8 or higher!
+			Re-enabled trinket support. Requires latest Trinkets build to function properly.
+
+Downgraded:
+	Extra Bows (ExtraBows-v1.15.2 Forge b1 --> ExtraBows v1.15.2 Fabric b2):
+		ExtraBows-v1.15.2 Forge b1:
+			+ Fixed end crash + updated to 1.15.2
+
+Removed:
+- Amecs (Fabric)
+- Better Graves
+- Corail Woodcutter
+- Corail Woodcutter Companion for Fabric
+- Demeter
+- Health Overlay (Fabric)
+- Just Map
+- Nice To Have (Fabric)
+- YNet
+
+Generated using [ChangelogGenerator 2.0.0-pre3](https://github.com/TheRandomLabs/ChangelogGenerator).
