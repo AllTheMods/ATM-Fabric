@@ -1,0 +1,33 @@
+{
+  "parent": "paint:magic/redstone/ready_to_redstone",
+  "display": {
+    "icon": {
+      "item": "minecraft:note_block"
+    },
+    "title": {
+      "text": "Note Block","color":"light_purple"}
+    ,
+    "description": {
+      "text": "Obtain a note block","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+	"note_block": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"item": "minecraft:note_block"
+				}
+			]
+		}
+	}
+  },
+  "requirements": [
+    ["note_block"]
+  ]
+}

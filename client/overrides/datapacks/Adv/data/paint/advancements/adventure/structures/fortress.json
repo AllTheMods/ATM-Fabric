@@ -1,0 +1,32 @@
+{
+  "parent": "paint:adventure/structures/woodland_mansion",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:213}"
+    },
+    "title": {
+      "text": "Nether Fortress","color":"blue"}
+    ,
+    "description":
+      {"text":"Visit a nether fortress","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "fortress": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "feature": "fortress"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "fortress"
+    ]
+  ]
+}

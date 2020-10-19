@@ -1,0 +1,80 @@
+{
+  "parent": "paint:magic/deity/weapon/deity_bow",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:4424}"
+    },
+    "title": {
+      "text": "Deity Crossbow","color":"light_purple"}
+    ,
+    "description": {
+      "text": "Obtain a crossbow with:\n* Quick Charge III\n* Multishot or Piercing IV\n* Unbreaking III\n* Mending","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "deity_crossbow_multishot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:crossbow",
+			"enchantments": [
+				{
+				"enchantment": "minecraft:multishot"
+				},
+				{
+				"enchantment": "minecraft:quick_charge",
+				"level": 3
+				},
+				{
+				"enchantment": "minecraft:unbreaking",
+				"level": 3
+				},
+				{
+				"enchantment": "minecraft:mending"
+				}
+			]
+          }
+        ]
+      }
+    },
+	"deity_crossbow_piercing": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:crossbow",
+			"enchantments": [
+				{
+				"enchantment": "minecraft:piercing",
+				"level": 4
+				},
+				{
+				"enchantment": "minecraft:quick_charge",
+				"level": 3
+				},
+				{
+				"enchantment": "minecraft:unbreaking",
+				"level": 3
+				},
+				{
+				"enchantment": "minecraft:mending"
+				}
+			]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "deity_crossbow_piercing",
+	  "deity_crossbow_multishot"
+    ]
+  ]
+}

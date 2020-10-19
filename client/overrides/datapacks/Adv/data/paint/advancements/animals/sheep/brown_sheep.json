@@ -1,0 +1,32 @@
+{
+  "parent": "paint:animals/sheep/woolverine",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:1401}"
+    },
+    "title": {
+      "text": "Brown Sheep","color":"yellow"}
+    ,
+    "description": {
+      "text": "Have 5 brown sheep around you in a 10m radius","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "brown_sheep": {
+      "trigger": "minecraft:impossible"
+	  }
+	},
+	"rewards": {
+    "function": "paint:pca/rewards/animals/sheep/brown_sheep"
+  },
+  "requirements": [
+    [
+      "brown_sheep"
+    ]
+  ]
+}

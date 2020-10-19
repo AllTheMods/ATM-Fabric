@@ -7,5 +7,7 @@
 	/* Whether dev-env files, like the test tweaker, should be loaded.
 	   This will affect the loaded data for your game.
 	*/
-	"dev_mode": false
+	"dev_mode": false,
+	// The preference order for namespaces in tags.
+	"namespace_preference": []
 }

@@ -1,0 +1,33 @@
+{
+  "parent": "paint:animals/horses/white_horse_sooty",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:1142}"
+    },
+    "title": {
+      "text": "Creamy Horse with Soot","color":"yellow"}
+    ,
+    "description": {
+      "text": "Tame a creamy horse with sooty pattern","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "creamy_horse_sooty": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+			"type": "minecraft:horse",
+			"nbt": "{Variant:1025}"
+        }
+      }
+    }
+  },
+  "requirements": [
+	["creamy_horse_sooty"]
+  ]
+}

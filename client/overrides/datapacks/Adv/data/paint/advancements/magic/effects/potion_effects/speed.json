@@ -1,0 +1,34 @@
+{
+  "parent": "paint:magic/effects/potion_effects/slowness",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:4111}"
+    },
+    "title": {
+      "text": "Speed","color":"light_purple"}
+    ,
+    "description": {
+      "text": "Have been effected by speed","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "speed": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:speed": {}
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "speed"
+    ]
+  ]
+}

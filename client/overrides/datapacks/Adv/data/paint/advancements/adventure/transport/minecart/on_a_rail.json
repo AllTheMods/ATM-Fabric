@@ -1,0 +1,32 @@
+{
+  "parent": "paint:adventure/transport/minecart/captured",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:413}"
+    },
+    "title": {
+      "text": "On A Rail","color":"blue"}
+    ,
+    "description":
+      {"text":"Use minecarts and rails to displace yourself 1km horizontally in one journey. Getting out will reset your progress.","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "on_a_rail": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "paint:pca/rewards/adventure/transport/minecart/on_a_rail"
+  },
+  "requirements": [
+	[
+	"on_a_rail"
+	]
+	]
+}

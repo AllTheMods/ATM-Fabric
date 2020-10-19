@@ -1,0 +1,62 @@
+{
+  "parent": "paint:magic/supreme_wizard",
+  "display": {
+    "icon": {
+      "item": "minecraft:beacon"
+    },
+    "title": {
+      "text": "Bringing Home the Beacon","color":"light_purple"}
+    ,
+    "description":
+      ["",{"text": "Complete all beacon advancements. Use iron, gold, emerald and diamond blocks to make a pyramid under the beacon block. ","color":"white"},{"text":"Announced in chat.","color":"dark_gray"}]
+	,
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "beacon_level_1": {
+      "trigger": "minecraft:construct_beacon",
+      "conditions": {
+        "level": {
+          "min": 1
+        }
+      }
+    },
+	"beacon_level_2": {
+      "trigger": "minecraft:construct_beacon",
+      "conditions": {
+        "level": {
+          "min": 2
+        }
+      }
+    },
+	"beacon_level_3": {
+      "trigger": "minecraft:construct_beacon",
+      "conditions": {
+        "level": {
+          "min": 3
+        }
+      }
+    },
+	"beacon_level_4": {
+      "trigger": "minecraft:construct_beacon",
+      "conditions": {
+        "level": {
+          "min": 4
+        }
+      }
+    },
+	"peak_beac": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    ["beacon_level_1"],
+	["beacon_level_2"],
+	["beacon_level_3"],
+	["beacon_level_4"],
+	["peak_beac"]
+  ]
+}

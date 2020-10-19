@@ -1,0 +1,30 @@
+{
+  "parent": "paint:village/bulk/butcher/dried_kelp_trader",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:5414}"
+    },
+    "title": {
+      "text": "Berry Trader","color":"green"}
+	,
+    "description": {
+      "text": "Obtain 8 stacks of sweet berries so you can trade with a master butcher in bulk","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "berry_trader": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "paint:pca/rewards/village/bulk/butcher/berry_trader"
+  },
+  "requirements": [
+    ["berry_trader"]
+  ]
+}

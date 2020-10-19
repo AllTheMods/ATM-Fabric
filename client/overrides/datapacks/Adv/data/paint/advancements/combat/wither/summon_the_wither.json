@@ -1,0 +1,32 @@
+{
+  "parent": "paint:combat/wither/skills_for_skulls",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:2102}"
+    },
+    "title": {
+      "text": "Summon the Wither","color":"red"}
+    ,
+    "description":
+      {"text":"Summon the wither using three wither skeleton skulls and four soul sand","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "summon_the_wither": {
+      "trigger": "minecraft:summoned_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wither"
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["summon_the_wither"]
+  ]
+}

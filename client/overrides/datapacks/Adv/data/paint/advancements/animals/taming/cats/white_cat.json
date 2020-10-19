@@ -1,0 +1,35 @@
+{
+  "parent": "paint:animals/taming/cats/tuxedo_cat",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:1512}"
+    },
+    "title": {
+      "text": "White Cat","color":"yellow"}
+    ,
+    "description": {
+      "text": "Tame a white cat with different eye colors","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "white_cat": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+			"type": "minecraft:cat",
+			"nbt": "{CatType:8}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "white_cat"
+    ]
+  ]
+}

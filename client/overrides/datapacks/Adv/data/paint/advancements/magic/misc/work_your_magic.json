@@ -1,0 +1,134 @@
+{
+  "parent": "paint:magic/supreme_wizard",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:4500}"
+    },
+    "title": {
+      "text": "Work Your Magic","color":"light_purple"}
+    ,
+    "description":
+      ["",{"text": "Complete all misc magic advancements. ","color":"white"},{"text":"Announced in chat.","color":"dark_gray"}]
+	,
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "aquatic_ascention": {
+		"trigger": "minecraft:enter_block",
+		"conditions": {
+			"block": "minecraft:bubble_column",
+				"state": {
+					"drag": "false"
+				}
+		}
+	},
+	"ender_chest": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"item": "minecraft:ender_chest"
+				}
+			]
+		}
+	},
+	"shulker_box": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"tag": "paint:shulker_boxes"
+				}
+			]
+		}
+	},
+	"great_view_from_up_here": {
+      "trigger": "minecraft:levitation",
+      "conditions": {
+		"distance": {
+          "y": {
+            "min": 50.0
+          }
+        }
+      }
+    },
+	"arrow_with_extra_ow": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"item": "minecraft:tipped_arrow",
+				"nbt": "{Potion:\"minecraft:strong_harming\"}"
+				}
+			]
+		}
+	},
+	"overpowered": {
+		"trigger": "minecraft:consume_item",
+		"conditions": {
+			"item": {
+			"item": "minecraft:enchanted_golden_apple"
+			}
+		}
+	},
+	"postmortal": {
+      "trigger": "minecraft:used_totem",
+      "conditions": {
+        "item": {
+          "item": "minecraft:totem_of_undying"
+        }
+      }
+    },
+	"overbooked": {
+      "trigger": "minecraft:impossible"
+    },
+	"how_did_we_get_here": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:absorption": {},
+          "minecraft:bad_omen": {},
+          "minecraft:blindness": {},
+          "minecraft:conduit_power": {},
+          "minecraft:dolphins_grace": {},
+          "minecraft:fire_resistance": {},
+          "minecraft:glowing": {},
+          "minecraft:haste": {},
+          "minecraft:hero_of_the_village": {},
+          "minecraft:hunger": {},
+          "minecraft:invisibility": {},
+          "minecraft:jump_boost": {},
+          "minecraft:levitation": {},
+          "minecraft:mining_fatigue": {},
+          "minecraft:nausea": {},
+          "minecraft:night_vision": {},
+          "minecraft:poison": {},
+          "minecraft:regeneration": {},
+          "minecraft:resistance": {},
+          "minecraft:slow_falling": {},
+          "minecraft:slowness": {},
+          "minecraft:speed": {},
+          "minecraft:strength": {},
+          "minecraft:water_breathing": {},
+          "minecraft:weakness": {},
+          "minecraft:wither": {}
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["aquatic_ascention"],
+	["ender_chest"],
+	["shulker_box"],
+	["great_view_from_up_here"],
+	["arrow_with_extra_ow"],
+	["overpowered"],
+	["postmortal"],
+	["overbooked"],
+	["how_did_we_get_here"]
+  ]
+}

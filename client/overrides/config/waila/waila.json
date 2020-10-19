@@ -12,9 +12,9 @@
     "displayFluids": false
   },
   "overlay": {
-    "overlayPosX": 0.42,
+    "overlayPosX": 0.5,
     "overlayPosY": 0.99,
-    "overlayScale": 1.2,
+    "overlaySize": "NORMAL",
     "color": {
       "alpha": 55,
       "themes": [

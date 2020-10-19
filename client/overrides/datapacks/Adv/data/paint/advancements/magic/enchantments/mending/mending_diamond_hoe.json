@@ -1,0 +1,41 @@
+{
+  "parent": "paint:magic/enchantments/mending/mending_shears",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:4288}"
+    },
+    "title": {
+      "text": "Mending Diamond Hoe","color":"light_purple"}
+    ,
+    "description": {
+      "text": "Obtain a mending diamond hoe","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "mending_diamond_hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:diamond_hoe",
+			"enchantments": [
+				{
+				"enchantment": "minecraft:mending"
+				}
+			]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "mending_diamond_hoe"
+    ]
+  ]
+}

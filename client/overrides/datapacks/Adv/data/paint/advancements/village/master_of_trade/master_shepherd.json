@@ -1,0 +1,34 @@
+{
+  "parent": "paint:village/master_of_trade/master_mason",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:5111}"
+    },
+    "title": {
+      "text": "Master Shepherd","color":"green"}
+	,
+    "description": {
+      "text": "Trade with a master shepherd","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "master_shepherd": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{VillagerData:{profession:\"minecraft:shepherd\",level:5}}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "master_shepherd"
+    ]
+  ]
+}

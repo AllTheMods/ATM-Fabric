@@ -1,0 +1,8 @@
+{
+   "criteria":{
+      "end1":{
+         "trigger":"minecraft:tick"
+      }
+   },
+      "parent":"paint:animals/taming/cats/white_cat"
+}

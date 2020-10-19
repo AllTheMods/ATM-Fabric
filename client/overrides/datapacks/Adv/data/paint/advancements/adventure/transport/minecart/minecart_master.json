@@ -1,0 +1,38 @@
+{
+  "parent": "paint:adventure/transport/taking_passage",
+  "display": {
+    "icon": {
+      "item": "minecraft:minecart"
+    },
+    "title": {
+      "text": "Minecart Master","color":"blue"}
+    ,
+    "description":
+      {"text":"Complete all minecart advancements","color":"white"}
+    ,
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "ready_to_rail": {
+      "trigger": "minecraft:impossible"
+    },
+	"captured": {
+      "trigger": "minecraft:impossible"
+    },
+	"on_a_rail": {
+      "trigger": "minecraft:impossible"
+    },
+	"tour_de_force": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    ["ready_to_rail"],
+	["captured"],
+	["on_a_rail"],
+	["tour_de_force"]
+  ]
+}

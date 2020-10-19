@@ -1,8 +1,0 @@
-{
-   "criteria":{
-      "end1":{
-         "trigger":"minecraft:tick"
-      }
-   },
-      "parent":"paint:magic/misc/great_view_from_up_here"
-}

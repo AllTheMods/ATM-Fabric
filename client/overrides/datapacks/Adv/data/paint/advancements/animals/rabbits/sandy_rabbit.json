@@ -1,0 +1,35 @@
+{
+  "parent": "paint:animals/rabbits/patchy_rabbit",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:1185}"
+    },
+    "title": {
+      "text": "Sandy Rabbit","color":"yellow"}
+    ,
+    "description": {
+      "text": "All rabbits in the desert are sandy colored","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "sandy_rabbit": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:rabbit",
+		  "nbt": "{RabbitType:4}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "sandy_rabbit"
+    ]
+  ]
+}

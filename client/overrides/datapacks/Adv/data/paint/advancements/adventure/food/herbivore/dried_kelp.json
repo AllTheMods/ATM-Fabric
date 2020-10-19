@@ -1,0 +1,31 @@
+{
+  "parent": "paint:adventure/food/herbivore/cookie",
+  "display": {
+    "icon": {
+      "item": "minecraft:dried_kelp"
+    },
+    "title": {
+      "text": "Dried Kelp","color":"blue"}
+	,
+    "description": {
+      "text": "Eat a piece of dried kelp","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "dried_kelp": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:dried_kelp"
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["dried_kelp"]
+  ]
+}

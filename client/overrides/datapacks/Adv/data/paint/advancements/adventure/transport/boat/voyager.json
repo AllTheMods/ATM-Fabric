@@ -1,0 +1,30 @@
+{
+  "parent": "paint:adventure/transport/boat/skeleton_crew",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:403}"
+    },
+    "title": {
+      "text": "Voyager","color":"blue"}
+    ,
+    "description":
+      {"text":"Travel horizontally 1km on water in one boat journey. Getting out will reset your progress.","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "voyager": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "paint:pca/rewards/adventure/transport/boat/voyager"
+  },
+  "requirements": [
+      ["voyager"]
+  ]
+}

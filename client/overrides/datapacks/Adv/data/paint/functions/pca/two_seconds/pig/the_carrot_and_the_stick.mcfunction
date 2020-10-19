@@ -1,0 +1,4 @@
+scoreboard players set @a[advancements={paint:adventure/transport/saddle/the_carrot_and_the_stick=false},nbt=!{RootVehicle:{Entity:{id:"minecraft:pig"}}}] pca_jrn_pig 0
+execute as @a[advancements={paint:adventure/transport/saddle/the_carrot_and_the_stick=false},nbt=!{RootVehicle:{Entity:{id:"minecraft:pig"}}}] at @s store result score @s pca_jrn_pig_x1 run data get entity @s Pos[0]
+execute as @a[advancements={paint:adventure/transport/saddle/the_carrot_and_the_stick=false},nbt=!{RootVehicle:{Entity:{id:"minecraft:pig"}}}] at @s store result score @s pca_jrn_pig_z1 run data get entity @s Pos[2]
+execute as @a[advancements={paint:adventure/transport/saddle/the_carrot_and_the_stick=false},scores={pca_jrn_pig=20000..}] run function paint:pca/two_seconds/pig/traveled_200m

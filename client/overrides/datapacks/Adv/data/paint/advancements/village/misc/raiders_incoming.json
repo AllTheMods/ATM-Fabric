@@ -1,0 +1,33 @@
+{
+  "parent": "paint:village/misc/first_diamond",
+  "display": {
+    "icon": {
+      "item": "minecraft:bell"
+    },
+    "title": {
+      "text": "Raiders Incoming!","color":"green"}
+	,
+    "description": {
+      "text": "Trigger a raid, and ring a bell to warn the villagers","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "raiders_incoming_raid": {
+      "trigger": "minecraft:voluntary_exile"
+    },
+	"raiders_incoming_bell": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "paint:pca/rewards/village/misc/raiders_incoming"
+  },
+  "requirements": [
+    ["raiders_incoming_raid"],
+	["raiders_incoming_bell"]
+  ]
+}

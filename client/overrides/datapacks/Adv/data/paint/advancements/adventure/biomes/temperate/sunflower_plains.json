@@ -1,0 +1,32 @@
+{
+  "parent": "paint:adventure/biomes/temperate/plains",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:32}"
+    },
+    "title": {
+      "text": "Sunflower Plains","color":"blue"}
+    ,
+    "description":
+      {"text":"Visit the sunflower plains","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "sunflower_plains": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:sunflower_plains"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "sunflower_plains"
+    ]
+  ]
+}

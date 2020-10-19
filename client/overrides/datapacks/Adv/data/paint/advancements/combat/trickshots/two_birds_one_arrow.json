@@ -1,0 +1,37 @@
+{
+  "parent": "paint:combat/trickshots/sniper_duel",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:2402}"
+    },
+    "title": {
+      "text": "Two Birds, One Arrow","color":"red"}
+    ,
+    "description":
+      {"text":"Kill two phantoms with one enchanted crossbow shot","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "two_birds_one_arrow": {
+      "trigger": "minecraft:killed_by_crossbow",
+      "conditions": {
+        "victims": [
+          {
+            "type": "minecraft:phantom"
+          },
+          {
+            "type": "minecraft:phantom"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["two_birds_one_arrow"]
+  ]
+}

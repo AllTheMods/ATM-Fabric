@@ -1,0 +1,32 @@
+{
+  "parent": "paint:adventure/biomes/temperate/forest",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:34}"
+    },
+    "title": {
+      "text": "Flower Forest","color":"blue"}
+    ,
+    "description":
+      {"text":"Visit the flower forest","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "flower_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:flower_forest"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "flower_forest"
+    ]
+  ]
+}

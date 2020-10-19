@@ -4,6 +4,18 @@
 	"flowingFluidlogging": false,
 	"accurateFlowBlocking": true,
 	"automaticFluidlogging": true,
+	"automaticWaterlogging": false,
+	"onlyAllowWhitelistedFluids": false,
+	"whitelistedFluidIds": [],
+	"whitelistedFluidModIds": [],
+	"enableBlacklistAPI": true,
+	"blacklistedFluidIds": [],
+	"blacklistedFluidModIds": [],
+	"addedFluidloggableBlocks": [],
+	"addedFlowingFluidloggableBlocks": [],
+	"addedWaterloggableBlocks": [],
+	"removedFluidloggableBlocks": [],
+	"removedWaterloggableBlocks": [],
 	"miscFluidlogging": {
 		"barrier": false,
 		"beacon": false,
@@ -25,7 +37,5 @@
 		"spawner": false,
 		"structure_void": false,
 		"torches": true
-	},
-	"enableBlacklistAPI": true,
-	"blacklistedFluidIds": []
+	}
 }

@@ -1,0 +1,33 @@
+{
+  "parent": "paint:animals/taming/llamas/creamy_llama",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:1522}"
+    },
+    "title": {
+      "text": "White Llama","color":"yellow"}
+    ,
+    "description": {
+      "text": "Tame a white llama","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "white_llama": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+			"type": "minecraft:llama",
+			"nbt": "{Variant:1}"
+        }
+      }
+    }
+  },
+  "requirements": [
+	["white_llama"]
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "parent": "paint:animals/taming/animal_tamer",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:1520}"
+    },
+    "title": {
+      "text": "Llama Drama","color":"yellow"}
+    ,
+    "description": {
+      "text": "Tame all llama variants","color":"white"}
+    ,
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "creamy_llama": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+			"type": "minecraft:llama",
+			"nbt": "{Variant:0}"
+        }
+      }
+    },
+	"white_llama": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+			"type": "minecraft:llama",
+			"nbt": "{Variant:1}"
+        }
+      }
+    },
+	"brown_llama": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+			"type": "minecraft:llama",
+			"nbt": "{Variant:2}"
+        }
+      }
+    },
+	"gray_llama": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+			"type": "minecraft:llama",
+			"nbt": "{Variant:3}"
+        }
+      }
+    }
+  },
+  "requirements": [
+	["creamy_llama"],
+	["white_llama"],
+	["brown_llama"],
+	["gray_llama"]
+  ]
+}

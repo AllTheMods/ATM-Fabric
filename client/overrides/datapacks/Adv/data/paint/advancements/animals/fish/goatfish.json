@@ -1,0 +1,35 @@
+{
+  "parent": "paint:animals/fish/plenty_of_fish_in_the_sea",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:1311}"
+    },
+    "title": {
+      "text": "Goatfish","color":"yellow"}
+    ,
+    "description": {
+      "text": "Capture a White-Yellow Spotty","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "goatfish": {
+      "trigger": "minecraft:filled_bucket",
+      "conditions": {
+        "item": {
+          "item": "minecraft:tropical_fish_bucket",
+		  "nbt": "{BucketVariantTag:67110144}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "goatfish"
+    ]
+  ]
+}

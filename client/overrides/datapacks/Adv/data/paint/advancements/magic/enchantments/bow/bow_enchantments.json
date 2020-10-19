@@ -1,0 +1,89 @@
+{
+  "parent": "paint:magic/enchantments/enlightenment",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:4240}"
+    },
+    "title": {
+      "text": "Bow Enchantments","color":"light_purple"}
+    ,
+    "description": {
+      "text": "Obtain all bow enchantments","color":"white"}
+	,
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "flame": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:bow",
+			"enchantments": [
+				{
+				"enchantment": "minecraft:flame"
+				}
+			]
+          }
+        ]
+      }
+    },
+	"infinity": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:bow",
+			"enchantments": [
+				{
+				"enchantment": "minecraft:infinity"
+				}
+			]
+          }
+        ]
+      }
+    },
+	"power": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:bow",
+			"enchantments": [
+				{
+				"enchantment": "minecraft:power",
+				"levels": 5
+				}
+			]
+          }
+        ]
+      }
+    },
+	"punch": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:bow",
+			"enchantments": [
+				{
+				"enchantment": "minecraft:punch",
+				"levels": 2
+				}
+			]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["flame"],
+	["infinity"],
+	["power"],
+	["punch"]
+  ]
+}

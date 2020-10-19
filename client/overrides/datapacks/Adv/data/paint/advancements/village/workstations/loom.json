@@ -1,0 +1,33 @@
+{
+  "parent": "paint:village/workstations/stonecutter",
+  "display": {
+    "icon": {
+      "item": "minecraft:loom"
+    },
+    "title": {
+      "text": "Shepherd's Delight","color":"green"}
+	,
+    "description": {
+      "text": "Obtain a loom so you can make an unemployed villager a shepherd's","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "loom": {
+      "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"items": [
+			{
+				"item": "minecraft:loom"
+			}
+		]
+	  }
+    }
+  },
+  "requirements": [
+    ["loom"]
+  ]
+}

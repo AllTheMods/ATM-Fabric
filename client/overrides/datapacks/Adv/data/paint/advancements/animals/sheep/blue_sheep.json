@@ -1,0 +1,32 @@
+{
+  "parent": "paint:animals/sheep/woolverine",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:1409}"
+    },
+    "title": {
+      "text": "Blue Sheep","color":"yellow"}
+    ,
+    "description": {
+      "text": "Have 5 blue around you in a 10m radius","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "blue_sheep": {
+      "trigger": "minecraft:impossible"
+	  }
+	},
+  "rewards": {
+    "function": "paint:pca/rewards/animals/sheep/blue_sheep"
+  },
+  "requirements": [
+    [
+      "blue_sheep"
+    ]
+  ]
+}

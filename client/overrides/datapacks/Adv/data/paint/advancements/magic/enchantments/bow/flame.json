@@ -1,0 +1,41 @@
+{
+  "parent": "paint:magic/enchantments/bow/bow_enchantments",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:4241}"
+    },
+    "title": {
+      "text": "Flame","color":"light_purple"}
+    ,
+    "description": {
+      "text": "Obtain the flame enchantment on a bow","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "flame": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:bow",
+			"enchantments": [
+				{
+				"enchantment": "minecraft:flame"
+				}
+			]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "flame"
+    ]
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "paint:adventure/misc/going_the_extra_mile",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:106}"
+    },
+    "title": {
+      "text": "Interdimensional Travel","color":"blue"}
+    ,
+    "description":
+      {"text":"Travel at least 7km in the overworld using the nether. 1m in the nether is 8m in the overworld","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "interdimensional_travel": {
+      "trigger": "minecraft:nether_travel",
+      "conditions": {
+        "distance": {
+          "horizontal": {
+            "min": 7000.0
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "interdimensional_travel"
+    ]
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "parent": "paint:village/bulk/armorer_toolsmith_weaponsmith/coal_collector",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:5403}"
+    },
+    "title": {
+      "text": "Ironclad","color":"green"}
+	,
+    "description": {
+      "text": "Obtain 8 stacks of iron blocks so you can sell to the Armorer/Toolsmith/Weaponsmith in bulk","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "ironclad": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "paint:pca/rewards/village/bulk/armorer_toolsmith_weaponsmith/ironclad"
+  },
+  "requirements": [
+    ["ironclad"]
+  ]
+}

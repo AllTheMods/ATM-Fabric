@@ -1,0 +1,32 @@
+{
+  "parent": "paint:combat/monsters/pillager",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:2173}"
+    },
+    "title": {
+      "text": "Ravager","color":"red"}
+    ,
+    "description":
+      {"text":"Slay a ravager","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "monster_slayer_ravager": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "ravager"
+		}
+      }
+    }
+  },
+  "requirements": [
+    ["monster_slayer_ravager"]
+  ]
+}

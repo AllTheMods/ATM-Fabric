@@ -1,0 +1,30 @@
+{
+  "parent": "paint:village/resource_hog/lumberjack/lumberjack",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:5324}"
+    },
+    "title": {
+      "text": "Jungle Logs","color":"green"}
+	,
+    "description": {
+      "text": "Obtain 8 stacks of jungle log","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "jungle_log": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "paint:pca/rewards/village/resource_hog/lumberjack/jungle_logs"
+  },
+  "requirements": [
+    ["jungle_log"]
+  ]
+}

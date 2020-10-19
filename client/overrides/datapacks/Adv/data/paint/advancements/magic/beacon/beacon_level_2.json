@@ -1,0 +1,32 @@
+{
+  "parent": "paint:magic/beacon/beacon_level_1",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:4012}"
+    },
+    "title": {
+      "text": "Beacon In The Sky, I Jump Extra High!","color":"light_purple"}
+    ,
+    "description": {
+      "text": "Beacone in the sky, I jump extra high! With two levels of the pyramid, cast a light in the sky that can give you resistance and jump boost from 30m away","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "beacon_level_2": {
+      "trigger": "minecraft:construct_beacon",
+      "conditions": {
+        "level": {
+          "min": 2
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["beacon_level_2"]
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "parent": "paint:village/bulk/selling_in_bulk",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:5110}"
+    },
+    "title": {
+      "text": "Mason","color":"green"}
+	,
+    "description": {
+      "text": "Obtain all the things all enable you to sell to the Mason in bulk","color":"white"}
+	,
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "clay_time": {
+      "trigger": "minecraft:impossible"
+    },
+	"stone_trader": {
+      "trigger": "minecraft:impossible"
+    },
+	"granite_trader": {
+      "trigger": "minecraft:impossible"
+    },
+	"andesite_trader": {
+      "trigger": "minecraft:impossible"
+    },
+	"diorite_trader": {
+      "trigger": "minecraft:impossible"
+    },
+	"quartz_trader": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    ["clay_time"],
+	["stone_trader"],
+	["granite_trader"],
+	["andesite_trader"],
+	["diorite_trader"],
+	["quartz_trader"]
+  ]
+}

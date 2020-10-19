@@ -1,0 +1,43 @@
+{
+  "parent": "paint:village/bulk/selling_in_bulk",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:5104}"
+    },
+    "title": {
+      "text": "Cleric","color":"green"}
+	,
+    "description": {
+      "text": "Obtain all the things all enable you to sell to the Cleric in bulk","color":"white"}
+	,
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "its_like_jerky": {
+      "trigger": "minecraft:impossible"
+    },
+	"gold_getter": {
+      "trigger": "minecraft:impossible"
+    },
+	"it_used_to_be_thumpers": {
+      "trigger": "minecraft:impossible"
+    },
+	"hitting_the_bottle": {
+      "trigger": "minecraft:impossible"
+    },
+	"wealth_of_wart": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    ["its_like_jerky"],
+	["gold_getter"],
+	["it_used_to_be_thumpers"],
+	["hitting_the_bottle"],
+	["wealth_of_wart"]
+  ]
+}

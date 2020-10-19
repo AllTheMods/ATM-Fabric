@@ -1,0 +1,39 @@
+{
+  "parent": "paint:adventure/biomes/cold/wooded_mountains",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:23}"
+    },
+    "title": {
+      "text": "Gravelly Mountains","color":"blue"}
+    ,
+    "description":
+      {"text":"Visit the gravelly mountains or modified gravelly mountains","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "gravelly_mountains": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:gravelly_mountains"
+      }
+    },
+	"modified_gravelly_mountains": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:modified_gravelly_mountains"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "gravelly_mountains",
+	  "modified_gravelly_mountains"
+    ]
+  ]
+}

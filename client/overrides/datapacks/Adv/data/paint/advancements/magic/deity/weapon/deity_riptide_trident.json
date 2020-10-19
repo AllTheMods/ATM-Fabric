@@ -1,0 +1,51 @@
+{
+  "parent": "paint:magic/deity/weapon/deity_crossbow",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:4425}"
+    },
+    "title": {
+      "text": "Deity Riptide Trident","color":"light_purple"}
+    ,
+    "description": {
+      "text": "Obtain a trident with:\n* Impaling V\n* Riptide III\n* Unbreaking III\n* Mending","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "deity_riptide_trident": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:trident",
+			"enchantments": [
+				{
+				"enchantment": "minecraft:impaling",
+				"level": 5
+				},
+				{
+				"enchantment": "minecraft:riptide",
+				"level": 3
+				},
+				{
+				"enchantment": "minecraft:unbreaking",
+				"level": 3
+				},
+				{
+				"enchantment": "minecraft:mending"
+				}
+			]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["deity_riptide_trident"]
+  ]
+}

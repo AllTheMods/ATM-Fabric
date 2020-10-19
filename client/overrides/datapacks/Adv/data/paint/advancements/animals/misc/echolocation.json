@@ -1,0 +1,30 @@
+{
+  "parent": "paint:animals/misc/faster_than_a_smoker",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:1903}"
+    },
+    "title": {
+      "text": "Echolocation","color":"yellow"}
+    ,
+    "description": {
+      "text": "Feed a fish to a dolphin so it helps you locate treasure","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "echolocation": {
+      "trigger": "minecraft:impossible"
+	}
+  },
+  "rewards": {
+    "function": "paint:pca/rewards/animals/misc/echolocation"
+  },
+  "requirements": [
+	["echolocation"]
+	]
+}

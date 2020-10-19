@@ -1,0 +1,31 @@
+{
+  "parent": "paint:adventure/food/herbivore/carrot",
+  "display": {
+    "icon": {
+      "item": "minecraft:cookie"
+    },
+    "title": {
+      "text": "Cookie","color":"blue"}
+	,
+    "description": {
+      "text": "Eat a cookie","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "cookie": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:cookie"
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["cookie"]
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "paint:village/misc/side_business",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:5706}"
+    },
+    "title": {
+      "text": "The Wanderer","color":"green"}
+	,
+    "description": {
+      "text": "Trade with a Wandering Trader. Not all those who wander are lost.","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_wanderer": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "type": "minecraft:wandering_trader"
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["the_wanderer"]
+  ]
+}

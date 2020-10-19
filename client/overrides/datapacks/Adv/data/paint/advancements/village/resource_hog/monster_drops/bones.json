@@ -1,0 +1,37 @@
+{
+  "parent": "paint:village/resource_hog/monster_drops/monster_drops",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:5361}"
+    },
+    "title": {
+      "text": "Bones","color":"green"}
+	,
+    "description": {
+      "text": "Obtain a stack of bones","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "bones": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:bone",
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["bones"]
+  ]
+}

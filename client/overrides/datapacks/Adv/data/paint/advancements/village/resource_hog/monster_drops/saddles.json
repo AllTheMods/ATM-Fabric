@@ -1,0 +1,30 @@
+{
+  "parent": "paint:village/resource_hog/monster_drops/slime_blocks",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:5369}"
+    },
+    "title": {
+      "text": "Saddles","color":"green"}
+	,
+    "description": {
+      "text": "Obtain 8 saddles","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "saddles": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "paint:pca/rewards/village/resource_hog/monster_drops/saddles"
+  },
+  "requirements": [
+    ["saddles"]
+  ]
+}

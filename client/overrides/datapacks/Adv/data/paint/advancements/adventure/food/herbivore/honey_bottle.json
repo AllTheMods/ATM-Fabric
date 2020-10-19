@@ -1,0 +1,31 @@
+{
+  "parent": "paint:adventure/food/herbivore/golden_carrot",
+  "display": {
+    "icon": {
+      "item": "minecraft:honey_bottle"
+    },
+    "title": {
+      "text": "Put Your Honey Where Your Mouth Is","color":"blue"}
+	,
+    "description": {
+      "text": "Put your honey where your mouth is","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "honey_bottle": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:honey_bottle"
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["honey_bottle"]
+  ]
+}

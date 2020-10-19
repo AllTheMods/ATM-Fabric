@@ -1,0 +1,35 @@
+{
+  "parent": "paint:animals/pandas/normal_panda",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:1202}"
+    },
+    "title": {
+      "text": "Aggressive Panda Cub","color":"yellow"}
+    ,
+    "description": {
+      "text": "Breed pandas around bamboo to get an aggressive panda cub","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "aggressive_main_gene": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+		"child": {
+			"type": "minecraft:panda",
+			"nbt": "{MainGene:\"aggressive\"}"
+				}
+			}
+		}
+	},
+  "requirements": [
+    [
+      "aggressive_main_gene"
+    ]
+  ]
+}

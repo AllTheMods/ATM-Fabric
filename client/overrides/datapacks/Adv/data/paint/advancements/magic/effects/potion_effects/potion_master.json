@@ -1,0 +1,140 @@
+{
+  "parent": "paint:magic/effects/brewtality",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:4101}"
+    },
+    "title": {
+      "text": "Potion Master","color":"light_purple"}
+    ,
+    "description": {
+      "text": "Have been effected by all the potion effects that can be got by brewing potions (not all at the same time)","color":"white"}
+	,
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "fire_resistance": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:fire_resistance": {}
+        }
+      }
+    },
+	"invisibility": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:invisibility": {}
+        }
+      }
+    },
+	"jump_boost": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:jump_boost": {}
+        }
+      }
+    },
+	"night_vision": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:night_vision": {}
+        }
+      }
+    },
+	"poison": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:poison": {}
+        }
+      }
+    },
+	"regeneration": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:regeneration": {}
+        }
+      }
+    },
+	"resistance": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:resistance": {}
+        }
+      }
+    },
+	"slow_falling": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:slow_falling": {}
+        }
+      }
+    },
+	"slowness": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:slowness": {}
+        }
+      }
+    },
+	"speed": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:speed": {}
+        }
+      }
+    },
+	"strength": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:strength": {}
+        }
+      }
+    },
+	"water_breathing": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:water_breathing": {}
+        }
+      }
+    },
+	"weakness": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:weakness": {}
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["fire_resistance"],
+	["invisibility"],
+	["jump_boost"],
+	["night_vision"],
+	["poison"],
+	["regeneration"],
+	["resistance"],
+	["slow_falling"],
+	["slowness"],
+	["speed"],
+	["strength"],
+	["water_breathing"],
+	["weakness"]
+  ]
+}

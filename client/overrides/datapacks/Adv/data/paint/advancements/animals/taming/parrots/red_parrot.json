@@ -1,0 +1,35 @@
+{
+  "parent": "paint:animals/taming/parrots/blue_parrot",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:1535}"
+    },
+    "title": {
+      "text": "Scarlet Macaw","color":"yellow"}
+    ,
+    "description": {
+      "text": "Tame a red parrot","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "red_parrot": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:parrot",
+          "nbt": "{Variant:0}"
+        }
+      }
+	}
+  },
+  "requirements": [
+    [
+      "red_parrot"
+    ]
+  ]
+}

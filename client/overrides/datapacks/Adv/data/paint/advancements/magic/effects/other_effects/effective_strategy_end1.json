@@ -1,0 +1,8 @@
+{
+   "criteria":{
+      "end1":{
+         "trigger":"minecraft:tick"
+      }
+   },
+      "parent":"paint:magic/effects/other_effects/dolphins_grace"
+}

@@ -1,0 +1,73 @@
+{
+  "parent": "paint:magic/enchantments/enlightenment",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:4220}"
+    },
+    "title": {
+      "text": "Tools Enchantments","color":"light_purple"}
+    ,
+    "description": {
+      "text": "Obtain all tool enchantments","color":"white"}
+	,
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "efficiency": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "paint:tools",
+			"enchantments": [
+				{
+				"enchantment": "minecraft:efficiency",
+				"levels": 5
+				}
+			]
+          }
+        ]
+      }
+    },
+	"fortune": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "paint:tools",
+			"enchantments": [
+				{
+				"enchantment": "minecraft:fortune",
+				"levels": 3
+				}
+			]
+          }
+        ]
+      }
+    },
+	"silk_touch": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "paint:tools",
+			"enchantments": [
+				{
+				"enchantment": "minecraft:silk_touch"
+				}
+			]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["efficiency"],
+	["fortune"],
+	["silk_touch"]
+  ]
+}

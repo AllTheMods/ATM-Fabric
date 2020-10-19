@@ -1,0 +1,35 @@
+{
+  "parent": "paint:magic/misc/work_your_magic",
+  "display": {
+    "icon": {
+      "item": "minecraft:tipped_arrow",
+	  "nbt": "{Potion:\"minecraft:strong_harming\"}"
+    },
+    "title": {
+      "text": "Arrow With Extra Ow","color":"light_purple"}
+    ,
+    "description": {
+      "text": "Obtain arrows of instant damage II","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+	"arrow_with_extra_ow": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"item": "minecraft:tipped_arrow",
+				"nbt": "{Potion:\"minecraft:strong_harming\"}"
+				}
+			]
+		}
+	}
+  },
+  "requirements": [
+    ["arrow_with_extra_ow"]
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "parent": "paint:combat/rare/advanced_weaponry/advanced_weaponry",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:2231}"
+    },
+    "title": {
+      "text": "Enchanted Fighter Zombie","color":"red"}
+    ,
+    "description":
+      {"text":"Kill a zombie, husk, drowned or zombie villager holding an iron sword with Sharpness, Knockback, or Fire Aspect","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+   "enchanted_fighter_zombie_sharpness": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:zombie",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_sword\",tag:{Enchantments:[{id:\"minecraft:sharpness\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_fighter_zombie_knockback": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:zombie",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_sword\",tag:{Enchantments:[{id:\"minecraft:knockback\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_fighter_zombie_fire_aspect": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:zombie",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_sword\",tag:{Enchantments:[{id:\"minecraft:fire_aspect\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_fighter_husk_sharpness": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:husk",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_sword\",tag:{Enchantments:[{id:\"minecraft:sharpness\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_fighter_husk_knockback": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:husk",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_sword\",tag:{Enchantments:[{id:\"minecraft:knockback\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_fighter_husk_fire_aspect": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:husk",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_sword\",tag:{Enchantments:[{id:\"minecraft:fire_aspect\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_fighter_drowned_sharpness": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:drowned",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_sword\",tag:{Enchantments:[{id:\"minecraft:sharpness\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_fighter_drowned_knockback": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:drowned",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_sword\",tag:{Enchantments:[{id:\"minecraft:knockback\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_fighter_drowned_fire_aspect": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:drowned",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_sword\",tag:{Enchantments:[{id:\"minecraft:fire_aspect\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_fighter_zombie_villager_sharpness": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:zombie_villager",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_sword\",tag:{Enchantments:[{id:\"minecraft:sharpness\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_fighter_zombie_villager_knockback": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:zombie_villager",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_sword\",tag:{Enchantments:[{id:\"minecraft:knockback\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_fighter_zombie_villager_fire_aspect": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:zombie_villager",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_sword\",tag:{Enchantments:[{id:\"minecraft:fire_aspect\"}]}},{}]}"
+		}
+      }
+    }
+  },
+  "requirements": [
+    [
+	"enchanted_fighter_zombie_sharpness",
+	"enchanted_fighter_zombie_knockback",
+	"enchanted_fighter_zombie_fire_aspect",
+	"enchanted_fighter_husk_sharpness",
+	"enchanted_fighter_husk_knockback",
+	"enchanted_fighter_husk_fire_aspect",
+	"enchanted_fighter_drowned_sharpness",
+	"enchanted_fighter_drowned_knockback",
+	"enchanted_fighter_drowned_fire_aspect",
+	"enchanted_fighter_zombie_villager_sharpness",
+	"enchanted_fighter_zombie_villager_knockback",
+	"enchanted_fighter_zombie_villager_fire_aspect"
+	]
+  ]
+}

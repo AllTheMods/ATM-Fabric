@@ -1,0 +1,32 @@
+{
+  "parent": "paint:adventure/structures/mineshaft",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:204}"
+    },
+    "title": {
+      "text": "Desert Pyramid","color":"blue"}
+    ,
+    "description":
+      {"text":"Visit a desert pyramid","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "desert_pyramid": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "feature": "desert_pyramid"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "desert_pyramid"
+    ]
+  ]
+}

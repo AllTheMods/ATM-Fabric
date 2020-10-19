@@ -1,0 +1,32 @@
+{
+  "parent": "paint:adventure/structures/jungle_temple",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:209}"
+    },
+    "title": {
+      "text": "Igloo","color":"blue"}
+    ,
+    "description":
+      {"text":"Visit an igloo","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "igloo": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "feature": "igloo"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "igloo"
+    ]
+  ]
+}

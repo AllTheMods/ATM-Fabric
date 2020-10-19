@@ -1,0 +1,254 @@
+{
+  "parent": "paint:combat/ultimate_warrior",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:2450}"
+    },
+    "title": {
+      "text": "Above and Beyond","color":"red"}
+    ,
+    "description":
+      ["",{"text":"Complete all misc combat advancements. ","color":"white"},{"text":"Announced in chat.","color":"dark_gray"}]
+    ,
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "overkill": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+			"taken": {
+				"min": 20.0
+			}
+		}
+      }
+    },
+	"stealth_kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+		"entity": {
+			"type": "minecraft:creeper"
+		},
+        "killing_blow": {
+			"direct_entity": {
+				"effects": {
+					"minecraft:invisibility": {
+						"amplifier": {
+							"min": 0
+						}
+					}
+				},
+				"nbt": "{Tags:[\"pca_unarmored\"]}"
+			}
+		}
+      }
+    },
+	"in_the_spotlight": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage":{
+			"type": {
+				"direct_entity": {
+					"type": "minecraft:spectral_arrow"
+				}
+			}
+		},
+		"entity": {
+			"type": "minecraft:vex"
+		}
+      }
+    },
+	"healing_to_death_drowned": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+		"entity": {
+			"type": "minecraft:drowned"
+		},
+		"killing_blow":{
+			"direct_entity": {
+				"type": "minecraft:potion"
+			}
+		}
+      }
+    },
+	"healing_to_death_husk": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+		"entity": {
+			"type": "minecraft:husk"
+		},
+		"killing_blow":{
+			"direct_entity": {
+				"type": "minecraft:potion"
+			}
+		}
+      }
+    },
+	"healing_to_death_phantom": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+		"entity": {
+			"type": "minecraft:phantom"
+		},
+		"killing_blow":{
+			"direct_entity": {
+				"type": "minecraft:potion"
+			}
+		}
+      }
+    },
+	"healing_to_death_skeleton": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+		"entity": {
+			"type": "minecraft:skeleton"
+		},
+		"killing_blow":{
+			"direct_entity": {
+				"type": "minecraft:potion"
+			}
+		}
+      }
+    },
+	"healing_to_death_skeleton_horse": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+		"entity": {
+			"type": "minecraft:skeleton_horse"
+		},
+		"killing_blow":{
+			"direct_entity": {
+				"type": "minecraft:potion"
+			}
+		}
+      }
+    },
+	"healing_to_death_stray": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+		"entity": {
+			"type": "minecraft:stray"
+		},
+		"killing_blow":{
+			"direct_entity": {
+				"type": "minecraft:potion"
+			}
+		}
+      }
+    },
+	"healing_to_death_wither": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+		"entity": {
+			"type": "minecraft:wither"
+		},
+		"killing_blow":{
+			"direct_entity": {
+				"type": "minecraft:potion"
+			}
+		}
+      }
+    },
+	"healing_to_death_wither_skeleton": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+		"entity": {
+			"type": "minecraft:wither_skeleton"
+		},
+		"killing_blow":{
+			"direct_entity": {
+				"type": "minecraft:potion"
+			}
+		}
+      }
+    },
+	"healing_to_death_zombie": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+		"entity": {
+			"type": "minecraft:zombie"
+		},
+		"killing_blow":{
+			"direct_entity": {
+				"type": "minecraft:potion"
+			}
+		}
+      }
+    },
+	"healing_to_death_zombie_pigman": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+		"entity": {
+			"type": "minecraft:zombie_pigman"
+		},
+		"killing_blow":{
+			"direct_entity": {
+				"type": "minecraft:potion"
+			}
+		}
+      }
+    },
+	"healing_to_death_zombie_villager": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+		"entity": {
+			"type": "minecraft:zombie_villager"
+		},
+		"killing_blow":{
+			"direct_entity": {
+				"type": "minecraft:potion"
+			}
+		}
+      }
+    },
+	"phantasmal_night": {
+      "trigger": "minecraft:impossible"
+    },
+	"uneasy_alliance": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:ghast",
+          "location": {
+            "dimension": "minecraft:overworld"
+          }
+        }
+      }
+    },
+	"witchmutation": {
+      "trigger": "minecraft:channeled_lightning",
+      "conditions": {
+        "victims": [
+          {
+            "type": "minecraft:villager"
+          }
+        ]
+      }
+	}
+  },
+  "requirements": [
+    ["overkill"],
+	["stealth_kill"],
+	["in_the_spotlight"],
+	[
+	"healing_to_death_drowned",
+	"healing_to_death_husk",
+	"healing_to_death_phantom",
+	"healing_to_death_skeleton",
+	"healing_to_death_skeleton_horse",
+	"healing_to_death_stray",
+	"healing_to_death_wither",
+	"healing_to_death_wither_skeleton",
+	"healing_to_death_zombie",
+	"healing_to_death_zombie_pigman",
+	"healing_to_death_zombie_villager"
+	],
+	["phantasmal_night"],
+	["uneasy_alliance"],
+	["witchmutation"]
+  ]
+}

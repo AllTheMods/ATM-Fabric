@@ -1,0 +1,47 @@
+{
+  "parent": "paint:combat/ultimate_warrior",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:2350}"
+    },
+    "title": {
+      "text": "Spawner Miner","color":"red"}
+    ,
+    "description":
+      {"text":"Mine all the different types of spawner that occur naturally","color":"white"}
+    ,
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "blaze_spawner": {
+      "trigger": "minecraft:impossible"
+    },
+	"cave_spider_spawner": {
+      "trigger": "minecraft:impossible"
+    },
+	"silverfish_spawner": {
+      "trigger": "minecraft:impossible"
+    },
+	"skeleton_spawner": {
+      "trigger": "minecraft:impossible"
+    },
+	"spider_spawner": {
+      "trigger": "minecraft:impossible"
+    },
+	"zombie_spawner": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    ["blaze_spawner"],
+	["cave_spider_spawner"],
+	["silverfish_spawner"],
+	["skeleton_spawner"],
+	["spider_spawner"],
+	["zombie_spawner"]
+  ]
+}

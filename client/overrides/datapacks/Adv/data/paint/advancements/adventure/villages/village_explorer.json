@@ -1,0 +1,63 @@
+{
+  "parent": "paint:adventure/intrepid_adventurer",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:300}"
+    },
+    "title": {
+      "text": "Village Explorer","color":"blue"}
+    ,
+    "description":
+      {"text":"Visit all the village types","color":"white"}
+    ,
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "plains_village": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "feature": "village",
+		"biome": "minecraft:plains"
+      }
+    },
+	"taiga_village": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "feature": "village",
+		"biome": "minecraft:taiga"
+      }
+    },
+	"desert_village": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "feature": "village",
+		"biome": "minecraft:desert"
+      }
+    },
+	"savanna_village": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "feature": "village",
+		"biome": "minecraft:savanna"
+      }
+    },
+	"snowy_village": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "feature": "village",
+		"biome": "minecraft:snowy_tundra"
+      }
+    }
+  },
+  "requirements": [
+    ["plains_village"],
+	["taiga_village"],
+	["desert_village"],
+	["savanna_village"],
+	["snowy_village"]
+  ]
+}

@@ -1,4 +1,0 @@
-scoreboard players set @a[advancements={paint:adventure/transport/saddle/equine_expediation=false},nbt=!{RootVehicle:{Entity:{SaddleItem:{}}}}] pca_jrn_horse 0
-execute as @a[advancements={paint:adventure/transport/saddle/equine_expediation=false},nbt=!{RootVehicle:{Entity:{SaddleItem:{}}}}] at @s store result score @s pca_jrn_horse_x1 run data get entity @s Pos[0]
-execute as @a[advancements={paint:adventure/transport/saddle/equine_expediation=false},nbt=!{RootVehicle:{Entity:{SaddleItem:{}}}}] at @s store result score @s pca_jrn_horse_z1 run data get entity @s Pos[2]
-execute as @a[advancements={paint:adventure/transport/saddle/equine_expediation=false},scores={pca_jrn_horse=250000..}] run function paint:pca/two_seconds/horse/traveled_2500m

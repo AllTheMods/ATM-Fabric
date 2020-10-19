@@ -1,0 +1,32 @@
+{
+  "parent": "paint:adventure/biomes/snowy/ice_spikes",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:16}"
+    },
+    "title": {
+      "text": "Snowy Beach","color":"blue"}
+    ,
+    "description":
+      {"text":"Visit the snowy beach","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "snowy_beach": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:snowy_beach"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "snowy_beach"
+    ]
+  ]
+}

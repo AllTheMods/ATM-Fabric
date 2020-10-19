@@ -3,7 +3,7 @@
 		"favorites": [ 
 ],
 		// Declares whether cheating mode is on.
-		"cheating": true,
+		"cheating": false,
 		// Declares whether REI is visible.
 		"overlayVisible": true,
 		"favoritesEnabled": true,
@@ -46,10 +46,10 @@
 	},
 	"appearance": { 
 		"recipeScreenType": "ORIGINAL",
-		// The ordering of the items on the item panel.
-		"itemListOrdering": "REGISTRY_ASCENDING",
 		// Declares the appearance of REI windows.
 		"darkTheme": false,
+		// The ordering of the items on the item panel.
+		"itemListOrdering": "REGISTRY_ASCENDING",
 		// Declares the position of the search field.
 		"searchFieldLocation": "BOTTOM_SIDE",
 		// Declares the position of the item list panel.
@@ -79,7 +79,7 @@
 	},
 	"modules": { 
 		// Declares whether the craftable filter button is enabled.
-		"enableCraftableOnlyButton": false,
+		"enableCraftableOnlyButton": true,
 		"toastDisplayedOnCopyIdentifier": true,
 		// Declares whether the utils buttons are shown.
 		"showUtilsButtons": false,
@@ -116,5 +116,8 @@
 	"filtering": { 
 		"filteredStacks": [ 
 ]
+	},
+	"experimental": { 
+		"isSubsetsEnabled": false
 	}
 }

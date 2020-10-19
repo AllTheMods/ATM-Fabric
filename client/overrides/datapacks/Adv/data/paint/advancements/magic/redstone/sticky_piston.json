@@ -1,0 +1,33 @@
+{
+  "parent": "paint:magic/redstone/piston",
+  "display": {
+    "icon": {
+      "item": "minecraft:sticky_piston","color":"light_purple"}
+    ,
+    "title": {
+      "text": "Sticky Piston"
+    },
+    "description": {
+      "text": "Obtain a sticky piston","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+	"sticky_piston": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"item": "minecraft:sticky_piston"
+				}
+			]
+		}
+	}
+  },
+  "requirements": [
+    ["sticky_piston"]
+  ]
+}

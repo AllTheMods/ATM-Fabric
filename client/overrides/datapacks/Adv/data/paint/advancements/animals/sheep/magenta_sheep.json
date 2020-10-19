@@ -1,0 +1,32 @@
+{
+  "parent": "paint:animals/sheep/purple_sheep",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:1411}"
+    },
+    "title": {
+      "text": "Magenta Sheep","color":"yellow"}
+    ,
+    "description": {
+      "text": "Have 5 magenta sheep around you in a 10m radius","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "magenta_sheep": {
+      "trigger": "minecraft:impossible"
+	  }
+	},
+	"rewards": {
+    "function": "paint:pca/rewards/animals/sheep/magenta_sheep"
+  },
+  "requirements": [
+    [
+      "magenta_sheep"
+    ]
+  ]
+}

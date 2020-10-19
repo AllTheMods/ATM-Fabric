@@ -1,0 +1,32 @@
+{
+  "parent": "paint:adventure/biomes/warm/shattered_savanna",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:55}"
+    },
+    "title": {
+      "text": "Badlands","color":"blue"}
+    ,
+    "description":
+      {"text":"Visit the badlands","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "badlands": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:badlands"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "badlands"
+    ]
+  ]
+}

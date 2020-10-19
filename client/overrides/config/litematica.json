@@ -17,6 +17,7 @@
     "executeRequireHoldingTool": true,
     "fixRailRotation": true,
     "loadEntireSchematics": false,
+    "pasteIgnoreInventories": false,
     "pickBlockEnabled": true,
     "placementRestriction": false,
     "renderMaterialListInGuis": true,

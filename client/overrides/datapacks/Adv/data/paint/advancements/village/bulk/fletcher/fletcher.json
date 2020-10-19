@@ -1,0 +1,35 @@
+{
+  "parent": "paint:village/bulk/selling_in_bulk",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:5107}"
+    },
+    "title": {
+      "text": "Fletcher","color":"green"}
+	,
+    "description": {
+      "text": "Obtain all the things all enable you to sell to the Fletcher in bulk","color":"white"}
+	,
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "string_theory": {
+      "trigger": "minecraft:impossible"
+    },
+	"flinteresting": {
+      "trigger": "minecraft:impossible"
+    },
+	"feather_fletcher": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    ["string_theory"],
+	["flinteresting"],
+	["feather_fletcher"]
+  ]
+}

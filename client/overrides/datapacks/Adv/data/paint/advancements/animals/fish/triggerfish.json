@@ -1,0 +1,35 @@
+{
+  "parent": "paint:animals/fish/tomato_clownfish",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:1323}"
+    },
+    "title": {
+      "text": "Triggerfish","color":"yellow"}
+    ,
+    "description": {
+      "text": "Capture a Gray-White Sunstreak","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "triggerfish": {
+      "trigger": "minecraft:filled_bucket",
+      "conditions": {
+        "item": {
+          "item": "minecraft:tropical_fish_bucket",
+		  "nbt": "{BucketVariantTag:459008}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "triggerfish"
+    ]
+  ]
+}

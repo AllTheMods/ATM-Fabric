@@ -1,0 +1,139 @@
+{
+  "parent": "paint:adventure/food/omnivore",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:351}"
+    },
+    "title": {
+      "text": "Carnivore","color":"blue"}
+	,
+    "description": {
+      "text": "Eat all the meat items","color":"white"}
+	,
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+	"cooked_porkchop": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:cooked_porkchop"
+        }
+      }
+	},
+	"cooked_beef": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:cooked_beef"
+        }
+      }
+	},
+	"cooked_mutton": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:cooked_mutton"
+        }
+      }
+	},
+	"cooked_chicken": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:cooked_chicken"
+        }
+      }
+	},
+	"cooked_rabbit": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:cooked_rabbit"
+        }
+      }
+	},
+	"rabbit_stew": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:rabbit_stew"
+        }
+      }
+	},
+	"cooked_cod": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:cooked_cod"
+        }
+      }
+	},
+	"cooked_salmon": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:cooked_salmon"
+        }
+      }
+	},
+	"tropical_fish": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:tropical_fish"
+        }
+      }
+	},
+	"tropical_fish": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:tropical_fish"
+        }
+      }
+	},
+	"pufferfish": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:pufferfish"
+        }
+      }
+	},
+	"rotten_flesh": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:rotten_flesh"
+        }
+      }
+	},
+	"spider_eye": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:spider_eye"
+        }
+      }
+	}
+  },
+  "requirements": [
+    ["cooked_porkchop"],
+	["cooked_beef"],
+	["cooked_mutton"],
+	["cooked_chicken"],
+	["cooked_rabbit"],
+	["rabbit_stew"],
+	["cooked_cod"],
+	["cooked_salmon"],
+	["tropical_fish"],
+	["pufferfish"],
+	["rotten_flesh"],
+	["spider_eye"]
+  ]
+}

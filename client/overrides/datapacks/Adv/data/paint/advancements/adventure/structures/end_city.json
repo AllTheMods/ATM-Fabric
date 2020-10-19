@@ -1,0 +1,32 @@
+{
+  "parent": "paint:adventure/structures/stronghold",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:215}"
+    },
+    "title": {
+      "text": "The City at the End of the Game","color":"blue"}
+    ,
+    "description":
+      {"text":"Visit an end city","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "end_city": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "feature": "endcity"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "end_city"
+    ]
+  ]
+}

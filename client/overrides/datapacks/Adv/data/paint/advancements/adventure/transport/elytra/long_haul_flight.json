@@ -1,0 +1,30 @@
+{
+  "parent": "paint:adventure/transport/elytra/tight_fit",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:433}"
+    },
+    "title": {
+      "text": "Long Haul Flight","color":"blue"}
+    ,
+    "description":
+      {"text":"Horizontally displace yourself 5km using an elytra and fireworks without touching the ground","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "long_haul_flight": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "paint:pca/rewards/adventure/transport/elytra/long_haul_flight"
+  },
+  "requirements": [
+      ["long_haul_flight"]
+  ]
+}
