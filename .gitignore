@@ -8,6 +8,10 @@ not-enough-crashes/
 server-resource-packs/
 temp/
 
+#Binaries
+tools/TwitchExportBuilder
+tools/ModpackDownloader.jar
+
 #Mod Version Controlling
 mods/
 
