@@ -1,0 +1,35 @@
+{
+  "parent": "paint:animals/rabbits/rabbit_season",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:1181}"
+    },
+    "title": {
+      "text": "Brown Rabbit","color":"yellow"}
+    ,
+    "description": {
+      "text": "50% of rabbits in non-snowy non-desert biomes are brown","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "brown_rabbit": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:rabbit",
+		  "nbt": "{RabbitType:0}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "brown_rabbit"
+    ]
+  ]
+}

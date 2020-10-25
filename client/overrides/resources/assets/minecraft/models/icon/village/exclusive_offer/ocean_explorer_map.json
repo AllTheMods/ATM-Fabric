@@ -1,6 +1,0 @@
-{
-	"parent": "item/handheld",
-	"textures": {
-		"layer0": "icon/village/exclusive_offer/ocean_explorer_map"
-	}
-}

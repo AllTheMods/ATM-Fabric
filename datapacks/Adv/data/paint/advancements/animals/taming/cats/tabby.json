@@ -1,0 +1,35 @@
+{
+  "parent": "paint:animals/taming/cats/siamese",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:1510}"
+    },
+    "title": {
+      "text": "Tabby","color":"yellow"}
+    ,
+    "description": {
+      "text": "Tame a brown cat with yellow eyes","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "tabby": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+			"type": "minecraft:cat",
+			"nbt": "{CatType:0}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "tabby"
+    ]
+  ]
+}

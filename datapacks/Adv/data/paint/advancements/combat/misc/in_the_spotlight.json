@@ -1,0 +1,39 @@
+{
+  "parent": "paint:combat/misc/stealth_kill",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:2453}"
+    },
+    "title": {
+      "text": "In The Spotlight","color":"red"}
+    ,
+    "description":
+      {"text":"Force a vex to show itself, even when it's through walls","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "in_the_spotlight": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage":{
+			"type": {
+				"direct_entity": {
+					"type": "minecraft:spectral_arrow"
+				}
+			}
+		},
+		"entity": {
+			"type": "minecraft:vex"
+		}
+      }
+    }
+  },
+  "requirements": [
+    ["in_the_spotlight"]
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "parent": "paint:combat/misc/above_and_beyond",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:2451}"
+    },
+    "title": {
+      "text": "Overkill","color":"red"}
+    ,
+    "description":
+      {"text":"Deal at least 10 hearts of damage in one attack","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "overkill": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+			"taken": {
+				"min": 20.0
+			}
+		}
+      }
+    }
+  },
+  "requirements": [
+    ["overkill"]
+  ]
+}

@@ -1,6 +1,0 @@
-{
-	"parent": "item/handheld",
-	"textures": {
-		"layer0": "icon/magic/deity/tool/deity_silk_touch_pickaxe"
-	}
-}

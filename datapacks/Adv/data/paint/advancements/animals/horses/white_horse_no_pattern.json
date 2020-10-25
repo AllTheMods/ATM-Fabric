@@ -1,0 +1,33 @@
+{
+  "parent": "paint:animals/horses/the_whole_neigh-borhood",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:1101}"
+    },
+    "title": {
+      "text": "White Horse, No Pattern","color":"yellow"}
+    ,
+    "description": {
+      "text": "Tame a white horse with no pattern","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "white_horse_no_pattern": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+			"type": "minecraft:horse",
+			"nbt": "{Variant:0}"
+        }
+      }
+    }
+  },
+  "requirements": [
+	["white_horse_no_pattern"]
+  ]
+}

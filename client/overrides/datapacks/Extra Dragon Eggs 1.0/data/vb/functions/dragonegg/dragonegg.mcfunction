@@ -1,2 +1,0 @@
-execute positioned 0 64 0 in minecraft:the_end if entity @e[type=minecraft:ender_dragon,distance=..11,nbt={DragonPhase:9}] run schedule function vb:dragonegg/egg 10s
-schedule function vb:dragonegg/dragonegg 5t

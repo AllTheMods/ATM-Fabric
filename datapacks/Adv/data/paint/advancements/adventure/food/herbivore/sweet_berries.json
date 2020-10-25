@@ -1,0 +1,31 @@
+{
+  "parent": "paint:adventure/food/herbivore/pumpkin_pie",
+  "display": {
+    "icon": {
+      "item": "minecraft:sweet_berries"
+    },
+    "title": {
+      "text": "Sweet Berries","color":"blue"}
+	,
+    "description": {
+      "text": "Eat sweet berries","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "sweet_berries": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:sweet_berries"
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["sweet_berries"]
+  ]
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "icon/village/bulk/cleric/hitting_the_bottle"
+	}
+}

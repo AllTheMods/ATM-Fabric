@@ -1,0 +1,23 @@
+
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:dark_prismarine_stairs"
+        },
+        {
+            "item": "minecraft:dark_prismarine_stairs"
+        },
+        {
+            "item": "minecraft:dark_prismarine_stairs"
+        },
+        {
+            "item": "minecraft:dark_prismarine_stairs"
+        }
+    ],
+    "result": {
+        "item": "minecraft:dark_prismarine",
+        "count": 3
+    },
+    "group": "stairs_to_block"
+}

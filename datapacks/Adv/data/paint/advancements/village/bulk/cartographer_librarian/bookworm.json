@@ -1,0 +1,30 @@
+{
+  "parent": "paint:village/bulk/cartographer_librarian/need_new_glasses",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:5423}"
+    },
+    "title": {
+      "text": "Bookworm","color":"green"}
+	,
+    "description": {
+      "text": "Obtain 8 stacks of books so you can trade with an apprentice librarian in bulk","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "bookworm": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "paint:pca/rewards/village/bulk/cartographer_librarian/bookworm"
+  },
+  "requirements": [
+    ["bookworm"]
+  ]
+}

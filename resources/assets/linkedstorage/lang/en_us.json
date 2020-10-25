@@ -1,0 +1,7 @@
+{
+  "container.linkedstorage": "Ender Chest",
+  "itemGroup.linkedstorage.linkedstorage": "Ender Storage",
+  "item.linkedstorage.storageitem": "Ender Pouch",
+  "block.linkedstorage.storageblock": "Ender Chest",
+  "text.linkeditem.channel": "Set to: %s"
+}

@@ -1,0 +1,65 @@
+{
+  "parent": "paint:combat/rare/advanced_weaponry/enchanted_pillager",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:2236}"
+    },
+    "title": {
+      "text": "Enchanted Vindicator","color":"red"}
+    ,
+    "description":
+      {"text":"Kill a vindicator holding an iron axe with any axe enchantment","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "enchanted_vindicator_efficiency": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:vindicator",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_axe\",tag:{Enchantments:[{id:\"minecraft:efficiency\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_vindicator_unbreaking": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:vindicator",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_axe\",tag:{Enchantments:[{id:\"minecraft:unbreaking\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_vindicator_fortune": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:vindicator",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_axe\",tag:{Enchantments:[{id:\"minecraft:fortune\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_vindicator_silk_touch": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:vindicator",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_axe\",tag:{Enchantments:[{id:\"minecraft:silk_touch\"}]}},{}]}"
+		}
+      }
+    }
+  },
+  "requirements": [
+    [
+	"enchanted_vindicator_efficiency",
+	"enchanted_vindicator_unbreaking",
+	"enchanted_vindicator_fortune",
+	"enchanted_vindicator_silk_touch"
+	]
+  ]
+}

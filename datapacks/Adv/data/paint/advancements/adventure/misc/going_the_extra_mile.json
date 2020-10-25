@@ -1,0 +1,113 @@
+{
+  "parent": "paint:adventure/intrepid_adventurer",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:100}"
+    },
+    "title": {
+      "text": "Going the Extra Mile","color":"blue"}
+    ,
+    "description":
+      ["",{"text":"Complete all miscellaneous adventure advancements. ","color":"white"},{"text":"Announced in chat.","color":"dark_gray"}]
+    ,
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "sweet_dreams": {
+      "trigger": "minecraft:slept_in_bed"
+    },
+	"signal_fire_place": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:campfire",
+		"state": {
+		 "signal_fire": true
+        }
+      }
+    },
+	"signal_fire_enter": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:campfire",
+        "state": {
+          "signal_fire": true
+        }
+      }
+    },
+	"sticky_situation": {
+      "trigger": "minecraft:slide_down_block",
+      "conditions": {
+        "block": "minecraft:honey_block"
+      }
+    },
+	"scaffolding": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:scaffolding"
+      }
+    },
+	"marker_maker": {
+		"trigger": "minecraft:impossible"
+	},
+	"x_marks_the_spot_heart_of_the_sea": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+			{"item": "minecraft:heart_of_the_sea"}
+        ]
+      }
+    },
+	"x_marks_the_spot_conduit": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+			{"item": "minecraft:conduit"}
+        ]
+      }
+    },
+	"charted_and_hearted": {
+		"trigger": "minecraft:impossible"
+	},
+	"interdimensional_travel": {
+      "trigger": "minecraft:nether_travel",
+      "conditions": {
+        "distance": {
+          "horizontal": {
+            "min": 7000.0
+          }
+        }
+      }
+    },
+	"eyes_this_way": {
+      "trigger": "minecraft:used_ender_eye"
+    },
+	"gateway_getaway": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:end_gateway"
+      }
+    }
+  },
+  "requirements": [
+    ["sweet_dreams"],
+	[
+	"signal_fire_place",
+	"signal_fire_enter"
+	],
+	["sticky_situation"],
+	["scaffolding"],
+	["marker_maker"],
+	[
+	"x_marks_the_spot_heart_of_the_sea",
+	"x_marks_the_spot_conduit"
+	],
+	["charted_and_hearted"],
+	["interdimensional_travel"],
+	["eyes_this_way"],
+	["gateway_getaway"]
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "paint:adventure/biomes/snowy/snowy_taiga_mountains",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:15}"
+    },
+    "title": {
+      "text": "Ice Spikes","color":"blue"}
+    ,
+    "description":
+      {"text":"Visit the ice spikes","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "ice_spikes": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:ice_spikes"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "ice_spikes"
+    ]
+  ]
+}

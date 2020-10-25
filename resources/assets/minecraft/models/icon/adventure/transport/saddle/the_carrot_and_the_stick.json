@@ -1,0 +1,6 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "icon/adventure/transport/saddle/the_carrot_and_the_stick"
+	}
+}

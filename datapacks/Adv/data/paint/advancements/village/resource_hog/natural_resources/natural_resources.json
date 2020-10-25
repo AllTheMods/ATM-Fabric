@@ -1,0 +1,47 @@
+{
+  "parent": "paint:village/resource_hog/resource_hog",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:5301}"
+    },
+    "title": {
+      "text": "Natural Resources","color":"green"}
+	,
+    "description": {
+      "text": "Obtain a large amount of natural resources that can't be sold, so you can keep them for yourself","color":"white"}
+	,
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "redstone_blocks": {
+      "trigger": "minecraft:impossible"
+    },
+	"lapis_blocks": {
+      "trigger": "minecraft:impossible"
+    },
+	"bamboozled": {
+      "trigger": "minecraft:impossible"
+    },
+	"sea_pickles": {
+      "trigger": "minecraft:impossible"
+    },
+	"cacti": {
+      "trigger": "minecraft:impossible"
+    },
+	"glowstone_dust": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    ["redstone_blocks"],
+	["lapis_blocks"],
+	["bamboozled"],
+	["sea_pickles"],
+	["cacti"],
+	["glowstone_dust"]
+  ]
+}

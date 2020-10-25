@@ -1,0 +1,41 @@
+{
+  "parent": "paint:magic/enchantments/tool/fortune",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:4223}"
+    },
+    "title": {
+      "text": "Silk Touch","color":"light_purple"}
+    ,
+    "description": {
+      "text": "Obtain the silk touch enchantment on any tool","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "silk_touch": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "paint:tools",
+			"enchantments": [
+				{
+				"enchantment": "minecraft:silk_touch"
+				}
+			]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "silk_touch"
+    ]
+  ]
+}

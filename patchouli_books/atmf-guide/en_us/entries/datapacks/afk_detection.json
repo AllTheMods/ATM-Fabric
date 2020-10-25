@@ -1,0 +1,13 @@
+{
+    "name": "AFK Detection",
+    "icon": "minecraft:command_block",
+    "category": "datapacks",
+    "pages": [
+        {
+            "type": "link",
+            "text": "AFK Detection is a datapack by Voodoo Beard. It will say in chat when a player goes AFK.",
+            "url": "http://mc.voodoobeard.com/#afk_detection",
+            "link_text": "Developers Website"
+        }
+    ]
+}

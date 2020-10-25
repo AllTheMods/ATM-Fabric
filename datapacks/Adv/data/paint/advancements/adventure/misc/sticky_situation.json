@@ -1,0 +1,30 @@
+{
+  "parent": "paint:adventure/misc/signal_fire",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:102}"
+    },
+    "title": {
+      "text": "Sticky Situation","color":"blue"}
+    ,
+    "description":
+      {"text":"Slide down the side of a honey block","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "sticky_situation": {
+      "trigger": "minecraft:slide_down_block",
+      "conditions": {
+        "block": "minecraft:honey_block"
+      }
+    }
+  },
+  "requirements": [
+	["sticky_situation"]
+	]
+}

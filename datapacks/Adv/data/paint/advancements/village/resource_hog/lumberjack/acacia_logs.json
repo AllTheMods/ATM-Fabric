@@ -1,0 +1,30 @@
+{
+  "parent": "paint:village/resource_hog/lumberjack/dark_oak_logs",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:5326}"
+    },
+    "title": {
+      "text": "Acacia Logs","color":"green"}
+	,
+    "description": {
+      "text": "Obtain 8 stacks of acacia log","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "acacia_log": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "paint:pca/rewards/village/resource_hog/lumberjack/acacia_logs"
+  },
+  "requirements": [
+    ["acacia_log"]
+  ]
+}

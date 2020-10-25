@@ -1,0 +1,31 @@
+{
+  "parent": "paint:adventure/villages/taiga_village",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:303}"
+    },
+    "title": {
+      "text": "Desert Village","color":"blue"}
+    ,
+    "description":
+      {"text":"Visit a desert village","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "desert_village": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "feature": "village",
+		"biome": "minecraft:desert"
+      }
+    }
+  },
+  "requirements": [
+    ["desert_village"]
+  ]
+}

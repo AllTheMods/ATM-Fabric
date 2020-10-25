@@ -1,0 +1,13 @@
+{
+    "name": "AFK Display",
+    "icon": "minecraft:command_block",
+    "category": "datapacks",
+    "pages": [
+        {
+            "type": "link",
+            "text": "AFK Display is a datapack by Vanilla Tweaks. It automatically greys out the username in the tab list if a user has been afk.",
+            "url": "https://vanillatweaks.net/picker/datapacks/",
+            "link_text": "Developers Website"
+        }
+    ]
+}

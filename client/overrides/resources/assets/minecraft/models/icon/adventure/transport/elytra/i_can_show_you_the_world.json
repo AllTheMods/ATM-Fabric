@@ -1,6 +1,0 @@
-{
-	"parent": "item/handheld",
-	"textures": {
-		"layer0": "icon/adventure/transport/elytra/i_can_show_you_the_world"
-	}
-}

@@ -1,0 +1,30 @@
+{
+  "parent": "paint:village/misc/risking_hyperinflation",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:5704}"
+    },
+    "title": {
+      "text": "It Takes A Village","color":"green"}
+	,
+    "description": {
+      "text": "Encourage villagers to breed so they produce offspring, and be within 20m of a birth","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "it_takes_a_village": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "paint:pca/rewards/village/misc/it_takes_a_village"
+  },
+  "requirements": [
+    ["it_takes_a_village"]
+  ]
+}

@@ -1,5 +1,0 @@
-scoreboard players set @a[advancements={paint:adventure/transport/boat/frozen_freeway=false},nbt=!{RootVehicle:{Entity:{id:"minecraft:boat"}}}] pca_jrn_iboat 0
-execute as @a[advancements={paint:adventure/transport/boat/frozen_freeway=false},nbt={RootVehicle:{Entity:{id:"minecraft:boat"}}}] at @s unless block ~ ~-0.5 ~ #paint:ice run scoreboard players set @s pca_jrn_iboat 0
-execute as @a[advancements={paint:adventure/transport/boat/frozen_freeway=false},nbt=!{RootVehicle:{Entity:{id:"minecraft:boat"}}}] at @s store result score @s pca_jrn_iboat_x1 run data get entity @s Pos[0]
-execute as @a[advancements={paint:adventure/transport/boat/frozen_freeway=false},nbt=!{RootVehicle:{Entity:{id:"minecraft:boat"}}}] at @s store result score @s pca_jrn_iboat_z1 run data get entity @s Pos[2]
-execute as @a[advancements={paint:adventure/transport/boat/frozen_freeway=false},scores={pca_jrn_iboat=100000..}] run function paint:pca/two_seconds/frozen_freeway/traveled_1km

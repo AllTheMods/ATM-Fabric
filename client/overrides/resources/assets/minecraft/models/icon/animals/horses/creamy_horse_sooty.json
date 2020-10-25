@@ -1,6 +1,0 @@
-{
-	"parent": "item/handheld",
-	"textures": {
-		"layer0": "icon/animals/horses/creamy_horse_sooty"
-	}
-}

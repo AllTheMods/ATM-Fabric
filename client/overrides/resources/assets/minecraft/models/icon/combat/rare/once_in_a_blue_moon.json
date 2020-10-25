@@ -1,6 +1,0 @@
-{
-	"parent": "item/handheld",
-	"textures": {
-		"layer0": "icon/combat/rare/once_in_a_blue_moon"
-	}
-}

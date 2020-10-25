@@ -1,0 +1,32 @@
+{
+  "parent": "paint:adventure/structures/igloo",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:206}"
+    },
+    "title": {
+      "text": "Shipwreck","color":"blue"}
+    ,
+    "description":
+      {"text":"Visit a shipwreck","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "shipwreck": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "feature": "shipwreck"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "shipwreck"
+    ]
+  ]
+}

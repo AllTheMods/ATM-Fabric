@@ -1,5 +1,0 @@
-fastLeafDecay = true
-treeChopMode = "VANILLA_CHOP"
-fullChopDurabilityUsage = "BREAK_AFTER_CHOP"
-sneakToDisable = true
-requireLeavesToChop = true

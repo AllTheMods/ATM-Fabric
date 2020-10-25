@@ -1,0 +1,50 @@
+{
+  "grid.config.blockcolor": {
+    "key": "grid.config.blockcolor",
+    "toolTip": "grid.config.tt.blockcolor",
+    "value": 8421631,
+    "defaultValue": 8421631,
+    "minValue": 0,
+    "maxValue": 16777215
+  },
+  "grid.config.linecolor": {
+    "key": "grid.config.linecolor",
+    "toolTip": "grid.config.tt.linecolor",
+    "value": 16744448,
+    "defaultValue": 16744448,
+    "minValue": 0,
+    "maxValue": 16777215
+  },
+  "grid.config.circlecolor": {
+    "key": "grid.config.circlecolor",
+    "toolTip": "grid.config.tt.circlecolor",
+    "value": 58496,
+    "defaultValue": 58496,
+    "minValue": 0,
+    "maxValue": 16777215
+  },
+  "grid.config.spawnNightcolor": {
+    "key": "grid.config.spawnNightcolor",
+    "toolTip": "grid.config.tt.spawnNightcolor",
+    "value": 16776960,
+    "defaultValue": 16776960,
+    "minValue": 0,
+    "maxValue": 16777215
+  },
+  "grid.config.biomecolor": {
+    "key": "grid.config.biomecolor",
+    "toolTip": "grid.config.tt.biomecolor",
+    "value": 16711935,
+    "defaultValue": 16711935,
+    "minValue": 0,
+    "maxValue": 16777215
+  },
+  "grid.config.spawnDaycolor": {
+    "key": "grid.config.spawnDaycolor",
+    "toolTip": "grid.config.tt.spawnDaycolor",
+    "value": 16711680,
+    "defaultValue": 16711680,
+    "minValue": 0,
+    "maxValue": 16777215
+  }
+}

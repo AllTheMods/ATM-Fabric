@@ -1,0 +1,32 @@
+{
+  "parent": "paint:adventure/structures/ocean_ruins",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:208}"
+    },
+    "title": {
+      "text": "Ocean Monument","color":"blue"}
+    ,
+    "description":
+      {"text":"Visit an ocean monument","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "ocean_monument": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "feature": "monument"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "ocean_monument"
+    ]
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "parent": "paint:village/business_tycoon",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:5300}"
+    },
+    "title": {
+      "text": "Resource Hog","color":"green"}
+	,
+    "description": {
+      "text": "Obtain a large amount of resources that can't be sold, so you can keep them for yourself","color":"white"}
+	,
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "redstone_blocks": {
+      "trigger": "minecraft:impossible"
+    },
+	"lapis_blocks": {
+      "trigger": "minecraft:impossible"
+    },
+	"bamboozled": {
+      "trigger": "minecraft:impossible"
+    },
+	"sea_pickles": {
+      "trigger": "minecraft:impossible"
+    },
+	"cacti": {
+      "trigger": "minecraft:impossible"
+    },
+	"glowstone_dust": {
+      "trigger": "minecraft:impossible"
+    },
+	"oak_logs": {
+      "trigger": "minecraft:impossible"
+    },
+	"birch_logs": {
+      "trigger": "minecraft:impossible"
+    },
+	"spruce_logs": {
+      "trigger": "minecraft:impossible"
+    },
+	"jungle_logs": {
+      "trigger": "minecraft:impossible"
+    },
+	"dark_oak_logs": {
+      "trigger": "minecraft:impossible"
+    },
+	"acacia_logs": {
+      "trigger": "minecraft:impossible"
+    },
+	"rh_brown_mushrooms": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:brown_mushroom",
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    },
+	"rh_red_mushrooms": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:red_mushroom",
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    },
+	"rh_apples": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:apple",
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    },
+	"rh_golden_apples": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:golden_apple",
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    },
+	"rh_honey_bottles": {
+      "trigger": "minecraft:impossible"
+    },
+	"rh_eggcellent": {
+      "trigger": "minecraft:impossible"
+    },
+	"rh_cocoa_beans": {
+      "trigger": "minecraft:impossible"
+    },
+	"rh_chorus_fruit": {
+      "trigger": "minecraft:impossible"
+    },
+	"bones": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:bone",
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    },
+	"spider_eyes": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:spider_eye",
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    },
+	"gunpowder": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:gunpowder",
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    },
+	"phantom_membranes": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:phantom_membrane",
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    },
+	"ender_pearls": {
+      "trigger": "minecraft:impossible"
+	},
+	"blaze_rods": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:blaze_rod",
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    },
+	"ghast_tears": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:ghast_tear",
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    },
+	"slime_blocks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:slime_block",
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    },
+	"saddles": {
+      "trigger": "minecraft:impossible"
+	}
+  },
+  "requirements": [
+    ["redstone_blocks"],
+	["lapis_blocks"],
+	["bamboozled"],
+	["sea_pickles"],
+	["cacti"],
+	["glowstone_dust"],
+	["oak_logs"],
+	["birch_logs"],
+	["spruce_logs"],
+	["jungle_logs"],
+	["dark_oak_logs"],
+	["acacia_logs"],
+	["rh_brown_mushrooms"],
+	["rh_red_mushrooms"],
+	["rh_apples"],
+	["rh_golden_apples"],
+	["rh_honey_bottles"],
+	["rh_eggcellent"],
+	["rh_cocoa_beans"],
+	["rh_chorus_fruit"],
+	["bones"],
+	["spider_eyes"],
+	["gunpowder"],
+	["phantom_membranes"],
+	["ender_pearls"],
+	["blaze_rods"],
+	["ghast_tears"],
+	["slime_blocks"],
+	["saddles"]
+  ]
+}

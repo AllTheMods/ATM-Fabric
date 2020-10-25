@@ -1,0 +1,32 @@
+{
+  "parent": "paint:combat/monsters/drowned",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:2155}"
+    },
+    "title": {
+      "text": "Elder Guardian","color":"red"}
+    ,
+    "description":
+      {"text":"Slay an elder guardian","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "monster_slayer_elder_guardian": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "elder_guardian"
+		}
+      }
+    }
+  },
+  "requirements": [
+    ["monster_slayer_elder_guardian"]
+  ]
+}

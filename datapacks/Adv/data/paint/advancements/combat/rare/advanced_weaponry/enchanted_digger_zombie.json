@@ -1,0 +1,185 @@
+{
+  "parent": "paint:combat/rare/advanced_weaponry/enchanted_fighter_zombie",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:2232}"
+    },
+    "title": {
+      "text": "Enchanted Digger Zombie","color":"red"}
+    ,
+    "description":
+      {"text":"Kill a zombie, husk, drowned or zombie villager holding an iron shovel with any shovel enchantment","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+   "enchanted_digger_zombie_efficiency": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:zombie",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_shovel\",tag:{Enchantments:[{id:\"minecraft:efficiency\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_digger_zombie_unbreaking": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:zombie",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_shovel\",tag:{Enchantments:[{id:\"minecraft:unbreaking\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_digger_zombie_fortune": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:zombie",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_shovel\",tag:{Enchantments:[{id:\"minecraft:fortune\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_digger_zombie_silk_touch": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:zombie",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_shovel\",tag:{Enchantments:[{id:\"minecraft:silk_touch\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_digger_husk_efficiency": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:husk",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_shovel\",tag:{Enchantments:[{id:\"minecraft:efficiency\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_digger_husk_unbreaking": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:husk",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_shovel\",tag:{Enchantments:[{id:\"minecraft:unbreaking\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_digger_husk_fortune": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:husk",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_shovel\",tag:{Enchantments:[{id:\"minecraft:fortune\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_digger_husk_silk_touch": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:husk",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_shovel\",tag:{Enchantments:[{id:\"minecraft:silk_touch\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_digger_drowned_efficiency": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:drowned",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_shovel\",tag:{Enchantments:[{id:\"minecraft:efficiency\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_digger_drowned_unbreaking": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:drowned",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_shovel\",tag:{Enchantments:[{id:\"minecraft:unbreaking\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_digger_drowned_fortune": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:drowned",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_shovel\",tag:{Enchantments:[{id:\"minecraft:fortune\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_digger_drowned_silk_touch": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:drowned",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_shovel\",tag:{Enchantments:[{id:\"minecraft:silk_touch\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_digger_zombie_villager_efficiency": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:zombie_villager",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_shovel\",tag:{Enchantments:[{id:\"minecraft:efficiency\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_digger_zombie_villager_unbreaking": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:zombie_villager",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_shovel\",tag:{Enchantments:[{id:\"minecraft:unbreaking\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_digger_zombie_villager_fortune": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:zombie_villager",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_shovel\",tag:{Enchantments:[{id:\"minecraft:fortune\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_digger_zombie_villager_silk_touch": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:zombie_villager",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_shovel\",tag:{Enchantments:[{id:\"minecraft:silk_touch\"}]}},{}]}"
+		}
+      }
+    }
+  },
+  "requirements": [
+    [
+	"enchanted_digger_zombie_efficiency",
+	"enchanted_digger_zombie_unbreaking",
+	"enchanted_digger_zombie_fortune",
+	"enchanted_digger_zombie_silk_touch",
+	"enchanted_digger_husk_efficiency",
+	"enchanted_digger_husk_unbreaking",
+	"enchanted_digger_husk_fortune",
+	"enchanted_digger_husk_silk_touch",
+	"enchanted_digger_drowned_efficiency",
+	"enchanted_digger_drowned_unbreaking",
+	"enchanted_digger_drowned_fortune",
+	"enchanted_digger_drowned_silk_touch",
+	"enchanted_digger_zombie_villager_efficiency",
+	"enchanted_digger_zombie_villager_unbreaking",
+	"enchanted_digger_zombie_villager_fortune",
+	"enchanted_digger_zombie_villager_silk_touch"
+	]
+  ]
+}

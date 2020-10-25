@@ -1,8 +1,0 @@
-{
-   "criteria":{
-      "end1":{
-         "trigger":"minecraft:tick"
-      }
-   },
-      "parent":"paint:combat/dragon/gateway_icosagon"
-}

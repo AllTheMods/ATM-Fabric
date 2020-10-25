@@ -1,0 +1,33 @@
+{
+  "parent": "paint:combat/rare/jockeys/zombie_pigman_chicken_jockey",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:2205}"
+    },
+    "title": {
+      "text": "Skeleton Horseman","color":"red"}
+    ,
+    "description":
+      {"text":"Kill a skeleton horseman. You can keep the horse","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+	"skeleton_horseman": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "minecraft:skeleton",
+		  "nbt": "{Tags:[\"pca_skeleton_horseman\"]}"
+		}
+      }
+    }
+  },
+  "requirements": [
+    ["skeleton_horseman"]
+  ]
+}

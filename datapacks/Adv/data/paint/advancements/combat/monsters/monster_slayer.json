@@ -1,0 +1,277 @@
+{
+  "parent": "paint:combat/ultimate_warrior",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:2150}"
+    },
+    "title": {
+      "text": "Monster Slayer","color":"red"}
+    ,
+    "description":
+      {"text":"Kill one of every monster","color":"white"}
+    ,
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+	"monster_slayer_blaze": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "blaze"
+		}
+      }
+    },
+	"monster_slayer_cave_spider": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "cave_spider"
+		}
+      }
+    },
+	"monster_slayer_creeper": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "creeper"
+		}
+      }
+    },
+	"monster_slayer_drowned": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "drowned"
+		}
+      }
+    },
+	"monster_slayer_elder_guardian": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "elder_guardian"
+		}
+      }
+    },
+	"monster_slayer_enderman": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "enderman"
+		}
+      }
+    },
+	"monster_slayer_endermite": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "endermite"
+		}
+      }
+    },
+	"monster_slayer_evoker": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "evoker"
+		}
+      }
+    },
+	"monster_slayer_ghast": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "ghast"
+		}
+      }
+    },
+	"monster_slayer_guardian": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "guardian"
+		}
+      }
+    },
+	"monster_slayer_husk": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "husk"
+		}
+      }
+    },
+	"monster_slayer_magma_cube": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "magma_cube",
+		  "nbt": "{Size:0}"
+		}
+      }
+    },
+	"monster_slayer_phantom": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "phantom"
+		}
+      }
+    },
+	"monster_slayer_pillager": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "pillager"
+		}
+      }
+    },
+	"monster_slayer_ravager": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "ravager"
+		}
+      }
+    },
+	"monster_slayer_shulker": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "shulker"
+		}
+      }
+    },
+	"monster_slayer_silverfish": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "silverfish"
+		}
+      }
+    },
+	"monster_slayer_skeleton": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "skeleton"
+		}
+      }
+    },
+	"monster_slayer_slime": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "slime",
+		  "nbt": "{Size:0}"
+		}
+      }
+    },
+	"monster_slayer_spider": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "spider"
+		}
+      }
+    },
+	"monster_slayer_stray": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "stray"
+		}
+      }
+    },
+	"monster_slayer_vex": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "vex"
+		}
+      }
+    },
+	"monster_slayer_vindicator": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "vindicator"
+		}
+      }
+    },
+	"monster_slayer_witch": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "witch"
+		}
+      }
+    },
+	"monster_slayer_wither_skeleton": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "wither_skeleton"
+		}
+      }
+    },
+	"monster_slayer_zombie": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "zombie"
+		}
+      }
+    },
+	"monster_slayer_zombie_pigman": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "zombie_pigman"
+		}
+      }
+    },
+	"monster_slayer_zombie_villager": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "zombie_villager"
+		}
+      }
+    }
+  },
+  "requirements": [
+	["monster_slayer_blaze"],
+	["monster_slayer_cave_spider"],
+	["monster_slayer_creeper"],
+	["monster_slayer_drowned"],
+	["monster_slayer_elder_guardian"],
+	["monster_slayer_enderman"],
+    ["monster_slayer_endermite"],
+	["monster_slayer_evoker"],
+	["monster_slayer_ghast"],
+	["monster_slayer_guardian"],
+	["monster_slayer_husk"],
+	["monster_slayer_magma_cube"],
+	["monster_slayer_phantom"],
+	["monster_slayer_pillager"],
+	["monster_slayer_shulker"],
+	["monster_slayer_silverfish"],
+	["monster_slayer_skeleton"],
+	["monster_slayer_slime"],
+	["monster_slayer_spider"],
+	["monster_slayer_stray"],
+	["monster_slayer_ravager"],
+	["monster_slayer_vex"],
+	["monster_slayer_vindicator"],
+	["monster_slayer_witch"],
+	["monster_slayer_wither_skeleton"],
+	["monster_slayer_zombie"],
+	["monster_slayer_zombie_pigman"],
+	["monster_slayer_zombie_villager"]
+  ]
+}

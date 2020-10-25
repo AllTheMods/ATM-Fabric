@@ -1,0 +1,19 @@
+{
+  "main": {
+    "enablePreview": true,
+    "lockPreview": false,
+    "swapModes": false,
+    "alwaysOn": false,
+    "showKeyHints": true,
+    "tooltipType": "MOD",
+    "compactPreviewTagBehavior": "SEPARATE",
+    "lootTableInfoType": "HIDE",
+    "coloredPreview": true,
+    "defaultMaxRowSize": 9,
+    "serverIntegration": true
+  },
+  "server": {
+    "clientIntegration": true,
+    "enderChestSyncType": "ACTIVE"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "parent": "paint:adventure/food/herbivore/milk_bucket",
+  "display": {
+    "icon": {
+      "item": "minecraft:mushroom_stew"
+    },
+    "title": {
+      "text": "Mushroom Stew","color":"blue"}
+	,
+    "description": {
+      "text": "Eat a mushroom stew","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "mushroom_stew": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:mushroom_stew"
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["mushroom_stew"]
+  ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Anti Zombie Breach",
+    "icon": "minecraft:command_block",
+    "category": "datapacks",
+    "pages": [
+        {
+            "type": "link",
+            "text": "Anti Zombie Breach is a datapack by Voodoo Beard. It prevents Zombies from destroying your doors.",
+            "url": "http://mc.voodoobeard.com/#anti_zombie_breach",
+            "link_text": "Developers Website"
+        }
+    ]
+}

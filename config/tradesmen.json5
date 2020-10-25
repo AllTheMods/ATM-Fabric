@@ -1,0 +1,9 @@
+{ 
+	"disableWanderingTrader": false,
+	"disableWanderingTradesmen": false,
+	"vanillaNose": false,
+	"despawnAnimals": true,
+	"spawnDelay": 24000,
+	"spawnChance": 25,
+	"secrets": false
+}

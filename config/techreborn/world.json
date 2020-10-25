@@ -1,0 +1,228 @@
+{
+  "ore": {
+    "sphaleriteVeinSize": {
+      "comment": "Amount of Sphalerite Ores per vein.",
+      "value": 6
+    },
+    "enableLeadOre": {
+      "comment": "Generate Lead Ore in The Overworld.",
+      "value": true
+    },
+    "enablePyriteOre": {
+      "comment": "Generate Pyrite Ore in The Nether.",
+      "value": true
+    },
+    "galenaVeinSize": {
+      "comment": "Amount of Galena Ores per vein.",
+      "value": 8
+    },
+    "cinnabarVeinCount": {
+      "comment": "Count of Cinnabar Ore veins per chunk.",
+      "value": 3
+    },
+    "rubyVeinCount": {
+      "comment": "Count of Ruby Ore veins per chunk.",
+      "value": 3
+    },
+    "enableGalenaOre": {
+      "comment": "Generate Galena Ore in The Overworld.",
+      "value": true
+    },
+    "bauxiteVeinCount": {
+      "comment": "Count of Bauxite Ore veins per chunk.",
+      "value": 10
+    },
+    "enableTungstenOre": {
+      "comment": "Generate Tungsten Ore in The End.",
+      "value": true
+    },
+    "enableRubyOre": {
+      "comment": "Generate Ruby Ore in The Overworld.",
+      "value": true
+    },
+    "enableSphaleriteOre": {
+      "comment": "Generate Sphalerite Ore in The Nether.",
+      "value": true
+    },
+    "leadVeinCount": {
+      "comment": "Count of Lead Ore veins per chunk.",
+      "value": 16
+    },
+    "pyriteVeinSize": {
+      "comment": "Amount of Pyrite Ores per vein.",
+      "value": 6
+    },
+    "rubyVeinSize": {
+      "comment": "Amount of Ruby Ores per vein.",
+      "value": 6
+    },
+    "sheldoniteVeinSize": {
+      "comment": "Amount of Sheldonite Ores per vein.",
+      "value": 6
+    },
+    "enableSheldoniteOre": {
+      "comment": "Generate Sheldonite Ore in The End.",
+      "value": true
+    },
+    "enableSapphireOre": {
+      "comment": "Generate Sapphire Ore in The Overworld.",
+      "value": true
+    },
+    "sapphireVeinSize": {
+      "comment": "Amount of Sapphire Ores per vein.",
+      "value": 6
+    },
+    "copperVeinCount": {
+      "comment": "Count of Copper Ore veins per chunk.",
+      "value": 16
+    },
+    "enableSilverOre": {
+      "comment": "Generate Silver Ore in The Overworld.",
+      "value": true
+    },
+    "iridiumVeinCount": {
+      "comment": "Count of Iridium Ore veins per chunk.",
+      "value": 3
+    },
+    "enableCinnabarOre": {
+      "comment": "Generate Cinnabar Ore in The Nether.",
+      "value": true
+    },
+    "silverVeinSize": {
+      "comment": "Amount of Silver Ores per vein.",
+      "value": 6
+    },
+    "enableTinOre": {
+      "comment": "Generate Tin Ore in The Overworld.",
+      "value": true
+    },
+    "peridotVeinCount": {
+      "comment": "Count of Peridot Ore veins per chunk.",
+      "value": 3
+    },
+    "enablePeridotOre": {
+      "comment": "Generate Peridot Ore in The End.",
+      "value": true
+    },
+    "tinVeinCount": {
+      "comment": "Count of Tin Ore veins per chunk.",
+      "value": 16
+    },
+    "tungstenVeinSize": {
+      "comment": "Amount of Tungsten Ores per vein.",
+      "value": 6
+    },
+    "cinnabarVeinSize": {
+      "comment": "Amount of Cinnabar Ores per vein.",
+      "value": 6
+    },
+    "leadVeinSize": {
+      "comment": "Amount of Lead Ores per vein.",
+      "value": 6
+    },
+    "enableBauxiteOre": {
+      "comment": "Generate Bauxite Ore in The Overworld.",
+      "value": true
+    },
+    "copperVeinSize": {
+      "comment": "Amount of Copper Ores per vein.",
+      "value": 8
+    },
+    "sphaleriteVeinCount": {
+      "comment": "Count of Sphalerite Ore veins per chunk.",
+      "value": 3
+    },
+    "enableSodaliteOre": {
+      "comment": "Generate Sodalite Ore in The End.",
+      "value": true
+    },
+    "tungstenVeinCount": {
+      "comment": "Count of Tungsten Ore veins per chunk.",
+      "value": 3
+    },
+    "iridiumVeinSize": {
+      "comment": "Amount of Iridium Ores per vein.",
+      "value": 3
+    },
+    "tinVeinSize": {
+      "comment": "Amount of Tin Ores per vein.",
+      "value": 8
+    },
+    "enableCopperOre": {
+      "comment": "Generate Copper Ore in The Overworld.",
+      "value": true
+    },
+    "sapphireVeinCount": {
+      "comment": "Count of Sapphire Ore veins per chunk.",
+      "value": 3
+    },
+    "enableIridiumOre": {
+      "comment": "Generate Iridium Ore in The Overworld.",
+      "value": true
+    },
+    "peridotVeinSize": {
+      "comment": "Amount of Peridot Ores per vein.",
+      "value": 6
+    },
+    "sodaliteVeinCount": {
+      "comment": "Count of Sodalite Ore veins per chunk.",
+      "value": 3
+    },
+    "sodaliteVeinSize": {
+      "comment": "Amount of Sodalite Ores per vein.",
+      "value": 6
+    },
+    "pyriteVeinCount": {
+      "comment": "Count of Pyrite Ore veins per chunk.",
+      "value": 3
+    },
+    "galenaVeinCount": {
+      "comment": "Count of Galena Ore veins per chunk.",
+      "value": 16
+    },
+    "bauxiteVeinSize": {
+      "comment": "Amount of Bauxite Ores per vein.",
+      "value": 6
+    },
+    "sheldoniteVeinCount": {
+      "comment": "Count of Sheldonite Ore veins per chunk.",
+      "value": 3
+    },
+    "silverVeinCount": {
+      "comment": "Count of Silver Ore veins per chunk.",
+      "value": 16
+    }
+  },
+  "rubber_tree": {
+    "RubberTreeChance": {
+      "comment": "Chance to spawn rubber tree",
+      "value": 0.1
+    },
+    "RubberTreeBaseHeight": {
+      "comment": "Basic height for not-spire part of rubber tree",
+      "value": 6
+    },
+    "RubberTreeCount": {
+      "comment": "Amount of trees to spawn in successful case",
+      "value": 1
+    },
+    "RubberTreeSpireHeight": {
+      "comment": "Height of spire of rubber tree",
+      "value": 3
+    }
+  },
+  "loot": {
+    "enableEndLoot": {
+      "comment": "When true TechReborn will add ingots, machine frames and circuits to The End loot chests.",
+      "value": true
+    },
+    "enableNetherLoot": {
+      "comment": "When true TechReborn will add ingots, machine frames and circuits to Nether loot chests.",
+      "value": true
+    },
+    "enableOverworldLoot": {
+      "comment": "When true TechReborn will add ingots, machine frames and circuits to OverWorld loot chests.",
+      "value": true
+    }
+  }
+}

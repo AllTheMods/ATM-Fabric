@@ -1,0 +1,55 @@
+{
+  "parent": "paint:combat/rare/advanced_weaponry/enchanted_vindicator",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:2237}"
+    },
+    "title": {
+      "text": "Enchanted Vex","color":"red"}
+    ,
+    "description":
+      {"text":"Kill a vex holding an iron sword with Sharpness, Knockback, or Fire Aspect","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "enchanted_vex_sharpness": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "vex",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_sword\",tag:{Enchantments:[{id:\"minecraft:sharpness\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_vex_knockback": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "vex",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_sword\",tag:{Enchantments:[{id:\"minecraft:knockback\"}]}},{}]}"
+		}
+      }
+    },
+	"enchanted_vex_fire_aspect": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "vex",
+		  "nbt": "{HandItems:[{id:\"minecraft:iron_sword\",tag:{Enchantments:[{id:\"minecraft:fire_aspect\"}]}},{}]}"
+		}
+      }
+    }
+  },
+  "requirements": [
+    [
+	"enchanted_vex_sharpness",
+	"enchanted_vex_knockback",
+	"enchanted_vex_fire_aspect"
+	]
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "paint:adventure/structures/witch_hut",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:211}"
+    },
+    "title": {
+      "text": "Pillager Outpost","color":"blue"}
+    ,
+    "description":
+      {"text":"Visit a pillager outpost","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "pillager_outpost": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "feature": "pillager_outpost"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "pillager_outpost"
+    ]
+  ]
+}

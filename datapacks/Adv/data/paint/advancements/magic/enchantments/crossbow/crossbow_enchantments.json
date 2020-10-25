@@ -1,0 +1,73 @@
+{
+  "parent": "paint:magic/enchantments/enlightenment",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:4250}"
+    },
+    "title": {
+      "text": "Crossbow Enchantments","color":"light_purple"}
+    ,
+    "description": {
+      "text": "Obtain all crossbow enchantments","color":"white"}
+	,
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "multishot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:crossbow",
+			"enchantments": [
+				{
+				"enchantment": "minecraft:multishot"
+				}
+			]
+          }
+        ]
+      }
+    },
+	"piercing": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:crossbow",
+			"enchantments": [
+				{
+				"enchantment": "minecraft:piercing",
+				"levels": 4
+				}
+			]
+          }
+        ]
+      }
+    },
+	"quick_charge": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:crossbow",
+			"enchantments": [
+				{
+				"enchantment": "minecraft:quick_charge",
+				"levels": 3
+				}
+			]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["multishot"],
+	["piercing"],
+	["quick_charge"]
+  ]
+}

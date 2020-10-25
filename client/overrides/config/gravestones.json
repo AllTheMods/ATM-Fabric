@@ -1,7 +1,0 @@
-{
-  "enableGraves": true,
-  "enableGraveLooting": false,
-  "retrievalType": "ON_STEP",
-  "dropType": "PUT_IN_INVENTORY",
-  "xpPercentage": 0.75
-}

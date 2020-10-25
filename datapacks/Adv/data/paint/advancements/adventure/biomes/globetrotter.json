@@ -1,0 +1,488 @@
+{
+  "parent": "paint:adventure/intrepid_adventurer",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:3}"
+	  },
+    "title": {
+      "text": "Globetrotter","color":"blue"}
+    ,
+    "description":
+      {"text":"Visit every biome in the overworld. It's not about the destination, it's about the journey.","color":"white"}
+    ,
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "snowy_tundra": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:snowy_tundra"
+      }
+    },
+	"snowy_mountains": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:snowy_mountains"
+      }
+    },
+	"snowy_taiga": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:snowy_taiga"
+      }
+    },
+	"snowy_taiga_hills": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:snowy_taiga_hills"
+      }
+    },
+	"snowy_taiga_mountains": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:snowy_taiga_mountains"
+      }
+    },
+	"ice_spikes": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:ice_spikes"
+      }
+    },
+	"snowy_beach": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:snowy_beach"
+      }
+    },
+    "frozen_river": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:frozen_river"
+      }
+    },
+	"mountains": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:mountains"
+      }
+    },
+	"wooded_mountains": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:wooded_mountains"
+      }
+    },
+	"gravelly_mountains": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:gravelly_mountains"
+      }
+    },
+	"modified_gravelly_mountains": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:modified_gravelly_mountains"
+      }
+    },
+	"taiga": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:taiga"
+      }
+    },
+	"taiga_hills": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:taiga_hills"
+      }
+    },
+	"taiga_mountains": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:taiga_mountains"
+      }
+    },
+	"giant_tree_taiga": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:giant_tree_taiga"
+      }
+    },
+	"giant_tree_taiga_hills": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:giant_tree_taiga_hills"
+      }
+    },
+	"giant_spruce_taiga": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:giant_spruce_taiga"
+      }
+    },
+	"giant_spruce_taiga_hills": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:giant_spruce_taiga_hills"
+      }
+    },
+	"stone_shore": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:stone_shore"
+      }
+    },
+	"plains": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:plains"
+      }
+    },
+	"sunflower_plains": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:sunflower_plains"
+      }
+    },
+	"forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:forest"
+      }
+    },
+	"wooded_hills": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:wooded_hills"
+      }
+    },
+	"flower_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:flower_forest"
+      }
+    },
+	"birch_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:birch_forest"
+      }
+    },
+	"birch_forest_hills": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:birch_forest_hills"
+      }
+    },
+	"tall_birch_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:tall_birch_forest"
+      }
+    },
+	"tall_birch_hills": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:tall_birch_hills"
+      }
+    },
+	"dark_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:dark_forest"
+      }
+    },
+   "dark_forest_hills": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:dark_forest_hills"
+      }
+    },
+	"swamp": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:swamp"
+      }
+    },
+	"swamp_hills": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:swamp_hills"
+      }
+    },
+	"jungle": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:jungle"
+      }
+    },
+	"jungle_hills": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:jungle_hills"
+      }
+    },
+	"jungle_edge": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:jungle_edge"
+      }
+    },
+	"bamboo_jungle": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:bamboo_jungle"
+      }
+    },
+	"bamboo_jungle_hills": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:bamboo_jungle_hills"
+      }
+    },
+	"beach": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:beach"
+      }
+    },
+	"river": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:river"
+      }
+    },
+	"desert": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:desert"
+      }
+    },
+	"desert_hills": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:desert_hills"
+      }
+    },
+	"desert_lakes": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:desert_lakes"
+      }
+    },
+	"savanna": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:savanna"
+      }
+    },
+	"savanna_plateau": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:savanna_plateau"
+      }
+    },
+	"shattered_savanna": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:shattered_savanna"
+      }
+    },
+	"shattered_savanna_plateau": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:shattered_savanna_plateau"
+      }
+    },
+	"badlands": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:badlands"
+      }
+    },
+	"wooded_badlands_plateau": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:wooded_badlands_plateau"
+      }
+    },
+	"eroded_badlands": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:eroded_badlands"
+      }
+    },
+	"warm_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:warm_ocean"
+      }
+    },
+	"lukewarm_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:lukewarm_ocean"
+      }
+    },
+	"deep_lukewarm_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:deep_lukewarm_ocean"
+      }
+    },
+	"ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:ocean"
+      }
+    },
+	"deep_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:deep_ocean"
+      }
+    },
+	"cold_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:cold_ocean"
+      }
+    },
+	"deep_cold_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:deep_cold_ocean"
+      }
+    },
+	"frozen_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:frozen_ocean"
+      }
+    },
+	"deep_frozen_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:deep_frozen_ocean"
+      }
+    },
+	"mushroom_fields": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:mushroom_fields"
+      }
+    },
+	"mushroom_fields_shore": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:mushroom_field_shore"
+      }
+    }
+  },
+  "requirements": [
+    ["snowy_tundra"],
+	["snowy_mountains"],
+	[
+      "snowy_taiga",
+	  "snowy_taiga_hills"
+    ],
+	["snowy_taiga_mountains"],
+	["ice_spikes"],
+	["snowy_beach"],
+    ["frozen_river"],
+	["mountains"],
+	["wooded_mountains"],
+	[
+      "gravelly_mountains",
+	  "modified_gravelly_mountains"
+    ],
+	[
+      "taiga",
+	  "taiga_hills"
+    ],
+	["taiga_mountains"],
+	[
+      "giant_tree_taiga",
+	  "giant_tree_taiga_hills",
+	  "giant_spruce_taiga",
+	  "giant_spruce_taiga_hills"
+    ],
+	["stone_shore"],
+	["plains"],
+	["sunflower_plains"],
+	[ 
+	  "forest",
+	  "wooded_hills"
+	],
+	["flower_forest"],
+	[
+	  "birch_forest",
+	  "birch_forest_hills"
+	],
+	[
+      "tall_birch_forest",
+	  "tall_birch_hills"
+    ],
+	[
+      "dark_forest",
+	  "dark_forest_hills"
+    ],
+	[
+      "swamp",
+	  "swamp_hills"
+    ],
+	[
+      "jungle",
+	  "jungle_hills",
+	  "jungle_edge"
+    ],
+	[
+      "bamboo_jungle",
+	  "bamboo_jungle_hills"
+    ],
+	["beach"],
+	["river"],
+	[
+	  "desert",
+	  "desert_hills"
+	],
+	["desert_lakes"],
+	[
+      "savanna",
+	  "savanna_plateau"
+    ],
+	[
+      "shattered_savanna",
+	  "shattered_savanna_plateau"
+    ],
+	["badlands"],
+	["wooded_badlands_plateau"],
+	["eroded_badlands"],
+	["warm_ocean"],
+	[
+      "lukewarm_ocean",
+	  "deep_lukewarm_ocean"
+    ],
+	[
+      "ocean",
+	  "deep_ocean"
+    ],
+	[
+      "cold_ocean",
+	  "deep_cold_ocean"
+    ],
+	[
+      "frozen_ocean",
+	  "deep_frozen_ocean"
+    ],
+	[
+      "mushroom_fields",
+	  "mushroom_fields_shore"
+    ]
+  ]
+}

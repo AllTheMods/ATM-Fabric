@@ -1,6 +1,0 @@
-{
-	"parent": "item/handheld",
-	"textures": {
-		"layer0": "icon/magic/enchantments/sword/sweeping_edge"
-	}
-}

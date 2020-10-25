@@ -1,1 +1,0 @@
-execute as @e[type=minecraft:wither,tag=!spawnfinished] run function vb:sfwither/silence

@@ -1,6 +1,0 @@
-{
-	"parent": "item/handheld",
-	"textures": {
-		"layer0": "icon/magic/misc/great_view_from_up_here"
-	}
-}

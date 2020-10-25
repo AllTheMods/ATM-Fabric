@@ -1,0 +1,39 @@
+{
+  "parent": "paint:adventure/biomes/temperate/flower_forest",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:35}"
+    },
+    "title": {
+      "text": "Birch Forest","color":"blue"}
+    ,
+    "description":
+      {"text":"Visit the birch forest or birch forest hills","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "birch_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:birch_forest"
+      }
+    },
+	"birch_forest_hills": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:birch_forest_hills"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "birch_forest",
+	  "birch_forest_hills"
+    ]
+  ]
+}

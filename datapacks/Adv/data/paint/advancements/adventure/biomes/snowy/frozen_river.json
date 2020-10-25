@@ -1,0 +1,32 @@
+{
+  "parent": "paint:adventure/biomes/snowy/snowy_beach",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:17}"
+    },
+    "title": {
+      "text": "Frozen River","color":"blue"}
+    ,
+    "description":
+      {"text":"Visit a frozen river","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "frozen_river": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:frozen_river"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "frozen_river"
+    ]
+  ]
+}

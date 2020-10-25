@@ -1,0 +1,30 @@
+{
+  "parent": "paint:adventure/transport/boat/voyager",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:404}"
+    },
+    "title": {
+      "text": "Frozen Freeway","color":"blue"}
+    ,
+    "description":
+      {"text":"Travel horizontally 1km on ice in one boat journey. Getting out will reset your progress.","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "frozen_freeway": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "paint:pca/rewards/adventure/transport/boat/frozen_freeway"
+  },
+  "requirements": [
+      ["frozen_freeway"]
+  ]
+}

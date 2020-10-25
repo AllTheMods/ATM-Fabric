@@ -1,0 +1,6 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "icon/animals/sheep/light_gray_sheep"
+	}
+}

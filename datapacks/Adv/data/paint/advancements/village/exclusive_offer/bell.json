@@ -1,0 +1,32 @@
+{
+  "parent": "paint:village/exclusive_offer/exclusive_offer",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:5801}"
+    },
+    "title": {
+      "text": "Bell","color":"green"}
+	,
+    "description": {
+      "text": "Buy a bell from an apprentice armeror, toolsmith or weaponsmith.","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "bell": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "item": "minecraft:bell"
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["bell"]
+  ]
+}

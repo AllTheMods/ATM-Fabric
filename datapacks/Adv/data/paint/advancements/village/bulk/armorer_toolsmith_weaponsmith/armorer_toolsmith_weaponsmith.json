@@ -1,0 +1,35 @@
+{
+  "parent": "paint:village/bulk/selling_in_bulk",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:5401}"
+    },
+    "title": {
+      "text": "Armorer, Toolsmith and Weaponsmith","color":"green"}
+	,
+    "description": {
+      "text": "Obtain all the things all enable you to sell to the Armorer/Toolsmith/Weaponsmith in bulk","color":"white"}
+	,
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "coal_collector": {
+      "trigger": "minecraft:impossible"
+    },
+	"ironclad": {
+      "trigger": "minecraft:impossible"
+    },
+	"diamonds_are_forever": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    ["coal_collector"],
+	["ironclad"],
+	["diamonds_are_forever"]
+  ]
+}

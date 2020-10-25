@@ -1,0 +1,33 @@
+{
+  "parent": "paint:animals/horses/gray_horse_blaze_and_stockings",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:1117}"
+    },
+    "title": {
+      "text": "Dark Brown Horse with Blaze","color":"yellow"}
+    ,
+    "description": {
+      "text": "Tame a dark brown horse with blaze and stockings","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "dark_brown_horse_blaze_and_stockings": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+			"type": "minecraft:horse",
+			"nbt": "{Variant:262}"
+        }
+      }
+    }
+  },
+  "requirements": [
+	["dark_brown_horse_blaze_and_stockings"]
+  ]
+}

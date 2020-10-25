@@ -1,0 +1,32 @@
+{
+  "parent": "paint:animals/sheep/magenta_sheep",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:1412}"
+    },
+    "title": {
+      "text": "Pink Sheep","color":"yellow"}
+    ,
+    "description": {
+      "text": "Have 5 pink sheep around you in a 10m radius","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "pink_sheep": {
+      "trigger": "minecraft:impossible"
+	  }
+	},
+	"rewards": {
+    "function": "paint:pca/rewards/animals/sheep/pink_sheep"
+  },
+  "requirements": [
+    [
+      "pink_sheep"
+    ]
+  ]
+}

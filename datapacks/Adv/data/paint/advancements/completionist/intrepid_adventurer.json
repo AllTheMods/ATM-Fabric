@@ -1,0 +1,1071 @@
+{
+  "parent": "paint:completionist/the_completionist",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:2}"
+    },
+    "title":
+      {"text":"Intrepid Adventurer","color":"dark_blue","bold":"true"}
+    ,
+    "description":
+      {"text": "Complete all adventure & travel advancements","color":"blue","bold":"false"}
+    ,
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+"criteria": {
+    "snowy_tundra": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:snowy_tundra"
+      }
+    },
+	"snowy_mountains": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:snowy_mountains"
+      }
+    },
+	"snowy_taiga": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:snowy_taiga"
+      }
+    },
+	"snowy_taiga_hills": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:snowy_taiga_hills"
+      }
+    },
+	"snowy_taiga_mountains": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:snowy_taiga_mountains"
+      }
+    },
+	"ice_spikes": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:ice_spikes"
+      }
+    },
+	"snowy_beach": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:snowy_beach"
+      }
+    },
+    "frozen_river": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:frozen_river"
+      }
+    },
+	"mountains": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:mountains"
+      }
+    },
+	"wooded_mountains": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:wooded_mountains"
+      }
+    },
+	"gravelly_mountains": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:gravelly_mountains"
+      }
+    },
+	"modified_gravelly_mountains": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:modified_gravelly_mountains"
+      }
+    },
+	"taiga": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:taiga"
+      }
+    },
+	"taiga_hills": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:taiga_hills"
+      }
+    },
+	"taiga_mountains": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:taiga_mountains"
+      }
+    },
+	"giant_tree_taiga": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:giant_tree_taiga"
+      }
+    },
+	"giant_tree_taiga_hills": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:giant_tree_taiga_hills"
+      }
+    },
+	"giant_spruce_taiga": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:giant_spruce_taiga"
+      }
+    },
+	"giant_spruce_taiga_hills": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:giant_spruce_taiga_hills"
+      }
+    },
+	"stone_shore": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:stone_shore"
+      }
+    },
+	"plains": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:plains"
+      }
+    },
+	"sunflower_plains": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:sunflower_plains"
+      }
+    },
+	"forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:forest"
+      }
+    },
+	"wooded_hills": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:wooded_hills"
+      }
+    },
+	"flower_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:flower_forest"
+      }
+    },
+	"birch_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:birch_forest"
+      }
+    },
+	"birch_forest_hills": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:birch_forest_hills"
+      }
+    },
+	"tall_birch_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:tall_birch_forest"
+      }
+    },
+	"tall_birch_hills": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:tall_birch_hills"
+      }
+    },
+	"dark_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:dark_forest"
+      }
+    },
+   "dark_forest_hills": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:dark_forest_hills"
+      }
+    },
+	"swamp": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:swamp"
+      }
+    },
+	"swamp_hills": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:swamp_hills"
+      }
+    },
+	"jungle": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:jungle"
+      }
+    },
+	"jungle_hills": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:jungle_hills"
+      }
+    },
+	"jungle_edge": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:jungle_edge"
+      }
+    },
+	"bamboo_jungle": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:bamboo_jungle"
+      }
+    },
+	"bamboo_jungle_hills": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:bamboo_jungle_hills"
+      }
+    },
+	"beach": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:beach"
+      }
+    },
+	"river": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:river"
+      }
+    },
+	"desert": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:desert"
+      }
+    },
+	"desert_hills": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:desert_hills"
+      }
+    },
+	"desert_lakes": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:desert_lakes"
+      }
+    },
+	"savanna": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:savanna"
+      }
+    },
+	"savanna_plateau": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:savanna_plateau"
+      }
+    },
+	"shattered_savanna": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:shattered_savanna"
+      }
+    },
+	"shattered_savanna_plateau": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:shattered_savanna_plateau"
+      }
+    },
+	"badlands": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:badlands"
+      }
+    },
+	"wooded_badlands_plateau": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:wooded_badlands_plateau"
+      }
+    },
+	"eroded_badlands": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:eroded_badlands"
+      }
+    },
+	"warm_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:warm_ocean"
+      }
+    },
+	"lukewarm_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:lukewarm_ocean"
+      }
+    },
+	"deep_lukewarm_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:deep_lukewarm_ocean"
+      }
+    },
+	"ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:ocean"
+      }
+    },
+	"deep_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:deep_ocean"
+      }
+    },
+	"cold_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:cold_ocean"
+      }
+    },
+	"deep_cold_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:deep_cold_ocean"
+      }
+    },
+	"frozen_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:frozen_ocean"
+      }
+    },
+	"deep_frozen_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:deep_frozen_ocean"
+      }
+    },
+	"mushroom_fields": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:mushroom_fields"
+      }
+    },
+	"mushroom_fields_shore": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:mushroom_field_shore"
+      }
+    },
+	"desert_pyramid": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "feature": "desert_pyramid"
+      }
+    },
+	"end_city": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "feature": "endcity"
+      }
+    },
+	"fortress": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "feature": "fortress"
+      }
+    },
+	"igloo": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "feature": "igloo"
+      }
+    },
+	"jungle_temple": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "feature": "jungle_pyramid"
+      }
+    },
+	"mineshaft": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "feature": "mineshaft"
+      }
+    },
+	"ocean_monument": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "feature": "monument"
+      }
+    },
+	"ocean_ruins": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "feature": "ocean_ruin"
+      }
+    },
+	"pillager_outpost": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "feature": "pillager_outpost"
+      }
+    },
+	"shipwreck": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "feature": "shipwreck"
+      }
+    },
+	"stronghold": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "feature": "stronghold"
+      }
+    },
+	"witch_hut": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "feature": "swamp_hut"
+      }
+    },
+	"woodland_mansion": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "feature": "mansion"
+      }
+    },
+	"plains_village": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "feature": "village",
+		"biome": "minecraft:plains"
+      }
+    },
+	"taiga_village": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "feature": "village",
+		"biome": "minecraft:taiga"
+      }
+    },
+	"desert_village": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "feature": "village",
+		"biome": "minecraft:desert"
+      }
+    },
+	"savanna_village": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "feature": "village",
+		"biome": "minecraft:savanna"
+      }
+    },
+	"snowy_village": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "feature": "village",
+		"biome": "minecraft:snowy_tundra"
+      }
+    },
+	"skeleton_crew": {
+      "trigger": "minecraft:impossible"
+    },
+	"voyager": {
+      "trigger": "minecraft:impossible"
+    },
+	"frozen_freeway": {
+      "trigger": "minecraft:impossible"
+    },
+	"oceanographer": {
+      "trigger": "minecraft:impossible"
+    },
+	"ready_to_rail": {
+      "trigger": "minecraft:impossible"
+    },
+	"captured": {
+      "trigger": "minecraft:impossible"
+    },
+	"on_a_rail": {
+      "trigger": "minecraft:impossible"
+    },
+	"tour_de_force": {
+      "trigger": "minecraft:impossible"
+    },
+	"the_carrot_and_the_stick": {
+      "trigger": "minecraft:impossible"
+    },
+	"when_pigs_fly": {
+      "trigger": "minecraft:impossible"
+    },
+	"equine_expediation": {
+      "trigger": "minecraft:impossible"
+    },
+	"trade_route": {
+      "trigger": "minecraft:impossible"
+    },
+	"wingin_it": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:elytra"
+          }
+        ]
+      }
+    },
+	"tight_fit": {
+      "trigger": "minecraft:impossible"
+    },
+	"long_haul_flight": {
+      "trigger": "minecraft:impossible"
+    },
+	"i_can_show_you_the_world": {
+      "trigger": "minecraft:impossible"
+    },
+	"cooked_porkchop": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:cooked_porkchop"
+        }
+      }
+	},
+	"cooked_beef": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:cooked_beef"
+        }
+      }
+	},
+	"cooked_mutton": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:cooked_mutton"
+        }
+      }
+	},
+	"cooked_chicken": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:cooked_chicken"
+        }
+      }
+	},
+	"cooked_rabbit": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:cooked_rabbit"
+        }
+      }
+	},
+	"rabbit_stew": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:rabbit_stew"
+        }
+      }
+	},
+	"cooked_cod": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:cooked_cod"
+        }
+      }
+	},
+	"cooked_salmon": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:cooked_salmon"
+        }
+      }
+	},
+	"tropical_fish": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:tropical_fish"
+        }
+      }
+	},
+	"tropical_fish": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:tropical_fish"
+        }
+      }
+	},
+	"eat_pufferfish": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:pufferfish"
+        }
+      }
+	},
+	"rotten_flesh": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:rotten_flesh"
+        }
+      }
+	},
+	"spider_eye": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:spider_eye"
+        }
+      }
+	},
+	"apple": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:apple"
+        }
+      }
+    },
+	"baked_potato": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:baked_potato"
+        }
+      }
+    },
+	"beetroot": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:beetroot"
+        }
+      }
+    },
+	"beetroot_soup": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:beetroot_soup"
+        }
+      }
+    },
+	"bread": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:bread"
+        }
+      }
+    },
+	"cake": {
+      "trigger": "minecraft:impossible"
+    },
+	"carrot": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:carrot"
+        }
+      }
+    },
+	"cookie": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:cookie"
+        }
+      }
+    },
+	"dried_kelp": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:dried_kelp"
+        }
+      }
+    },
+	"golden_apple": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:golden_apple"
+        }
+      }
+    },
+	"golden_carrot": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:golden_carrot"
+        }
+      }
+    },
+	"honey_bottle": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:honey_bottle"
+        }
+      }
+    },
+	"melon_slice": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:melon_slice"
+        }
+      }
+    },
+	"milk_bucket": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:milk_bucket"
+        }
+      }
+    },
+	"mushroom_stew": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:mushroom_stew"
+        }
+      }
+    },
+	"poisonous_potato": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:poisonous_potato"
+        }
+      }
+    },
+	"potato": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:potato"
+        }
+      }
+    },
+	"pumpkin_pie": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:pumpkin_pie"
+        }
+      }
+    },
+	"sweet_berries": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:sweet_berries"
+        }
+      }
+    },
+	"suspicious_stew": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:suspicious_stew"
+        }
+      }
+    },
+	"sweet_dreams": {
+      "trigger": "minecraft:slept_in_bed"
+    },
+	"signal_fire_place": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:campfire",
+		"state": {
+		 "signal_fire": true
+        }
+      }
+    },
+	"signal_fire_enter": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:campfire",
+        "state": {
+          "signal_fire": true
+        }
+      }
+    },
+	"sticky_situation": {
+      "trigger": "minecraft:slide_down_block",
+      "conditions": {
+        "block": "minecraft:honey_block"
+      }
+    },
+	"scaffolding": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:scaffolding"
+      }
+    },
+	"marker_maker": {
+		"trigger": "minecraft:impossible"
+	},
+	"x_marks_the_spot_heart_of_the_sea": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+			{"item": "minecraft:heart_of_the_sea"}
+        ]
+      }
+    },
+	"x_marks_the_spot_conduit": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+			{"item": "minecraft:conduit"}
+        ]
+      }
+    },
+	"charted_and_hearted": {
+		"trigger": "minecraft:impossible"
+	},
+	"interdimensional_travel": {
+      "trigger": "minecraft:nether_travel",
+      "conditions": {
+        "distance": {
+          "horizontal": {
+            "min": 7000.0
+          }
+        }
+      }
+    },
+	"eyes_this_way": {
+      "trigger": "minecraft:used_ender_eye"
+    },
+	"gateway_getaway": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:end_gateway"
+      }
+    }
+  },
+  "requirements": [
+    ["snowy_tundra"],
+	["snowy_mountains"],
+	[
+      "snowy_taiga",
+	  "snowy_taiga_hills"
+    ],
+	["taiga_mountains"],
+	["snowy_taiga_mountains"],
+	["ice_spikes"],
+	["snowy_beach"],
+    ["frozen_river"],
+	["mountains"],
+	["wooded_mountains"],
+	[
+      "gravelly_mountains",
+	  "modified_gravelly_mountains"
+    ],
+	[
+      "taiga",
+	  "taiga_hills"
+    ],
+	[
+      "giant_tree_taiga",
+	  "giant_tree_taiga_hills",
+	  "giant_spruce_taiga",
+	  "giant_spruce_taiga_hills"
+    ],
+	["stone_shore"],
+	["plains"],
+	["sunflower_plains"],
+	[
+	  "forest",
+	  "wooded_hills"
+	],
+	["flower_forest"],
+	[
+	  "birch_forest",
+	  "birch_forest_hills"
+	],
+	[
+      "tall_birch_forest",
+	  "tall_birch_hills"
+    ],
+	[
+      "dark_forest",
+	  "dark_forest_hills"
+    ],
+	[
+      "swamp",
+	  "swamp_hills"
+    ],
+	[
+      "jungle",
+	  "jungle_hills",
+	  "jungle_edge"
+    ],
+	[
+      "bamboo_jungle",
+	  "bamboo_jungle_hills"
+    ],
+	["beach"],
+	["river"],
+	[
+	  "desert",
+	  "desert_hills"
+	],
+	["desert_lakes"],
+	[
+      "savanna",
+	  "savanna_plateau"
+    ],
+	[
+      "shattered_savanna",
+	  "shattered_savanna_plateau"
+    ],
+	["badlands"],
+	["wooded_badlands_plateau"],
+	["eroded_badlands"],
+	["warm_ocean"],
+	[
+      "lukewarm_ocean",
+	  "deep_lukewarm_ocean"
+    ],
+	[
+      "ocean",
+	  "deep_ocean"
+    ],
+	[
+      "cold_ocean",
+	  "deep_cold_ocean"
+    ],
+	[
+      "frozen_ocean",
+	  "deep_frozen_ocean"
+    ],
+	[
+      "mushroom_fields",
+	  "mushroom_fields_shore"
+    ],
+	["desert_pyramid"],
+	["end_city"],
+    ["fortress"],
+	["igloo"],
+	["jungle_temple"],
+	["mineshaft"],
+	["ocean_monument"],
+	["ocean_ruins"],
+	["pillager_outpost"],
+	["shipwreck"],
+	["stronghold"],
+	["witch_hut"],
+	["woodland_mansion"],
+	["plains_village"],
+	["taiga_village"],
+	["desert_village"],
+	["savanna_village"],
+	["snowy_village"],
+	["skeleton_crew"],
+	["voyager"],
+	["frozen_freeway"],
+	["oceanographer"],
+	["ready_to_rail"],
+	["captured"],
+	["on_a_rail"],
+	["tour_de_force"],
+	["the_carrot_and_the_stick"],
+	["when_pigs_fly"],
+	["equine_expediation"],
+	["trade_route"],
+	["wingin_it"],
+	["tight_fit"],
+	["long_haul_flight"],
+	["i_can_show_you_the_world"],
+	["cooked_porkchop"],
+	["cooked_beef"],
+	["cooked_mutton"],
+	["cooked_chicken"],
+	["cooked_rabbit"],
+	["rabbit_stew"],
+	["cooked_cod"],
+	["cooked_salmon"],
+	["tropical_fish"],
+	["eat_pufferfish"],
+	["rotten_flesh"],
+	["spider_eye"],
+	["apple"],
+	["baked_potato"],
+	["beetroot"],
+	["beetroot_soup"],
+	["bread"],
+	["cake"],
+	["carrot"],
+	["cookie"],
+	["dried_kelp"],
+	["golden_apple"],
+	["golden_carrot"],
+	["honey_bottle"],
+	["melon_slice"],
+	["milk_bucket"],
+	["mushroom_stew"],
+	["poisonous_potato"],
+	["potato"],
+	["pumpkin_pie"],
+	["sweet_berries"],
+	["suspicious_stew"],
+	["sweet_dreams"],
+	[
+	"signal_fire_place",
+	"signal_fire_enter"
+	],
+	["sticky_situation"],
+	["scaffolding"],
+	["marker_maker"],
+	[
+	"x_marks_the_spot_heart_of_the_sea",
+	"x_marks_the_spot_conduit"
+	],
+	["charted_and_hearted"],
+	["interdimensional_travel"],
+	["eyes_this_way"],
+	["gateway_getaway"]
+  ]
+}

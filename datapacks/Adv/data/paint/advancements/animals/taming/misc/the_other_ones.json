@@ -1,0 +1,50 @@
+{
+  "parent": "paint:animals/taming/animal_tamer",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:1540}"
+    },
+    "title": {
+      "text": "The Other Ones","color":"yellow"}
+    ,
+    "description": {
+      "text": "Tame the misc animals that don't have variants","color":"white"}
+    ,
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "wolf": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+			"type": "minecraft:wolf"
+        }
+      }
+    },
+	"donkey": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+			"type": "minecraft:donkey"
+        }
+      }
+    },
+	"half-assed": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+			"type": "minecraft:mule"
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["wolf"],
+	["donkey"],
+	["half-assed"]
+  ]
+}

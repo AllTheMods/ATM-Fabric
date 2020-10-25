@@ -1,0 +1,243 @@
+{
+  "parent": "paint:village/business_tycoon",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:5400}"
+    },
+    "title": {
+      "text": "Selling In Bulk","color":"green"}
+	,
+    "description": {
+      "text": "Obtain all the resources villagers want to buy, in bulk","color":"white"}
+	,
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "coal_collector": {
+      "trigger": "minecraft:impossible"
+    },
+	"ironclad": {
+      "trigger": "minecraft:impossible"
+    },
+	"diamonds_are_forever": {
+      "trigger": "minecraft:impossible"
+    },
+	"white_meat_trader": {
+      "trigger": "minecraft:impossible"
+    },
+	"red_meat_trader": {
+      "trigger": "minecraft:impossible"
+    },
+	"dried_kelp_trader": {
+      "trigger": "minecraft:impossible"
+    },
+	"berry_trader": {
+      "trigger": "minecraft:impossible"
+    },
+	"paper_pusher": {
+      "trigger": "minecraft:impossible"
+    },
+	"need_new_glasses": {
+      "trigger": "minecraft:impossible"
+    },
+	"bookworm": {
+      "trigger": "minecraft:impossible"
+    },
+	"black_gold": {
+      "trigger": "minecraft:impossible"
+    },
+	"its_like_jerky": {
+      "trigger": "minecraft:impossible"
+    },
+	"gold_getter": {
+      "trigger": "minecraft:impossible"
+    },
+	"it_used_to_be_thumpers": {
+      "trigger": "minecraft:impossible"
+    },
+	"hitting_the_bottle": {
+      "trigger": "minecraft:impossible"
+    },
+	"wealth_of_wart": {
+      "trigger": "minecraft:impossible"
+    },
+	"wheat_farmer": {
+      "trigger": "minecraft:impossible"
+    },
+	"carrot_farmer": {
+      "trigger": "minecraft:impossible"
+    },
+	"potato_farmer": {
+      "trigger": "minecraft:impossible"
+    },
+	"beetroot_farmer": {
+      "trigger": "minecraft:impossible"
+    },
+	"pumpkin_farmer": {
+      "trigger": "minecraft:impossible"
+    },
+	"melon_farmer": {
+      "trigger": "minecraft:impossible"
+    },
+	"cod_fisherman": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:cod",
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    },
+	"salmon_fisherman": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:salmon",
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    },
+	"tropical_fish_fisherman": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:tropical_fish",
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    },
+	"pufferfish_fisherman": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:pufferfish",
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    },
+	"string_theory": {
+      "trigger": "minecraft:impossible"
+    },
+	"flinteresting": {
+      "trigger": "minecraft:impossible"
+    },
+	"feather_fletcher": {
+      "trigger": "minecraft:impossible"
+    },
+	"fresh_from_the_cow": {
+      "trigger": "minecraft:impossible"
+    },
+	"fresh_from_the_rabbit": {
+      "trigger": "minecraft:impossible"
+    },
+	"scute_over": {
+      "trigger": "minecraft:impossible"
+    },
+	"clay_time": {
+      "trigger": "minecraft:impossible"
+    },
+	"stone_trader": {
+      "trigger": "minecraft:impossible"
+    },
+	"granite_trader": {
+      "trigger": "minecraft:impossible"
+    },
+	"andesite_trader": {
+      "trigger": "minecraft:impossible"
+    },
+	"diorite_trader": {
+      "trigger": "minecraft:impossible"
+    },
+	"quartz_trader": {
+      "trigger": "minecraft:impossible"
+    },
+	"white_wool_trader": {
+      "trigger": "minecraft:impossible"
+    },
+	"brown_wool_trader": {
+      "trigger": "minecraft:impossible"
+    },
+	"black_wool_trader": {
+      "trigger": "minecraft:impossible"
+    },
+	"gray_wool_trader": {
+      "trigger": "minecraft:impossible"
+    },
+	"dye_me_a_river_1": {
+      "trigger": "minecraft:impossible"
+    },
+	"dye_me_a_river_2": {
+      "trigger": "minecraft:impossible"
+    },
+	"dye_me_a_river_3": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    ["coal_collector"],
+	["ironclad"],
+	["diamonds_are_forever"],
+	["white_meat_trader"],
+	["red_meat_trader"],
+	["dried_kelp_trader"],
+	["berry_trader"],
+	["paper_pusher"],
+	["need_new_glasses"],
+	["bookworm"],
+	["black_gold"],
+	["its_like_jerky"],
+	["gold_getter"],
+	["it_used_to_be_thumpers"],
+	["hitting_the_bottle"],
+	["wealth_of_wart"],
+	["wheat_farmer"],
+	["carrot_farmer"],
+	["potato_farmer"],
+	["beetroot_farmer"],
+	["pumpkin_farmer"],
+	["melon_farmer"],
+	["cod_fisherman"],
+	["salmon_fisherman"],
+	["tropical_fish_fisherman"],
+	["pufferfish_fisherman"],
+	["string_theory"],
+	["flinteresting"],
+	["feather_fletcher"],
+	["fresh_from_the_cow"],
+	["fresh_from_the_rabbit"],
+	["scute_over"],
+	["clay_time"],
+	["stone_trader"],
+	["granite_trader"],
+	["andesite_trader"],
+	["diorite_trader"],
+	["quartz_trader"],
+	["white_wool_trader"],
+	["brown_wool_trader"],
+	["black_wool_trader"],
+	["gray_wool_trader"],
+	["dye_me_a_river_1"],
+	["dye_me_a_river_2"],
+	["dye_me_a_river_3"]
+  ]
+}

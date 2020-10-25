@@ -1,0 +1,6 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "icon/village/bulk/cleric/it_used_to_be_thumpers"
+	}
+}

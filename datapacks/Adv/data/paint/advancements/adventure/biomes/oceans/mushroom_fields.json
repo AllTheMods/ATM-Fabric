@@ -1,0 +1,39 @@
+{
+  "parent": "paint:adventure/biomes/oceans/frozen_ocean",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:66}"
+    },
+    "title": {
+      "text": "Mushroom Fields","color":"blue"}
+    ,
+    "description":
+      {"text":"Visit the mushroom fields or mushroom fields shore","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "mushroom_fields": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:mushroom_fields"
+      }
+    },
+	"mushroom_fields_shore": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:mushroom_field_shore"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "mushroom_fields",
+	  "mushroom_fields_shore"
+    ]
+  ]
+}

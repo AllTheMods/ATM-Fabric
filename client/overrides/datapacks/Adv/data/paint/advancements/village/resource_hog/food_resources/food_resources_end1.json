@@ -1,8 +1,0 @@
-{
-   "criteria":{
-      "end1":{
-         "trigger":"minecraft:tick"
-      }
-   },
-      "parent":"paint:village/resource_hog/food_resources/golden_apples"
-}

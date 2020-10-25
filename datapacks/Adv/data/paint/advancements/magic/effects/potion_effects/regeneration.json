@@ -1,0 +1,34 @@
+{
+  "parent": "paint:magic/effects/potion_effects/poison",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:4107}"
+    },
+    "title": {
+      "text": "Regeneration","color":"light_purple"}
+    ,
+    "description": {
+      "text": "Have been effected by regeneration","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "regeneration": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:regeneration": {}
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "regeneration"
+    ]
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "parent": "paint:adventure/transport/taking_passage",
+  "display": {
+    "icon": {
+      "item": "minecraft:oak_boat"
+    },
+    "title": {
+      "text": "Master Sailor","color":"blue"}
+    ,
+    "description":
+      {"text":"Complete all sailing advancements","color":"white"}
+    ,
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "skeleton_crew": {
+      "trigger": "minecraft:impossible"
+    },
+	"voyager": {
+      "trigger": "minecraft:impossible"
+    },
+	"frozen_freeway": {
+      "trigger": "minecraft:impossible"
+    },
+	"oceanographer": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    ["skeleton_crew"],
+	["voyager"],
+	["frozen_freeway"],
+	["oceanographer"]
+  ]
+}

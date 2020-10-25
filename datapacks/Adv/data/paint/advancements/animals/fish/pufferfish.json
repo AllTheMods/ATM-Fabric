@@ -1,0 +1,34 @@
+{
+  "parent": "paint:animals/fish/parrotfish",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:1315}"
+    },
+    "title": {
+      "text": "Pufferfish","color":"yellow"}
+    ,
+    "description": {
+      "text": "Capture a pufferfish","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "pufferfish": {
+      "trigger": "minecraft:filled_bucket",
+      "conditions": {
+        "item": {
+          "item": "minecraft:pufferfish_bucket"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "pufferfish"
+    ]
+  ]
+}

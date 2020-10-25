@@ -1,0 +1,30 @@
+{
+  "parent": "paint:village/bulk/mason/stone_trader",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:5483}"
+    },
+    "title": {
+      "text": "Granite Trader","color":"green"}
+	,
+    "description": {
+      "text": "Obtain 8 stacks of granite so you can trade with a journeyman mason in bulk","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "granite_trader": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "paint:pca/rewards/village/bulk/mason/granite_trader"
+  },
+  "requirements": [
+    ["granite_trader"]
+  ]
+}

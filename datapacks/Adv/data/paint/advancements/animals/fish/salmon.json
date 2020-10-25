@@ -1,0 +1,34 @@
+{
+  "parent": "paint:animals/fish/red_snapper",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:1320}"
+    },
+    "title": {
+      "text": "Salmon","color":"yellow"}
+    ,
+    "description": {
+      "text": "Capture a salmon","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "salmon": {
+      "trigger": "minecraft:filled_bucket",
+      "conditions": {
+        "item": {
+          "item": "minecraft:salmon_bucket"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "salmon"
+    ]
+  ]
+}

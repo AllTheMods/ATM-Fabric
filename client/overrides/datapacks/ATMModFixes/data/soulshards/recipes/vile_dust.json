@@ -1,9 +1,0 @@
-{
-  "type": "smelting",
-  "ingredient": {
-    "item": "thehallow:soul_glass"
-  },
-  "result": "soulshards:vile_dust",
-  "experience": 0.75,
-  "cookingtime": 400
-}

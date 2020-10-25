@@ -1,0 +1,31 @@
+{
+  "parent": "paint:adventure/villages/savanna_village",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:305}"
+    },
+    "title": {
+      "text": "Snowy Village","color":"blue"}
+    ,
+    "description":
+      {"text":"Visit a snowy village","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "snowy_village": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "feature": "village",
+		"biome": "minecraft:snowy_tundra"
+      }
+    }
+  },
+  "requirements": [
+    ["snowy_village"]
+  ]
+}

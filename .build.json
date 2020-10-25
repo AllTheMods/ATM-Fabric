@@ -1,0 +1,7 @@
+{
+    "packAuthor": "CrankySupertoon",
+    "minecraftVersion": "1.15.2",
+    "modLoader": "forge",
+    "modLoaderVersion": "31.1.25",
+    "includes": ["config", "datapacks", "patchouli_books", "resources"]
+}

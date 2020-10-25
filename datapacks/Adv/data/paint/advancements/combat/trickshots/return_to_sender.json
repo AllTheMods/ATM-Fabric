@@ -1,0 +1,38 @@
+{
+  "parent": "paint:combat/trickshots/calculated_execution",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:2404}"
+    },
+    "title": {
+      "text": "Return to Sender","color":"red"}
+    ,
+    "description":
+      {"text":"Kill a ghast by re-directing their fireball back at them","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "return_to_sender": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:ghast"
+        },
+        "killing_blow": {
+          "is_projectile": true,
+          "direct_entity": {
+            "type": "minecraft:fireball"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["return_to_sender"]
+  ]
+}

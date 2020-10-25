@@ -1,0 +1,33 @@
+{
+  "parent": "paint:animals/taming/llamas/brown_llama",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:1524}"
+    },
+    "title": {
+      "text": "Gray Llama","color":"yellow"}
+    ,
+    "description": {
+      "text": "These look almost identical to the white llamas","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "gray_llama": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+			"type": "minecraft:llama",
+			"nbt": "{Variant:3}"
+        }
+      }
+    }
+  },
+  "requirements": [
+	["gray_llama"]
+  ]
+}

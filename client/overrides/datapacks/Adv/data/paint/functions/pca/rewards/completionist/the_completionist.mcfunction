@@ -1,2 +1,0 @@
-tellraw @a ["",{"selector":"@s"},{"text":" has completed the ultimate challenge "},{"text":"[The Completionist]","bold":true,"color":"dark_purple","hoverEvent":{"action":"show_text","color":"white","value":"The Completionist: Complete all advancements in Paint's Completionist Advancements"}}]
-function paint:pca/completionist_book/give_completionist_book

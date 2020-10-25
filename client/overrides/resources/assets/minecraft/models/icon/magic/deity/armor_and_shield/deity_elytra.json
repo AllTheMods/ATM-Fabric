@@ -1,6 +1,0 @@
-{
-	"parent": "item/handheld",
-	"textures": {
-		"layer0": "icon/magic/deity/armor_and_shield/deity_elytra"
-	}
-}

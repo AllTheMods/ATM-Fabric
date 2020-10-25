@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:4000}"
+    },
+    "title": 
+      {"text":"Magic","color":"light_purple"}
+    ,
+    "description": {
+      "text": "The way of the wizard","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "minecraft:textures/icon/magic/background.png"
+  },
+  "criteria": {
+    "magic": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "requirements": [
+    [
+      "magic"
+    ]
+  ]
+}

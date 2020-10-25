@@ -1,0 +1,40 @@
+{
+  "parent": "paint:animals/misc/cod_jobs",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:1901}"
+    },
+    "title": {
+      "text": "Jittery Target","color":"yellow"}
+    ,
+    "description": {
+      "text": "Shoot a bat from at least 20m away","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "jittery_target": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:bat",
+          "distance": {
+            "horizontal": {
+              "min": 20.0
+            }
+          }
+        },
+        "killing_blow": {
+          "is_projectile": true
+        }
+      }
+    }
+  },
+  "requirements": [
+	["jittery_target"]
+	]
+}

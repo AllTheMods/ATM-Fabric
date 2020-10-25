@@ -1,0 +1,34 @@
+{
+  "parent": "paint:animals/breeding/breed_turtles",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:1366}"
+    },
+    "title": {
+      "text": "Breed Wolves","color":"yellow"}
+    ,
+    "description": {
+      "translate": "Breed wolves with meat","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "breed_wolves": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "type": "minecraft:wolf"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "breed_wolves"
+    ]
+  ]
+}

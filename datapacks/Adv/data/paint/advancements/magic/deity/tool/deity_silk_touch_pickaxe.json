@@ -1,0 +1,50 @@
+{
+  "parent": "paint:magic/deity/tool/deity_fortune_pickaxe",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:4414}"
+    },
+    "title": {
+      "text": "Deity Silk Touch Pickaxe","color":"light_purple"}
+    ,
+    "description": {
+      "text": "Obtain a diamond pickaxe with:\n* Efficiency V\n* Unbreaking III\n* Silk Touch\n* Mending","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "deity_silk_touch_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:diamond_pickaxe",
+			"enchantments": [
+				{
+				"enchantment": "minecraft:efficiency",
+				"level": 5
+				},
+				{
+				"enchantment": "minecraft:silk_touch"
+				},
+				{
+				"enchantment": "minecraft:unbreaking",
+				"level": 3
+				},
+				{
+				"enchantment": "minecraft:mending"
+				}
+			]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["deity_silk_touch_pickaxe"]
+  ]
+}

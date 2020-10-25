@@ -1,6 +1,0 @@
-{
-	"parent": "item/handheld",
-	"textures": {
-		"layer0": "icon/animals/taming/misc/the_other_ones"
-	}
-}

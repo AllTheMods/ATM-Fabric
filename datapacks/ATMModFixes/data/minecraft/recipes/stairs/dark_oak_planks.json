@@ -1,0 +1,23 @@
+
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:dark_oak_stairs"
+        },
+        {
+            "item": "minecraft:dark_oak_stairs"
+        },
+        {
+            "item": "minecraft:dark_oak_stairs"
+        },
+        {
+            "item": "minecraft:dark_oak_stairs"
+        }
+    ],
+    "result": {
+        "item": "minecraft:dark_oak_planks",
+        "count": 3
+    },
+    "group": "stairs_to_block"
+}

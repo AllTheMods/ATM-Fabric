@@ -1,6 +1,0 @@
-{
-	"parent": "item/handheld",
-	"textures": {
-		"layer0": "icon/adventure/misc/x_marks_the_spot"
-	}
-}

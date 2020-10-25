@@ -1,0 +1,42 @@
+{
+  "parent": "paint:magic/enchantments/armor/blast_protection",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:4204}"
+    },
+    "title": {
+      "text": "Depth Strider III","color":"light_purple"}
+    ,
+    "description": {
+      "text": "Obtain any boots with depth strider III","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "depth_strider": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "paint:boots",
+			"enchantments": [
+				{
+				"enchantment": "minecraft:depth_strider",
+				"level": 3
+				}
+			]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "depth_strider"
+    ]
+  ]
+}

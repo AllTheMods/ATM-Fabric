@@ -1,0 +1,6 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "icon/combat/rare/armored_mobs/iron_diamond_skeleton"
+	}
+}

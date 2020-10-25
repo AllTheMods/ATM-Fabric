@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "dp",
+        "description": "dp",
+        "icon": {
+            "item": "minecraft:air"
+        },
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

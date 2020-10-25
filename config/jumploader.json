@@ -1,0 +1,12 @@
+{
+  "configVersion": 2,
+  "sources": [
+    "minecraft",
+    "fabric"
+  ],
+  "gameVersion": "current",
+  "gameSide": "current",
+  "disableUI": false,
+  "loadJarsFromFolder": null,
+  "overrideMainClass": null
+}

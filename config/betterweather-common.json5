@@ -1,0 +1,161 @@
+{ 
+	"acid_rain": { 
+		"world": { 
+			/* 
+			   The chance of acid rain that's checked every 24,000 ticks(1 Minecraft day).
+			   Default: 0.25
+			*/
+			"acidRainChance": 0.25,
+			/* 
+			   How often(in ticks) blocks are destroyed during an acid rain event.
+			   Default: 0.25
+			*/
+			"blockTickDestroySpeed": 250,
+			/* 
+			   Destroy Blocks?
+			   Default: true
+			*/
+			"destroyBlocks": true,
+			/* 
+			   Destroy what block materials? Allowed Values: GRASS,LEAVES,PLANTS,CROPS
+			   Default: GRASS,LEAVES,PLANTS,CROPS
+			*/
+			"allowedBlocksToDestroy": "GRASS,LEAVES,PLANTS,CROPS",
+			/* 
+			   A specific block in one of the materials you want to destroy? Blacklist them here w/ their registry names!
+			   I.E: "minecraft:rose,minecraft:wither_rose"
+			*/
+			"blocksToNotDestroy": "",
+			/* 
+			   The block to change grass to.
+			   Default: "minecraft:dirt"
+			*/
+			"blockToChangeFromGrass": "minecraft:dirt"
+		},
+		"entity": { 
+			/* 
+			   Does Acid Rain hurt entities(including players)?
+			   Default: true
+			*/
+			"hurtEntities": true,
+			/* 
+			   How often(in ticks) are entities(including players) hurt?
+			   Default: 150
+			*/
+			"entityDamageTickSpeed": 150,
+			/* 
+			   What types of entities are damaged by Acid Rain?
+			   Default: MONSTER,PLAYER
+			*/
+			"entityTypesToDamage": "MONSTER,PLAYER",
+			/* 
+			   The amount of damage taken.
+			   Default is 0.5
+			*/
+			"damageStrength": 0.5
+		},
+		"client": { 
+			/* 
+			   Acid Rain Smoke Particles?
+			   Default: true
+			*/
+			"smokeParticles": true
+		}
+	},
+	"blizzard": { 
+		"world": { 
+			"snow_generation": { 
+				/* 
+				   The chance of a blizzard that's checked every 24,000 ticks(1 Minecraft day).
+				   Default: 0.1
+				*/
+				"blizzardChance": 0.1,
+				/* 
+				   Do blizzards occur in deserts?
+				   Default: false
+				*/
+				"blizzardsInDeserts": false,
+				/* 
+				   Do blizzards generate snow and ice?
+				   Default: true
+				*/
+				"spawnSnowAndIce": true,
+				/* 
+				   How often(in ticks) is snow and ice placed during blizzards?
+				   Default: 15
+				*/
+				"tickSnowAndIcePlaceSpeed": 15,
+				/* 
+				   Do blizzards destroy plants?
+				   Default: false
+				*/
+				"destroyPlants": false
+			},
+			"snow_decay": { 
+				/* 
+				   Does snow and ice decay after blizzards in biomes within the specified temperature threshold?
+				   Recommend disabling this if you have a seasons mod installed!
+				   Default: true
+				*/
+				"decaySnowAndIce": true,
+				/* 
+				   Above what biome temperature is snow allowed to decay?
+				   I.E: Biome Temperature >= 0.15(Snow decays in biome temps warmer than 0.15).
+				   Default: 0.15
+				*/
+				"snowDecayTemperatureThreshold": 0.15,
+				/* 
+				   How often is snow and ice decayed after blizzards?
+				   Default: 50
+				*/
+				"tickSnowAndIceDecaySpeed": 50
+			}
+		},
+		"client": { 
+			/* 
+			   The lowered render distance that's forced when blizzards are active?
+			   This is used to save performance.
+			   Default: 3
+			*/
+			"forcedBlizzardRenderDistance": 3,
+			/* 
+			   How loud are blizzards?
+			   Default 0.4
+			*/
+			"blizzardVolume": 0.4,
+			/* 
+			   Blizzard Pitch
+			   Default 0.4
+			*/
+			"blizzardPitch": 0.4,
+			/* 
+			   Is there blizzard fog?
+			   Default: true
+			*/
+			"blizzardFog": true,
+			/* 
+			   Blizzard fog Density. Higher values = denser fog.
+			   Default: 0.1
+			*/
+			"blizzardFogDensity": 0.1,
+			/* 
+			   Blizzard Sound Track?
+			   
+			   Default: LOOP2.
+			*/
+			"blizzardSoundTrack": "LOOP2"
+		},
+		"entity": { 
+			/* 
+			   Do Blizzard slow entities?
+			   Default: true
+			*/
+			"doBlizzardsSlowEntities": true,
+			/* 
+			   How slow are entities during blizzards?
+			   Default: 0
+			*/
+			"blizzardSlownessAmplifier": 0
+		}
+	}
+}

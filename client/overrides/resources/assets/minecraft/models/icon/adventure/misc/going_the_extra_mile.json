@@ -1,6 +1,0 @@
-{
-	"parent": "item/handheld",
-	"textures": {
-		"layer0": "icon/adventure/misc/going_the_extra_mile"
-	}
-}

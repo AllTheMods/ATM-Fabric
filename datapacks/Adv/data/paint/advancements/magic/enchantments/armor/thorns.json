@@ -1,0 +1,42 @@
+{
+  "parent": "paint:magic/enchantments/armor/respiration",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:4211}"
+    },
+    "title": {
+      "text": "Thorns III","color":"light_purple"}
+    ,
+    "description": {
+      "text": "Obtain any armor piece with thorns III","color":"white"}
+	,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "thorns": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "paint:armor",
+			"enchantments": [
+				{
+				"enchantment": "minecraft:thorns",
+				"level": 3
+				}
+			]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "thorns"
+    ]
+  ]
+}

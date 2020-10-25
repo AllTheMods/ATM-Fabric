@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "pack_format": 3,
+    "description": "The Wither boss is prevented from making ominous, server-wide sounds when spawned"
+  }
+}

@@ -1,0 +1,15 @@
+#Folders to Ignore 
+coremods/
+.fabric/
+logs/
+.jumploader/
+.mixin.out/
+not-enough-crashes/
+server-resource-packs/
+temp/
+
+#Mod Version Controlling
+mods/
+
+#Compiled Files
+*.zip

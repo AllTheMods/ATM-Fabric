@@ -1,8 +1,0 @@
-{
-   "criteria":{
-      "end1":{
-         "trigger":"minecraft:tick"
-      }
-   },
-      "parent":"paint:combat/monsters/zombie_villager"
-}

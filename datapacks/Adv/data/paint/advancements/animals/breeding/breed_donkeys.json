@@ -1,0 +1,37 @@
+{
+  "parent": "paint:animals/breeding/breed_cows",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:1355}"
+    },
+    "title": {
+      "text": "Doin' It Donkey Style","color":"yellow"}
+    ,
+    "description": {
+      "translate": "Breed donkeys with golden apples","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "breed_donkeys": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "type": "minecraft:donkey"
+        },
+		"partner": {
+          "type": "minecraft:donkey"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "breed_donkeys"
+    ]
+  ]
+}

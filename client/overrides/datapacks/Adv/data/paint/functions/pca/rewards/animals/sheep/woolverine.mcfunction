@@ -1,1 +1,0 @@
-scoreboard players reset @s pca_sheep_count

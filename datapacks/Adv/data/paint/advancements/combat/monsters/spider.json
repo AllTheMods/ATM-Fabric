@@ -1,0 +1,32 @@
+{
+  "parent": "paint:combat/monsters/slime",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+	  "nbt": "{CustomModelData:2183}"
+    },
+    "title": {
+      "text": "Spider","color":"red"}
+    ,
+    "description":
+      {"text":"Slay a spider","color":"white"}
+    ,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "monster_slayer_spider": {
+      "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+        "entity": {
+          "type": "spider"
+		}
+      }
+    }
+  },
+  "requirements": [
+    ["monster_slayer_spider"]
+  ]
+}
