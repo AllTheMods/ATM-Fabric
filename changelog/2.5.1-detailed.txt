@@ -1,0 +1,14 @@
+========================================
+All The Mods Fabric 2.5.0 --> All The Mods Fabric 2.5.1
+========================================
+
+Added:
+- Spinnery: Fabric [Discontinued]
+
+Updated:
+- Phosphor (Phosphor 0.4.1 (Fabric) --> Phosphor 0.5.2 (Fabric))
+
+Removed:
+- Experience Container [XP]
+
+Generated using [ChangelogGenerator 2.0.0-pre3](https://github.com/TheRandomLabs/ChangelogGenerator).

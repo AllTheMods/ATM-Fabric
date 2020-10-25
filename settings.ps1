@@ -8,7 +8,7 @@
 $CURSEFORGE_USER = "CrankySupertoon"
 
 # For details see: https://www.curseforge.com/account/api-tokens
-$CURSEFORGE_TOKEN = "API-KEY"
+$CURSEFORGE_TOKEN = "665ffe6f-c0de-4db9-9ea9-682dc978fa5cxxx"
 
 # ProjectID can be found on the modpack's Curseforge Projects page, under "About This Project"
 $CURSEFORGE_PROJECT_ID = 361635

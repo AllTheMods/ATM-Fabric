@@ -1,32 +1,32 @@
-cd ..
+Set-Location ".."
 . .\settings.ps1
 
-function Download-GithubRelease {	
-    param(	
-        [parameter(Mandatory=$true)]	
-        [string]	
-        $repo,	
+function Download-GithubRelease {
+    param(
         [parameter(Mandatory=$true)]
-        [string]	
-        $file	
-    )	
+        [string]
+        $repo,
+        [parameter(Mandatory=$true)]
+        [string]
+        $file
+    )
 
-    $releases = "https://api.github.com/repos/$repo/releases"	
+    $releases = "https://api.github.com/repos/$repo/releases"
 
-    Write-Host "Determining latest release of $repo"	
-    [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12	
-    $tag = (Invoke-WebRequest -Uri $releases -UseBasicParsing | ConvertFrom-Json)[0].tag_name	
+    Write-Host "Determining latest release of $repo"
+    [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+    $tag = (Invoke-WebRequest -Uri $releases -UseBasicParsing | ConvertFrom-Json)[0].tag_name
 
-    $download = "https://github.com/$repo/releases/download/$tag/$file"	
-    $name = $file.Split(".")[0]	
+    $download = "https://github.com/$repo/releases/download/$tag/$file"
+    $name = $file.Split(".")[0]
 
-    Write-Host Dowloading...	
-    [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12	
-    Invoke-WebRequest $download -Out $file	
+    Write-Host Dowloading...
+    [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+    Invoke-WebRequest $download -Out $file
 
-    # Cleaning up target dir	
-    Remove-Item $name -Recurse -Force -ErrorAction SilentlyContinue	
-}	  
+    # Cleaning up target dir
+    Remove-Item $name -Recurse -Force -ErrorAction SilentlyContinue
+}
 
 function Clear-SleepHost {
     Start-Sleep 2
@@ -42,11 +42,11 @@ if ($ENABLE_MANIFEST_BUILDER_MODULE) {
         Write-Host "######################################" -ForegroundColor Cyan
         Write-Host ""
         Remove-Item ./TwitchExportBuilder -Recurse -Force -ErrorAction SilentlyContinue
-        mkdir tools
+        New-Item "./tools" -ItemType "directory" -Force -ErrorAction SilentlyContinue
         curl https://github.com/Gaz492/twitch-export-builder/releases/download/1.5.1/twitch-export-builder_linux_amd64 -JLo ./tools/TwitchExportBuilder
-        cd tools
+        Set-Location "./tools"
         chmod +x ./TwitchExportBuilder
-        cd ..
+        Set-Location ".."
     }
     Clear-SleepHost
     Write-Host "######################################" -ForegroundColor Cyan
@@ -55,19 +55,19 @@ if ($ENABLE_MANIFEST_BUILDER_MODULE) {
     Write-Host ""
     Write-Host "######################################" -ForegroundColor Cyan
     Write-Host ""
-    Remove-Item temp -Recurse -Force -ErrorAction SilentlyContinue
-    mkdir temp
+    Remove-Item "temp" -Recurse -Force -ErrorAction SilentlyContinue
+    New-Item "./temp" -ItemType "directory" -Force -ErrorAction SilentlyContinue
     Copy-Item $CONTENTS_TO_ZIP_CURSE temp -Recurse -Force -ErrorAction SilentlyContinue
     Copy-Item "tools/TwitchExportBuilder", ".build.json" temp -Force -ErrorAction SilentlyContinue
     Remove-Item "$CLIENT_ZIP_NAME.zip" -Recurse -Force -ErrorAction SilentlyContinue
-    cd temp
+    Set-Location "./temp"
     ./TwitchExportBuilder -n "$CLIENT_NAME" -p "$MODPACK_VERSION"
     Rename-Item -Path "$CLIENT_NAME-$MODPACK_VERSION.zip" -NewName "$CLIENT_ZIP_NAME.zip" -Force -ErrorAction SilentlyContinue
     Copy-Item "$CLIENT_ZIP_NAME.zip" .. -Force -ErrorAction SilentlyContinue
-    cd ..
+    Set-Location ".."
     Remove-Item mods.json -Force -ErrorAction SilentlyContinue
     7z e -bd "$CLIENT_ZIP_NAME.zip" manifest.json
-    Rename-Item -Path manifest.json -NewName mods.json
+    Rename-Item -Path manifest.json -NewName mods.json -Force -ErrorAction SilentlyContinue
     Clear-SleepHost
 }
 
@@ -122,7 +122,7 @@ if ($ENABLE_GITHUB_CHANGELOG_GENERATOR_MODULE) {
     Clear-SleepHost
     if ($ENABLE_EXTRA_LOGGING) {
         Write-Host "Release Data:"
-        Write-Host $Body 
+        Write-Host $Body
     }
 
     Write-Host ""
@@ -142,7 +142,7 @@ if ($ENABLE_GITHUB_CHANGELOG_GENERATOR_MODULE) {
 if ($ENABLE_MODPACK_UPLOADER_MODULE) {
 
 
-    $CLIENT_METADATA = 
+    $CLIENT_METADATA =
     "{
     'changelog': `'$CLIENT_CHANGELOG`',
     'changelogType': `'$CLIENT_CHANGELOG_TYPE`',
@@ -150,11 +150,11 @@ if ($ENABLE_MODPACK_UPLOADER_MODULE) {
     'gameVersions': [$GAME_VERSIONS],
     'releaseType': `'$CLIENT_RELEASE_TYPE`'
     }"
-    
+
     Clear-SleepHost
     if ($ENABLE_EXTRA_LOGGING) {
         Write-Host "Client Metadata:"
-        Write-Host $CLIENT_METADATA 
+        Write-Host $CLIENT_METADATA
     }
 
     Write-Host ""
@@ -188,14 +188,14 @@ if ($ENABLE_SERVER_FILE_MODULE -and $ENABLE_MODPACK_UPLOADER_MODULE) {
     Write-Host "######################################" -ForegroundColor Cyan
     Write-Host ""
     Remove-Item "temp" -Recurse -Force -ErrorAction SilentlyContinue
-    mkdir temp
+    New-Item "./temp" -ItemType "directory" -Force -ErrorAction SilentlyContinue
     Remove-Item "Server.zip" -Recurse -Force -ErrorAction SilentlyContinue
     Copy-Item server\* temp -Force -ErrorAction SilentlyContinue
     Copy-Item $CONTENTS_TO_ZIP_SERVER temp -Recurse -Force -ErrorAction SilentlyContinue
-    cd temp
+    Set-Location "./temp"
     7z a -tzip "Server.zip" @($CONTENTS_TO_ZIP_SERVER)
-    Remove-Item "$SERVER_ZIP_NAME.zip" -Force
-    
+    Remove-Item "$SERVER_ZIP_NAME.zip" -Force -ErrorAction SilentlyContinue
+
     Write-Host "Removing Client Mods from Server Files" -ForegroundColor Cyan
     foreach ($clientMod in $CLIENT_MODS_TO_REMOVE_FROM_SERVER_FILES) {
         Write-Host "Removing Client Mod $clientMod"
@@ -229,7 +229,7 @@ if ($ENABLE_SERVER_FILE_MODULE -and $ENABLE_MODPACK_UPLOADER_MODULE) {
     Write-Host "######################################" -ForegroundColor Cyan
     Write-Host ""
     $SERVER_UPLOAD_ZIP = "$SERVER_ZIP_NAME.zip"
-    cd ..
+    Set-Location ".."
     $ResponseServer = curl --url "https://minecraft.curseforge.com/api/projects/$CURSEFORGE_PROJECT_ID/upload-file" --user "$CURSEFORGE_USER`:$CURSEFORGE_TOKEN" -H "Accept: application/json" -H X-Api-Token:$CURSEFORGE_TOKEN -F metadata=$SERVER_METADATA -F file=@$SERVER_UPLOAD_ZIP --progress-bar
 }
 
@@ -246,7 +246,7 @@ if ($ENABLE_MMC_FILE_MODULE -and $ENABLE_MODPACK_UPLOADER_MODULE)
 
     Remove-Item "MMC.zip" -Recurse -Force -ErrorAction SilentlyContinue
     Remove-Item "$MMCCLIENT_ZIP_NAME.zip" -Recurse -Force -ErrorAction SilentlyContinue
-    MKDIR "temp\All The Mods Fabric\minecraft" -ErrorAction SilentlyContinue
+    New-Item "./temp/All The Mods Fabric/minecraft" -ItemType "directory" -Force -ErrorAction SilentlyContinue
     Move-Item -Path config -Destination "temp\All The Mods Fabric\minecraft\config"
     Move-Item -Path datapacks -Destination "temp\All The Mods Fabric\minecraft\datapacks"
     Move-Item -Path mods -Destination "temp\All The Mods Fabric\minecraft\mods"
@@ -254,21 +254,20 @@ if ($ENABLE_MMC_FILE_MODULE -and $ENABLE_MODPACK_UPLOADER_MODULE)
     Move-Item -Path resources -Destination "temp\All The Mods Fabric\minecraft\resources"
     Move-Item -Path instance.cfg -Destination "temp\All The Mods Fabric"
     Move-Item -Path mmc-pack.json -Destination "temp\All The Mods Fabric"
-    cd temp
+    Set-Location "./temp"
     7z a -tzip "MMC.zip" "All The Mods Fabric"
-    cd "All The Mods Fabric"
-    cd "minecraft"
+    Set-Location "./All The Mods Fabric/minecraft"
     Move-Item -Path config -Destination "..\..\.."
     Move-Item -Path datapacks -Destination "..\..\.."
     Move-Item -Path mods -Destination "..\..\.."
     Move-Item -Path patchoulI_books -Destination "..\..\.."
     Move-Item -Path resources -Destination "..\..\.."
-    cd ..
+    Set-Location ".."
     Move-Item -Path instance.cfg -Destination "..\.."
     Move-Item -Path mmc-pack.json -Destination "..\.."
-    cd ..
+    Set-Location ".."
     Move-Item -Path "MMC.zip" -Destination ".."
-    cd ..
+    Set-Location ".."
     Remove-Item -Path "temp" -Recurse -Force -ErrorAction SilentlyContinue
     Rename-Item -Path MMC.zip -NewName "$MMCCLIENT_ZIP_NAME.zip"
     

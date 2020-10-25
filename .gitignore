@@ -1,12 +1,28 @@
-#Folders to Ignore 
+#Game Junk
 coremods/
 .fabric/
 logs/
 .jumploader/
 .mixin.out/
+background.png
+chooser_0.png
+config.json
+craftpresence/
+crash-reports/
+minecraftinstance.json
+mobs_0.png
 not-enough-crashes/
+options.share.txt
+options.txt
+patchouli_data.json
+pings_0.png
+saves/
+screenshots/
 server-resource-packs/
 temp/
+usercache.json
+voxelmap/
+waypoints_0.png
 
 #Binaries
 tools/TwitchExportBuilder

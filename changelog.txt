@@ -1,0 +1,13 @@
+========================================
+ATMF 2.5.1 --> All The Mods Fabric 2.5.0
+========================================
+
+Added:
+- Experience Container [XP]
+- Phosphor (Forge)
+
+Removed:
+- Phosphor (Fabric)
+- Spinnery: Fabric [Discontinued]
+
+Generated using [ChangelogGenerator 2.0.0-pre3](https://github.com/TheRandomLabs/ChangelogGenerator).
